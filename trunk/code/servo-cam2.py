@@ -4,12 +4,12 @@ from opencv.highgui import *
 import sys
 import os
 import math
+from maestro import test
 
 image_scale = 4
 #all configuration tuples follow the following patterns: 
 #       (pan, tilt) and/or (x, y) and/or (min, max) and/or (servo_adjustment, pixel_width)
 #path to the pololu command line application
-usc_cmd = '/home/sreekar/Documents/pololu/UscCmd'
 #the resolution of the camera
 cam_resolution = (640, 480)
 center_box_dim = (35, 10)
@@ -17,10 +17,10 @@ start_servo_position = (5984, 6400)
 current_servo_position = (5984, 6400)
 servo_limits = ((3968, 8000), (4800, 8000))
 
-#servo_app = ((360, 100), (390, 100))
-servo_app = ((100, 100), (100, 100))
+servo_app = ((210, 100), (210, 100))
+#servo_app = ((100, 100), (100, 100))
 
-servo_move_interval = 2
+servo_move_interval = 3
 servo_ready = True
 face_locations = []
 
@@ -30,6 +30,8 @@ center_box = ((cam_center[0] - (center_box_dim[0] / 2), cam_center[0] + (center_
 				(cam_center[1] - (center_box_dim[1] / 2), cam_center[1] + (center_box_dim[1] / 2)))
 
 cascade = cvLoadHaarClassifierCascade('/usr/share/opencv/haarcascades/haarcascade_frontalface_default.xml', cvSize(1,1))
+usb_interface = test.PololuUsb()
+
 
 def set_servo(pan=start_servo_position[0], tilt=start_servo_position[1]):
 	if pan < servo_limits[0][0]:
@@ -44,8 +46,8 @@ def set_servo(pan=start_servo_position[0], tilt=start_servo_position[1]):
 	global current_servo_position
 	current_servo_position = (pan, tilt)
 	
-	os.system('/home/sreekar/Documents/pololu/UscCmd --servo 1,' + str(pan))
-	os.system('/home/sreekar/Documents/pololu/UscCmd --servo 0,' + str(tilt))
+	usb_interface.set_target(0, tilt)
+	usb_interface.set_target(1, pan)
 
 def detect(image):
 	global face_locations
@@ -81,7 +83,7 @@ def detect(image):
 				f_x = total_x / l
 				f_y = total_y / l
 		
-				if math.sqrt(pow(f_x - cam_center[0],2) + pow(f_y - cam_center[1],2)) > 50:
+				if math.sqrt(pow(f_x - cam_center[0],2) + pow(f_y - cam_center[1],2)) > 40:
 					adjust_x = (f_x - cam_center[0]) * servo_app[0][0] / servo_app[0][1]
 					adjust_y = (cam_center[0] - f_y) * servo_app[1][0] / servo_app[1][1]
 			
