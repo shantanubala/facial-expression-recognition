@@ -29,7 +29,7 @@ cam_center = (cam_resolution[0] / 2, cam_resolution[1] / 2)
 center_box = ((cam_center[0] - (center_box_dim[0] / 2), cam_center[0] + (center_box_dim[0] / 2)), 
 				(cam_center[1] - (center_box_dim[1] / 2), cam_center[1] + (center_box_dim[1] / 2)))
 
-cascade = cvLoadHaarClassifierCascade('/usr/share/opencv/haarcascades/haarcascade_frontalface_default.xml', cvSize(1,1))
+cascade = cvLoadHaarClassifierCascade('/usr/share/opencv/haarcascades/haarcascade_eye.xml', cvSize(1,1))
 usb_interface = test.PololuUsb()
 
 
@@ -49,9 +49,14 @@ def set_servo(pan=start_servo_position[0], tilt=start_servo_position[1]):
 	usb_interface.set_target(0, tilt)
 	usb_interface.set_target(1, pan)
 
-def detect(image):
+
+def detect(image,move):
 	global face_locations
 	global cascade
+	
+	f_x = 0
+	f_y = 0
+
 	"""Converts an image to grayscale and prints the locations of any 
 	faces found"""
 	grayscale = cvCreateImage(cvSize(image.width, image.height), 8, 1)
@@ -61,7 +66,7 @@ def detect(image):
 	cvClearMemStorage(storage)
 	cvEqualizeHist(grayscale, grayscale)
 	
-	faces = cvHaarDetectObjects(grayscale, cascade, storage, 1.8, 2, CV_HAAR_DO_CANNY_PRUNING, cvSize(50,50))
+	faces = cvHaarDetectObjects(grayscale, cascade, storage, 2.0, 2, CV_HAAR_DO_CANNY_PRUNING, cvSize(50,50))
 	global servo_ready
 	if faces:
 		for f in faces:
@@ -83,13 +88,34 @@ def detect(image):
 				f_x = total_x / l
 				f_y = total_y / l
 		
-				if math.sqrt(pow(f_x - cam_center[0],2) + pow(f_y - cam_center[1],2)) > 40:
-					adjust_x = (f_x - cam_center[0]) * servo_app[0][0] / servo_app[0][1]
-					adjust_y = (cam_center[0] - f_y) * servo_app[1][0] / servo_app[1][1]
-			
-					set_servo(adjust_x + current_servo_position[0], adjust_y + current_servo_position[1])
+				if move == True:
+					if math.sqrt(pow(f_x - cam_center[0],2) + pow(f_y - cam_center[1],2)) > 40:
+						adjust_x = (f_x - cam_center[0]) * servo_app[0][0] / servo_app[0][1]
+						adjust_y = (cam_center[0] - f_y) * servo_app[1][0] / servo_app[1][1]
+						
+						set_servo(adjust_x + current_servo_position[0], adjust_y + current_servo_position[1])
 
-	return image
+	return image, (f_x, f_y)
+
+def calibrate(capture):
+	#Capture frame and get head position
+	frame = cvQueryFrame(capture)
+	img, pos1 = detect(frame,True)
+
+	pan = (servo_limits[0][1] - servo_limits[0][0])*(20.0/90) + start_servo_position[0]
+	set_servo(pan)
+
+	cvWaitKey(0)
+
+	#Capture frame and get head position again
+	frame = cvQueryFrame(capture)
+	img, pos2 = detect(frame,True)
+
+	print pos1[1] - pos1[0]
+
+
+	cvWaitKey(0)
+	
 
 if __name__ == "__main__":
 	capture = None
@@ -109,12 +135,16 @@ if __name__ == "__main__":
 	cvSetCaptureProperty( capture, CV_CAP_PROP_FRAME_WIDTH, cam_resolution[0] )
 	cvSetCaptureProperty( capture, CV_CAP_PROP_FRAME_HEIGHT, cam_resolution[1] )
 	cvNamedWindow( "Face Detection", 1 )
+
+	calibrate(capture)
+
 	while True:
 		frame = cvQueryFrame( capture )
 		if not frame:
 			cvWaitKey(0)
 			break
-		cvShowImage("Face Detection", detect(frame) )
+		img, pos = detect(frame,True)
+		cvShowImage("Face Detection",  img)
 		if counter >= servo_move_interval:
 			servo_ready = True
 			counter = 0
