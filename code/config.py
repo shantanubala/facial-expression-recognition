@@ -4,7 +4,7 @@ from opencv.cv import *
 image_scale = 4
 #all configuration tuples follow the following patterns: 
 #       (pan, tilt) and/or (x, y) and/or (min, max) and/or (servo_adjustment, pixel_width)
-cam_resolution = (640, 480) #the resolution of captured image - this is a placeholder
+cam_resolution = (2048,1536) #the resolution of captured image - this is a placeholder
 start_servo_position = (5984, 6400) #the positions - (pan, tilt) - to set the servos when the script is first run
 current_servo_position = (5984, 6400) #holds the position of the servos - (pan, tilt)
 servo_limits = ((3968, 8000), (4800, 8000)) #the extremities of servo motion
@@ -17,9 +17,9 @@ servo_move_interval = 3 #the interval in frames at which the servo tracks the fa
 tracking_radius = 75 #the servos will not move if the face is within this number of px from the center
 servo_ready = True #holds the state of the servo according to the servo interval
 face_locations = [] #holds the locations of faces between servo intervals (replace with Kalman filter)
-usb_interface = test.PololuUsb() #the object interface for the pololu usb maestro
+#usb_interface = test.PololuUsb() #the object interface for the pololu usb maestro
 draw_rect = True #option to display blue rectangles around a detected object
-save_objects = False #option to save detected objects to separate files
+save_objects = True #option to save detected objects to separate files
 show_objects = False #option to show detected objects in separate windows
 show_object_edges = True #option to show the edges of detected objects in their respective windows
 servo_track_face = True #option to track faces
