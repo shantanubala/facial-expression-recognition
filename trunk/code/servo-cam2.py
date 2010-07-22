@@ -5,7 +5,10 @@ import sys
 import os
 import math
 import filters
+import conversion
 from config import *
+
+import pygame
 
 
 
@@ -41,8 +44,8 @@ def set_servo(pan=start_servo_position[0], tilt=start_servo_position[1]):
 	global current_servo_position
 	current_servo_position = (pan, tilt)
 	
-	usb_interface.set_target(0, tilt)
-	usb_interface.set_target(1, pan)
+	#usb_interface.set_target(1, tilt)
+	#usb_interface.set_target(0, pan)
 
 faceNum = 0
 
@@ -215,46 +218,55 @@ def track_face():
 			set_servo(adjust_x + current_servo_position[0], adjust_y + current_servo_position[1])
 
 if __name__ == "__main__":
-	capture = None #declares the capture variable
-	set_servo() #defaults servos to original position
-	counter = 0 #the counter for the servo movement interval
+
+    #pygame.camera.init()
+    
+    capture = None #declares the capture variable
+    set_servo() #defaults servos to original position
+    counter = 0 #the counter for the servo movement interval
 	
 	#checks to see if a camera is connected and exits if one is not
-	if len(sys.argv)==1:
-		capture = cvCreateCameraCapture( 0 )
-	elif len(sys.argv)==2 and sys.argv[1].isdigit():
-		capture = cvCreateCameraCapture( int(sys.argv[1]) )
-	elif len(sys.argv)==2:
-		capture = cvCreateFileCapture( sys.argv[1] ) 
+    if len(sys.argv)==1:
+        capture = cvCreateCameraCapture( 0 )
+    elif len(sys.argv)==2 and sys.argv[1].isdigit():
+        capture = cvCreateCameraCapture( int(sys.argv[1]) )
+    elif len(sys.argv)==2:
+        capture = cvCreateFileCapture( sys.argv[1] ) 
 	
-	if not capture:
-		print "Could not initialize capturing..."
-		sys.exit(-1)
+    if not capture:
+        print "Could not initialize capturing..."
+        sys.exit(-1)
 	
 	#width and height are not actually set due to OpenCV bug
-	cvSetCaptureProperty( capture, CV_CAP_PROP_FRAME_WIDTH, cam_resolution[0] )
-	cvSetCaptureProperty( capture, CV_CAP_PROP_FRAME_HEIGHT, cam_resolution[1] )
+    cvSetCaptureProperty( capture, CV_CAP_PROP_FRAME_WIDTH, cam_resolution[0] )
+    cvSetCaptureProperty( capture, CV_CAP_PROP_FRAME_HEIGHT, cam_resolution[1] )
 	
 	#the main highgui window for the camera frames
-	cvNamedWindow( "Face Detection", 1 )
+    cvNamedWindow( "Face Detection", 1 )
 	
 	#the windows for features (if enabled in configuration)
-	if show_objects:
-		cvNamedWindow( "Left Eye", 1 )
-		cvNamedWindow( "Right Eye", 1 )
-		cvNamedWindow( "Mouth", 1 )
+    if show_objects:
+        cvNamedWindow( "Left Eye", 1 )
+        cvNamedWindow( "Right Eye", 1 )
+        cvNamedWindow( "Mouth", 1 )
+		
+    clock = pygame.time.Clock()
 
-	while True:
-		frame = cvQueryFrame(capture)
-		if frame:
-			img = detect(frame)
-			cvShowImage("Face Detection",  frame)
-			if counter >= servo_move_interval:
-				servo_ready = True
-				counter = 0
+    while True:
+        clock.tick()
+        frame = cvQueryFrame(capture)
+        clock.tick()
+        print "capture in " + str(clock.get_time())
+        
+        if frame:
+            img = detect(frame)
+            cvShowImage("Face Detection",  frame)
+            if counter >= servo_move_interval:
+                servo_ready = True
+                counter = 0
 		
-			counter += 1
-		if cvWaitKey(10) != -1:
-			break
+            counter += 1
+        if cvWaitKey(10) != -1:
+            break
 		
-	cvDestroyWindow("Face Detection")
+    cvDestroyWindow("Face Detection")
