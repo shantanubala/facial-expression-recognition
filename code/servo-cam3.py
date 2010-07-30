@@ -61,7 +61,7 @@ def detect(image):
 	foundFace = find_frontal_face(grayscale, image)
 			
 	#if not foundFace:
-	#	find_profile_face(grayscale, image)
+	#   find_profile_face(grayscale, image)
 
 	if servo_track_face and servo_ready:
 		track_face()
@@ -88,12 +88,11 @@ def find_frontal_face(grayscale, image, foundFace=False):
 				cvSaveImage("face//" + str(faceNum) + ".jpg", getRegion(image, f.x, f.y, f.width, f.height))
 					
 			if use_kalman_filtering:
-				filters.face_x.correct(f.x)
-				filters.face_y.correct(f.y)
-				filters.face_l.correct(f.width)
-				f_x = filters.face_x.get_prediction()
-				f_y = filters.face_y.get_prediction()
-				f_width = filters.face_l.get_prediction()
+				filters.face.correct(f.x, f.y, f.width)
+				p = filters.face.get_prediction()
+				f_x = p[0, 0]
+				f_y = p[1, 0]
+				f_width = p[2, 0]
 				f_height = f_width
 			else:
 				f_x = f.x
@@ -150,15 +149,16 @@ def find_profile_face(grayscale, image, foundFace=False):
 	faces = cvHaarDetectObjects(grayscale, profileCascade, storage, 2.0, 2, CV_HAAR_DO_CANNY_PRUNING, cvSize(50,50))
 
 	for f in faces:
-		if use_kalman_filtering and filters.face_x.prediction is not None and filters.face_y.prediction is not None and filters.face_l.prediction is not None:
-			f_width = filters.face_l.get_prediction()
+		if use_kalman_filtering and filters.face.prediction != None:
+			p = filters.face.prediction
+			f_width = p[2, 0]
 			f_height = f_width
 			#since the profile face produces a much large square, we use the width of the frontal face kalman instead
 			width_diff = (f.width - f_width) / 2
-			filters.face_x.correct(f.x - width_diff)
-			filters.face_y.correct(f.y + width_diff)
-			f_x = filters.face_x.get_prediction()
-			f_y = filters.face_y.get_prediction()
+			filters.face.correct(f.x - width_diff, f.y + width_diff)
+			p = filters.face.get_prediction()
+			f_x = p[0, 0]
+			f_y = p[1, 0]
 		else:
 			f_x = f.x
 			f_y = f.y
@@ -178,15 +178,16 @@ def find_profile_face(grayscale, image, foundFace=False):
 		faces = cvHaarDetectObjects(grayscale, profileCascade, storage, 2.0, 2, CV_HAAR_DO_CANNY_PRUNING, cvSize(50,50))
 
 		for f in faces:
-			if use_kalman_filtering and filters.face_x.prediction is not None and filters.face_y.prediction is not None and filters.face_l.prediction is not None:
-				f_width = filters.face_l.get_prediction()
+			if use_kalman_filtering and filters.face.prediction != None:
+				p = filters.face.prediction
+				f_width = p[2, 0]
 				f_height = f_width
 				#since the profile face produces a much large square, we use the width of the frontal face kalman instead
 				width_diff = (f.width - f_width) / 2
-				filters.face_x.correct(cam_resolution[0] - (f.x - width_diff))
-				filters.face_y.correct(cam_resolution[1] + width_diff)
-				f_x = filters.face_x.get_prediction()
-				f_y = filters.face_y.get_prediction()
+				filters.face.correct(cam_resolution[0] - (f.x - width_diff), cam_resolution[1] + width_diff)
+				p = filters.face.get_prediction()
+				f_x = p[0, 0]
+				f_y = p[1, 0]
 			else:
 				f_x = f.x
 				f_y = f.y
@@ -221,51 +222,51 @@ def track_face():
 			set_servo(adjust_x + current_servo_position[0], adjust_y + current_servo_position[1])
 
 if __name__ == "__main__":
-    
-    pygame.camera.init()
-        
-    set_servo() #defaults servos to original position
-    counter = 0 #the counter for the servo movement interval
+	
+	pygame.camera.init()
+		
+	set_servo() #defaults servos to original position
+	counter = 0 #the counter for the servo movement interval
 	
 	#checks to see if a camera is connected and exits if one is not
-    camlist = pygame.camera.list_cameras()
+	camlist = pygame.camera.list_cameras()
 	
-    if not camlist:
-        sys.exit()
-	    
-    cam = pygame.camera.Camera(camlist[0], cam_resolution)
-    cam.start()
+	if not camlist:
+		sys.exit()
+		
+	cam = pygame.camera.Camera(camlist[0], cam_resolution)
+	cam.start()
 	
 	#the main highgui window for the camera frames
-    cvNamedWindow( "Face Detection", 1 )
+	cvNamedWindow( "Face Detection", 1 )
 	
 	#the windows for features (if enabled in configuration)
-    if show_objects:
-        cvNamedWindow( "Left Eye", 1 )
-        cvNamedWindow( "Right Eye", 1 )
-        cvNamedWindow( "Mouth", 1 )
-        
-    clock = pygame.time.Clock()
+	if show_objects:
+		cvNamedWindow( "Left Eye", 1 )
+		cvNamedWindow( "Right Eye", 1 )
+		cvNamedWindow( "Mouth", 1 )
+		
+	clock = pygame.time.Clock()
 
-    while True:
-        clock.tick()
-        pyframe = cam.get_image();
-        clock.tick()
-        print "capture in " + str(clock.get_time())
-        frame = conversion.surf2CV(pyframe)
-        clock.tick()
-        print "Converted in " + str(clock.get_time())
-        if frame:
-            img = detect(frame)
-            cvShowImage("Face Detection",  frame)
-            if counter >= servo_move_interval:
-                servo_ready = True
-                counter = 0
+	while True:
+		clock.tick()
+		pyframe = cam.get_image();
+		clock.tick()
+		print "capture in " + str(clock.get_time())
+		frame = conversion.surf2CV(pyframe)
+		clock.tick()
+		print "Converted in " + str(clock.get_time())
+		if frame:
+			img = detect(frame)
+			cvShowImage("Face Detection",  frame)
+			if counter >= servo_move_interval:
+				servo_ready = True
+				counter = 0
 		
-            counter += 1
-        
-        
-        if cvWaitKey(5) != -1:
-            break
+			counter += 1
 		
-    cvDestroyWindow("Face Detection")
+		
+		if cvWaitKey(5) != -1:
+			break
+		
+	cvDestroyWindow("Face Detection")
