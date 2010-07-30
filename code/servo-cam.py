@@ -1,32 +1,29 @@
-#!/usr/bin/python
-from opencv.cv import *
-from opencv.highgui import *
+import cv
 import sys
 import os
 import math
 import filters
+import pdb
 import conversion
 from config import *
 
 import pygame
 
-
-
 #returns a region of an image as a new image object
 def getRegion(img, x, y, width, height):
-	dst = cvCreateImage(cvSize(int(width),int(height)),img.depth, img.nChannels)
-	cvGetRectSubPix(img,dst,(x+width/2,y+height/2))
+	dst = cv.CreateImage((int(width),int(height)),img.depth, img.nChannels)
+	cv.GetRectSubPix(img,dst,(x+width/2,y+height/2))
 	return dst
 
 #returns an Canny-edge-detected version of an image
 def edge(image):
-	grayscale = cvCreateImage(cvSize(image.width, image.height), 8, 1)
-	cvCvtColor(image, grayscale, CV_BGR2GRAY)
+	grayscale = cv.CreateImage((image.width, image.height), 8, 1)
+	cv.CvtColor(image, grayscale, cv.CV_BGR2GRAY)
 
-	edges = cvCreateImage(cvGetSize(image),8, 1)
-	cvCanny(grayscale,edges,60,60)
+	edges = cv.CreateImage(cv.GetSize(image),8, 1)
+	cv.Canny(grayscale,edges,60,60)
 
-	cvSmooth(edges,edges,CV_GAUSSIAN, 5,0,0, 0)
+	cv.Smooth(edges,edges,cv.CV_GAUSSIAN, 5,0,0, 0)
 
 	return edges
 
@@ -44,16 +41,16 @@ def set_servo(pan=start_servo_position[0], tilt=start_servo_position[1]):
 	global current_servo_position
 	current_servo_position = (pan, tilt)
 	
-	#usb_interface.set_target(1, tilt)
-	#usb_interface.set_target(0, pan)
+	usb_interface.set_target(1, tilt)
+	usb_interface.set_target(0, pan)
 
 faceNum = 0
 
 #the main detection logic
 def detect(image):
 	#Converts an image to grayscale for haar object detection
-	grayscale = cvCreateImage(cvSize(image.width, image.height), 8, 1)
-	cvCvtColor(image, grayscale, CV_BGR2GRAY)
+	grayscale = cv.CreateImage((image.width, image.height), 8, 1)
+	cv.CvtColor(image, grayscale, cv.CV_BGR2GRAY)
 	
 	foundFace = find_frontal_face(grayscale, image)
 			
@@ -70,33 +67,32 @@ def detect(image):
 def find_frontal_face(grayscale, image, foundFace=False):
 	global face_locations
 	global faceNum
-	storage = cvCreateMemStorage(0)
-	cvClearMemStorage(storage)
-	faces = cvHaarDetectObjects(grayscale, cascade, storage, 2.0, 2, CV_HAAR_DO_CANNY_PRUNING, cvSize(50,50))
+	storage = cv.CreateMemStorage(0)
+	faces = cv.HaarDetectObjects(grayscale, cascade, storage, 2.0, 2, cv.CV_HAAR_DO_CANNY_PRUNING, (50,50))
+	print faces
 	f_x = None
 	f_y = None
 	f_width = None
 	f_height = None
 	if faces:
-		for f in faces:
-			foundFace = True
-			print("[(%d,%d) -> (%d,%d)]" % (f.x, f.y, f.x+f.width, f.y+f.height))
+		for ((x, y, w, h), n) in faces:
+			foundFace = True			
+			print("[(%d,%d) -> (%d,%d)]" % (x, y, w, h))
 			if save_objects:
-				cvSaveImage("face//" + str(faceNum) + ".jpg", getRegion(image, f.x, f.y, f.width, f.height))
+				cv.SaveImage("face//" + str(faceNum) + ".jpg", getRegion(image, x, y, w, h))
 					
 			if use_kalman_filtering:
-				filters.face_x.correct(f.x)
-				filters.face_y.correct(f.y)
-				filters.face_l.correct(f.width)
-				f_x = filters.face_x.get_prediction()
-				f_y = filters.face_y.get_prediction()
-				f_width = filters.face_l.get_prediction()
+				filters.face.correct(f.x, f.y, f.width)
+				p = filters.face.get_prediction()
+				f_x = p[0, 0]
+				f_y = p[1, 0]
+				f_width = p[2, 0]
 				f_height = f_width
 			else:
-				f_x = f.x
-				f_y = f.y
-				f_width = f.width
-				f_height = f.height
+				f_x = x
+				f_y = y
+				f_width = w
+				f_height = h
 
 			face_locations.append((f_x + (f_width / 2), f_y + (f_height / 2)))
 
@@ -110,87 +106,87 @@ def find_frontal_face(grayscale, image, foundFace=False):
 				if box == feature_boxes[0]:
 					if show_objects:
 						if show_object_edges:
-							cvShowImage("Left Eye",  edge(getRegion(image, boxX,boxY,boxWidth,boxHeight)))
+							cv.ShowImage("Left Eye",  edge(getRegion(image, boxX,boxY,boxWidth,boxHeight)))
 						else:
-							cvShowImage("Left Eye",  getRegion(image, boxX,boxY,boxWidth,boxHeight))
+							cv.ShowImage("Left Eye",  getRegion(image, boxX,boxY,boxWidth,boxHeight))
 					if save_objects:
-						cvSaveImage("lefteye//" + str(faceNum) + ".jpg", getRegion(image, boxX,boxY,boxWidth,boxHeight))
+						cv.SaveImage("lefteye//" + str(faceNum) + ".jpg", getRegion(image, boxX,boxY,boxWidth,boxHeight))
 				elif box == feature_boxes[1]:
 					if show_objects:
 						if show_object_edges:
-							cvShowImage( "Right Eye",  edge(getRegion(image,boxX,boxY,boxWidth,boxHeight)))
+							cv.ShowImage( "Right Eye",  edge(getRegion(image,boxX,boxY,boxWidth,boxHeight)))
 						else:
-							cvShowImage( "Right Eye",  getRegion(image,boxX,boxY,boxWidth,boxHeight))
+							cv.ShowImage( "Right Eye",  getRegion(image,boxX,boxY,boxWidth,boxHeight))
 					if save_objects:
-						cvSaveImage("righteye//" + str(faceNum) + ".jpg", getRegion(image, boxX,boxY,boxWidth,boxHeight))
+						cv.SaveImage("righteye//" + str(faceNum) + ".jpg", getRegion(image, boxX,boxY,boxWidth,boxHeight))
 				elif box == feature_boxes[2]:
 					if show_objects:
 						if show_object_edges:
-							cvShowImage("Mouth",  edge(getRegion(image, boxX,boxY,boxWidth,boxHeight)))
+							cv.ShowImage("Mouth",  edge(getRegion(image, boxX,boxY,boxWidth,boxHeight)))
 						else:
-							cvShowImage("Mouth",  edge(getRegion(image, boxX,boxY,boxWidth,boxHeight)))
+							cv.ShowImage("Mouth",  edge(getRegion(image, boxX,boxY,boxWidth,boxHeight)))
 					if save_objects:
-						cvSaveImage("mouth//" + str(faceNum) + ".jpg", getRegion(image, boxX,boxY,boxWidth,boxHeight))
+						cv.SaveImage("mouth//" + str(faceNum) + ".jpg", getRegion(image, boxX,boxY,boxWidth,boxHeight))
 				
 				if draw_rect:
-					cvRectangle(image, cvPoint( int(boxX), int(boxY) ), cvPoint(int(boxX + boxWidth), int(boxY + boxHeight)), 255, 3, 8, 0)
+					cv.Rectangle(image, ( int(boxX), int(boxY) ), (int(boxX + boxWidth), int(boxY + boxHeight)), 255, 3, 8, 0)
 	if draw_rect and f_x and f_y and f_width and f_height:
-		cvRectangle(image, cvPoint( int(f_x), int(f_y)), cvPoint(int(f_x + f_width), int(f_y + f_height)), 255, 3, 8, 0)
+		cv.Rectangle(image, ( int(f_x), int(f_y)), (int(f_x + f_width), int(f_y + f_height)), 255, 3, 8, 0)
 	return foundFace
 
 #locates profile faces
 def find_profile_face(grayscale, image, foundFace=False):
 	global face_locations
-	storage = cvCreateMemStorage(0)
-	cvClearMemStorage(storage)
+	storage = cv.CreateMemStorage(0)
 
-	faces = cvHaarDetectObjects(grayscale, profileCascade, storage, 2.0, 2, CV_HAAR_DO_CANNY_PRUNING, cvSize(50,50))
+	faces = cv.HaarDetectObjects(grayscale, profileCascade, storage, 2.0, 2, cv.CV_HAAR_DO_CANNY_PRUNING, (50,50))
 
 	for f in faces:
-		if use_kalman_filtering and filters.face_x.prediction is not None and filters.face_y.prediction is not None and filters.face_l.prediction is not None:
-			f_width = filters.face_l.get_prediction()
+		if use_kalman_filtering and filters.face.prediction != None:
+			p = filters.face.prediction
+			f_width = p[2, 0]
 			f_height = f_width
 			#since the profile face produces a much large square, we use the width of the frontal face kalman instead
 			width_diff = (f.width - f_width) / 2
-			filters.face_x.correct(f.x - width_diff)
-			filters.face_y.correct(f.y + width_diff)
-			f_x = filters.face_x.get_prediction()
-			f_y = filters.face_y.get_prediction()
+			filters.face.correct(f.x - width_diff, f.y + width_diff)
+			p = filters.face.get_prediction()
+			f_x = p[0, 0]
+			f_y = p[1, 0]
 		else:
 			f_x = f.x
 			f_y = f.y
 			f_width = f.width
 			f_height = f.height
 		if draw_rect:
-			cvRectangle(image, cvPoint( int(f_x), int(f_y)), cvPoint(int(f_x + f_width), int(f_y + f_height)), 255, 3, 8, 0)
+			cv.Rectangle(image, cvPoint( int(f_x), int(f_y)), cvPoint(int(f_x + f_width), int(f_y + f_height)), 255, 3, 8, 0)
 		foundFace = True
 		face_locations.append((f_x + (f_width / 2), f_y + (f_height / 2)))
 
 	if not foundFace:
-		cvFlip(grayscale,None, 1)
+		cv.Flip(grayscale,None, 1)
 
-		storage = cvCreateMemStorage(0)
-		cvClearMemStorage(storage)
+		storage = cv.CreateMemStorage(0)
 
-		faces = cvHaarDetectObjects(grayscale, profileCascade, storage, 2.0, 2, CV_HAAR_DO_CANNY_PRUNING, cvSize(50,50))
+		faces = cv.HaarDetectObjects(grayscale, profileCascade, storage, 2.0, 2, cv.CV_HAAR_DO_CANNY_PRUNING, (50,50))
 
 		for f in faces:
-			if use_kalman_filtering and filters.face_x.prediction is not None and filters.face_y.prediction is not None and filters.face_l.prediction is not None:
-				f_width = filters.face_l.get_prediction()
+			if use_kalman_filtering and filters.face.prediction != None:
+				p = filters.face.prediction
+				f_width = p[2, 0]
 				f_height = f_width
 				#since the profile face produces a much large square, we use the width of the frontal face kalman instead
 				width_diff = (f.width - f_width) / 2
-				filters.face_x.correct(cam_resolution[0] - (f.x - width_diff))
-				filters.face_y.correct(cam_resolution[1] + width_diff)
-				f_x = filters.face_x.get_prediction()
-				f_y = filters.face_y.get_prediction()
+				filters.face.correct(cam_resolution[0] - (f.x - width_diff), cam_resolution[1] + width_diff)
+				p = filters.face.get_prediction()
+				f_x = p[0, 0]
+				f_y = p[1, 0]
 			else:
 				f_x = f.x
 				f_y = f.y
 				f_width = f.width
 				f_height = f.height
 			if draw_rect:
-				cvRectangle(image, cvPoint( cam_resolution[0] - int(f_x), int(f_y)), cvPoint(cam_resolution[0] - int(f_x + f_width), int(f_y + f_height)), 255, 3, 8, 0)
+				cv.Rectangle(image, cvPoint( cam_resolution[0] - int(f_x), int(f_y)), cvPoint(cam_resolution[0] - int(f_x + f_width), int(f_y + f_height)), 255, 3, 8, 0)
 			foundFace = True
 			face_locations.append(( 640 - (f_x + (f_width / 2)), f_y + (f_height / 2)))
 
@@ -218,55 +214,55 @@ def track_face():
 			set_servo(adjust_x + current_servo_position[0], adjust_y + current_servo_position[1])
 
 if __name__ == "__main__":
-
-    #pygame.camera.init()
-    
     capture = None #declares the capture variable
     set_servo() #defaults servos to original position
     counter = 0 #the counter for the servo movement interval
 	
 	#checks to see if a camera is connected and exits if one is not
     if len(sys.argv)==1:
-        capture = cvCreateCameraCapture( 0 )
+        capture = cv.CaptureFromCAM( 0 )
     elif len(sys.argv)==2 and sys.argv[1].isdigit():
-        capture = cvCreateCameraCapture( int(sys.argv[1]) )
+        capture = cv.CaptureFromCAM( int(sys.argv[1]) )
     elif len(sys.argv)==2:
-        capture = cvCreateFileCapture( sys.argv[1] ) 
+        capture = cv.CaptureFromFile( sys.argv[1] ) 
 	
     if not capture:
         print "Could not initialize capturing..."
         sys.exit(-1)
 	
 	#width and height are not actually set due to OpenCV bug
-    cvSetCaptureProperty( capture, CV_CAP_PROP_FRAME_WIDTH, cam_resolution[0] )
-    cvSetCaptureProperty( capture, CV_CAP_PROP_FRAME_HEIGHT, cam_resolution[1] )
+    cv.SetCaptureProperty( capture, cv.CV_CAP_PROP_FRAME_WIDTH, cam_resolution[0] )
+    cv.SetCaptureProperty( capture, cv.CV_CAP_PROP_FRAME_HEIGHT, cam_resolution[1] )
 	
 	#the main highgui window for the camera frames
-    cvNamedWindow( "Face Detection", 1 )
+    cv.NamedWindow( "Face Detection", 1 )
 	
 	#the windows for features (if enabled in configuration)
     if show_objects:
-        cvNamedWindow( "Left Eye", 1 )
-        cvNamedWindow( "Right Eye", 1 )
-        cvNamedWindow( "Mouth", 1 )
+        cv.NamedWindow( "Left Eye", 1 )
+        cv.NamedWindow( "Right Eye", 1 )
+        cv.NamedWindow( "Mouth", 1 )
 		
     clock = pygame.time.Clock()
 
     while True:
         clock.tick()
-        frame = cvQueryFrame(capture)
+        frame = cv.GrabFrame(capture)
         clock.tick()
-        print "capture in " + str(clock.get_time())
+        print "capture in ", str(clock.get_time())
         
         if frame:
+            clock.tick()
             img = detect(frame)
-            cvShowImage("Face Detection",  frame)
+            clock.tick()
+            print "detect in ", str(clock.get_time())
+            cv.ShowImage("Face Detection",  img)
             if counter >= servo_move_interval:
                 servo_ready = True
                 counter = 0
 		
             counter += 1
-        if cvWaitKey(10) != -1:
+        if cv.WaitKey(10) != -1:
             break
 		
-    cvDestroyWindow("Face Detection")
+    cv.DestroyWindow("Face Detection")
