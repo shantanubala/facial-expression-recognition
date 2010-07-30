@@ -1,14 +1,9 @@
-
-from opencv.cv import *
-
+import cv
 from pygame import surfarray
-
-
 
 """
 These decorators could pass on other function args...
 something like: *args=None, **argd=None
-
 """
 
 class numpyFromSurf(object):
@@ -29,10 +24,6 @@ class numpyFromSurf(object):
         # Convert back to surface
         return surfarray.make_surface(np_image_filtered)
         
-
-
-
-
 try:
     from opencv import adaptors
     

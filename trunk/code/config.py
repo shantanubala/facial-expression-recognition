@@ -1,5 +1,6 @@
 from maestro import test
-from opencv.cv import *
+import cv
+import os
 
 image_scale = 4
 #all configuration tuples follow the following patterns: 
@@ -21,8 +22,8 @@ usb_interface = test.PololuUsb() #the object interface for the pololu usb maestr
 draw_rect = True #option to display blue rectangles around a detected object
 save_objects = False #option to save detected objects to separate files
 show_objects = False #option to show detected objects in separate windows
-show_object_edges = True #option to show the edges of detected objects in their respective windows
-servo_track_face = True #option to track faces
+show_object_edges = False #option to show the edges of detected objects in their respective windows
+servo_track_face = False #option to track faces
 use_kalman_filtering = True #option to use Kalman filtering on face tracking
 
 #this is for additional boxes to be drawn (out of 20x20) over the face
@@ -38,10 +39,7 @@ feature_boxes = [
 ]
 cam_center = (cam_resolution[0] / 2, cam_resolution[1] / 2) #center point of camera - (x, y)
 #all of the Haar XML cascades
-profileCascade = cvLoadHaarClassifierCascade('/usr/share/opencv/haarcascades/haarcascade_profileface.xml', cvSize(1,1))
-cascade = cvLoadHaarClassifierCascade('/usr/share/opencv/haarcascades/haarcascade_frontalface_alt.xml', cvSize(1,1))
-bigeye_cascade = cvLoadHaarClassifierCascade('/usr/share/opencv/haarcascades/haarcascade__mcs_righteye.xml', cvSize(1,1))
-smalleye_cascade = cvLoadHaarClassifierCascade('/usr/share/opencv/haarcascades/haarcascade_mcs_eyepair_small.xml', cvSize(1,1))
-mouth_cascade = cvLoadHaarClassifierCascade('/usr/share/opencv/haarcascades/haarcascade_mcs_mouth.xml', cvSize(1,1))
+profileCascade = cv.Load(str(os.path.join(os.getcwd(), 'haarcascade_profileface.xml')))
+cascade = cv.Load(str(os.path.join(os.getcwd(), 'haarcascade_frontalface_alt.xml')))
 
 
