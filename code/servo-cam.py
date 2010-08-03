@@ -220,9 +220,7 @@ if __name__ == "__main__":
 	
 	#checks to see if a camera is connected and exits if one is not
     if len(sys.argv)==1:
-        capture = cv.CaptureFromCAM( 0 )
-    elif len(sys.argv)==2 and sys.argv[1].isdigit():
-        capture = cv.CaptureFromCAM( int(sys.argv[1]) )
+        capture = cv.CaptureFromCAM( cv.CV_CAP_ANY )
     elif len(sys.argv)==2:
         capture = cv.CaptureFromFile( sys.argv[1] ) 
 	
@@ -247,7 +245,7 @@ if __name__ == "__main__":
 
     while True:
         clock.tick()
-        frame = cv.GrabFrame(capture)
+        frame = cv.QueryFrame(capture)
         clock.tick()
         print "capture in ", str(clock.get_time())
         
