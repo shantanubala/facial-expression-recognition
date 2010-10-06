@@ -11,7 +11,7 @@ current_servo_position = (5984, 6400) #holds the position of the servos - (pan, 
 servo_limits = ((3968, 8000), (4800, 8000)) #the extremities of servo motion
 #NOTE: servo positions are set in integer values of quarter microseconds for the PWM
 
-servo_app = ((100, 100), (100, 100)) #the change in servo position corresponding to the change in pixel position
+servo_app = ((100, 150), (100, 400)) #the change in servo position corresponding to the change in pixel position
 #                                           follows the format: ((pan_change, x_px_change), (tilt_change, y_px_change))
 
 servo_move_interval = 3 #the interval in frames at which the servo tracks the face
@@ -21,19 +21,28 @@ face_locations = [] #holds the locations of faces between servo intervals (repla
 usb_interface = test.PololuUsb() #the object interface for the pololu usb maestro
 draw_rect = True #option to display blue rectangles around a detected object
 save_objects = False #option to save detected objects to separate files
-show_objects = False #option to show detected objects in separate windows
+show_objects = True #option to show detected objects in separate windows
 show_object_edges = False #option to show the edges of detected objects in their respective windows
-servo_track_face = False #option to track faces
+servo_track_face = True #option to track faces
 use_kalman_filtering = True #option to use Kalman filtering on face tracking
+
+emotion = True #Run emotion detection
+showlines = True #Show steps in emotion detection process
+numlines = 4 #Width of eye sample used for intensity
+
+calibmax = 10 #Amount of frames required for calibration
+
+
+intensityCutoff = 2.0 #Cutoff used to filter which minimums get regected
 
 #this is for additional boxes to be drawn (out of 20x20) over the face
 #the configuration is in the form of 4-element tuples
 #the boxes are in the form of (x, y, length, width)
 feature_boxes = [
 	#left eye
-	(2, 5, 6, 6),
+	(2, 4, 7, 6),
 	#right eye
-	(11, 5, 6, 6),
+	(11, 4, 7, 6),
 	#mouth
 	(4, 12.5, 12, 6)
 ]
