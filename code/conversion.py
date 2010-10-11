@@ -57,6 +57,7 @@ try:
         cvImage = adaptors.NumPy2Ipl(numpyImage.transpose(1,0,2))
         
         
+        
         '''arr = surfarray.pixels3d(surf)
         
         w = int(surf.get_width())
@@ -64,17 +65,17 @@ try:
         
         print str(w) + " " + str(h)
         
-        cvImage = cvCreateImage(cvSize(w,h), 8, 3)
+        cvImage = cv.CreateImage((w,h), 8, 3)
 
         #cvSet(cvImage, (0,0,0))
         #print arr[0][0][0]
         
         for x in range(200):
             for y in range(200):
-                cvSet2D(cvImage, y, x, (int(arr[y][x][0]), int(arr[y][x][1]), int(arr[y][x][2])))'''
-        
-        
+                cv.Set2D(cvImage, y, x, (int(arr[y][x][0]), int(arr[y][x][1]), int(arr[y][x][2])))'''
+                
         return cvImage
+        
 
     def cv2SurfArray(cvMat):
         """Given an open cvMat convert it to a pygame surface pixelArray
