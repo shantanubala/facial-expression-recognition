@@ -12,6 +12,8 @@ import pygame
 
 from pygame.locals import *
 
+import glove
+
 #returns a region of an image as a new image object
 def getRegion(img, x, y, width, height):
     dst = cv.CreateImage((int(width),int(height)),img.depth, img.nChannels)
@@ -26,7 +28,7 @@ def edge(image):
     edges = cv.CreateImage(cv.GetSize(image),8, 1)
     cv.Canny(grayscale,edges,60,60)
 
-    cv.Smooth(edges,edges,cv.CV_GAUSSIAN, 5,0,0, 0)
+    #cv.Smooth(edges,edges,cv.CV_BLUR)
 
     return edges
     
@@ -80,11 +82,11 @@ def eyeDetect(image):
     global normaldist
     global calibdist
     
+    dist = 0
+    
     lines = []
     
     line = None
-    
-    
     
     for x in range(numlines):
         lines.append(getRegion(image, image.width/2 - numlines/2 + x , 0 , 1 , image.height))
@@ -94,18 +96,18 @@ def eyeDetect(image):
         else:
             cv.Add(line,lines[x],line)
         
-    
+    cv.Smooth(line,line,cv.CV_BLUR)
     
     if showlines:
-        inten = cv.CreateImage((50, image.height), 8, 1)
+        inten = cv.CreateImage((255, image.height), 8, 3)
         cv.Set(inten,(0,0,0))
         
-        inten2 = cv.CreateImage((50, image.height), 8, 1)
+        inten2 = cv.CreateImage((50, image.height), 8, 3)
         cv.Set(inten2,(0,0,0))
         
         for x in range(image.height):
-            intensity = cv.Get2D(line,x,0)[0] / 255
-            cv.Line(inten, (0,x), ((intensity*50),x), (255,255,255))
+            intensity = cv.Get2D(line,x,0)[0]
+            cv.Line(inten, (0,x), ((intensity),x), (255,255,255))
             
             if x > 0:
                 slope = (cv.Get2D(line,x,0)[0] - cv.Get2D(line,x-1,0)[0]) / 255
@@ -127,8 +129,19 @@ def eyeDetect(image):
         for x in zero:
             cv.Line(inten2, (0,x), (50,x), (255,0,0))
             
+            cv.Line(image, (0,x), (image.width,x), (255,0,0))
+            
         if len(zero) > 1:
-            dist = zero[1] - zero[0]
+            
+            cv.Line(inten2, (0,x), (50,x), (255,0,0))
+            dist = (zero[1] - zero[0])/float(image.height)
+            
+            cv.Line(inten2, (0,zero[1]-normaldist*image.height), (50,zero[1]-normaldist*image.height), (0,255,0))
+            
+            #cv.Line(image, (0,zero[0]), (image.width,zero[0]), (255,0,0))
+            
+            #cv.Line(image, (0,zero[1]), (image.width,zero[1]), (255,0,0))
+            
             
             if len(calibdist) < calibmax:
                 calibdist.append(dist)
@@ -138,24 +151,32 @@ def eyeDetect(image):
                     normaldist = normaldist + i
                     
                 normaldist = normaldist/len(calibdist)
-            else:
-                if dist > normaldist*1.1:
+            '''else:
+                if dist > normaldist*1.05:
                     print "Eyebrows Up"
                 else:
-                    print "Eyebrows Down"
+                    print "Eyebrows Down"'''
             
         cv.ShowImage("Eye Intensity",  inten)
-        cv.ShowImage("Eye Intensity Deriv",  inten2)
+        
+        large = cv.CreateImage((50*3, image.height*3), 8, 3)
+        cv.Resize(inten2, large)
+        cv.ShowImage("Eye Intensity Deriv",  large)
             
         
         cv.ShowImage("Eye Line",  line)
         cv.SaveImage("eyeline//" + str(faceNum) + ".jpg", line)
+        
+    return dist
 
+frames = 0
 
 #finds a frontal face with simple ratio-based features
 def find_frontal_face(grayscale, image, foundFace=False):
     global face_locations
     global faceNum
+    global frames
+    
     storage = cv.CreateMemStorage(0)
     faces = cv.HaarDetectObjects(grayscale, cascade, storage, 2.0, 2, cv.CV_HAAR_DO_CANNY_PRUNING, (50,50))
     #print faces
@@ -163,6 +184,10 @@ def find_frontal_face(grayscale, image, foundFace=False):
     f_y = None
     f_width = None
     f_height = None
+    
+    leye = None
+    reye = None
+    
     if faces:
         for ((x, y, w, h), n) in faces:
             foundFace = True            
@@ -202,20 +227,28 @@ def find_frontal_face(grayscale, image, foundFace=False):
                             
                             cv.EqualizeHist(leye,leye)
                             
-                            cv.ShowImage("Left Eye",  leye)
+                            
                     if save_objects:
                         cv.SaveImage("lefteye//" + str(faceNum) + ".jpg", getRegion(image, boxX,boxY,boxWidth,boxHeight))
-                    if emotion:
-                        eyeDetect(getRegion(grayscale, boxX,boxY,boxWidth,boxHeight))
+                        
+                    cv.ShowImage("Left Eye",  leye)
                         
                 elif box == feature_boxes[1]:
                     if show_objects:
                         if show_object_edges:
                             cv.ShowImage( "Right Eye",  edge(getRegion(image,boxX,boxY,boxWidth,boxHeight)))
                         else:
-                            cv.ShowImage( "Right Eye",  getRegion(grayscale,boxX,boxY,boxWidth,boxHeight))
+                            #cv.ShowImage( "Right Eye",  getRegion(grayscale,boxX,boxY,boxWidth,boxHeight))
+                            
+                            reye = getRegion(grayscale,boxX,boxY,boxWidth,boxHeight)
+                            
+                            cv.EqualizeHist(reye,reye)
+                            
                     if save_objects:
                         cv.SaveImage("righteye//" + str(faceNum) + ".jpg", getRegion(image, boxX,boxY,boxWidth,boxHeight))
+                        
+                    cv.ShowImage("Right Eye", reye)
+                    
                 elif box == feature_boxes[2]:
                     if show_objects:
                         if show_object_edges:
@@ -227,6 +260,49 @@ def find_frontal_face(grayscale, image, foundFace=False):
                 
                 if draw_rect:
                     cv.Rectangle(image, ( int(boxX), int(boxY) ), (int(boxX + boxWidth), int(boxY + boxHeight)), 255, 3, 8, 0)
+    else:
+        glove.turn_off()
+        
+    if emotion and leye and reye:
+        ldist = eyeDetect(leye)
+        
+        rdist = eyeDetect(reye)
+        
+        
+        if (len(calibdist) >= calibmax) and ldist > 0 and rdist > 0:
+            #print ldist * leye.height,  rdist * reye.height
+            #print rdist * reye.height
+            
+            frames += 1
+            
+            dist = (ldist + rdist)/2
+            
+            if frames == 3:
+                glove.turn_off()
+            
+            if frames > 10:
+            
+                if dist > normaldist*1.1:
+                    print "Up"
+                    glove.send_left(2)
+                    glove.send_right(2)
+                else:
+                    print "Down"
+                    glove.send_left(1)
+                    glove.send_right(1)
+                
+                '''if rdist > normaldist*1.1:
+                    print "Right - Up"
+                    glove.send_right(2)
+                else:
+                    print "Right - Down"
+                    glove.send_right(1)'''
+                    
+                frames = 0
+        else:
+            glove.turn_off()
+            
+        
     if draw_rect and f_x and f_y and f_width and f_height:
         cv.Rectangle(image, ( int(f_x), int(f_y)), (int(f_x + f_width), int(f_y + f_height)), 255, 3, 8, 0)
     return foundFace
@@ -392,6 +468,7 @@ if __name__ == "__main__":
 '''
 
 if __name__ == "__main__":
+    glove.turn_off()
     #capture = None #declares the capture variable
     set_servo() #defaults servos to original position
     counter = 0 #the counter for the servo movement interval
@@ -445,4 +522,4 @@ if __name__ == "__main__":
             break
                 
     cv.DestroyWindow("Face Detection")
-
+    glove.turn_off()
