@@ -1,0 +1,342 @@
+
+% pwasu.sty  ASU theses/dissertations
+% brief instructions at the beginning
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Usage:
+% ======
+%
+% A template for a thesis is provided in the file 'asthesis.tex',
+% available from the same place where you obtained this file.
+%
+% In the following I will introduce some commands defined:
+% ==============
+%
+%
+% \settitle        % title of dissertation.
+% \setauthor       % author of dissertation.
+% \masters         % use if going for a Masters degree
+% \doctors         % use if going for a PhD
+% \setdefdate      % defence date
+% \setgraddate     % graduation date
+% \setchair        % committee chair
+% \setmembers      % committee members
+% \setdedication   % set dedication
+% \asuabstract     % abstract
+% \asuacknowledgements    % acknowledgements
+% \biosketch       % biographical
+%=============================
+%
+% With all the names, you are ready to start your journey
+% BY YOURSELVES
+% ...
+% ...
+% ...
+% ...
+% ...
+% ...
+% ...
+% Ok, I will show you how.
+% Roll down, skip all the definitions.
+% Find a session that starts with 'Here it is!'
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{pwasu}[2009/04/18 v0.3 ASU thesis]
+%% Only works with the memoir class!!!!!!!!!!!!!!!
+\@ifclassloaded{memoir}{\let\endpwasu\relax}{\let\endpwasu\endinput
+  \PackageError{pwasu}{The pwasu package only works with the memoir class}{\@ehd}}
+\endpwasu
+
+% Some useful lengths for layout purposes
+\newlength{\toptafiddle}
+\newlength{\bottafiddle}
+\newlength{\topfiddle}
+\newlength{\botfiddle}
+\newlength{\linespace}
+
+%% set up margins, assuming letterpaper (8.5 by 11) stock
+% left, right and textwidth
+\setlrmarginsandblock{1.5in}{1.5in}{*}
+
+%% for main body
+%% bottom of text at 1in, footer below
+%% top of header at 1in, first text line double spaced below base of header
+\setlength{\linespace}{\baselineskip} %% the current equivalent of \onelineskip
+\setlength{\headheight}{\lineskip}
+\setlength{\headsep}{\linespace}
+\addtolength{\headsep}{-\topskip}
+\setlength{\uppermargin}{1in}
+\addtolength{\uppermargin}{\headheight}
+\addtolength{\uppermargin}{\headsep}
+\setlength{\lowermargin}{1in}
+\setlength{\footskip}{\onelineskip}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-\uppermargin}
+\addtolength{\textheight}{-\lowermargin}
+%% the fiddle lengths (..ta.. for title/approval page, others for prelims)
+%% (determined by many trials and errors)
+\setlength{\toptafiddle}{1\linespace}
+\setlength{\topfiddle}{\toptafiddle}
+\setlength{\bottafiddle}{\onelineskip}
+\setlength{\botfiddle}{0pt} % actually this is not used
+
+\checkandfixthelayout[nearest]
+
+%%%%%%%%%%%%%%%%% pagestyles
+%% the main text
+\makepagestyle{asu}
+  %\makeevenhead{asu}{\thepage}{}{}
+  %\makeoddhead{asu}{}{}{\thepage}
+
+
+%% for continuation pages of the ToC, LoF, LoT, LoS
+\makepagestyle{toc}
+  \makeevenfoot{toc}{}{\thepage}{}
+  \makeoddfoot{toc}{}{\thepage}{}
+  \makeevenhead{toc}{Chapter}{}{Page}
+  \makeoddhead{toc}{Chapter}{}{Page}
+
+\makepagestyle{lof}
+  \makeevenfoot{lof}{}{\thepage}{}
+  \makeoddfoot{lof}{}{\thepage}{}
+  \makeevenhead{lof}{Figure}{}{Page}
+  \makeoddhead{lof}{Figure}{}{Page}
+
+\makepagestyle{lot}
+  \makeevenfoot{lot}{}{\thepage}{}
+  \makeoddfoot{lot}{}{\thepage}{}
+  \makeevenhead{lot}{Table}{}{Page}
+  \makeoddhead{lot}{Table}{}{Page}
+
+%% use pagestyle{plain} for prelims
+
+%% chapter style
+\makechapterstyle{asu}{%
+\setlength{\beforechapskip} {-1\topfiddle}
+\setlength{\afterchapskip} {\onelineskip}
+  \setlength{\beforechapskip}{-0.4in}
+  \setlength{\afterchapskip}{3pt}
+  \renewcommand*{\chapnamefont}{\normalfont}
+  \renewcommand*{\chapnumfont}{\chapnamefont}
+  \renewcommand*{\printchapternum}{\centering\chapnumfont \thechapter}
+  \renewcommand*{\chaptitlefont}{\normalfont\centering\vspace*{-\onelineskip}}
+  \renewcommand*{\printchapternonum}
+
+}
+%% chapter style for appendices, text comes on following page
+\makechapterstyle{asuappendix}{%
+\setlength{\beforechapskip}{-\topfiddle}
+\setlength{\afterchapskip}{1\onelineskip}
+  \setlength{\beforechapskip}{-0.4in}
+  \setlength{\afterchapskip}{0pt}
+  \renewcommand*{\chapnamefont}{\MakeUppercase}
+  \renewcommand*{\chapnumfont}{\chapnamefont}
+  \renewcommand*{\printchapternum}{\centering\chapnumfont \thechapter}
+  \renewcommand*{\chaptitlefont}{\normalfont\centering}
+  \renewcommand*{\printchapternonum}{plain}
+  \renewcommand*{\afterchaptertitle}{\clearpage}
+}
+%\aliaspagestyle{chapter}{asu}
+
+%%% different chapter style for appendices, (and double spaced?)
+
+\let\oldapp\appendix
+%%\renewcommand*{\appendix}{\oldapp\chapterstyle{asuappendix}\DoubleSpace}
+
+%%% (subsub)section styles
+%\setlength{\beforesecskip}{\onelineskip}
+\setsecheadstyle{\centering\normalfont\vspace*{-\onelineskip}}
+\setsubsecheadstyle{\centering\itshape\vspace*{-\onelineskip}}
+\setsubsubsecheadstyle{\centering\vspace*{-\onelineskip}}
+\setlength{\aftersecskip}{3pt}
+
+
+%%%% Do the ToC
+\let\oldtoc\tableofcontents
+\renewcommand{\tableofcontents}{\clearpage\pagestyle{toc}\oldtoc}
+
+\renewcommand{\contentsname}{TABLE OF CONTENTS}
+\renewcommand{\listfigurename}{LIST OF FIGURES}
+\renewcommand{\listtablename}{LIST OF TABLES}
+\renewcommand*{\tocheadstart}{\vspace*{-0.2in}}
+\renewcommand*{\aftertoctitle}{\thispagestyle{plain}%
+  \par\nobreak \mbox{}\hfill{\normalfont Page}\par\nobreak}
+\renewcommand*{\cftchapterfont}{\normalfont}
+\renewcommand*{\cftchapterpagefont}{\normalfont}
+\renewcommand*{\cftchapterleader}{%
+  \cftchapterfont\cftdotfill{\cftchapterdotsep}}
+\renewcommand*{\cftchapterdotsep}{\cftdotsep}
+%\renewcommand*{\cftchaptername}{CHAPTER~}
+%%% no extra space before the entry
+\setlength{\cftbeforechapterskip}{0pt plus 0pt}
+%% no extra 'chapter' space in LoF/LoT
+\renewcommand*{\insertchapterspace}{}
+
+
+%% And the LoF and LoT
+\let\oldlof\listoffigures
+\renewcommand{\listoffigures}{\clearpage\pagestyle{lof}\oldlof}
+\renewcommand*{\lofheadstart}{\vspace*{-0.2in}}
+\renewcommand*{\afterloftitle}{\thispagestyle{plain}%
+  \par\nobreak {\normalfont Figure \hfill Page}\par\nobreak}
+
+\let\oldlot\listoftables
+\renewcommand{\listoftables}{\clearpage\pagestyle{lot}\oldlot}
+\renewcommand*{\lotheadstart}{\vspace*{-0.2in}}
+\renewcommand*{\afterlottitle}{\thispagestyle{plain}%
+  \par\nobreak {\normalfont Table \hfill Page}\par\nobreak}
+
+%%% general macro for Abstract, etc., headings
+\newcommand*{\pretoctitle}[1]{{\clearpage\centering \vspace*{-\topfiddle}#1\par}}
+
+%%% Start the ABSTRACT
+\newcommand{\asuabstract}{\pretoctitle{ABSTRACT}}
+
+%% make it easy to center any dedication
+\newcommand{\setdedication}[1]{\def\asudedication{{\clearpage\mbox{}\vfill\centering #1 \par\vfill\clearpage}}}
+\setdedication{}
+%\setdedication{All for my parrot}
+
+%%% Start the ACKNOWLEDGEMENTS
+\newcommand{\asuacknowledgements}{\pretoctitle{ACKNOWLEDGEMENTS}}
+
+
+%%
+
+%% for any headings after the tocloft and before the main body
+\newcommand{\prelimtitle}[1]{\pretoctitle{#1}\addcontentsline{toc}{chapter}{#1}}
+%% for REFERENCE section
+\renewcommand*{\bibname}{REFERENCES}
+\setlength{\bibitemsep}{\onelineskip}
+
+%%% put your biographical text in this environment
+%% \begin{biosketch} Im a person who has accomplished .... \end{biosketch}
+\newenvironment{biosketch}{%
+  \pretoctitle{BIOGRAPHICAL SKETCH}\thispagestyle{plain}\SingleSpacing}%
+  {}
+
+
+%% for the title page and approval page.
+\newcommand{\settitle}[1]{\def\asutitle{#1}}  % your title
+\newcommand{\setauthor}[1]{\def\asuauthor{#1}} % you
+\newcommand{\setdoctype}[1]{\def\asudoctype{#1}} % document type (e.g., thesis)
+\newcommand{\masters}{\def\asudegree{Doctor of Philosophy}}
+\newcommand{\doctors}{\def\asudegree{Doctor of Philosophy}}
+\newcommand{\setdefdate}[1]{\def\asudefdate{#1}} % defence date
+\newcommand{\setgraddate}[1]{\def\asugraddate{#1}} % graduation date
+\newcommand{\setchair}[1]{\def\asuchair{#1, Chair}} % Committee chair
+\newcommand{\setchairs}[2]{\def\asuchair{#1, Co-Chair \\ #2, Co-Chair}} %Co-Chairs
+\newcommand{\setmembers}[1]{\def\asumembers{#1\par}} % the other committee members
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%'Here it is!'
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+%
+% Use them like this, and if you dont use them then you will
+% get unacceptable title and/or approval pages
+%
+%
+% Change this part for your own title
+
+\settitle{Mediated Social Interpersonal Communication \\ Case Study of Multimedia Technologies for Enriching Social Situational Awareness \\ Social Interaction Assistance for Individuals who are Visually Impaired}
+
+% Change this part for you name
+\setauthor{Sreekar Krishna}
+\setdoctype{Dissertation}
+
+% comment out the part you dont need using '%' and free the part you need
+
+%%\masters  % going for a Masters degree
+\doctors % going for a PhD
+
+% set your date
+\setdefdate{January 2011}
+
+% set your freedom date
+\setgraddate{January 2011}
+% who is your chair
+\setchair{{Sethuraman Panchanathan}}
+	
+
+% and members
+\setmembers{{John Black Jr.} \\ {Baoxin Li} \\ {Gang Qian} \\ {Michelle Shiota}}
+
+% \setmembers{{Dr. Dre} \ {MM}}
+%
+
+% your dedication
+\setdedication{All for my dogs}
+%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%% typesets the TITLE page
+\newcommand{\thetitlepage}{{%
+\clearpage
+\pagestyle{empty}
+\centering
+\vspace*{-\toptafiddle}
+\asutitle \\ by \\ \asuauthor
+\vfill
+
+{\SingleSpace
+A \asudoctype\ Presented in Partial Fulfillment \\
+of the Requirements for the Degree \\
+\asudegree\par
+}
+
+\vfill
+{\SingleSpacing
+Approved \asudefdate\ by the \\
+Graduate Supervisory Committee: \\[-0.5\onelineskip]
+{\SingleSpacing
+\asuchair \\
+\asumembers}
+}
+
+\vfill
+ARIZONA STATE UNIVERSITY \\
+\asugraddate
+\enlargethispage{\bottafiddle}
+\clearpage}}
+
+%%% typesets the APPROVAL page
+%%\newcommand{\approvalpage}{{%
+%%\pagestyle{empty}
+%%\centering
+%%\vspace*{-\toptafiddle}
+%%\asutitle \\ by \\ \asuauthor \\[3\onelineskip]
+%%has been approved \\
+%%\asudefdate
+
+%%\vfill
+
+%%Graduate Supervisory Committee: \\[-0.5\onelineskip]
+%%{\SingleSpacing
+%%\asuchair \\
+%%\asumembers}
+
+
+% you dont want to say that before it actually is.
+%%\vfill
+%%ACCEPTED BY THE GRADUATE COLLEGE
+%%\enlargethispage{\bottafiddle}
+%%\clearpage}}
+
+%% use the asu chapterstyle
+\chapterstyle{asu}
+
+%%%%%%%%%%%%%%% end of *.sty file
+\endinput

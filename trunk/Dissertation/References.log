@@ -1,0 +1,26 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdftex 2010.11.2)  2 NOV 2010 23:48
+entering extended mode
+**C:/Users/sreekar*krishna/Desktop/ASU/References.bib
+("C:/Users/sreekar krishna/Desktop/ASU/References.bib"
+Missing character: There is no ï in font cmr10!
+Missing character: There is no » in font cmr10!
+Missing character: There is no ¿ in font cmr10!
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2 @inproceedings{vinciarelli_
+                               proceeding_2008,
+? 
+! Emergency stop.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.2 @inproceedings{vinciarelli_
+                               proceeding_2008,
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

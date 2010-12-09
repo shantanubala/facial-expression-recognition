@@ -1,0 +1,117 @@
+\relax 
+\citation{viola_robust_2004}
+\citation{OpenCV}
+\citation{hjelmýs_face_2001}
+\citation{ming-hsuan_yang_detecting_2002}
+\citation{viola_robust_2004}
+\citation{viola_robust_2004}
+\@writefile{toc}{\contentsline {section}{\numberline {1}\hskip -1em.\nobreakspace  {}Introduction}{1}}
+\newlabel{Introduction}{{1}{1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces {\bf  {\fontfamily  {phv}\selectfont  An example false face detection using Viola-Jones \cite  {viola_robust_2004} face detection algorithm.}}\relax }}{1}}
+\newlabel{Fig:ExampleFalseDetect}{{1}{1}}
+\citation{a_hadid_hybrid_2006}
+\citation{naseem_robust_2005}
+\citation{m_wimmer_person_2006}
+\citation{hmid_fuzzy_2006}
+\citation{tariq_face_2004}
+\citation{yan-wen_wu_face_2008}
+\citation{ming-hsuan_yang_detecting_2002}
+\citation{hjelmýs_face_2001}
+\citation{sentz_combination_2002}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces {\bf  {\fontfamily  {phv}\selectfont  Block diagram of the proposed framework for face detection validation.}}\relax }}{2}}
+\newlabel{Fig:BlockDiagram}{{2}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}\hskip -1em.\nobreakspace  {}Related Work}{2}}
+\newlabel{RelatedWork}{{2}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}\hskip -1em.\nobreakspace  {}Proposed Framework}{2}}
+\newlabel{ProposedFramework}{{3}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}\hskip -1em.\nobreakspace  {}Module $1$: Human Skin Tone Detector with Dynamic Background Modeler}{2}}
+\newlabel{Module1}{{3.1}{2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}{\em  a-priori} Bi-modal Gaussian Mixture Model for Human Skin Classification}{2}}
+\newlabel{Bi-ModGaussian}{{3.1.1}{2}}
+\citation{phillips_feret_1997}
+\citation{bilmes_gentle_1998}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces {\bf  {\fontfamily  {phv}\selectfont  Projection of 1000 randomly sampled skin samples in three different nRGB spaces. }}\relax }}{3}}
+\newlabel{Fig:nRGBProject}{{3}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces {\bf  {\fontfamily  {phv}\selectfont    Bi-modal Gaussian fitting to skin color pixels on a nG-nB space}}\relax }}{3}}
+\newlabel{Fig:BimodGaussian}{{4}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2}Dynamically Learnt Multi-modal Gaussian Model for Background Pixel Classification}{3}}
+\newlabel{DynamicModel}{{3.1.2}{3}}
+\citation{perez_markov_1998}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces {\bf  {\fontfamily  {phv}\selectfont  Extraction of extra region around the face detector output to learn the background model.}}\relax }}{4}}
+\newlabel{Fig:Extraregion}{{5}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.3}Skin and Background Classification using the learnt Multi-modal Gaussian Models}{4}}
+\newlabel{SkinnBackground}{{3.1.3}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces {\bf  {\fontfamily  {phv}\selectfont  Example of {\em  true} and {\em  false} face detection results with their corresponding skin masks extracted as explained in Section 3.1.2\hbox {}}}\relax }}{4}}
+\newlabel{Fig:Skinmasks}{{6}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}\hskip -1em.\nobreakspace  {}Module $2$: Evidence-Aggregating Human Face Silhouette Random Field Modeler}{4}}
+\newlabel{Module2}{{3.2}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Random Field (RF) Models}{4}}
+\newlabel{MRF}{{3.2.1}{4}}
+\newlabel{Eqn:5}{{6}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Pre-processing}{4}}
+\newlabel{Preprocessing}{{3.2.2}{4}}
+\citation{vezjak_anthropological_1994}
+\citation{paget_texture_1997}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces {\bf  {\fontfamily  {phv}\selectfont  Pre-processing of skin-region mask generated from Module 1.}}\relax }}{5}}
+\newlabel{Fig:RowColumnBlocks}{{7}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.3}The Neighborhood System}{5}}
+\newlabel{Neighborhood}{{3.2.3}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces {\bf  {\fontfamily  {phv}\selectfont  Neighborhood System chose for our Random Field (RF) models.}}\relax }}{5}}
+\newlabel{Fig:Neighborhood}{{8}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.4}Local Conditional Probability Density (LCPD)}{5}}
+\newlabel{LCPD}{{3.2.4}{5}}
+\newlabel{Eqn:9}{{9}{5}}
+\newlabel{Eqn:10}{{10}{5}}
+\citation{sentz_combination_2002}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces {\bf  {\fontfamily  {phv}\selectfont  The $5$ Local Conditional Probability Density (LCPD) models for learnt of set of frontal skin-region masks.}}\relax }}{6}}
+\newlabel{Fig:LCPDs}{{9}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.5}Human Face Pose}{6}}
+\newlabel{HumanFacePose}{{3.2.5}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces {\bf  {\fontfamily  {phv}\selectfont  Skin-region masks for three pose groups used in our experiments.}}\relax }}{6}}
+\newlabel{Fig:PoseMasks}{{10}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Combining Evidence}{6}}
+\newlabel{CombiningEvidence}{{3.3}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces {\bf  {\fontfamily  {phv}\selectfont  Soft threshold limits on log-likelihood values.}}\relax }}{6}}
+\newlabel{Fig:Thresholds}{{11}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Dempster-Shafer Theory of Evidence (DST)}{6}}
+\newlabel{DST}{{3.3.1}{6}}
+\citation{viola_robust_2004}
+\citation{viola_robust_2004}
+\newlabel{Eqn:16}{{16}{7}}
+\newlabel{Eqn:17}{{17}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces {\bf  {\fontfamily  {phv}\selectfont  An example of combining evidence from two experts under Dempster-Shafer Theory.}}\relax }}{7}}
+\newlabel{Fig:DST}{{12}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Coarse Pose estimation}{7}}
+\newlabel{CoarsePoseEstimation}{{3.4}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}\hskip -1em.\nobreakspace  {}Experiments}{7}}
+\newlabel{Experiments}{{4}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}\hskip -1em.\nobreakspace  {}Results}{7}}
+\newlabel{Sec:Results}{{5}{7}}
+\citation{ex1}
+\citation{ex2}
+\bibstyle{latex8}
+\bibdata{latex8}
+\bibcite{OpenCV}{1}
+\bibcite{bilmes_gentle_1998}{2}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Face detection validation results on FERET database\relax }}{8}}
+\newlabel{Tab:FERET}{{1}{8}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Face detection validation results on the in-house face database\relax }}{8}}
+\newlabel{Tab:Inhouse}{{2}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces {\bf  {\fontfamily  {phv}\selectfont  Coarse pose estimation results from the proposed framework.}}\relax }}{8}}
+\newlabel{Fig:Result}{{13}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion of Results}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}\hskip -1em.\nobreakspace  {}Conclusions and Future Work}{8}}
+\bibcite{a_hadid_hybrid_2006}{3}
+\bibcite{hjelmýs_face_2001}{4}
+\bibcite{hmid_fuzzy_2006}{5}
+\bibcite{naseem_robust_2005}{6}
+\bibcite{paget_texture_1997}{7}
+\bibcite{perez_markov_1998}{8}
+\bibcite{phillips_feret_1997}{9}
+\bibcite{sentz_combination_2002}{10}
+\bibcite{tariq_face_2004}{11}
+\bibcite{vezjak_anthropological_1994}{12}
+\bibcite{viola_robust_2004}{13}
+\bibcite{m_wimmer_person_2006}{14}
+\bibcite{yan-wen_wu_face_2008}{15}
+\bibcite{ming-hsuan_yang_detecting_2002}{16}
