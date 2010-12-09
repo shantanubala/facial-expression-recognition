@@ -999,6 +999,297 @@ R.~Raina, A.~Battle, H.~Lee, B.~Packer, and A.~Y. Ng, ``Self-taught learning:
   international conference on Machine learning}, (Corvalis, Oregon),
   pp.~759--766, {ACM}, 2007.
 
+\bibitem{ashraf_painful_2009}
+A.~B. Ashraf, S.~Lucey, J.~F. Cohn, T.~Chen, Z.~Ambadar, K.~M. Prkachin, and
+  P.~E. Solomon, ``The painful face - pain expression recognition using active
+  appearance models,'' {\em Image Vision Comput.}, vol.~27, no.~12,
+  pp.~1788--1796, 2009.
+
+\bibitem{m.s._bartlett_prototype_2003}
+M.~Bartlett, G.~Littlewort, P.~Braathen, T.~Sejnowski, and J.~Movellan, ``A
+  prototype for automatic recognition of spontaneous facial actions",''
+  vol.~15, pp.~1271--1278, 2003.
+
+\bibitem{yeasin_recognition_2006}
+M.~Yeasin, B.~Bullot, and R.~Sharma, ``Recognition of facial expressions and
+  measurement of levels of interest from video,'' {\em Multimedia, {IEEE}
+  Transactions on}, vol.~8, no.~3, pp.~500--508, 2006.
+
+\bibitem{bartlett_fully_2006}
+M.~S. Bartlett, G.~Littlewort, M.~Frank, C.~Lainscsek1, I.~Fasel, and
+  J.~Movellan, ``Fully automatic facial action recognition in spontaneous
+  behavior,'' pp.~223--230, {IEEE} Computer Society, 2006.
+
+\bibitem{cohen_facial_2003}
+I.~Cohen, N.~Sebe, A.~Garg, L.~S. Chen, and T.~S. Huang, ``Facial expression
+  recognition from video sequences: temporal and static modeling,'' {\em
+  Computer Vision and Image Understanding}, vol.~91, pp.~160--187, Aug. 2003.
+
+\bibitem{cohn_automatic_2004}
+J.~Cohn, L.~Reed, Z.~Ambadar, J.~Xiao, and T.~Moriyama, ``Automatic analysis
+  and recognition of brow actions and head motion in spontaneous facial
+  behavior,'' vol.~1, pp.~610--616 vol.1, 2004.
+
+\bibitem{kaliouby_real-time_2004}
+R.~E. Kaliouby and P.~Robinson, ``{Real-Time} inference of complex mental
+  states from facial expressions and head gestures,'' p.~154, {IEEE} Computer
+  Society, 2004.
+
+\bibitem{fasel_latent_2004}
+B.~Fasel, F.~Monay, and D.~{Gatica-Perez}, ``Latent semantic analysis of facial
+  action codes for automatic facial expression recognition,'' (New York, {NY,}
+  {USA}), pp.~181--188, {ACM}, 2004.
+
+\bibitem{ioannou_emotion_2005}
+S.~V. Ioannou, A.~T. Raouzaiou, V.~A. Tzouvaras, T.~P. Mailis, K.~C. Karpouzis,
+  and S.~D. Kollias, ``Emotion recognition through facial expression analysis
+  based on a neurofuzzy network,'' {\em Neural Netw.}, vol.~18, no.~4,
+  pp.~423--435, 2005.
+
+\bibitem{qiang_ji_probabilistic_2006}
+Q.~Ji, P.~Lan, and C.~Looney, ``A probabilistic framework for modeling and
+  real-time monitoring human fatigue,'' {\em Systems, Man and Cybernetics, Part
+  A: Systems and Humans, {IEEE} Transactions on}, vol.~36, no.~5, pp.~862--875,
+  2006.
+
+\bibitem{kapoor_multimodal_2005}
+A.~Kapoor and R.~W. Picard, ``Multimodal affect recognition in learning
+  environments,'' (Hilton, Singapore), pp.~677--682, {ACM}, 2005.
+
+\bibitem{kapoor_automatic_2007}
+A.~Kapoor, W.~Burleson, and R.~W. Picard, ``Automatic prediction of
+  frustration,'' {\em Int. J. {Hum.-Comput.} Stud.}, vol.~65, no.~8,
+  pp.~724--736, 2007.
+
+\bibitem{lee_facial_2005}
+C.~Lee and A.~Elgammal, ``Facial expression analysis using nonlinear
+  decomposable generative models,'' in {\em Analysis and Modelling of Faces and
+  Gestures}, pp.~17--31, 2005.
+
+\bibitem{littlewort_faces_2007}
+G.~C. Littlewort, M.~S. Bartlett, and K.~Lee, ``Faces of pain: automated
+  measurement of spontaneousallfacial expressions of genuine and posed pain,''
+  (Nagoya, Aichi, Japan), pp.~15--21, {ACM}, 2007.
+
+\bibitem{lucey_investigating_2007}
+S.~Lucey, A.~Bilal, and J.~Cohn, ``Investigating spontaneous facial action
+  recognition through {AAM} representations of the face,'' in {\em Face
+  Recognition Book} (K.~Kurihara, ed.), Pro Literatur Verlag, 2007.
+
+\bibitem{pantic_dynamics_2006}
+M.~Pantic and I.~Patras, ``Dynamics of facial expression: recognition of facial
+  actions and their temporal segments from face profile image sequences,'' {\em
+  {IEEE} Transactions on Systems, Man, and Cybernetics. Part B, Cybernetics: A
+  Publication of the {IEEE} Systems, Man, and Cybernetics Society}, vol.~36,
+  pp.~433--449, Apr. 2006.
+\newblock {PMID:} 16602602.
+
+\bibitem{pantic_case-based_2004}
+M.~Pantic and L.~Rothkrantz, ``Case-based reasoning for user-profiled
+  recognition of emotions from face images,'' vol.~1, pp.~391--394 Vol.1, 2004.
+
+\bibitem{sebe_authentic_2004}
+N.~Sebe, M.~Lew, I.~Cohen, Y.~Sun, T.~Gevers, and T.~Huang, ``Authentic facial
+  expression analysis,'' pp.~517--522, 2004.
+
+\bibitem{yan_tong_facial_2007}
+Y.~Tong, W.~Liao, and Q.~Ji, ``Facial action unit recognition by exploiting
+  their dynamic and semantic relationships,'' {\em Pattern Analysis and Machine
+  Intelligence, {IEEE} Transactions on}, vol.~29, no.~10, pp.~1683--1699, 2007.
+
+\bibitem{valstar_how_2007}
+M.~F. Valstar, H.~Gunes, and M.~Pantic, ``How to distinguish posed from
+  spontaneous smiles using geometric features,'' (Nagoya, Aichi, Japan),
+  pp.~38--45, {ACM}, 2007.
+
+\bibitem{valstar_spontaneous_2006}
+M.~F. Valstar, M.~Pantic, Z.~Ambadar, and J.~F. Cohn, ``Spontaneous vs. posed
+  facial behavior: automatic analysis of brow actions,'' (Banff, Alberta,
+  Canada), pp.~162--170, {ACM}, 2006.
+
+\bibitem{wang_facial_2003}
+H.~Wang and N.~Ahuja, ``Facial expression decomposition,'' p.~958, {IEEE}
+  Computer Society, 2003.
+
+\bibitem{jun_wang_3d_2006}
+J.~Wang, L.~Yin, X.~Wei, and Y.~Sun, ``{3D} facial expression recognition based
+  on primitive surface feature distribution,'' in {\em 2006 {IEEE} Computer
+  Society Conference on Computer Vision and Pattern Recognition - Volume 2
+  {(CVPR'06)}}, (New York, {NY,} {USA}), pp.~1399--1406, 2006.
+
+\bibitem{zhen_wen_capturing_2003}
+Z.~Wen and T.~Huang, ``Capturing subtle facial motions in {3D} face tracking,''
+  pp.~1343--1350 vol.2, 2003.
+
+\bibitem{whitehill_haar_2006}
+J.~Whitehill and C.~W. Omlin, ``Haar features for {FACS} {AU} recognition,''
+  pp.~97--101, {IEEE} Computer Society, 2006.
+
+\bibitem{zeng_spontaneous_2006}
+Z.~Zeng, Y.~Fu, G.~Roisman, Z.~Wen, Y.~Hu, and T.~Huang, ``Spontaneous
+  emotional facial expression detection,'' {\em Journal of Multimedia}, vol.~1,
+  no.~5, pp.~1--8, 2006.
+
+\bibitem{sohlberg_introduction_1989}
+M.~M. Sohlberg and C.~A. Mateer, {\em Introduction to Cognitive Rehabilitation:
+  Theory and Practice}.
+\newblock The Guilford Press, Feb. 1989.
+
+\bibitem{grunwald_human_2008}
+M.~Grunwald, {\em Human Haptic Perception: Basics and Applications}.
+\newblock Birkhäuser Basel, 1~ed., Nov. 2008.
+
+\bibitem{maynes-aminzade_edible_2005}
+D.~Maynes-aminzade, ``Edible bits: Seamless interfaces between people, data and
+  food,'' {\em Proceedings of the 2005 {ACM} Conference on Human Factors in
+  Computing Systems {(CHI'2005)} - Invited Talk}, 2005.
+
+\bibitem{chen_olfactory_2006}
+Y.~Chen, ``Olfactory display: Development and application in virtual reality
+  therapy,'' in {\em International Conference on Artificial Reality and
+  Telexistence}, (Los Alamitos, {CA,} {USA}), pp.~580--584, {IEEE} Computer
+  Society, 2006.
+
+\bibitem{dominy_ecological_2001}
+N.~J. Dominy and P.~W. Lucas, ``Ecological importance of trichromatic vision to
+  primates,'' {\em Nature}, vol.~410, pp.~363--366, Mar. 2001.
+
+\bibitem{koch_how_2006}
+K.~Koch, J.~{McLean}, R.~Segev, M.~A. Freed, M.~J.~B. {II}, V.~Balasubramanian,
+  and P.~Sterling, ``How much the eye tells the brain,'' {\em Current Biology},
+  vol.~16, no.~14, pp.~1428--1434, 2006.
+
+\bibitem{nakamura_somatosensory_1998}
+A.~Nakamura, T.~Yamada, A.~Goto, T.~Kato, K.~Ito, Y.~Abe, T.~Kachi, and
+  R.~Kakigi, ``Somatosensory homunculus as drawn by {MEG},'' {\em
+  {NeuroImage}}, vol.~7, pp.~377--386, May 1998.
+\newblock {PMID:} 9626677.
+
+\bibitem{bach-y-rita_vision_1969}
+P.~B. y~rita, C.~C. Collins, F.~A. Saunders, B.~White, and L.~Scaden, ``Vision
+  substitution by tactile image projection,'' {\em Nature}, vol.~221,
+  pp.~963--964, Mar. 1969.
+
+\bibitem{rehman_vibrotactile_2008}
+S.~Rehman, L.~Liu, and H.~Li, ``Vibrotactile rendering of human emotions on the
+  manifold of facial expressions,'' {\em Journal of Multimedia}, vol.~3, no.~3,
+  pp.~18--25, 2008.
+
+\bibitem{mcdaniel_using_2008}
+T.~{McDaniel}, S.~Krishna, V.~Balasubramanian, D.~Colbry, and S.~Panchanathan,
+  ``Using a haptic belt to convey non-verbal communication cues during social
+  interactions to individuals who are blind,'' in {\em Haptic Audio visual
+  Environments and Games, 2008. {HAVE} 2008. {IEEE} International Workshop on},
+  pp.~13--18, 2008.
+
+\bibitem{brave_intouch:_1997}
+S.~Brave and A.~Dahley, ``{inTouch:} a medium for haptic interpersonal
+  communication,'' in {\em {CHI} '97 extended abstracts on Human factors in
+  computing systems: looking to the future}, (Atlanta, Georgia), pp.~363--364,
+  {ACM}, 1997.
+
+\bibitem{dodge_bed:_1997}
+C.~Dodge, ``The bed: a medium for intimate communication,'' in {\em {CHI} '97
+  extended abstracts on Human factors in computing systems: looking to the
+  future}, (Atlanta, Georgia), pp.~371--372, {ACM}, 1997.
+
+\bibitem{fogg_handjive:_1998}
+B.~J. Fogg, L.~D. Cutler, P.~Arnold, and C.~Eisbach, ``{HandJive:} a device for
+  interpersonal haptic entertainment,'' in {\em Proceedings of the {SIGCHI}
+  conference on Human factors in computing systems}, (Los Angeles, California,
+  United States), pp.~57--64, {ACM} {Press/Addison-Wesley} Publishing Co.,
+  1998.
+
+\bibitem{morikawa_sense_2000}
+O.~Morikawa, J.~Yamashita, and Y.~Fukui, ``The sense of physically crossing
+  paths: creating a soft initiation in {HyperMirror} communication,'' in {\em
+  {CHI} '00 extended abstracts on Human factors in computing systems}, (The
+  Hague, The Netherlands), pp.~183--184, {ACM}, 2000.
+
+\bibitem{chang_comtouch:_2002}
+A.~Chang, S.~{O'Modhrain}, R.~Jacob, E.~Gunther, and H.~Ishii, ``{ComTouch:}
+  design of a vibrotactile communication device,'' in {\em {DIS} '02:
+  Proceedings of the conference on Designing interactive systems}, pp.~320,
+  312, {ACM} Press, 2002.
+
+\bibitem{rovers_him:_2004}
+A.~Rovers and H.~van Essen, ``{HIM:} a framework for haptic instant
+  messaging,'' in {\em {CHI} '04 extended abstracts on Human factors in
+  computing systems}, (Vienna, Austria), pp.~1313--1316, {ACM}, 2004.
+
+\bibitem{dobson_creating_2001}
+K.~Dobson, danah boyd, W.~Ju, J.~Donath, and H.~Ishii, ``Creating visceral
+  personal and social interactions in mediated spaces,'' in {\em {CHI} '01
+  extended abstracts on Human factors in computing systems}, (Seattle,
+  Washington), pp.~151--152, {ACM}, 2001.
+
+\bibitem{alhalabi_experimental_2003}
+M.~O. Alhalabi, S.~Horiguchi, and S.~Kunifuji, ``An experimental study on the
+  effects of network delay in cooperative shared haptic virtual environment,''
+  {\em Computers \& Graphics}, vol.~27, pp.~205--213, Apr. 2003.
+
+\bibitem{bonanni_taptap:_2006}
+L.~Bonanni, C.~Vaucelle, J.~Lieberman, and O.~Zuckerman, ``{TapTap:} a haptic
+  wearable for asynchronous distributed touch therapy,'' in {\em {CHI} '06:
+  {CHI} '06 extended abstracts on Human factors in computing systems},
+  (Montr{\textbackslash}'{e}al, Qu{\textbackslash}'{e}bec, Canada), pp.~585,
+  580, {ACM}, 2006.
+
+\bibitem{werner_united-pulse:_2008}
+J.~Werner, R.~Wettach, and E.~Hornecker, ``United-pulse: feeling your partner's
+  pulse,'' in {\em Proceedings of the 10th international conference on Human
+  computer interaction with mobile devices and services}, (Amsterdam, The
+  Netherlands), pp.~535--538, {ACM}, 2008.
+
+\bibitem{cappelletti_vibrotactile_1998}
+L.~Cappelletti, M.~Feeri, and G.~Nicoletti, ``Vibrotactile colour rendering for
+  the visually impaired within the {VIDET} project,'' in {\em Telemanipulator
+  and Telepresence Technologies V}, vol.~3524, pp.~92-- 96, Nov. 1998.
+
+\bibitem{uchiyama_vibrotactile_2008}
+H.~Uchiyama, M.~A. Covington, and W.~D. Potter, ``Vibrotactile glove guidance
+  for semi-autonomous wheelchair operations,'' in {\em Proceedings of the 46th
+  Annual Southeast Regional Conference on {XX}}, (Auburn, Alabama),
+  pp.~336--339, {ACM}, 2008.
+
+\bibitem{brell_fusion_2008}
+M.~Brell, D.~Roßkamp, and A.~Hein, ``Fusion of vibrotactile signals used in a
+  tactile display in computer aided surgery,'' in {\em Haptics: Perception,
+  Devices and Scenarios}, pp.~383--388, 2008.
+
+\bibitem{oron-gilad_vibrotactile_2007}
+T.~{Oron-Gilad}, J.~Downs, R.~Gilson, and P.~Hancock, ``Vibrotactile guidance
+  cues for target acquisition,'' {\em Systems, Man, and Cybernetics, Part C:
+  Applications and Reviews, {IEEE} Transactions on}, vol.~37, no.~5,
+  pp.~993--1004, 2007.
+
+\bibitem{hein_contact_2007}
+A.~Hein and M.~Brell, ``{conTACT} - a vibrotactile display for computer aided
+  surgery,'' in {\em World Haptics Conference}, vol.~0, (Los Alamitos, {CA,}
+  {USA}), pp.~531--536, {IEEE} Computer Society, 2007.
+
+\bibitem{cha_authoring/editing_2007}
+J.~Cha, Y.~Seo, Y.~Kim, and J.~Ryu, ``An {Authoring/Editing} framework for
+  haptic broadcasting: Passive haptic interactions using {MPEG-4} {BIFS},'' in
+  {\em {EuroHaptics} Conference, 2007 and Symposium on Haptic Interfaces for
+  Virtual Environment and Teleoperator Systems. World Haptics 2007. Second
+  Joint}, pp.~274--279, 2007.
+
+\bibitem{cha_framework_2009}
+J.~Cha, Y.~Ho, Y.~Kim, J.~Ryu, and I.~Oakley, ``A framework for haptic
+  broadcasting,'' {\em {IEEE} {MultiMedia}}, vol.~16, no.~3, pp.~16--27, 2009.
+
+\bibitem{murray_psychophysical_2003}
+A.~M. Murray, R.~L. Klatzky, and P.~K. Khosla, ``Psychophysical
+  characterization and testbed validation of a wearable vibrotactile glove for
+  telemanipulation,'' {\em Presence: Teleoper. Virtual Environ.}, vol.~12,
+  no.~2, pp.~156--182, 2003.
+
+\bibitem{vinciarelli_proceedings_2008}
+A.~Vinciarelli, M.~Pantic, H.~Bourlard, and A.~Pentland, ``Social signals,
+  their function, and automatic analysis,'' (Chania, Crete, Greece),
+  pp.~61--68, {ACM}, 2008.
+
 \bibitem{Schw2003}
 A.~Schwaninger, C.~C. Carbon, and H.~Leder, ``Expert face processing:
   Specilization and constraints,'' 2003.
@@ -1409,22 +1700,10 @@ L.~A. Jones and K.~Ray, ``Localization and pattern recognition with tactile
 F.~A. Geldard and C.~E. Sherrick, ``The cutaneous {"Rabbit":} a perceptual
   illusion,'' {\em Science}, vol.~178, pp.~178--179, Oct. 1972.
 
-\bibitem{chang_comtouch:_2002}
-A.~Chang, S.~{O'Modhrain}, R.~Jacob, E.~Gunther, and H.~Ishii, ``{ComTouch:}
-  design of a vibrotactile communication device,'' in {\em {DIS} '02:
-  Proceedings of the conference on Designing interactive systems}, pp.~320,
-  312, {ACM} Press, 2002.
-
 \bibitem{jongeun_cha_hugme:_2008}
 J.~Cha, M.~Eid, L.~Rahal, and A.~E. Saddik, ``{HugMe:} an interpersonal haptic
   communication system,'' in {\em Haptic Audio visual Environments and Games,
   2008. {HAVE} 2008. {IEEE} International Workshop on}, pp.~99--102, 2008.
-
-\bibitem{werner_united-pulse:_2008}
-J.~Werner, R.~Wettach, and E.~Hornecker, ``United-pulse: feeling your partner's
-  pulse,'' in {\em Proceedings of the 10th international conference on Human
-  computer interaction with mobile devices and services}, (Amsterdam, The
-  Netherlands), pp.~535--538, {ACM}, 2008.
 
 \bibitem{heuten_tactile_2008}
 W.~Heuten, N.~Henze, S.~Boll, and M.~Pielot, ``Tactile wayfinder: a non-visual
@@ -1463,13 +1742,6 @@ J.~van Erp and H.~A. van Veen, ``A multi-purpose tactile vest for astronauts in
 R.~Cholewiak, C.~Brill, and A.~Schwab, ``Vibrotactile localization on the
   abdomen: Effects of place and space,'' {\em Perception \& Psychophysics},
   vol.~66, no.~6, pp.~987, 970, 2004.
-
-\bibitem{mcdaniel_using_2008}
-T.~{McDaniel}, S.~Krishna, V.~Balasubramanian, D.~Colbry, and S.~Panchanathan,
-  ``Using a haptic belt to convey non-verbal communication cues during social
-  interactions to individuals who are blind,'' in {\em Haptic Audio visual
-  Environments and Games, 2008. {HAVE} 2008. {IEEE} International Workshop on},
-  pp.~13--18, 2008.
 
 \bibitem{ferscha_vibro-tactile_2008}
 A.~Ferscha, B.~Emsenhuber, A.~Riener, C.~Holzman, M.~Hechinger, D.~Hochreiter,
@@ -1543,278 +1815,6 @@ T.~L. {McDaniel}, S.~Krishna, D.~Colbry, and S.~Panchanathan, ``Using tactile
   {\em Proceedings of the 27th international conference extended abstracts on
   Human factors in computing systems}, (Boston, {MA,} {USA}), pp.~4669--4674,
   {ACM}, 2009.
-
-\bibitem{ashraf_painful_2009}
-A.~B. Ashraf, S.~Lucey, J.~F. Cohn, T.~Chen, Z.~Ambadar, K.~M. Prkachin, and
-  P.~E. Solomon, ``The painful face - pain expression recognition using active
-  appearance models,'' {\em Image Vision Comput.}, vol.~27, no.~12,
-  pp.~1788--1796, 2009.
-
-\bibitem{m.s._bartlett_prototype_2003}
-M.~Bartlett, G.~Littlewort, P.~Braathen, T.~Sejnowski, and J.~Movellan, ``A
-  prototype for automatic recognition of spontaneous facial actions",''
-  vol.~15, pp.~1271--1278, 2003.
-
-\bibitem{yeasin_recognition_2006}
-M.~Yeasin, B.~Bullot, and R.~Sharma, ``Recognition of facial expressions and
-  measurement of levels of interest from video,'' {\em Multimedia, {IEEE}
-  Transactions on}, vol.~8, no.~3, pp.~500--508, 2006.
-
-\bibitem{bartlett_fully_2006}
-M.~S. Bartlett, G.~Littlewort, M.~Frank, C.~Lainscsek1, I.~Fasel, and
-  J.~Movellan, ``Fully automatic facial action recognition in spontaneous
-  behavior,'' pp.~223--230, {IEEE} Computer Society, 2006.
-
-\bibitem{cohen_facial_2003}
-I.~Cohen, N.~Sebe, A.~Garg, L.~S. Chen, and T.~S. Huang, ``Facial expression
-  recognition from video sequences: temporal and static modeling,'' {\em
-  Computer Vision and Image Understanding}, vol.~91, pp.~160--187, Aug. 2003.
-
-\bibitem{cohn_automatic_2004}
-J.~Cohn, L.~Reed, Z.~Ambadar, J.~Xiao, and T.~Moriyama, ``Automatic analysis
-  and recognition of brow actions and head motion in spontaneous facial
-  behavior,'' vol.~1, pp.~610--616 vol.1, 2004.
-
-\bibitem{kaliouby_real-time_2004}
-R.~E. Kaliouby and P.~Robinson, ``{Real-Time} inference of complex mental
-  states from facial expressions and head gestures,'' p.~154, {IEEE} Computer
-  Society, 2004.
-
-\bibitem{fasel_latent_2004}
-B.~Fasel, F.~Monay, and D.~{Gatica-Perez}, ``Latent semantic analysis of facial
-  action codes for automatic facial expression recognition,'' (New York, {NY,}
-  {USA}), pp.~181--188, {ACM}, 2004.
-
-\bibitem{ioannou_emotion_2005}
-S.~V. Ioannou, A.~T. Raouzaiou, V.~A. Tzouvaras, T.~P. Mailis, K.~C. Karpouzis,
-  and S.~D. Kollias, ``Emotion recognition through facial expression analysis
-  based on a neurofuzzy network,'' {\em Neural Netw.}, vol.~18, no.~4,
-  pp.~423--435, 2005.
-
-\bibitem{qiang_ji_probabilistic_2006}
-Q.~Ji, P.~Lan, and C.~Looney, ``A probabilistic framework for modeling and
-  real-time monitoring human fatigue,'' {\em Systems, Man and Cybernetics, Part
-  A: Systems and Humans, {IEEE} Transactions on}, vol.~36, no.~5, pp.~862--875,
-  2006.
-
-\bibitem{kapoor_multimodal_2005}
-A.~Kapoor and R.~W. Picard, ``Multimodal affect recognition in learning
-  environments,'' (Hilton, Singapore), pp.~677--682, {ACM}, 2005.
-
-\bibitem{kapoor_automatic_2007}
-A.~Kapoor, W.~Burleson, and R.~W. Picard, ``Automatic prediction of
-  frustration,'' {\em Int. J. {Hum.-Comput.} Stud.}, vol.~65, no.~8,
-  pp.~724--736, 2007.
-
-\bibitem{lee_facial_2005}
-C.~Lee and A.~Elgammal, ``Facial expression analysis using nonlinear
-  decomposable generative models,'' in {\em Analysis and Modelling of Faces and
-  Gestures}, pp.~17--31, 2005.
-
-\bibitem{littlewort_faces_2007}
-G.~C. Littlewort, M.~S. Bartlett, and K.~Lee, ``Faces of pain: automated
-  measurement of spontaneousallfacial expressions of genuine and posed pain,''
-  (Nagoya, Aichi, Japan), pp.~15--21, {ACM}, 2007.
-
-\bibitem{lucey_investigating_2007}
-S.~Lucey, A.~Bilal, and J.~Cohn, ``Investigating spontaneous facial action
-  recognition through {AAM} representations of the face,'' in {\em Face
-  Recognition Book} (K.~Kurihara, ed.), Pro Literatur Verlag, 2007.
-
-\bibitem{pantic_dynamics_2006}
-M.~Pantic and I.~Patras, ``Dynamics of facial expression: recognition of facial
-  actions and their temporal segments from face profile image sequences,'' {\em
-  {IEEE} Transactions on Systems, Man, and Cybernetics. Part B, Cybernetics: A
-  Publication of the {IEEE} Systems, Man, and Cybernetics Society}, vol.~36,
-  pp.~433--449, Apr. 2006.
-\newblock {PMID:} 16602602.
-
-\bibitem{pantic_case-based_2004}
-M.~Pantic and L.~Rothkrantz, ``Case-based reasoning for user-profiled
-  recognition of emotions from face images,'' vol.~1, pp.~391--394 Vol.1, 2004.
-
-\bibitem{sebe_authentic_2004}
-N.~Sebe, M.~Lew, I.~Cohen, Y.~Sun, T.~Gevers, and T.~Huang, ``Authentic facial
-  expression analysis,'' pp.~517--522, 2004.
-
-\bibitem{yan_tong_facial_2007}
-Y.~Tong, W.~Liao, and Q.~Ji, ``Facial action unit recognition by exploiting
-  their dynamic and semantic relationships,'' {\em Pattern Analysis and Machine
-  Intelligence, {IEEE} Transactions on}, vol.~29, no.~10, pp.~1683--1699, 2007.
-
-\bibitem{valstar_how_2007}
-M.~F. Valstar, H.~Gunes, and M.~Pantic, ``How to distinguish posed from
-  spontaneous smiles using geometric features,'' (Nagoya, Aichi, Japan),
-  pp.~38--45, {ACM}, 2007.
-
-\bibitem{valstar_spontaneous_2006}
-M.~F. Valstar, M.~Pantic, Z.~Ambadar, and J.~F. Cohn, ``Spontaneous vs. posed
-  facial behavior: automatic analysis of brow actions,'' (Banff, Alberta,
-  Canada), pp.~162--170, {ACM}, 2006.
-
-\bibitem{wang_facial_2003}
-H.~Wang and N.~Ahuja, ``Facial expression decomposition,'' p.~958, {IEEE}
-  Computer Society, 2003.
-
-\bibitem{jun_wang_3d_2006}
-J.~Wang, L.~Yin, X.~Wei, and Y.~Sun, ``{3D} facial expression recognition based
-  on primitive surface feature distribution,'' in {\em 2006 {IEEE} Computer
-  Society Conference on Computer Vision and Pattern Recognition - Volume 2
-  {(CVPR'06)}}, (New York, {NY,} {USA}), pp.~1399--1406, 2006.
-
-\bibitem{zhen_wen_capturing_2003}
-Z.~Wen and T.~Huang, ``Capturing subtle facial motions in {3D} face tracking,''
-  pp.~1343--1350 vol.2, 2003.
-
-\bibitem{whitehill_haar_2006}
-J.~Whitehill and C.~W. Omlin, ``Haar features for {FACS} {AU} recognition,''
-  pp.~97--101, {IEEE} Computer Society, 2006.
-
-\bibitem{zeng_spontaneous_2006}
-Z.~Zeng, Y.~Fu, G.~Roisman, Z.~Wen, Y.~Hu, and T.~Huang, ``Spontaneous
-  emotional facial expression detection,'' {\em Journal of Multimedia}, vol.~1,
-  no.~5, pp.~1--8, 2006.
-
-\bibitem{sohlberg_introduction_1989}
-M.~M. Sohlberg and C.~A. Mateer, {\em Introduction to Cognitive Rehabilitation:
-  Theory and Practice}.
-\newblock The Guilford Press, Feb. 1989.
-
-\bibitem{grunwald_human_2008}
-M.~Grunwald, {\em Human Haptic Perception: Basics and Applications}.
-\newblock Birkhäuser Basel, 1~ed., Nov. 2008.
-
-\bibitem{maynes-aminzade_edible_2005}
-D.~Maynes-aminzade, ``Edible bits: Seamless interfaces between people, data and
-  food,'' {\em Proceedings of the 2005 {ACM} Conference on Human Factors in
-  Computing Systems {(CHI'2005)} - Invited Talk}, 2005.
-
-\bibitem{chen_olfactory_2006}
-Y.~Chen, ``Olfactory display: Development and application in virtual reality
-  therapy,'' in {\em International Conference on Artificial Reality and
-  Telexistence}, (Los Alamitos, {CA,} {USA}), pp.~580--584, {IEEE} Computer
-  Society, 2006.
-
-\bibitem{dominy_ecological_2001}
-N.~J. Dominy and P.~W. Lucas, ``Ecological importance of trichromatic vision to
-  primates,'' {\em Nature}, vol.~410, pp.~363--366, Mar. 2001.
-
-\bibitem{koch_how_2006}
-K.~Koch, J.~{McLean}, R.~Segev, M.~A. Freed, M.~J.~B. {II}, V.~Balasubramanian,
-  and P.~Sterling, ``How much the eye tells the brain,'' {\em Current Biology},
-  vol.~16, no.~14, pp.~1428--1434, 2006.
-
-\bibitem{nakamura_somatosensory_1998}
-A.~Nakamura, T.~Yamada, A.~Goto, T.~Kato, K.~Ito, Y.~Abe, T.~Kachi, and
-  R.~Kakigi, ``Somatosensory homunculus as drawn by {MEG},'' {\em
-  {NeuroImage}}, vol.~7, pp.~377--386, May 1998.
-\newblock {PMID:} 9626677.
-
-\bibitem{bach-y-rita_vision_1969}
-P.~B. y~rita, C.~C. Collins, F.~A. Saunders, B.~White, and L.~Scaden, ``Vision
-  substitution by tactile image projection,'' {\em Nature}, vol.~221,
-  pp.~963--964, Mar. 1969.
-
-\bibitem{rehman_vibrotactile_2008}
-S.~Rehman, L.~Liu, and H.~Li, ``Vibrotactile rendering of human emotions on the
-  manifold of facial expressions,'' {\em Journal of Multimedia}, vol.~3, no.~3,
-  pp.~18--25, 2008.
-
-\bibitem{brave_intouch:_1997}
-S.~Brave and A.~Dahley, ``{inTouch:} a medium for haptic interpersonal
-  communication,'' in {\em {CHI} '97 extended abstracts on Human factors in
-  computing systems: looking to the future}, (Atlanta, Georgia), pp.~363--364,
-  {ACM}, 1997.
-
-\bibitem{dodge_bed:_1997}
-C.~Dodge, ``The bed: a medium for intimate communication,'' in {\em {CHI} '97
-  extended abstracts on Human factors in computing systems: looking to the
-  future}, (Atlanta, Georgia), pp.~371--372, {ACM}, 1997.
-
-\bibitem{fogg_handjive:_1998}
-B.~J. Fogg, L.~D. Cutler, P.~Arnold, and C.~Eisbach, ``{HandJive:} a device for
-  interpersonal haptic entertainment,'' in {\em Proceedings of the {SIGCHI}
-  conference on Human factors in computing systems}, (Los Angeles, California,
-  United States), pp.~57--64, {ACM} {Press/Addison-Wesley} Publishing Co.,
-  1998.
-
-\bibitem{morikawa_sense_2000}
-O.~Morikawa, J.~Yamashita, and Y.~Fukui, ``The sense of physically crossing
-  paths: creating a soft initiation in {HyperMirror} communication,'' in {\em
-  {CHI} '00 extended abstracts on Human factors in computing systems}, (The
-  Hague, The Netherlands), pp.~183--184, {ACM}, 2000.
-
-\bibitem{rovers_him:_2004}
-A.~Rovers and H.~van Essen, ``{HIM:} a framework for haptic instant
-  messaging,'' in {\em {CHI} '04 extended abstracts on Human factors in
-  computing systems}, (Vienna, Austria), pp.~1313--1316, {ACM}, 2004.
-
-\bibitem{dobson_creating_2001}
-K.~Dobson, danah boyd, W.~Ju, J.~Donath, and H.~Ishii, ``Creating visceral
-  personal and social interactions in mediated spaces,'' in {\em {CHI} '01
-  extended abstracts on Human factors in computing systems}, (Seattle,
-  Washington), pp.~151--152, {ACM}, 2001.
-
-\bibitem{alhalabi_experimental_2003}
-M.~O. Alhalabi, S.~Horiguchi, and S.~Kunifuji, ``An experimental study on the
-  effects of network delay in cooperative shared haptic virtual environment,''
-  {\em Computers \& Graphics}, vol.~27, pp.~205--213, Apr. 2003.
-
-\bibitem{bonanni_taptap:_2006}
-L.~Bonanni, C.~Vaucelle, J.~Lieberman, and O.~Zuckerman, ``{TapTap:} a haptic
-  wearable for asynchronous distributed touch therapy,'' in {\em {CHI} '06:
-  {CHI} '06 extended abstracts on Human factors in computing systems},
-  (Montr{\textbackslash}'{e}al, Qu{\textbackslash}'{e}bec, Canada), pp.~585,
-  580, {ACM}, 2006.
-
-\bibitem{cappelletti_vibrotactile_1998}
-L.~Cappelletti, M.~Feeri, and G.~Nicoletti, ``Vibrotactile colour rendering for
-  the visually impaired within the {VIDET} project,'' in {\em Telemanipulator
-  and Telepresence Technologies V}, vol.~3524, pp.~92-- 96, Nov. 1998.
-
-\bibitem{uchiyama_vibrotactile_2008}
-H.~Uchiyama, M.~A. Covington, and W.~D. Potter, ``Vibrotactile glove guidance
-  for semi-autonomous wheelchair operations,'' in {\em Proceedings of the 46th
-  Annual Southeast Regional Conference on {XX}}, (Auburn, Alabama),
-  pp.~336--339, {ACM}, 2008.
-
-\bibitem{brell_fusion_2008}
-M.~Brell, D.~Roßkamp, and A.~Hein, ``Fusion of vibrotactile signals used in a
-  tactile display in computer aided surgery,'' in {\em Haptics: Perception,
-  Devices and Scenarios}, pp.~383--388, 2008.
-
-\bibitem{oron-gilad_vibrotactile_2007}
-T.~{Oron-Gilad}, J.~Downs, R.~Gilson, and P.~Hancock, ``Vibrotactile guidance
-  cues for target acquisition,'' {\em Systems, Man, and Cybernetics, Part C:
-  Applications and Reviews, {IEEE} Transactions on}, vol.~37, no.~5,
-  pp.~993--1004, 2007.
-
-\bibitem{hein_contact_2007}
-A.~Hein and M.~Brell, ``{conTACT} - a vibrotactile display for computer aided
-  surgery,'' in {\em World Haptics Conference}, vol.~0, (Los Alamitos, {CA,}
-  {USA}), pp.~531--536, {IEEE} Computer Society, 2007.
-
-\bibitem{cha_authoring/editing_2007}
-J.~Cha, Y.~Seo, Y.~Kim, and J.~Ryu, ``An {Authoring/Editing} framework for
-  haptic broadcasting: Passive haptic interactions using {MPEG-4} {BIFS},'' in
-  {\em {EuroHaptics} Conference, 2007 and Symposium on Haptic Interfaces for
-  Virtual Environment and Teleoperator Systems. World Haptics 2007. Second
-  Joint}, pp.~274--279, 2007.
-
-\bibitem{cha_framework_2009}
-J.~Cha, Y.~Ho, Y.~Kim, J.~Ryu, and I.~Oakley, ``A framework for haptic
-  broadcasting,'' {\em {IEEE} {MultiMedia}}, vol.~16, no.~3, pp.~16--27, 2009.
-
-\bibitem{murray_psychophysical_2003}
-A.~M. Murray, R.~L. Klatzky, and P.~K. Khosla, ``Psychophysical
-  characterization and testbed validation of a wearable vibrotactile glove for
-  telemanipulation,'' {\em Presence: Teleoper. Virtual Environ.}, vol.~12,
-  no.~2, pp.~156--182, 2003.
-
-\bibitem{vinciarelli_proceedings_2008}
-A.~Vinciarelli, M.~Pantic, H.~Bourlard, and A.~Pentland, ``Social signals,
-  their function, and automatic analysis,'' (Chania, Crete, Greece),
-  pp.~61--68, {ACM}, 2008.
 
 \bibitem{gardner_frames_1993}
 H.~E. Gardner, {\em Frames Of Mind: The Theory Of Multiple Intelligences}.
