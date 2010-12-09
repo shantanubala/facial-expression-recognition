@@ -9,101 +9,101 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Response Ratio}}{48}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Rank average of the 8 questions}}{49}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Social Interaction Assistant System Architecture.}}{51}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Training and testing phases of a typical learning framework found in literature.}}{59}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces The proposed hardware for use in the detection of body rocking stereotypic behavior. The accelerometer, in comparison with a US quarter, is shown in the inset. The three axes marked in the image shows the orientation of the accelerometer as it is placed on the head.}}{61}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Data stream for the tri-axial accelerometer. The three streams correspond to the three axes. The figure shows non-rocking events followed by rocking and then followed by non-rocking.}}{62}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Packet length to recognition rate comparison under the classic AdaBoost framework.}}{74}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Packet length to recognition rate comparison under the Modest AdaBoost framework.}}{74}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Piecewise performance analysis of the classic AdaBoost classifier framework; (a) Recognition rates under use of individual feature sets; (b) The Receiver Operating Characteristics (ROC) under the use of individual feature sets; (c) Area under the curve (AUC) for each feature set as estimated from the ROC; (d) The number of simple classifiers used by the aggregated AdaBoost classifier. Each set and each feature representation in the classifier pool are separately marked. In all the graphs Set 1 through 5 are as explained by Tables 4.1\hbox {} and 4.2\hbox {}. Set 6 represents a set containing all 14 features from Tables 4.1\hbox {} and 4.2\hbox {}.}}{77}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Piecewise performance analysis of the Modest AdaBoost framework; (a) Recognition rates under use of individual feature sets; (b) The Receiver Operating Characteristics (ROC) under the use of individual feature sets; (c) Area under the curve (AUC) for each feature set as estimated from the ROC; (d) The number of simple classifiers used by the aggregated AdaBoost classifier; Each set and each feature representation in the classifier pool are separately marked. In all the graphs Set 1 through 5 are as explained by Tables 4.1\hbox {} and 4.2\hbox {}. Set 6 represents a set containing all 14 features from Tables 4.1\hbox {} and 4.2\hbox {}.}}{79}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces (a) 3D representation of a Gaussian mask; $\sigma _x = 10$, $\sigma _y = 15$ and $\theta =0$ \newline (b)Image of the Gaussian mask $\sigma _x = 10$, $\sigma _y = 15$ and $\theta =0$}}{94}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces (a)3D representation of a Sinusoid $S_{\omega ,\theta }$ \newline (b)Image representation of the real part of the complex Sinusoid $\Re \left \{S_{\omega ,\theta }\right \}$\newline (c)Image representation of the imaginary part of complex Sinusoid $\Im \left \{S_{\omega ,\theta }\right \}$}}{95}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces (a)3D representation of a Gabor filter $\Psi _{\omega ,\theta }$ \newline (b)Image representation of the real part of Gabor filter $\Re \left \{\Psi _{\omega ,\theta }\right \}$ \newline (c)Image representation of the imaginary part of Gabor filter $\Im \left \{\Psi _{\omega ,\theta }\right \}$}}{96}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces A typical chromosome used in the proposed method.}}{100}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Stages in the creation of the first generation of parents}}{101}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Deriving newer parents from the current generation}}{102}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Typical crossing of two parents to create an offspring}}{104}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Mutation of a newly created offspring}}{105}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces The data capture setup for FacePix(30)}}{106}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Sample face images with varying pose and illumination from the FacePix(30) database}}{107}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Sample frontal images of one person from the FacePix(30) Database}}{108}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces A face image marked with 5 locations where unique Gabor features were extracted}}{109}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Distance Measure $D$ for the fitness function}}{112}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces The recognition rate versus the number Gabor feature detectors}}{115}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Recognition rate with varying $w_D$}}{116}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces 10 and 20 person-specific features extracted for a particular individual in the database}}{117}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces An example false face detection.}}{123}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Block diagram.}}{125}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Skin pixels in nRGB space.}}{127}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Extra region for background modeling.}}{128}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Example of {\em true} and {\em false} face detection.}}{129}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Pre-processing.}}{131}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Neighborhood System.}}{132}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Frontal face Local Conditional Probability Density (LCPD) models.}}{134}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Skin-region masks.}}{134}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Soft threshold.}}{135}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces An example of combining evidence from two experts under Dempster-Shafer Theory.}}{137}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Coarse pose estimation.}}{139}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Person of interest at a short distance from camera}}{141}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Person of interest at a large distance from camera}}{141}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Simple Background}}{142}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Complex Background}}{142}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Rigid, Homogeneous Object}}{143}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Non-Rigid, Deformable, Non-Homogeneous Object}}{143}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Static Camera}}{144}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Mobile Camera}}{144}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Changing Illumination, Pose Change and Blur}}{145}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces SMSPF - Step 1}}{150}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces SMSPF - Step 2}}{151}
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Structured Search}}{152}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Sliding window of the Structured Search (Green: Estimate; Red: Sliding window).}}{153}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Structured Search Matching Technique}}{155}
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Incorporating Chamfer Matching into Structured Search}}{156}
-\contentsline {figure}{\numberline {7.16}{\ignorespaces SMSPF Results}}{158}
-\contentsline {figure}{\numberline {7.17}{\ignorespaces AO (Dotted Line: Color PF; Solid Line: SMSPF)}}{160}
-\contentsline {figure}{\numberline {7.18}{\ignorespaces DC(Dotted Line: Color PF; Solid Line: SMSPF)}}{161}
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Evaluation Measure for DataSet 1}}{162}
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Evaluation Measure for DataSet 2}}{162}
-\contentsline {figure}{\numberline {7.21}{\ignorespaces Evaluation Measure for DataSet 3}}{163}
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Main Controller implementation}}{175}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces (a) 25\%; (b) 75\% Pulse-width modulation; (c) and (d) Vibration motor magnitudes of 25\% and 75\% achieved using duty cycles with 25 pulses over a 50 ms vibration period.}}{177}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Sample Temporal Rhythm Sequences (TRS) with different magnitudes of vibration encoded on the Temporal Rhythm Units (TRU) (a) 100\% Magnitude, (b) 50\% Magnitude.}}{178}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Tactor Controller implementation}}{179}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces a) Graphical User Interface on a Portable Platform. b) Temporal Rhythm Sequence (TRS) Design Interface.}}{180}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces System Architecture for Haptic Belt used as part of the Social Interaction Assistant}}{181}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Experiment 1 Results: Mean Localization Accuracy for each Tactor, Averaged across Subjects, with 95\% Confidence Intervals}}{183}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Mean Classification Accuracy of Duration, Averaged across Subjects and Tactors, with 95\% Confidence Intervals. Durations listed in figure correspond to 200 ms (\#1), 400 ms (\#2), 600 ms (\#3), 800 ms (\#4) and 1000 ms (\#5)}}{186}
-\contentsline {figure}{\numberline {8.9}{\ignorespaces The on/off timing values of the four tactile rhythm designs, and corresponding distances, used in the experiment.}}{188}
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Overall direction recognition accuracy of each tactor location with standard deviations.}}{190}
-\contentsline {figure}{\numberline {8.11}{\ignorespaces Overall distance recognition accuracy of each rhythm type with standard deviations.}}{191}
-\contentsline {figure}{\numberline {8.12}{\ignorespaces Arrangement of 8 Tactors around the Waist.}}{193}
-\contentsline {figure}{\numberline {8.13}{\ignorespaces Modified Box Dance.}}{195}
-\contentsline {figure}{\numberline {8.14}{\ignorespaces Modified Electric Slide Dance.}}{196}
-\contentsline {figure}{\numberline {8.15}{\ignorespaces Usability Results.}}{200}
-\contentsline {figure}{\numberline {8.16}{\ignorespaces Functionality and Performance Results.}}{201}
-\contentsline {figure}{\numberline {8.17}{\ignorespaces Pattern Recognition Results for Dance Experiment.}}{202}
-\contentsline {figure}{\numberline {8.18}{\ignorespaces Questionnaire Results from Dance Experiment for Experienced Dance Participants (a) and Inexperienced Dance Participants (b). Responses from Q6-Q8 are excluded.}}{204}
-\contentsline {figure}{\numberline {8.19}{\ignorespaces (a) Typical use of the social interaction assistant, a third person perspective on the use case scenario, (b) An example of face detection being translated to vibrations on the haptic belt.}}{205}
-\contentsline {figure}{\numberline {8.20}{\ignorespaces Application of haptic belt as a navigational aid.}}{206}
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Typical use of the dyadic interaction assistance scenario, a third person perspective on the use case scenario.}}{210}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Typical use of the dyadic interaction assistance scenario, a third person perspective on the use case scenario.}}{211}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Example Bayesian Network.}}{216}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Temporal Exemplar-based Bayesian Network for facial expression recognition.}}{218}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces 36 Facial fiducial points tracked with FaceAPI software. Both $x$ and $y$ coordinates from all 36 points are used for facial expression recognition.}}{218}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Deriving the exemplar layer of the TEBN based on every test point $X_t(t)$.}}{220}
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Comparison of Fear and Surprise facial expressions.}}{223}
-\contentsline {figure}{\numberline {10.1}{\ignorespaces The Vibrotactile Glove.}}{238}
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Localization and spatio-temporal cueing software used for the vibrotactile glove.}}{239}
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Phalange naming convention and grouping based on the anatomical distances.}}{240}
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Mapping of Group 1 and Group 2 haptic expression icons to the central three fingers (9 Phalanges) of the vibrotactile glove. In the expression mapping chart, Columns 1 to 3 represent the expression. Column 4 shows the spatial mapping of vibrations. Column 5 shows the temporal mapping of the vibrations.}}{242}
-\contentsline {figure}{\numberline {10.5}{\ignorespaces (a) Recognition Accuracies; (b) ANOVA; (c) HSD}}{248}
-\contentsline {figure}{\numberline {10.6}{\ignorespaces (a) Recognition Accuracies; (b) ANOVA; (c) HSD}}{249}
-\contentsline {figure}{\numberline {10.7}{\ignorespaces (a) Recognition Accuracies; (b) ANOVA; (c) HSD}}{250}
-\contentsline {figure}{\numberline {10.8}{\ignorespaces (a) Recognition Accuracies; (b) ANOVA; (c) HSD}}{251}
-\contentsline {figure}{\numberline {10.9}{\ignorespaces (a) Recognition Accuracies; (b) ANOVA; (c) HSD}}{252}
-\contentsline {figure}{\numberline {10.10}{\ignorespaces Confusion Matrix across the 12 participants. The rows are the stimulation and the columns are the responses of the participants. Each row adds to 100\% (rounding error of 1\%).}}{254}
-\contentsline {figure}{\numberline {10.11}{\ignorespaces Average recognition rate and response time for the subject who is blind, for over 70 trails.}}{255}
-\contentsline {figure}{\numberline {10.12}{\ignorespaces Average response time for all 12 participants. Four important results are shown above, 1) Avg. correct response time per expression (Cyan), 2) Avg. incorrect response time per expression (Red), 3) Avg. correct response time for Group 1 (Blue), and 4) Avg. correct response time for Group 2 (Magenta).}}{256}
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Depression and Loneliness of students plotted against stress levels in high, medium and low social skilled undergraduate students. (Please see text for the scales used for the measurement.)}}{259}
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Comparison of annual wage of the visually impaired, physically disabled and non-disabled population. (a) Compared by age group. (b) Compared by education level.}}{265}
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Find x and y to maximize $f(x,y)$ subject to a constraint $g(x,y) = c$}}{301}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Training and testing phases of a typical learning framework found in literature.}}{60}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The proposed hardware for use in the detection of body rocking stereotypic behavior. The accelerometer, in comparison with a US quarter, is shown in the inset. The three axes marked in the image shows the orientation of the accelerometer as it is placed on the head.}}{62}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Data stream for the tri-axial accelerometer. The three streams correspond to the three axes. The figure shows non-rocking events followed by rocking and then followed by non-rocking.}}{63}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Packet length to recognition rate comparison under the classic AdaBoost framework.}}{75}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Packet length to recognition rate comparison under the Modest AdaBoost framework.}}{75}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Piecewise performance analysis of the classic AdaBoost classifier framework; (a) Recognition rates under use of individual feature sets; (b) The Receiver Operating Characteristics (ROC) under the use of individual feature sets; (c) Area under the curve (AUC) for each feature set as estimated from the ROC; (d) The number of simple classifiers used by the aggregated AdaBoost classifier. Each set and each feature representation in the classifier pool are separately marked. In all the graphs Set 1 through 5 are as explained by Tables 4.1\hbox {} and 4.2\hbox {}. Set 6 represents a set containing all 14 features from Tables 4.1\hbox {} and 4.2\hbox {}.}}{78}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Piecewise performance analysis of the Modest AdaBoost framework; (a) Recognition rates under use of individual feature sets; (b) The Receiver Operating Characteristics (ROC) under the use of individual feature sets; (c) Area under the curve (AUC) for each feature set as estimated from the ROC; (d) The number of simple classifiers used by the aggregated AdaBoost classifier; Each set and each feature representation in the classifier pool are separately marked. In all the graphs Set 1 through 5 are as explained by Tables 4.1\hbox {} and 4.2\hbox {}. Set 6 represents a set containing all 14 features from Tables 4.1\hbox {} and 4.2\hbox {}.}}{80}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Typical use of the dyadic interaction assistance scenario, a third person perspective on the use case scenario.}}{89}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Typical use of the dyadic interaction assistance scenario, a third person perspective on the use case scenario.}}{89}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Example Bayesian Network.}}{94}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Temporal Exemplar-based Bayesian Network for facial expression recognition.}}{96}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 36 Facial fiducial points tracked with FaceAPI software. Both $x$ and $y$ coordinates from all 36 points are used for facial expression recognition.}}{96}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Deriving the exemplar layer of the TEBN based on every test point $X_t(t)$.}}{98}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Comparison of Fear and Surprise facial expressions.}}{101}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The Vibrotactile Glove.}}{116}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Localization and spatio-temporal cueing software used for the vibrotactile glove.}}{117}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Phalange naming convention and grouping based on the anatomical distances.}}{118}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Mapping of Group 1 and Group 2 haptic expression icons to the central three fingers (9 Phalanges) of the vibrotactile glove. In the expression mapping chart, Columns 1 to 3 represent the expression. Column 4 shows the spatial mapping of vibrations. Column 5 shows the temporal mapping of the vibrations.}}{120}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces (a) Recognition Accuracies; (b) ANOVA; (c) HSD}}{126}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces (a) Recognition Accuracies; (b) ANOVA; (c) HSD}}{127}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces (a) Recognition Accuracies; (b) ANOVA; (c) HSD}}{128}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces (a) Recognition Accuracies; (b) ANOVA; (c) HSD}}{129}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces (a) Recognition Accuracies; (b) ANOVA; (c) HSD}}{130}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Confusion Matrix across the 12 participants. The rows are the stimulation and the columns are the responses of the participants. Each row adds to 100\% (rounding error of 1\%).}}{132}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Average recognition rate and response time for the subject who is blind, for over 70 trails.}}{133}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Average response time for all 12 participants. Four important results are shown above, 1) Avg. correct response time per expression (Cyan), 2) Avg. incorrect response time per expression (Red), 3) Avg. correct response time for Group 1 (Blue), and 4) Avg. correct response time for Group 2 (Magenta).}}{134}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces (a) 3D representation of a Gaussian mask; $\sigma _x = 10$, $\sigma _y = 15$ and $\theta =0$ \newline (b)Image of the Gaussian mask $\sigma _x = 10$, $\sigma _y = 15$ and $\theta =0$}}{144}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces (a)3D representation of a Sinusoid $S_{\omega ,\theta }$ \newline (b)Image representation of the real part of the complex Sinusoid $\Re \left \{S_{\omega ,\theta }\right \}$\newline (c)Image representation of the imaginary part of complex Sinusoid $\Im \left \{S_{\omega ,\theta }\right \}$}}{145}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces (a)3D representation of a Gabor filter $\Psi _{\omega ,\theta }$ \newline (b)Image representation of the real part of Gabor filter $\Re \left \{\Psi _{\omega ,\theta }\right \}$ \newline (c)Image representation of the imaginary part of Gabor filter $\Im \left \{\Psi _{\omega ,\theta }\right \}$}}{146}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces A typical chromosome used in the proposed method.}}{150}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Stages in the creation of the first generation of parents}}{151}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Deriving newer parents from the current generation}}{152}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Typical crossing of two parents to create an offspring}}{154}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Mutation of a newly created offspring}}{155}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces The data capture setup for FacePix(30)}}{156}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Sample face images with varying pose and illumination from the FacePix(30) database}}{157}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Sample frontal images of one person from the FacePix(30) Database}}{158}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces A face image marked with 5 locations where unique Gabor features were extracted}}{159}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Distance Measure $D$ for the fitness function}}{162}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces The recognition rate versus the number Gabor feature detectors}}{165}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Recognition rate with varying $w_D$}}{166}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces 10 and 20 person-specific features extracted for a particular individual in the database}}{167}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces An example false face detection.}}{173}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Block diagram.}}{175}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Skin pixels in nRGB space.}}{177}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Extra region for background modeling.}}{178}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Example of {\em true} and {\em false} face detection.}}{179}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Pre-processing.}}{181}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Neighborhood System.}}{182}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Frontal face Local Conditional Probability Density (LCPD) models.}}{184}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Skin-region masks.}}{184}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Soft threshold.}}{185}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces An example of combining evidence from two experts under Dempster-Shafer Theory.}}{187}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Coarse pose estimation.}}{189}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Person of interest at a short distance from camera}}{191}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Person of interest at a large distance from camera}}{191}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Simple Background}}{192}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Complex Background}}{192}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Rigid, Homogeneous Object}}{193}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Non-Rigid, Deformable, Non-Homogeneous Object}}{193}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Static Camera}}{194}
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Mobile Camera}}{194}
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Changing Illumination, Pose Change and Blur}}{195}
+\contentsline {figure}{\numberline {9.10}{\ignorespaces SMSPF - Step 1}}{200}
+\contentsline {figure}{\numberline {9.11}{\ignorespaces SMSPF - Step 2}}{201}
+\contentsline {figure}{\numberline {9.12}{\ignorespaces Structured Search}}{202}
+\contentsline {figure}{\numberline {9.13}{\ignorespaces Sliding window of the Structured Search (Green: Estimate; Red: Sliding window).}}{203}
+\contentsline {figure}{\numberline {9.14}{\ignorespaces Structured Search Matching Technique}}{205}
+\contentsline {figure}{\numberline {9.15}{\ignorespaces Incorporating Chamfer Matching into Structured Search}}{206}
+\contentsline {figure}{\numberline {9.16}{\ignorespaces SMSPF Results}}{208}
+\contentsline {figure}{\numberline {9.17}{\ignorespaces AO (Dotted Line: Color PF; Solid Line: SMSPF)}}{210}
+\contentsline {figure}{\numberline {9.18}{\ignorespaces DC(Dotted Line: Color PF; Solid Line: SMSPF)}}{211}
+\contentsline {figure}{\numberline {9.19}{\ignorespaces Evaluation Measure for DataSet 1}}{212}
+\contentsline {figure}{\numberline {9.20}{\ignorespaces Evaluation Measure for DataSet 2}}{212}
+\contentsline {figure}{\numberline {9.21}{\ignorespaces Evaluation Measure for DataSet 3}}{213}
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Main Controller implementation}}{225}
+\contentsline {figure}{\numberline {10.2}{\ignorespaces (a) 25\%; (b) 75\% Pulse-width modulation; (c) and (d) Vibration motor magnitudes of 25\% and 75\% achieved using duty cycles with 25 pulses over a 50 ms vibration period.}}{227}
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Sample Temporal Rhythm Sequences (TRS) with different magnitudes of vibration encoded on the Temporal Rhythm Units (TRU) (a) 100\% Magnitude, (b) 50\% Magnitude.}}{228}
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Tactor Controller implementation}}{229}
+\contentsline {figure}{\numberline {10.5}{\ignorespaces a) Graphical User Interface on a Portable Platform. b) Temporal Rhythm Sequence (TRS) Design Interface.}}{230}
+\contentsline {figure}{\numberline {10.6}{\ignorespaces System Architecture for Haptic Belt used as part of the Social Interaction Assistant}}{231}
+\contentsline {figure}{\numberline {10.7}{\ignorespaces Experiment 1 Results: Mean Localization Accuracy for each Tactor, Averaged across Subjects, with 95\% Confidence Intervals}}{233}
+\contentsline {figure}{\numberline {10.8}{\ignorespaces Mean Classification Accuracy of Duration, Averaged across Subjects and Tactors, with 95\% Confidence Intervals. Durations listed in figure correspond to 200 ms (\#1), 400 ms (\#2), 600 ms (\#3), 800 ms (\#4) and 1000 ms (\#5)}}{236}
+\contentsline {figure}{\numberline {10.9}{\ignorespaces The on/off timing values of the four tactile rhythm designs, and corresponding distances, used in the experiment.}}{238}
+\contentsline {figure}{\numberline {10.10}{\ignorespaces Overall direction recognition accuracy of each tactor location with standard deviations.}}{240}
+\contentsline {figure}{\numberline {10.11}{\ignorespaces Overall distance recognition accuracy of each rhythm type with standard deviations.}}{241}
+\contentsline {figure}{\numberline {10.12}{\ignorespaces Arrangement of 8 Tactors around the Waist.}}{243}
+\contentsline {figure}{\numberline {10.13}{\ignorespaces Modified Box Dance.}}{245}
+\contentsline {figure}{\numberline {10.14}{\ignorespaces Modified Electric Slide Dance.}}{246}
+\contentsline {figure}{\numberline {10.15}{\ignorespaces Usability Results.}}{250}
+\contentsline {figure}{\numberline {10.16}{\ignorespaces Functionality and Performance Results.}}{251}
+\contentsline {figure}{\numberline {10.17}{\ignorespaces Pattern Recognition Results for Dance Experiment.}}{252}
+\contentsline {figure}{\numberline {10.18}{\ignorespaces Questionnaire Results from Dance Experiment for Experienced Dance Participants (a) and Inexperienced Dance Participants (b). Responses from Q6-Q8 are excluded.}}{254}
+\contentsline {figure}{\numberline {10.19}{\ignorespaces (a) Typical use of the social interaction assistant, a third person perspective on the use case scenario, (b) An example of face detection being translated to vibrations on the haptic belt.}}{255}
+\contentsline {figure}{\numberline {10.20}{\ignorespaces Application of haptic belt as a navigational aid.}}{256}
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Depression and Loneliness of students plotted against stress levels in high, medium and low social skilled undergraduate students. (Please see text for the scales used for the measurement.)}}{260}
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Comparison of annual wage of the visually impaired, physically disabled and non-disabled population. (a) Compared by age group. (b) Compared by education level.}}{266}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Find x and y to maximize $f(x,y)$ subject to a constraint $g(x,y) = c$}}{302}

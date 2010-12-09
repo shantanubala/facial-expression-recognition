@@ -1,5 +1,5 @@
 This is BibTeX, Version 0.99cThe top-level auxiliary file: pwasu.aux
-White space in argument---line 980 of file pwasu.aux
+White space in argument---line 519 of file pwasu.aux
  : \citation{Hug
  :               over a distance}
 I'm skipping whatever remains of this command
@@ -695,23 +695,6 @@ Warning--empty booktitle in chambers_hierarchical_2002
 Warning--empty booktitle in arteaga_low-cost_2008
 Warning--empty booktitle in vezhnevets_modest_2005
 Warning--empty author in _drm103_2008
-Warning--empty journal in Schw2003
-Warning--empty booktitle in wiskott_face_1997
-Warning--empty publisher in wiskott_face_1995
-Warning--can't use both author and editor fields in wiskott_face_1996
-Warning--empty chapter and pages in wiskott_face_1996
-Warning--empty institution in Ozkan2006
-Warning--empty booktitle in ram_people_1998
-Warning--empty booktitle in bilmes_gentle_1998
-Warning--empty booktitle in paget_texture_1997
-Warning--empty booktitle in edwards_pragmatic_2009
-Warning--empty publisher in tsukada_activebelt:_2004
-Warning--empty booktitle in van_erp_multi-purpose_2003
-Warning--empty booktitle in ferscha_vibro-tactile_2008
-Warning--empty journal in computer_guidelines_2002
-Warning--empty booktitle in lieberman_development_2007
-Warning--empty booktitle in linden_good_2009
-Warning--empty booktitle in faerster_non-interrupting_2009
 Warning--empty booktitle in m.s._bartlett_prototype_2003
 Warning--empty booktitle in bartlett_fully_2006
 Warning--empty booktitle in cohn_automatic_2004
@@ -729,5 +712,22 @@ Warning--empty booktitle in zhen_wen_capturing_2003
 Warning--empty booktitle in whitehill_haar_2006
 Warning--empty publisher in brell_fusion_2008
 Warning--empty booktitle in vinciarelli_proceedings_2008
+Warning--empty journal in Schw2003
+Warning--empty booktitle in wiskott_face_1997
+Warning--empty publisher in wiskott_face_1995
+Warning--can't use both author and editor fields in wiskott_face_1996
+Warning--empty chapter and pages in wiskott_face_1996
+Warning--empty institution in Ozkan2006
+Warning--empty booktitle in ram_people_1998
+Warning--empty booktitle in bilmes_gentle_1998
+Warning--empty booktitle in paget_texture_1997
+Warning--empty booktitle in edwards_pragmatic_2009
+Warning--empty publisher in tsukada_activebelt:_2004
+Warning--empty booktitle in van_erp_multi-purpose_2003
+Warning--empty booktitle in ferscha_vibro-tactile_2008
+Warning--empty journal in computer_guidelines_2002
+Warning--empty booktitle in lieberman_development_2007
+Warning--empty booktitle in linden_good_2009
+Warning--empty booktitle in faerster_non-interrupting_2009
 Warning--empty year in brothers_social_1990
 (There were 163 error messages)
