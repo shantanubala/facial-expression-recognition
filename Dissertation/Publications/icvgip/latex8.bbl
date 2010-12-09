@@ -1,0 +1,45 @@
+\begin{thebibliography}{1}\setlength{\itemsep}{-1ex}\small
+
+\bibitem{OpenCV}
+Open source computer vision library.
+\newblock Website.
+\newblock \url{http://www.intel.com/technology/computing/opencv/}.
+
+\bibitem{bilmes_gentle_1998}
+J.~Bilmes.
+\newblock A gentle tutorial of the em algorithm and its application to
+  parameter estimation for gaussian mixture and hidden markov models, Apr.
+  1998.
+
+\bibitem{paget_texture_1997}
+R.~Paget, I.~Longstaff, and B.~Lovell.
+\newblock Texture classification using nonparametric markov random fields.
+\newblock In {\em Digital Signal Processing Proceedings, 1997. DSP 97., 1997
+  13th International Conference on}, volume~1, pages 67--70 vol.1, 1997.
+
+\bibitem{perez_markov_1998}
+P.~Perez.
+\newblock Markov random fields and images.
+\newblock {\em CWI Quarterly}, 11:413--437, 1998.
+
+\bibitem{phillips_feret_1997}
+P.~J. Phillips, H.~Moon, P.~Rauss, and S.~A. Rizvi.
+\newblock The feret evaluation methodology for face-recognition algorithms.
+\newblock page 137. IEEE Computer Society, 1997.
+
+\bibitem{sentz_combination_2002}
+K.~Sentz and S.~Ferson.
+\newblock Combination of evidence in dempster-shafer theory, Apr. 2002.
+
+\bibitem{viola_robust_2004}
+P.~Viola and M.~J. Jones.
+\newblock Robust real-time face detection.
+\newblock {\em Int. J. Comput. Vision}, 57:137--154, 2004.
+
+\bibitem{ming-hsuan_yang_detecting_2002}
+M.-H. Yang, D.~Kriegman, and N.~Ahuja.
+\newblock Detecting faces in images: a survey.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}, 24:34--58, 2002.
+
+\end{thebibliography}

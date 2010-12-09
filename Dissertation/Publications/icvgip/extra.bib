@@ -1,0 +1,111 @@
+                              @inproceedings{ming-jung_seow_neural_2003,
+	title = {Neural network based skin color model for face detection},
+	doi = {10.1109/AIPR.2003.1284262}, 	abstract = {This paper presents
+a novel neural network based technique for face detection that
+eliminates limitations pertaining to the skin color variations among
+people. We propose to model the skin color in the three dimensional
+RGB space which is a color cube consisting of all the possible color
+combinations. Skin samples in images with varying lighting
+conditions, from the Old Dominion University skin database, are used
+for obtaining a skin color distribution. The primary color
+components of each plane of the color cube are fed to a
+three-layered network, trained using the backpropagation algorithm
+with the skin samples, to extract the skin regions from the planes
+and interpolate them so as to provide an optimum decision boundary
+and hence the positive skin samples for the skin classifier. The use
+of the color cube eliminates the difficulties of finding the
+non-skin part of training samples since the interpolated data is
+consider skin and rest of the color cube is consider non-skin.
+Subsequent face detection is aided by the color, geometry and motion
+information analyses of each frame in a video sequence. The
+performance of the new face detection technique has been tested with
+real-time data of size 320/spl times/240 frames from video sequences
+captured by a surveillance camera. It is observed that the network
+can differentiate skin and non-skin effectively while minimizing
+false detections to a large extent when compared with the existing
+techniques. In addition, it is seen that the network is capable of
+performing face detection in complex lighting and background
+environments.}, 	booktitle = {Applied Imagery Pattern Recognition
+Workshop, 2003. Proceedings. 32nd}, 	journal = {Applied Imagery
+Pattern Recognition Workshop, 2003. Proceedings. 32nd}, 	author =
+{Ming-Jung Seow and D. Valaparla and V.K. Asari}, 	year = {2003},
+	keywords = {backpropagation,backpropagation algorithm,color
+cube,face detection,face recognition,false detections,feature
+extraction,image colour analysis,image sequences,interpolated
+data,motion information analyses,multilayer perceptrons,neural
+network based skin color model,neural network based
+technique,nonskin color,Old Dominion University skin
+database,optimum decision boundary,real time data,skin,skin
+classifier,skin color distribution,skin color region extraction,skin
+color variations,surveillance,surveillance camera,three dimensional
+RGB space,three layered network,video sequence}, 	pages = {141-145}
+},
+
+
+
+@inproceedings{sangho_yoon_automatic_2006, 	title = {Automatic Skin
+Pixel Selection and Skin Color Classification}, 	isbn = {1522-4880},
+	doi = {10.1109/ICIP.2006.312630}, 	abstract = {We describe an
+automatic method for classifying skin color, independent of lighting
+and imaging device characteristics, using consumer digital cameras
+and a simple color calibration target. After color normalization and
+face detection is performed, pixels of each face image are clustered
+in an unsupervised fashion. Pixels likely to be representative of
+skin color, rather than of distractors such as shadows,
+specularities, eyes, and lips, are identified by selecting the
+dominant clusters that have large number of pixels assigned per
+volume. A Gauss mixture model (GMM) of a person's skin color is
+formed from the pixels belonging to the selected clusters. When a
+set of exemplar images with skin color labels by an expert, we show
+that the label assigned by the same expert to a new, test face image
+can be predicted by comparison of the GMMs of the test image and the
+exemplars. Specifically, we use the label of the exemplar whose GMM
+has smallest KL divergence from that of the test image}, 	booktitle
+= {Image Processing, 2006 IEEE International Conference on},
+	journal = {Image Processing, 2006 IEEE International Conference
+on}, 	author = {Sangho Yoon and M. Harville and H. Baker and N.
+Bhatii}, 	year = {2006}, 	keywords = {automatic skin pixel
+selection,calibration,cameras,clustering methods,color,color
+calibration target,digital camera,face detection,face
+recognition,Gauss mixture model,Gaussian processes,GMM,image
+classification,Image classification,image clustering,image colour
+analysis,image representation,pattern clustering,skin,skin color
+classification}, 	pages = {941-944} },
+
+
+
+@article{sigal_skin_2004, 	title = {Skin color-based video
+segmentation under time-varying illumination}, 	volume = {26}, 	issn
+= {0162-8828}, 	doi = {10.1109/TPAMI.2004.35}, 	abstract = {A novel
+approach for real-time skin segmentation in video sequences is
+described. The approach enables reliable skin segmentation despite
+wide variation in illumination during tracking. An explicit second
+order Markov model is used to predict evolution of the skin-color
+(HSV) histogram over time. Histograms are dynamically updated based
+on feedback from the current segmentation and predictions of the
+Markov model. The evolution of the skin-color distribution at each
+frame is parameterized by translation, scaling, and rotation in
+color space. Consequent changes in geometric parameterization of the
+distribution are propagated by warping and resampling the histogram.
+The parameters of the discrete-time dynamic Markov model are
+estimated using maximum likelihood estimation and also evolve over
+time. The accuracy of the new dynamic skin color segmentation
+algorithm is compared to that obtained via a static color model.
+Segmentation accuracy is evaluated using labeled ground-truth video
+sequences taken from staged experiments and popular movies. An
+overall increase in segmentation accuracy of up to 24 percent is
+observed in 17 out of 21 test sequences. In all but one case, the
+skin-color classification rates for our system were higher, with
+background classification rates comparable to those of the static
+segmentation.}, 	journal = {Pattern Analysis and Machine
+Intelligence, IEEE Transactions on}, 	author = {L. Sigal and S.
+Sclaroff and V. Athitsos}, 	year = {2004}, 	keywords = {65,color
+space,Color video segmentation,discrete time dynamic Markov
+model,dynamic Markov model.,geometric parameterization,ground truth
+video sequences,human skin detection,image classification,image
+colour analysis,image segmentation,image sequences,Markov
+processes,maximum likelihood estimation,real time skin
+segmentation,skin,skin color based video segmentation,skin color
+classification rates,skin color distribution,skin color
+histogram,static color model,time varying illumination,video signal
+processing}, 	pages = {862-877} }

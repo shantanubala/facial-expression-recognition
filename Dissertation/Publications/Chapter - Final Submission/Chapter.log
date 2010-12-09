@@ -1,0 +1,565 @@
+This is pdfTeX, Version 3.141592-1.40.3 (MiKTeX 2.6) (preloaded format=latex 2007.10.3)  28 AUG 2008 12:09
+entering extended mode
+**Chapter.tex
+(Chapter.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8g> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, french, loaded.
+(w-edbk.cls
+
+
+ Wiley Book Style, Design No.: SD 001E
+ 
+ Written by Amy Hendrickson, TeXnology, Inc., 2/96
+ Authors! This style can be used with either LaTeX2.09 or LaTeX2e (!)
+ This version is dated May 26, 1999
+
+
+\phspace=\dimen102
+Document Class: w-edbk 1996/02/21
+\c@xfootnote=\count79
+\testtitleheight=\box26
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\temptoc=\count87
+\c@figure=\count88
+\c@table=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\footnum=\count90
+\savefootnum=\count91
+\innx=\write3
+\spcount=\count92
+\indxnum=\count93
+\oldindxnum=\count94
+\savenumbox=\box27
+\saveindxnum=\count95
+\indexwrap=\dimen103
+\indexindent=\dimen104
+\c@unbalance=\count96
+\c@collectmore=\count97
+\col@number=\count98
+\doublecol@number=\count99
+\multicoltolerance=\count100
+\page@free=\dimen105
+\premulticols=\dimen106
+\postmulticols=\dimen107
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box28
+\loopcount=\count101
+\savedimen=\dimen108
+\fixdimen=\dimen109
+\timing=\count102
+\hourcount=\count103
+\oldtime=\count104
+\landscapeoddpagedown=\dimen110
+\landscapeevenpagedown=\dimen111
+\landscapepagetoright=\dimen112
+) ("C:\Program Files\MiKTeX 2.6\tex\latex\ae\ae.sty"
+Package: ae 2001/02/12 1.3 Almost European Computer Modern
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\ae\t1aer.fd"
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)))
+("C:\Program Files\MiKTeX 2.6\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files\MiKTeX 2.6\tex\latex\base\inputenc.sty"
+Package: inputenc 2006/05/05 v1.1b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\base\ansinew.def"
+File: ansinew.def 2006/05/05 v1.1b Input encoding file
+))
+("C:\Program Files\MiKTeX 2.6\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.6\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen113
+))
+("C:\Program Files\MiKTeX 2.6\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen114
+)
+("C:\Program Files\MiKTeX 2.6\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count105
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count106
+\leftroot@=\count107
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count108
+\DOTSCASE@=\count109
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen115
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count110
+\c@MaxMatrixCols=\count111
+\dotsspace@=\muskip10
+\c@parentequation=\count112
+\dspbrk@lvl=\count113
+\tag@help=\toks17
+\row@=\count114
+\column@=\count115
+\maxfields@=\count116
+\andhelp@=\toks18
+\eqnshift@=\dimen116
+\alignsep@=\dimen117
+\tagshift@=\dimen118
+\tagwidth@=\dimen119
+\totwidth@=\dimen120
+\lineht@=\dimen121
+\@envbody=\toks19
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files\MiKTeX 2.6\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2002/01/22 v2.2d
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2001/10/25 v2.2f
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+))
+("C:\Program Files\MiKTeX 2.6\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+("C:\Program Files\MiKTeX 2.6\tex\latex\graphics\graphics.sty"
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.6\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2005/12/29 v1.2 MiKTeX 'graphics' configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 90.
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\graphics\dvips.def"
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen122
+\Gin@req@width=\dimen123
+)
+("C:\Program Files\MiKTeX 2.6\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\00miktex\color.cfg"
+File: color.cfg 2005/12/29 v1.1 MiKTeX 'color' configuration
+)
+Package color Info: Driver file: dvips.def on input line 130.
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+("C:\Program Files\MiKTeX 2.6\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2007/06/14 v6.76i Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\oberdiek\hycolor.sty"
+Package: hycolor 2007/04/11 v1.1 Code for color options of hyperref/bookmark (H
+O)
+)
+\@linkdim=\dimen124
+\Hy@linkcounter=\count117
+\Hy@pagecounter=\count118
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2007/06/14 v6.76i Hyperref: PDFDocEncoding definition (HO)
+)
+("C:\Program Files\MiKTeX 2.6\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2007/05/06 v1.0 Providing prefix for e-TeX command names (HO)
+
+
+("C:\Program Files\MiKTeX 2.6\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2007/06/14 v1.1 Providing info/warning/message (HO)
+))
+("C:\Program Files\MiKTeX 2.6\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2006/02/14 v1.1 MiKTeX 'hyperref' configuration
+)
+("C:\Program Files\MiKTeX 2.6\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2007/06/11 v2.7 Connects package keyval with LaTeX options (
+HO)
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 2537.
+Package hyperref Info: Hyper figures OFF on input line 2571.
+Package hyperref Info: Link nesting OFF on input line 2576.
+Package hyperref Info: Hyper index ON on input line 2579.
+Package hyperref Info: Plain pages OFF on input line 2586.
+Package hyperref Info: Backreferencing OFF on input line 2591.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2741.
+("C:\Program Files\MiKTeX 2.6\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 2909.
+\Fld@menulength=\count119
+\Field@Width=\dimen125
+\Fld@charsize=\dimen126
+\Choice@toks=\toks22
+\Field@toks=\toks23
+Package hyperref Info: Hyper figures OFF on input line 3393.
+Package hyperref Info: Link nesting OFF on input line 3398.
+Package hyperref Info: Hyper index ON on input line 3401.
+Package hyperref Info: backreferencing OFF on input line 3408.
+Package hyperref Info: Link coloring ON on input line 3411.
+\Hy@abspage=\count120
+\c@Item=\count121
+\c@Hfootnote=\count122
+)
+*hyperref using default driver hdvips*
+("C:\Program Files\MiKTeX 2.6\tex\latex\hyperref\hdvips.def"
+File: hdvips.def 2007/06/14 v6.76i Hyperref driver for dvips
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\hyperref\pdfmark.def"
+File: pdfmark.def 2007/06/14 v6.76i Hyperref definitions for pdfmark specials
+\pdf@docset=\toks24
+\pdf@box=\box31
+\pdf@toks=\toks25
+\pdf@defaulttoks=\toks26
+\Fld@listcount=\count123
+))
+("C:\Program Files\MiKTeX 2.6\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip48
+\subfigcapskip=\skip49
+\subfigcaptopadj=\dimen127
+\subfigbottomskip=\skip50
+\subfigcapmargin=\dimen128
+\subfiglabelskip=\skip51
+\c@subfigure=\count124
+\c@lofdepth=\count125
+\c@subtable=\count126
+\c@lotdepth=\count127
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Program Files\MiKTeX 2.6\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip52
+\subfig@bottom=\skip53
+)
+("C:\Program Files\MiKTeX 2.6\tex\latex\setspace\setspace.sty"
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) ("C:\Program Files\MiKTeX 2.6\tex\latex\eurosym\eurosym.sty"
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box32
+)
+("C:\Program Files\MiKTeX 2.6\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+) (Chapter.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+Package hyperref Info: Link coloring ON on input line 94.
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\hyperref\nameref.sty"
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\oberdiek\refcount.sty"
+Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
+)
+\c@section@level=\count128
+)
+LaTeX Info: Redefining \ref on input line 94.
+LaTeX Info: Redefining \pageref on input line 94.
+ (Chapter.out)
+(Chapter.out)
+\@outlinefile=\write4
+
+Chapter 1.
+LaTeX Font Info:    Try loading font information for U+msa on input line 96.
+("C:\Program Files\MiKTeX 2.6\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 96.
+
+("C:\Program Files\MiKTeX 2.6\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
+Underfull \vbox (badness 3780) has occurred while \output is active []
+
+ [1
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (80.29721pt too wide) has occurred while \output is active
+[][][][][][]\tabtextfont ii \runningheadfont PERSON-SPECIFIC CHARACTERISTIC FEA
+TURE SELECTION FOR FACE RECOGNITION 
+ []
+
+[2] [3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (82.88469pt too wide) has occurred while \output is active
+[][][][][][]\tabtextfont iv \runningheadfont PERSON-SPECIFIC CHARACTERISTIC FEA
+TURE SELECTION FOR FACE RECOGNITION 
+ []
+
+[4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (82.88469pt too wide) has occurred while \output is active
+[][][][][][]\tabtextfont vi \runningheadfont PERSON-SPECIFIC CHARACTERISTIC FEA
+TURE SELECTION FOR FACE RECOGNITION 
+ []
+
+[6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Underfull \vbox (badness 1163) has occurred while \output is active []
+
+
+Overfull \hbox (88.63466pt too wide) has occurred while \output is active
+[][][][][][]\tabtextfont viii \runningheadfont PERSON-SPECIFIC CHARACTERISTIC F
+EATURE SELECTION FOR FACE RECOGNITION 
+ []
+
+[8]
+File: GaussianDiffVar.eps Graphic file (type eps)
+ <GaussianDiffVar.eps>
+File: GaussianDiffVarImage.eps Graphic file (type eps)
+ <GaussianDiffVarImage.eps> [9]
+File: Sinusoid.eps Graphic file (type eps)
+ <Sinusoid.eps>
+File: SinusoidRealImage.eps Graphic file (type eps)
+
+<SinusoidRealImage.eps>
+File: SinusoidImagImage.eps Graphic file (type eps)
+ <SinusoidImagImage.eps>
+File: GaborFilter.eps Graphic file (type eps)
+ <GaborFilter.eps>
+File: GaborFilterRealImage.eps Graphic file (type eps)
+
+<GaborFilterRealImage.eps>
+File: GaborFilterImagImage.eps Graphic file (type eps)
+ <GaborFilterImagImage.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (80.0097pt too wide) has occurred while \output is active
+[][][][][][]\tabtextfont x \runningheadfont PERSON-SPECIFIC CHARACTERISTIC FEAT
+URE SELECTION FOR FACE RECOGNITION 
+ []
+
+[10] [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (85.75967pt too wide) has occurred while \output is active
+[][][][][][]\tabtextfont xii \runningheadfont PERSON-SPECIFIC CHARACTERISTIC FE
+ATURE SELECTION FOR FACE RECOGNITION 
+ []
+
+[12]
+File: chromosome.eps Graphic file (type eps)
+ <chromosome.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+File: firstgeneration.eps Graphic file (type eps)
+
+<firstgeneration.eps>
+File: latergeneration.eps Graphic file (type eps)
+ <latergeneration.eps>
+Overfull \hbox (88.34715pt too wide) has occurred while \output is active
+[][][][][][]\tabtextfont xiv \runningheadfont PERSON-SPECIFIC CHARACTERISTIC FE
+ATURE SELECTION FOR FACE RECOGNITION 
+ []
+
+[14] [15]
+Overfull \hbox (1.95572pt too wide) in paragraph at lines 846--849
+\T1/aer/m/n/10 pre-vi-ous gen-er-a-tion that will be re-tained with-out un-der-
+go-ing any changes
+ []
+
+File: crossover.eps Graphic file (type eps)
+<crossover.eps>
+Overfull \hbox (88.34715pt too wide) has occurred while \output is active
+[][][][][][]\tabtextfont xvi \runningheadfont PERSON-SPECIFIC CHARACTERISTIC FE
+ATURE SELECTION FOR FACE RECOGNITION 
+ []
+
+[16]
+File: mutation.eps Graphic file (type eps)
+ <mutation.eps> [17]
+File: facepix.eps Graphic file (type eps)
+ <facepix.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (94.09712pt too wide) has occurred while \output is active
+[][][][][][]\tabtextfont xviii \runningheadfont PERSON-SPECIFIC CHARACTERISTIC 
+FEATURE SELECTION FOR FACE RECOGNITION 
+ []
+
+[18]
+File: facepiximages.eps Graphic file (type eps)
+ <facepiximages.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Img1.eps Graphic file (type eps)
+<Img1.eps>
+File: Img2.eps Graphic file (type eps)
+ <Img2.eps>
+File: Img3.eps Graphic file (type eps)
+ <Img3.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+File: Res2.eps Graphic file (type eps)
+
+<Res2.eps>
+Overfull \hbox (85.47217pt too wide) has occurred while \output is active
+[][][][][][]\tabtextfont xx \runningheadfont PERSON-SPECIFIC CHARACTERISTIC FEA
+TURE SELECTION FOR FACE RECOGNITION 
+ []
+
+[20] [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (91.22214pt too wide) has occurred while \output is active
+[][][][][][]\tabtextfont xxii \runningheadfont PERSON-SPECIFIC CHARACTERISTIC F
+EATURE SELECTION FOR FACE RECOGNITION 
+ []
+
+[22]
+Overfull \hbox (30.15417pt too wide) in paragraph at lines 1143--1150
+\OML/cmm/m/it/10 []\authorfont (\OML/cmm/m/it/10 A; B\authorfont ) = []$ \T1/a
+er/m/n/10 is the $\OML/cmm/m/it/10 M$\T1/aer/m/n/10 -dimensional
+ []
+
+File: fitness.ps Graphic file (type eps)
+<fitness.ps> [23]
+Overfull \hbox (93.80962pt too wide) has occurred while \output is active
+[][][][][][]\tabtextfont xxiv \runningheadfont PERSON-SPECIFIC CHARACTERISTIC F
+EATURE SELECTION FOR FACE RECOGNITION 
+ []
+
+[24]
+File: Result2.eps Graphic file (type eps)
+ <Result2.eps>
+File: Result1.eps Graphic file (type eps)
+ <Result1.eps> [25]
+Overfull \hbox (93.80962pt too wide) has occurred while \output is active
+[][][][][][]\tabtextfont xxvi \runningheadfont PERSON-SPECIFIC CHARACTERISTIC F
+EATURE SELECTION FOR FACE RECOGNITION 
+ []
+
+[26]
+File: res1.eps Graphic file (type eps)
+ <res1.eps>
+File: res1b.eps Graphic file (type eps)
+ <res1b.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 5260) has occurred while \output is active []
+
+ [27]
+File: susie.eps Graphic file (type eps)
+
+<susie.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (99.55959pt too wide) has occurred while \output is active
+[][][][][][]\tabtextfont xxviii \runningheadfont PERSON-SPECIFIC CHARACTERISTIC
+ FEATURE SELECTION FOR FACE RECOGNITION 
+ []
+
+[28] (Chapter.bbl [29] [30
+
+] [31] [32]
+Underfull \hbox (badness 1048) in paragraph at lines 199--203
+\T1/aer/m/n/10 search Group, Austin, TX, http://www.cs.utexas.edu/users/nn/web-
+
+ []
+
+[33]) [34] (Chapter.aux) ) 
+Here is how much of TeX's memory you used:
+ 4996 strings out of 95306
+ 62020 string characters out of 1185183
+ 122737 words of memory out of 1122341
+ 7843 multiletter control sequences out of 60000
+ 31011 words of font info for 64 fonts, out of 1000000 for 2000
+ 14 hyphenation exceptions out of 8191
+ 28i,8n,36p,424b,399s stack positions out of 5000i,500n,10000p,200000b,32768s
+
+Output written on Chapter.dvi (34 pages, 164392 bytes).

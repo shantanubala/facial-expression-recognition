@@ -1,0 +1,228 @@
+\begin{thebibliography}{10}
+
+\bibitem{Balasubramanian2007}
+V.~Balasubramanian, J.~Ye, and S.~Panchanathan.
+\newblock Biased manifold embedding: A framework for person-independent head
+  pose estimation.
+\newblock In {\em IEEE Computer Society Conference on Computer Vision and
+  Pattern Recognition (CVPR'07)}, Minneapolis, USA, June 2007.
+
+\bibitem{bienenstock_neural_1987}
+E~Bienenstock and christoph von~der Malsburg.
+\newblock A neural network for invariant pattern recognition.
+\newblock {\em Europhysics Letters}, 4:121--126, 1987.
+
+\bibitem{BLACK2002}
+J.~Black, M.~Gargesha, K.~Kahol, and S.~Panchanathan.
+\newblock A framework for performance evaluation of face recognition
+  algorithms.
+\newblock {\em ITCOM, Internet Multimedia Systems II, Boston}, July 2002.
+
+\bibitem{Bruce2006}
+V.~Bruce and A.~Young.
+\newblock {\em In the Eye of the Beholder: The Science of Face Perception}.
+\newblock Oxford University Press, 2006.
+
+\bibitem{Gokberk2007}
+B.~Gökberk, M.~O. Irfanoglu, L.~Akarun, and E.~Alpaydin.
+\newblock Learning the best subset of local features for face recognition.
+\newblock {\em Pattern Recognition}, 40(5):1520, 2007.
+
+\bibitem{Huang1999}
+J.~Huang and H.~Wechsler.
+\newblock Eye location using genetic algorithm.
+\newblock In {\em 2nd International Conference on Audio and Video-Based
+  Biometric Person Authentication}, 1999.
+
+\bibitem{Kalocsai2000}
+P.~Kalocsai, C.~Malsburg, and J.~Horn.
+\newblock Face recognition by statistical analysis of feature detectors.
+\newblock {\em Image Vision Computing}, 18(4):273, 2000.
+
+\bibitem{Karungaru2004}
+S.~Karungaru, M.~Fukumi, and N.~Akamatsu.
+\newblock Face recognition using genetic algorithm based template matching.
+\newblock In {\em International Symposium on Communications and Information
+  Technologies}, October 26- 29,2004 2004.
+
+\bibitem{Kenner2006}
+I.~Kennerknecht, T.~Gruter, B.~Welling, S.~Wentzek, J.~Horst, S.~Edwards, and
+  M.~Gruter.
+\newblock First report of prevalence of non-syndromic hereditary prosopagnosia
+  (hpa).
+\newblock {\em American Journal of Medical Genetics, Part A}, 140:1617--22,
+  2006.
+
+\bibitem{Sreekar2005}
+S.~Krishna, G.~Little, J.~Black, and S.~Panchanathan.
+\newblock A wearable face recognition system for individuals with visual
+  impairments.
+\newblock In {\em Assets '05: Proceedings of the 7th international ACM
+  SIGACCESS conference on Computers and accessibility}, pages 106--113, New
+  York, NY, USA, 2005. ACM Press.
+
+\bibitem{Kruger1997}
+N.~Kruger, M.~Potzsch, and C.~Malsburg.
+\newblock Determination of face position and pose with a learned representation
+  based on labelled graphs.
+\newblock {\em Image Vision Computing}, 15:665, 1997.
+
+\bibitem{Little:2005}
+G.~Little, S.~Krishna, J.~Black, and S.~Panchanathan.
+\newblock A methodology for evaluating robustness of face recognition
+  algorithms with respect to variations in pose and illumination angle.
+\newblock In {\em Proceedings of IEEE International Conference on Acoustics,
+  Speech and Signal Processing}, pages 89--92, Philadelphia, USA, 2005.
+
+\bibitem{Liu2004}
+D.~H. Liu, K.~M. Lam, and L.~S. Shen.
+\newblock Optimal sampling of gabor features for face recognition.
+\newblock {\em Pattern Recognition Letters}, 25(2):267, 2004.
+
+\bibitem{Liu2002}
+Y.~Liu and Chongqing.
+\newblock Face recognition using kernel principal component analysis and
+  genetic algorithms.
+\newblock In {\em 12th IEEE Workshop on Neural Networks for Signal Processing},
+  page 337, Sep 2002 2002.
+
+\bibitem{lowe_distinctive_2003}
+David~G. Lowe.
+\newblock Distinctive image features from scale-invariant keypoints.
+\newblock {\em International Journal of Computer Vision}, 20:91--110, 2003.
+
+\bibitem{lyons_automatic_1999}
+M.J. Lyons, M.J. Lyons, J.~Budynek, J.~Budynek, and S.~Akamatsu.
+\newblock Automatic classification of single facial images.
+\newblock {\em Transactions on Pattern Analysis and Machine Intelligence},
+  21:1357--1362, 1999.
+
+\bibitem{Mccon1976}
+H.R. McConachie.
+\newblock Developmental prosopagnosia: A single case report.
+\newblock {\em Cortex}, 12:76--82, 1976.
+
+\bibitem{Ozkan2006}
+D.~Ozkan.
+\newblock Feature selection for face recognition using a genetic algorithm.
+\newblock Technical report, 2006.
+
+\bibitem{Sadr2003}
+J.~Sadr, I.~Jarudi, and P.~Shinha.
+\newblock The role of eyebrows in face recognition.
+\newblock {\em Perception}, 32:285--93, 2003.
+
+\bibitem{Schw2003}
+A.~Schwaninger, C.~C. Carbon, and H.~Leder.
+\newblock Expert face processing: Specilization and constraints.
+\newblock 2003.
+
+\bibitem{Sinha2006}
+P.~Sinha, B.~J. Balas, Y.~Ostrovsky, and R.~Russell.
+\newblock Face recognition by humans: 19 results all computer vision
+  researchers should know about.
+\newblock {\em Proceedings of the IEEE}, 94(11):1948--62, 2006.
+
+\bibitem{sirovich_low-dimensional_1987}
+L.~Sirovich and M.~Kirby.
+\newblock Low-dimensional procedure for the characterization of human faces.
+\newblock {\em J. Opt. Soc. Am. A}, 4:519, 1987.
+
+\bibitem{Sun2005}
+Y.~Sun and L.~Yin.
+\newblock A genetic algorithm based feature selection approach for 3d face
+  recognition.
+\newblock In {\em Biometrics Consortium Conference}, September 19-21, 2005
+  2005.
+
+\bibitem{sun2002}
+Z.~Sun, X.~Yuan, G.~Bebis, and S.~Louis.
+\newblock Neural-network-based gender classification using genetic
+  eigen-feature extraction, 2002.
+
+\bibitem{Tefas2001}
+A.~Tefas, C.~Kotropoulos, and I.~Pitas.
+\newblock Using support vector machines to enhance the performance of elastic
+  graph matching for frontal face authentication.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  23(7):735, 2001.
+
+\bibitem{Turk2005}
+D.~J. Turk, T.~C. Handy, and M.~S. Gazzaniga.
+\newblock Can perceptual expertise account for the own-race bias in face
+  recognition? a split brain study.
+\newblock {\em Cognitive Neuropsychology}, 22(7):877--83, 2005.
+
+\bibitem{Pent1991}
+M.~Turk and A.~Pentland.
+\newblock Face recognition using eigenfaces.
+\newblock In {\em Proceedings of IEEE Conference on Computer Vision and Pattern
+  Recognition}, pages 586--591, 1991.
+
+\bibitem{violajones01}
+P.~Viola and M.~Jones.
+\newblock Robust real-time object detection.
+\newblock {\em International Journal of Computer Vision - to appear}, 2002.
+
+\bibitem{von_der_malsburg_nervous_1985}
+Christoph von~der Malsburg.
+\newblock Nervous structures with dynamical links.
+\newblock {\em Ber. Bunsenges. Phys. Chem.}, 89:703--710, 1985.
+
+\bibitem{Wang2002}
+X.~Wang and H.~Oi.
+\newblock Face recognition using optimal non-orthogonal wavelet basis evaluated
+  by information complexity.
+\newblock In {\em Proceedings of the 16th International Conference on Pattern
+  Recognition}, page 164, 2002.
+
+\bibitem{Wiskott1997}
+L.~Wiskott.
+\newblock Phantom faces for face analysis.
+\newblock {\em Pattern Recognition}, 30(6):837, 1997.
+
+\bibitem{wiskott_face_1995}
+Laurenz Wiskott, Jean-Marc Fellous, Norbert Kr{\"u}ger, and Christoph von~der
+  Malsburg.
+\newblock {\em Face Recognition and Gender Determination}.
+\newblock 1995.
+\newblock Published: International Workshop on Automatic Face- and
+  Gesture-Recognition, Z{\"u}rich, June 26-28, 1995.
+
+\bibitem{wiskott_face_1997}
+Laurenz Wiskott, Jean-Marc Fellous, Norbert Kr{\"u}ger, and Christoph von~der
+  Malsburg.
+\newblock Face recognition by elastic bunch graph matching.
+\newblock pages 456--463, Heidelberg, 1997. Springer-Verlag.
+
+\bibitem{wiskott_face_1996}
+Laurenz Wiskott and Christoph von~der Malsburg.
+\newblock {\em Face Recognition by Dynamic Link Matching}.
+\newblock The UTCS Neural Networks Research Group, Austin, TX,
+  http://www.cs.utexas.edu/users/nn/web-pubs/htmlbook96/, 1996.
+
+\bibitem{Wong1999}
+K.~Wong and K.~Lam.
+\newblock A reliable approach for human face detection using genetic algorithm.
+\newblock In {\em IEEE International Symposium on Circuits and Systems},
+  volume~4, page 499, 1999.
+
+\bibitem{Xu2004}
+Y.~Xu, B.~Li, and B.~Wang.
+\newblock Face recognition by fast independent component analysis and genetic
+  algorithm.
+\newblock In {\em Fourth International Conference on Computer and Information},
+  page 194, 14-16 Sep 2004 2004.
+
+\bibitem{Yang2004}
+P.~Yang, S.~Shan, W.~Gao, S.Z. Li, and D.~Zang.
+\newblock Face recognition using ada-boosted gabor features.
+\newblock In {\em Proceedings of the 16th International Conference on Face and
+  Gesture Recognition}, 2004.
+
+\bibitem{Young1987}
+A.~W. Young, D.~Hellawell, and D.~C. Hay.
+\newblock Configurational information in face perception.
+\newblock {\em Perception}, 16:747--59, 1987.
+
+\end{thebibliography}

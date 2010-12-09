@@ -1,0 +1,93 @@
+\begin{thebibliography}{10}\setlength{\itemsep}{-1ex}\small
+
+\bibitem{bilmes_gentle_1998}
+J.~Bilmes.
+\newblock A gentle tutorial of the em algorithm and its application to
+  parameter estimation for gaussian mixture and hidden markov models.
+\newblock Berkeley CA, April, 1998. International Computer Science Institute,
+  U.C. Berkeley.
+
+\bibitem{a_hadid_hybrid_2006}
+A.~Hadid and M.~Pietikainen.
+\newblock A hybrid approach to face detection under unconstrained environments.
+\newblock {\em 18th International Conference on Pattern Recognition},
+  1:227--230, 2006.
+
+\bibitem{hjelmýs_face_2001}
+E.~Hjelmas and B.~K. Low.
+\newblock Face detection: A survey.
+\newblock {\em Computer Vision and Image Understanding}, 83:236--274, Sep,
+  2001.
+
+\bibitem{hmid_fuzzy_2006}
+M.~B. Hmid and Y.~B. Jemaa.
+\newblock Fuzzy classification, image segmentation and shape analysis for human
+  face detection.
+\newblock {\em 8th International Conference on Signal Processing}, 4, 2006.
+
+\bibitem{naseem_robust_2005}
+I.~Naseem and M.~Deriche.
+\newblock Robust human face detection in complex color images.
+\newblock {\em IEEE International Conference on Image Processing}, 2:338--41,
+  2005.
+
+\bibitem{paget_texture_1997}
+R.~Paget, I.~D. Longstaff, and B.~Lovell.
+\newblock Texture classification using nonparametric markov random fields.
+\newblock {\em 13th International Conference on Digital Signal Processing
+  Proceedings}, 1:67--70, 1997.
+
+\bibitem{perez_markov_1998}
+P.~Perez.
+\newblock Markov random fields and images.
+\newblock {\em CWI Quarterly}, 11:413--437, 1998.
+
+\bibitem{phillips_feret_1997}
+P.~J. Phillips, H.~Moon, P.~Rauss, and S.~A. Rizvi.
+\newblock The feret evaluation methodology for face-recognition algorithms.
+\newblock {\em Proceedings of the 1997 Conference on Computer Vision and
+  Pattern Recognition}, page 137, 1997.
+
+\bibitem{sentz_combination_2002}
+K.~Sentz and S.~Ferson.
+\newblock Combination of evidence in dempster-shafer theory.
+\newblock Sandia National Laboratories, April, 2002.
+
+\bibitem{tariq_face_2004}
+U.~Tariq, H.~Jamal, M.~Shahid, and M.~Malik.
+\newblock Face detection in color images, a robust and fast statistical
+  approach.
+\newblock {\em Proceedings of INMIC 2004. 8th International Multitopic
+  Conference}, pages 73--78, 2004.
+
+\bibitem{vezjak_anthropological_1994}
+M.~Vezjak and M.~Stephancic.
+\newblock An anthropological model for automatic recognition of the male human
+  face.
+\newblock {\em Annals of Human Biology}, 21:363--380, 1994.
+
+\bibitem{viola_robust_2004}
+P.~Viola and M.~J. Jones.
+\newblock Robust real-time face detection.
+\newblock {\em Int. J. Comput. Vision}, 57:137--154, 2004.
+
+\bibitem{m_wimmer_person_2006}
+M.~Wimmer, B.~Radig, and M.~Beetz.
+\newblock A person and context specific approach for skin color classification.
+\newblock {\em Pattern Recognition, 2006. ICPR 2006. 18th International
+  Conference on}, 2:39--42, 2006.
+
+\bibitem{yan-wen_wu_face_2008}
+Y.-W. Wu and X.-Y. Ai.
+\newblock Face detection in color images using adaboost algorithm based on skin
+  color information.
+\newblock {\em International Workshop on Knowledge Discovery and Data Mining},
+  pages 339--342, 2008.
+
+\bibitem{ming-hsuan_yang_detecting_2002}
+M.-H. Yang, D.~Kriegman, and N.~Ahuja.
+\newblock Detecting faces in images: a survey.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  24:34--58, 2002.
+
+\end{thebibliography}
