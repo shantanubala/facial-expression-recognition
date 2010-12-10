@@ -1,5 +1,11 @@
 \begin{thebibliography}{100}
 
+\bibitem{nakamura_somatosensory_1998}
+A.~Nakamura, T.~Yamada, A.~Goto, T.~Kato, K.~Ito, Y.~Abe, T.~Kachi, and
+  R.~Kakigi, ``Somatosensory homunculus as drawn by {MEG},'' {\em
+  {NeuroImage}}, vol.~7, pp.~377--386, May 1998.
+\newblock {PMID:} 9626677.
+
 \bibitem{riggio_assessment_1986}
 R.~E. Riggio, ``Assessment of basic social skills,'' {\em Journal of
   Personality and Social Psychology}, vol.~51, no.~3, pp.~649--660, 1986.
@@ -1159,12 +1165,6 @@ K.~Koch, J.~{McLean}, R.~Segev, M.~A. Freed, M.~J.~B. {II}, V.~Balasubramanian,
   and P.~Sterling, ``How much the eye tells the brain,'' {\em Current Biology},
   vol.~16, no.~14, pp.~1428--1434, 2006.
 
-\bibitem{nakamura_somatosensory_1998}
-A.~Nakamura, T.~Yamada, A.~Goto, T.~Kato, K.~Ito, Y.~Abe, T.~Kachi, and
-  R.~Kakigi, ``Somatosensory homunculus as drawn by {MEG},'' {\em
-  {NeuroImage}}, vol.~7, pp.~377--386, May 1998.
-\newblock {PMID:} 9626677.
-
 \bibitem{bach-y-rita_vision_1969}
 P.~B. y~rita, C.~C. Collins, F.~A. Saunders, B.~White, and L.~Scaden, ``Vision
   substitution by tactile image projection,'' {\em Nature}, vol.~221,
@@ -1246,27 +1246,27 @@ L.~Cappelletti, M.~Feeri, and G.~Nicoletti, ``Vibrotactile colour rendering for
   the visually impaired within the {VIDET} project,'' in {\em Telemanipulator
   and Telepresence Technologies V}, vol.~3524, pp.~92-- 96, Nov. 1998.
 
-\bibitem{uchiyama_vibrotactile_2008}
-H.~Uchiyama, M.~A. Covington, and W.~D. Potter, ``Vibrotactile glove guidance
-  for semi-autonomous wheelchair operations,'' in {\em Proceedings of the 46th
-  Annual Southeast Regional Conference on {XX}}, (Auburn, Alabama),
-  pp.~336--339, {ACM}, 2008.
-
-\bibitem{brell_fusion_2008}
-M.~Brell, D.~Roßkamp, and A.~Hein, ``Fusion of vibrotactile signals used in a
-  tactile display in computer aided surgery,'' in {\em Haptics: Perception,
-  Devices and Scenarios}, pp.~383--388, 2008.
-
 \bibitem{oron-gilad_vibrotactile_2007}
 T.~{Oron-Gilad}, J.~Downs, R.~Gilson, and P.~Hancock, ``Vibrotactile guidance
   cues for target acquisition,'' {\em Systems, Man, and Cybernetics, Part C:
   Applications and Reviews, {IEEE} Transactions on}, vol.~37, no.~5,
   pp.~993--1004, 2007.
 
+\bibitem{uchiyama_vibrotactile_2008}
+H.~Uchiyama, M.~A. Covington, and W.~D. Potter, ``Vibrotactile glove guidance
+  for semi-autonomous wheelchair operations,'' in {\em Proceedings of the 46th
+  Annual Southeast Regional Conference on {XX}}, (Auburn, Alabama),
+  pp.~336--339, {ACM}, 2008.
+
 \bibitem{hein_contact_2007}
 A.~Hein and M.~Brell, ``{conTACT} - a vibrotactile display for computer aided
   surgery,'' in {\em World Haptics Conference}, vol.~0, (Los Alamitos, {CA,}
   {USA}), pp.~531--536, {IEEE} Computer Society, 2007.
+
+\bibitem{brell_fusion_2008}
+M.~Brell, D.~Roßkamp, and A.~Hein, ``Fusion of vibrotactile signals used in a
+  tactile display in computer aided surgery,'' in {\em Haptics: Perception,
+  Devices and Scenarios}, pp.~383--388, 2008.
 
 \bibitem{cha_authoring/editing_2007}
 J.~Cha, Y.~Seo, Y.~Kim, and J.~Ryu, ``An {Authoring/Editing} framework for
@@ -1284,11 +1284,6 @@ A.~M. Murray, R.~L. Klatzky, and P.~K. Khosla, ``Psychophysical
   characterization and testbed validation of a wearable vibrotactile glove for
   telemanipulation,'' {\em Presence: Teleoper. Virtual Environ.}, vol.~12,
   no.~2, pp.~156--182, 2003.
-
-\bibitem{vinciarelli_proceedings_2008}
-A.~Vinciarelli, M.~Pantic, H.~Bourlard, and A.~Pentland, ``Social signals,
-  their function, and automatic analysis,'' (Chania, Crete, Greece),
-  pp.~61--68, {ACM}, 2008.
 
 \bibitem{Schw2003}
 A.~Schwaninger, C.~C. Carbon, and H.~Leder, ``Expert face processing:
@@ -1461,23 +1456,6 @@ M.~Turk and A.~Pentland, ``Face recognition using eigenfaces,'' in {\em
   Proceedings of IEEE Conference on Computer Vision and Pattern Recognition},
   pp.~586--591, 1991.
 
-\bibitem{Sreekar2005}
-S.~Krishna, G.~Little, J.~Black, and S.~Panchanathan, ``A wearable face
-  recognition system for individuals with visual impairments,'' in {\em Assets
-  '05: Proceedings of the 7th international ACM SIGACCESS conference on
-  Computers and accessibility}, (New York, NY, USA), pp.~106--113, ACM Press,
-  2005.
-
-\bibitem{violajones01}
-P.~Viola and M.~Jones, ``Robust real-time object detection,'' {\em
-  International Journal of Computer Vision - to appear}, 2002.
-
-\bibitem{Balasubramanian2007}
-V.~Balasubramanian, J.~Ye, and S.~Panchanathan, ``Biased manifold embedding: A
-  framework for person-independent head pose estimation,'' in {\em IEEE
-  Computer Society Conference on Computer Vision and Pattern Recognition
-  (CVPR'07)}, (Minneapolis, USA), June 2007.
-
 \bibitem{hall_hidden_1990}
 E.~T. Hall, {\em The Hidden Dimension}.
 \newblock Anchor, Oct. 1990.
@@ -1593,6 +1571,10 @@ J.~Kwon and K.~M. Lee, ``Tracking of abrupt motion using wang-landau monte
   carlo estimation,'' in {\em Proceedings of the 10th European Conference on
   Computer Vision: Part I}, ECCV '08, (Berlin, Heidelberg), pp.~387--400,
   Springer-Verlag, 2008.
+
+\bibitem{violajones01}
+P.~Viola and M.~Jones, ``Robust real-time object detection,'' {\em
+  International Journal of Computer Vision - to appear}, 2002.
 
 \bibitem{dalal_histograms_2005}
 N.~Dalal and B.~Triggs, ``Histograms of oriented gradients for human

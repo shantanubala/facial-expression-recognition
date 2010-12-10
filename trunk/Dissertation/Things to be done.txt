@@ -1,0 +1,13 @@
+Major
+	Add Experiments section to Chapter 5 -TEBN
+	Extend Chapter 5 Related Work on Facial Expression Recognition
+
+Minor
+	Prune References
+	Check for [REF] in the document
+	Check for [?] in the document
+	Check for XXX in the document
+	
+Addendum
+	Improve Tables in Chapter 1 on the non-verbal components tables - Add conclusions from paper into the table.
+	Add a section at the end of Haptic Glove Chapter - Proposed future plan of using a back display
