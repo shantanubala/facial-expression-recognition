@@ -574,7 +574,7 @@ People who are blind and visually impaired face numerous challenges when it come
 
 Figure \ref{Fig:Handshakeex} represents an evidence-based model of delivering social situational awareness to an individual who is blind such that he/she can carry out a handshake social interaction amidst a group of sighted individuals. Note that the Proxemics Model presented in the figure refers to the interpersonal spaces that people occupy on a day-to-day basis and it is heavily influenced by the culture where one resides \cite{hall_system_1963}. We plan to study such evidence-based models for developing assistive technologies that can communicate important non-verbal cues. Chapter \ref{Chap:3} discusses in detail how this evidence-based understanding of social situations for people who are blind and visually impaired were extracted towards developing mediating technologies.
 
-\chapter{ASSISTIVE MEDIATION TECHNOLOGY TO ENRICH SOCIAL SITUATIONAL AWARENESS OF INDIVIDUALS WHO ARE VISUALLY IMPAIRED} \label{Chap:3}
+\chapter{ASSISTIVE MEDIATION TECHNOLOGY FOR INDIVIDUALS WHO ARE VISUALLY IMPAIRED} \label{Chap:3}
 
 The overarching problem of disability induced social signal deprivation was described in detail in Section \ref{Sec:2.1} of Chapter \ref{Chap:2}. Further, the importance of social situational awareness for people who are visually impaired was highlighted as,
 \begin{itemize}
@@ -697,7 +697,7 @@ Identity & \cite{matta_behavioural_2006} \cite{gallagher_clothing_2008} \cite{ha
 \multicolumn{10}{|c|}{Behavior of the Communicator}\\
 \hline
 \hline
-Description of facial features	& & & &	\cite{kanaujia_emblem_2006} \cite{kawade_vision-based_2002} & & & & & \\			
+Description of facial features	& & & &	\cite{kanaujia_emblem_2006} \cite{kawade_vision-based_2002} & & & & & \\			 
 \hline
 Body Mannerisms & & & \cite{gunes_affect_2005} \cite{kulic_combining_2008} \cite{oliver_bayesian_2000} & & \cite{xuelong_li_gait_2008} & & \cite{hwang_automatic_2006} \cite{sangho_park_segmentation_2002} \cite{mitra_gesture_2007} \cite{nunamaker_hmm-based_2005} & & \\	
 \hline
@@ -836,7 +836,7 @@ From the observations made on the development of a social interaction assistant,
 
 
 
-\chapter{ENRICHING SOCIAL FEEDBACK: EGOCENTRIC SENSING OF STEREOTYPIC BEHAVIORS}
+\chapter{ENRICHING SOCIAL FEEDBACK: SENSING STEREOTYPIC BEHAVIORS}
 From the evidence-based modeling of the needs of the social interaction assistant, it was clear that people who are blind and visually impaired required social feedback on their body mannerisms more than any other social information. This is understandable as they don't receive any form of self-report on their behaviors if their sighted counterparts resort to unconscious non-verbal reactions that are visual in nature. It has been noticed that people who are blind become very conscious of this inability to receive social feedback and they resort to rather timid expression of body or face based gestures. While this prevents them from unconsciously displaying behaviors that may be considered atypical for the social setting, this also results in them appearing too rigid and asocial. That is, there exists a fine balance of bodily expressions which define the boundaries of cultural norms, which sensorially able people can learn through observation, but is inaccessible to people who are blind. In this chapter we discuss a variant of this above problem, residual stereotypic body rocking in adults who are blind and visually impaired. The problem is delineated in light of enriching social situational awareness and a solution is discussed along with a means of alleviating the condition.
 
 \section{Stereotypic Body Behaviors}
@@ -1226,7 +1226,7 @@ We are now ready to answer the last research question stating that the use of ap
 
 In this chapter, we have addressed the topic of detecting stereotypic body mannerisms, specifically body rocking, and propose a technology solution for providing an assistive technology that may reduce or control body rocking. We have discussed the hardware and software components of the proposed system in detail and offer a thorough analysis on the learning framework that provides generalization benefits to allow this framework to be extended to detection of any body mannerism. Investigations are in progress to determine how incoming samples of acceleration data can be labeled automatically by the system based on the AdaBoost classifier's classification confidence metrics. This would provide opportunity for self-learning \cite{raina_self-taught_2007} modes where the device can readily understand and learn data points that were not available in the training set. Combining such self-learning into a generalized learner would provide immense opportunities for not only body mannerism detection, but for solving future data mining problems where typical lab setting training data collection would just not be sufficient to train a robust classifier.
 
-\chapter{ENRICHING FACIAL EXPRESSIONS DURING DYADIC INTERACTIONS}
+\chapter{SENSING FACIAL EXPRESSIONS IN DYADIC INTERACTIONS}
 As described in Chapter \ref{Chap:3}, the evidence towards facial expression recognition precedes other non-verbal cue sensing and delivery. This is supported by the argument that most part of the non-verbal cues occur through visual facial mannerisms as described in Figure \ref{Fig:Figure1}. The face encodes a lot of information that is both communicative and expressive in nature. Unfortunately, the face is a very complex data generator and the encodings on the face are very individualistic in nature. Evolving computing technologies have been focused on developing solutions towards understanding the nature of facial mannerisms and gestures, but most of this research has been focused on the development of sensors and algorithms that understand user's emotional state for a human-machine interaction scenario. Such interactions are mostly unilateral in nature and focused primarily on developing technologies that will allow the machine to interpret the user's emotional state. That is, the machine becomes the primary \emph{consumer} of the affective cues. But from the perspective of an assistive technology the extracted facial expression primitives have to be augmentations that enrich human-human interpersonal interaction, where the machines not only interpret communicator's affective state, but also deliver affect information through novel affect actuators to the user of the technology. That is, the technology needed in a social interaction assistant is not a consumer, but a \emph{mediator}.
 
 Affect information is causal in nature and understanding what the expression or mannerism means requires an understanding of the context in which it took place. State-of-the-art computational models developed towards understanding context are very simplistic and performs only nominally even under very well controlled laboratory conditions. Contrary to such a setting, assistive technologies provide some respite to the complexities by allowing the user to make all the cognitive decisions. That is, while human computer interfaces need to mimic sensing, cognition and delivery, assistive technologies for people who are blind have to look at sensing and delivery alone and include the human cognition in the loop. This requires precise sensing of the facial and head movements while delivering as much information back to the user as possible through technologies that do not overload the user with information but provides just the right level of information to allow them to cognitively process this information.
@@ -1311,27 +1311,27 @@ Type: 	Data Type: Video (V) / Image(I);
 \hline
 \cite{qiang_ji_probabilistic_2006} & \multicolumn{2}{|c|}{Shape fea} &	\multicolumn{2}{|c|}{DBN} & S & ? & 2 & 8 & V & 95.3 \\
 \hline
-\cite{kapoor_multimodal_2005} & \multicolumn{2}{|c|}{Facial and head gesture} & \multicolumn{2}{|c|}{GP SVM HMM NN} & S &	? &	2 &	8 &	 V &	 86\\
+\cite{kapoor_multimodal_2005} & \multicolumn{2}{|c|}{Facial and head gesture} & \multicolumn{2}{|c|}{GP SVM HMM NN} & S &	 ? &	2 &	8 &	 V &	 86\\
 \hline
 \cite{kapoor_automatic_2007} & \multicolumn{2}{|c|}{Pixel diff of mouth}	& \multicolumn{2}{|c|}{GP SVM HMM NN} &	S &	I &	2 &	24 &	 V &	 79\\
 \hline
 \cite{lee_facial_2005} & \multicolumn{2}{|c|}{Intensity of face} &	\multicolumn{2}{|c|}{Decomposable model} &	P &	I &	6 &	8 + 16 &	 V &	 61\\
 \hline
-\cite{littlewort_faces_2007} & \multicolumn{2}{|c|}{Gabor} &	\multicolumn{2}{|c|}{AdaBoost SVM} &	S &	I &	2 &	26 &	V &	72\\
+\cite{littlewort_faces_2007} & \multicolumn{2}{|c|}{Gabor} &	\multicolumn{2}{|c|}{AdaBoost SVM} &	S &	I &	2 &	26 &	 V &	72\\
 \hline
-\cite{lucey_investigating_2007} & \multicolumn{2}{|c|}{AAM} &	\multicolumn{2}{|c|}{SVM} &	S P &	I &	AUs	& 100 &	? &	95\\
+\cite{lucey_investigating_2007} & \multicolumn{2}{|c|}{AAM} &	\multicolumn{2}{|c|}{SVM} &	S P &	I &	AUs	& 100 &	? &	 95\\
 \hline
 \cite{pantic_dynamics_2006} & \multicolumn{2}{|c|}{Facial profile} & \multicolumn{2}{|c|}{Rule-based}	& P &	I &	27 AUs & 19 &	V &	 86.3\\
 \hline
 \cite{pantic_case-based_2004} & \multicolumn{2}{|c|}{Frontal profile facial points} & \multicolumn{2}{|c|}{Rule and case based}	& P &	 I &	 9 &	8 &	I &	 83\\
 \hline
-\cite{sebe_authentic_2004} & \multicolumn{2}{|c|}{12 motion units} &	\multicolumn{2}{|c|}{kNN} &	S &	I &	4 &	53 + 28 &	V &	93 + 95\\
+\cite{sebe_authentic_2004} & \multicolumn{2}{|c|}{12 motion units} &	\multicolumn{2}{|c|}{kNN} &	S &	I &	4 &	53 + 28 &	 V &	93 + 95\\
 \hline
-\cite{yan_tong_facial_2007} & \multicolumn{2}{|c|}{Gabor} &	\multicolumn{2}{|c|}{AdaBoost DBN} &	P &	I &	14 AUs &	100 + 10 &	I	 & 93 + 93\\
+\cite{yan_tong_facial_2007} & \multicolumn{2}{|c|}{Gabor} &	\multicolumn{2}{|c|}{AdaBoost DBN} &	P &	I &	14 AUs &	 100 + 10 &	I	 & 93 + 93\\
 \hline
 \cite{valstar_how_2007} & \multicolumn{2}{|c|}{Motion history} &	\multicolumn{2}{|c|}{SNoW kNN} &	P &	I &	15 AUs &	 19 + 100 &	 V	& 61 + 68\\
 \hline
-\cite{valstar_spontaneous_2006} & \multicolumn{2}{|c|}{8 facial points}	& \multicolumn{2}{|c|}{Gentle Boost SVM} &	S P &	I &	2 &	27 + 32 + 65 &	V &	 90\\
+\cite{valstar_spontaneous_2006} & \multicolumn{2}{|c|}{8 facial points}	& \multicolumn{2}{|c|}{Gentle Boost SVM} &	S P &	 I &	2 &	27 + 32 + 65 &	V &	 90\\
 \hline
 \cite{valstar_how_2007} & \multicolumn{2}{|c|}{20 facial points} &	\multicolumn{2}{|c|}{Gentle SVM} &	S P &	I &	2 &	52 &	 V &	 94\\
 \hline
@@ -1339,7 +1339,7 @@ Type: 	Data Type: Video (V) / Image(I);
 \hline
 \cite{jun_wang_3d_2006} & \multicolumn{2}{|c|}{3D surface} &	\multicolumn{2}{|c|}{LDA} &	P &	I	& 6 &	60 &	I	& 83\\
 \hline
-\cite{zhen_wen_capturing_2003} & \multicolumn{2}{|c|}{Geometric ratio}	& \multicolumn{2}{|c|}{GMM} &	P &	I &	4 &	47 &	I &	75\\
+\cite{zhen_wen_capturing_2003} & \multicolumn{2}{|c|}{Geometric ratio}	& \multicolumn{2}{|c|}{GMM} &	P &	I &	4 &	47 &	 I &	75\\
 \hline
 \cite{whitehill_haar_2006} & \multicolumn{2}{|c|}{Harr} &	\multicolumn{2}{|c|}{AdaBoost} &	P &	I &	11 AUs &	? &	I &	 92\\
 \hline
@@ -1561,7 +1561,7 @@ All experiments were carried out on the Cohen-Kanade Facial Expression Database 
 
 In this chapter, we discussed the use of a Temporal Exemplar-based Bayesian Network to determine the facial expressions of the interaction partner. Given that the dyadic interaction assistant is able to extract these facial expression cues, it is thus required to deliver this information back to the users who are blind. This is a challenge in itself as the very high bandwidth information delivered by a human face could easily overload the user. As explained before, the next chapter investigates the use of the human perception of touch to develop novel haptic interfaces for delivering highly dynamic facial expressions.
 
-\chapter{DELIVERING HIGH BANDWIDTH FACIAL EXPRESSIONS THROUGH VIBROTACTILE STIMULATIONS}
+\chapter{DELIVERING DYADIC INTERACTION CUES THROUGH VIBROTACTILE STIMULATIONS}
 Over the past few decades, the environments in which humans live and operate have become increasingly information rich. Audio and visual modalities have been occupied by more than one source at the same time. Increasing audio-visual stimulations in the human's surroundings have increased the need for divided attention, which competes with the need for selective and sustained attention to complete a task at hand \cite{sohlberg_introduction_1989}. While audio and video have evolved as a medium for immersing humans in rich sensory experience, touch \cite{grunwald_human_2008}, taste \cite{maynes-aminzade_edible_2005} and smell \cite{chen_olfactory_2006} have only recently being considered for sensory augmentation and substitutions - note the subtlety between augmentation and substitution. When augmenting the already utilized sensory channels, the newer medium is not in demand to reproduce all of the information, but only enrich the already delivered experience. On the other hand, substitutions have to deliver information that was once being provided by a certain sensory channel on a newer medium, while maintaining similar or lesser cognitive load.
 
 Vision is the primary sense organ for most mammals and for a few primates, including humans, trichromatic vision is so highly evolved \cite{dominy_ecological_2001} that a major portion of the neuronal pathway in the brain is dedicated to sensing, perceiving and cognizing visual stimuli. This allows the human vision to process high intensities of data that stimulates the eyes - Koch et. al. estimated that human eyes, with 106 ganglion cells, could transmit up to 10 Mbits/s \cite{koch_how_2006} to the brain. Hence substituting vision with any other sensory channel is a challenging task that requires appropriate design taking into account the high intensity of data generated by visual stimuli.
@@ -2058,14 +2058,11 @@ In this chapter we demonstrated a novel interface, a vibrotactile glove, for del
 
 In the next chapter we focus on the problem of recognizing the interaction partners based on facial biometrics. We highlight the importance of face recognition in the social context.
 
-\chapter{FACIAL BIOMETRICS IN SOCIAL CONTEXT: IDENTIFYING INTERACTION PARTNERS}
-Social interactions and social communication dynamics are very specific to the interacting partners. Social interactions of every individual with another varies depending on how they are related on the social fabric. As identified by the individuals who are blind on the online survey of important non-verbal cues (Chapter \ref{Chap:3}, identity of the interaction partner was considered as being important. In our discussions with the user population, we realized that the identity of individuals is very important while being in group discussions as they would like to know who is located where and what a certain individuals facial expressions are. 
+\chapter{BIOMETRICS IN SOCIAL CONTEXT: IDENTIFYING INTERACTION PARTNERS}
+Social interactions and social communication dynamics are very specific to the interacting partners. Social interactions of every individual with another varies depending on how they are related on the social fabric. As identified by the individuals who are blind on the online survey of important non-verbal cues (Chapter \ref{Chap:3}, identity of the interaction partner was considered as being important. In our discussions with the user population, we realized that the identity of individuals is very important while being in group discussions as they would like to know who is located where and what a certain individuals facial expressions are.
 
 Camera-based face recognition has the potential for recognizing
-people at a distance, without their need to explicitly .  For
-decades, banking, retail, commercial, and industrial buildings have
-been populated with surveillance cameras that capture video streams
-of all people passing through critical areas.  More recently, as a
+people at a distance, without their explicit involvement.  More recently, as a
 result of threats to public safety, some public places (such as in
 Glasgow and London) have been heavily populated with video
 surveillance cameras.  On average, a person moving through London is
@@ -2077,11 +2074,7 @@ Given this great potential, it is not surprising that many private
 corporations have attempted to develop and deploy face recognition
 systems, as an adjunct to existing video security and surveillance
 systems.  However, the performance of these systems has been
-disappointing. Depending on how such a system is adjusted,
-miscreants might easily pass through the system undetected, or
-innocent people might be incessantly inconvenienced by false alarms.
-
-One of the most difficult problems that face recognition researchers
+disappointing. One of the most difficult problems that face recognition researchers
 encounter in surveillance applications is that face databases of
 miscreants typically contain only frontal and profile views of each
 person's face, with no intermediate views.  Surveillance videos
@@ -2103,15 +2096,9 @@ is certainly within the limitations of current face recognition
 algorithms.
 
 \subsection{Employing face recognition to facilitate social interactions}
-However, there is a real-world application for face recognition that
+However, the applcation of face recognition within the proposed social situational awareness context
 is moderately challenging, but still potentially within the realm of
-possibility. When people who are blind enter a room, they might find
-it awkward to initiate social interactions because they don't know
-how many people are in the room, who those people are, or where they
-are standing. A robust, wearable
-face recognition device could solve this problem.
-
-This problem is simplified considerably by the fact that, on a
+possibility. This problem is simplified considerably by the fact that, on a
 day-to-day basis most people encounter a limited number of people
 whom they need to recognize.  It is further simplified by the fact
 that people typically don't attempt to disguise their appearance in
@@ -2292,7 +2279,6 @@ extracting such features from face images, and for constructing a
 feature space that is unique to each person in the database.
 
 \section{Feature Extractors}
-\subsection{What is a Feature?}
 The task of face recognition is inherently a multi-class
 classification problem. For every face image $X$, there is an
 associated label $y$ that is the name of the class, i.e. the name of
@@ -3254,7 +3240,7 @@ be useful for face recognition in small face databases, such as
 those typical of a social interaction assistance device for people
 who are blind.
 
-\section{Conclusions and Future Work}
+\section{Face Recognition in Social Situational Awareness Context}
 As mentioned earlier, the proposed person-specific approach to
 evolutionary feature selection in face images is well-suited for
 applications such as those that enhance social interaction for
@@ -3263,38 +3249,6 @@ appearance in normal social situations, and even when some
 significant change occurs (such as a man shaving off his beard) the
 system can continue to evolve as it captures new images with each
 encounter.
-
-A wearable social interaction assistant prototype has been
-implemented using a pair of eyeglasses equipped with a tiny
-unobtrusive video camera in the nose bridge ~\cite{Sreekar2005} and
-is shown in Section XXXX, Figure XXXX. The analog video output from this
-camera is passed through a video digitizer, and the resulting
-digital stream is then fed into a portable laptop computer. A video
-stream is captured of any person standing in front of the
-eyeglasses.  A face detection algorithm, based on Adaboost ~\cite{
-violajones01}, is then used to identify the frames of the video
-where a face is present, and to localize that face within that
-frame. This detected face is then cropped and compared to indexed
-faces in a face database.
-
-
-The performance of the proposed approach for identifying
-person-specific features relies, to a large extent, on obtaining
-near-frontal views of faces.  To offset this limitation, there is
-ongoing work ~\cite{ Balasubramanian2007} to perform
-person-independent head pose estimation on the face images obtained
-from this platform. It is expected that this will help us select
-face images from the video stream with near-frontal views, which
-will improve the performance of our algorithm in identifying
-person-specific features.
-
-Another factor that limits the performance of our algorithm is
-illumination variations in the captured images. Especially
-problematic are variations between outdoor-indoor and day-night
-settings. (Of course, this limitation is not unique to our
-algorithm.) As a strategy to provide additional light unobtrusively
-under adverse lighting conditions, we are employing infra-red LED
-illuminators in conjunction with an infrared-sensitive camera.
 
 In summary, while there have been many different feature-based
 approaches to face recognition over the last two decades of
@@ -3308,14 +3262,13 @@ been inspired by the human visual system and is based on knowledge
 that has been developed about the process by which humans recognize
 faces.  We believe that more needs to be learnt about human face
 recognition, and that as more is learnt, the knowledge can be put to
-use to develop more robust face recognition algorithms.
+use to develop more robust face recognition algorithms. Later in Chapter XXX, we described the interface to deliver the face recognition results to the user's who are blind.
+
+In the following three chapters, we discuss the problem of sensing and conveying Proxemics (interpersonal spaces), which is an important component of social interactions and social situational awareness. These chapters, together, provide sensing and delivering of the proxemics information.
 
 
-\chapter{SENSING INTERPERSONAL SPACES}
-\DoubleSpacing
-\setlength{\parindent}{.5in}
-
-In behavioral psychology, influences of interpersonal distances on social interactions between people have been studied for over four decades. The term proxemics, coined by Edward T. Hall, describes influence of interpersonal distances in animal and man \cite{hall_hidden_1990}. The following list describes the American proxemic distances; note that such distances vary with culture and environment.
+\chapter{SENSING PRROXEMICS AND THE SOCIAL SPACE}
+An important aspect of social interactions is the relative spatial location of the interacting partners. Definition of a certain culture correlates very closely to the accepted norms of interpersonal distance and the behavioral attributes displayed by the interacting partners. In behavioral psychology, influences of interpersonal distances on social interactions between people have been studied for over four decades. The term proxemics, coined by Edward T. Hall, describes influence of interpersonal distances in animal and man \cite{hall_hidden_1990}. The following list describes the American proxemic distances; note that such distances vary with culture and environment. A part of learning that visually able individuals go through is to understand what these norms are very quickly by observing interactions between other individuals who are familiar with the culture. People who are visually impaired might find the lack of access to this important information inconvenient. An important aspect of the technologies proposed in the next three chapters is to provide information to the users a means of accessing the social scene. 
 
 \begin{enumerate}[1.]
 \item Intimate Distance (Close Phase): 0-6 inches
@@ -3328,25 +3281,10 @@ In behavioral psychology, influences of interpersonal distances on social intera
 \item Public Distance (Far Phase): 25 feet or more
 \end{enumerate}
 
-Proxemics plays a very important role in interpersonal communication, but people who are blind and visually impaired do not have access to this information. In \cite{ram_people_1998}, Ram and Sharf introduced The People Sensor: an electronic travel aid, for individuals who are blind, designed to help detect and localize people and objects in front of the user. The distance between the user and an obstacle is found using ultrasonic sensors and communicated through the rate of short vibratory pulses, where the rate is inversely proportional to distance. However, the researchers did not do any user testing to determine the usefulness of their technology. Similar to this system, our technology uses the haptic belt described in Chapter 2 for delivering the proxemics information to an individual who is blind or visually impaired.
+From the sensing perspective we resort to the camera that is on the user and through the use of computer vision technology, face detection, we extract the social scene structure, including the number of people in the user's visual field, where people are located relative to the user, coarse information related to gaze direction (pose estimation algorithms could be used to extract finer estimates of pose), and the approximate distance of the person from the user based on the size of the face image. The camera is mounted on a pair of glasses that allow the camera to be directed by the user in which ever direction possible. The camera also tracks individuals as they move in the space in front of the users. Through the use of detected faces and a tracking algorithm it is possible so sense all the individuals within the interaction space and their relative location and movement in front of the user. This chapter describes the challenges involved in detecting faces within a scene and determining their exact size in order to determine the distance to the user. The following chapter describes tracking individuals within the social space, especially when they are moving in front of the users. 
 
-Tactile rhythms delivered using a vibrotactile belt were used in \cite{erp_waypoint_2005} to convey distance information during waypoint navigation. Time between vibratory pulses was varied using one of two schemes: monotonic (rate is inversely proportional to distance) or three-phase-model (three distinct rhythms mapped to three distances). Distinct tactile rhythms are promising for use with multidimensional tactons \cite{barralon_development_2007} \cite{brown_first_2005}, which are vibratory signals used to communicate abstract messages \cite{brown_first_2005} by changing the dimensions of the signal including frequency, amplitude, location, rhythm, etc. Based on pilot test results, we chose to pursue distinct rhythms over monotonic rhythms as users find it difficult to identify interpersonal distances using monotonic rhythms as the vibratory signal varies smoothly with changes in distance.
-
-From the sensing perspective we resort to the camera that is on the user's glasses and through the use of computer vision technology, face detection, we extract non-verbal cues for social interaction, including the number of people in the user's visual field, where people are located relative to the user, coarse information related to gaze direction (pose estimation algorithms could be used to extract finer estimates of pose), and the approximate distance of the person from the user based on the size of the face image.
-
-\section{Conceptual Framework}
-As shown in Figure 1, the output of the face detection process (indicated by a green rectangle on the image) provided by the Social Interaction Assistant is directly coupled with the haptic belt. Every frame in the video sequence captured by the Social Interaction Assistant is divided into 7 regions. After face detection, the region to which the top-left corner of the face detection output belongs is identified (as shown by the star in Figure 3). This region directly corresponds to the tactor on the belt that needs to be activated to indicate the direction of the person with respect to the user. To this end, a control byte is used to communicate between the software and the hardware components of the system. Regions 1 through 7 are coded into 7 bits on the parallel port of a PC. Depending on the location of the face image, the corresponding bit is set to 1. The software also controls the duration of the vibration by using timers. The duration of a vibration indicates the distance between the user and the person in his or her visual field. The longer the vibration, the closer the people are, which is estimated by the face image size determined during the face detection process.
-
-An overall perspective of the system and its process flow is given below. When a user encounters a person in his or her field of view, the face is detected and recognized (if the person is not in the face database, the user can add it). The delivery of information comprises two steps: Firstly, the identity of the person is audibly communicated to the user (we are currently investigating the use of tactons \cite{brewster_tactons:_2004} to convey identities through touch, but this is part of future work). Secondly, the location of the person is conveyed through a vibrotactile cue in the haptic belt, where the location of the vibration indicates the direction of the person and the duration of vibration indicates the distance between the person and the user. Based on user preference, this information can be repeatedly conveyed with every captured frame, or just when the direction or distance of the person has changed. The presence of multiple people in the visual field is not problematic as long as faces are not occluded and can be detected and recognized by the Social Interaction Assistant. We are currently investigating how to effectively and efficiently communicate non-verbal communication cues when the user is interacting with more than one person.
-
-**********************************
-In this chapter we introduce the sensing and the delivery end of the system that can deliver proxemics information to an individual who is blind or visually impaired. From the sensing end, we describe a face detection methodology that is capable of identifying exact boundaries of the face region through which we model the distance of the interaction partner from the person who is using the device. From the delivery end, we describe user tests that were conducted to determine the use of tactons for conveying direction and distance information.
-**********************************
-
-
-
-\section{Accurate Face Detection}\label{Introduction} \vspace{-0.2in} Face
-detection has become an important first step towards solving
+\section{Accurate Face Detection}\label{Introduction} \
+Face detection has become an important first step towards solving
 plethora of other computer vision problems like face recognition,
 face tracking, pose estimation, intent monitoring and other face
 related processing. Over the years many researchers have come up
@@ -3397,7 +3335,7 @@ for their validation.
 \label{Fig:BlockDiagram}
 \end{figure}
 
-This paper treats the problem of face detection validation in a
+This chapter treats the problem of face detection validation in a
 systematic manner, and proposes a learning framework that
 incorporates both contextual and structural knowledge of human
 faces. A face validation filter is designed by combining two
@@ -3416,7 +3354,7 @@ framework. Section 5 presents the results while Section 6 discusses
 them. Section 7 concludes the paper and discusses future work.
 
 %-------------------------------------------------------------------------
-\section{Related Work}\label{RelatedWork} \vspace{-0.2in} As
+\section{Related Work in Accurate Face Detection}\label{RelatedWork} As
 mentioned earlier, the problem of face detection validation has not
 been treated methodically before, though the problem has been
 handled by many as an integral component of face detection
@@ -3751,7 +3689,7 @@ the LCPDs and hence the discriminating capability. This motivated us
 to design three different sets of RFs, one for each pose. This was
 accomplished by grouping {\emph true} face detections into three
 piles, Turned right ($r$), Facing front ($f$), and, Turned Left
-($l$).
+($l$). 
 
 \begin{figure}[htbp!]
 \centering
@@ -3869,7 +3807,7 @@ versus non-face discrimination as explained in Section
 \ref{CombiningEvidence}.
 
 %-------------------------------------------------------------------------
-\section{Experiments}\label{Experiments} \vspace{-0.2in} In all our
+\section{Testing the Abilities of the Face Detector}\label{Experiments} \vspace{-0.2in} In all our
 experiments, Viola-Jones face detection algorithm
 \cite{viola_robust_2004} was used for extracting face subimages. The
 proposed face validation filter was tested on two face image data
@@ -3925,8 +3863,6 @@ this manual labeling is shown below:
  \mbox{FDR} \nonumber
  \end{equation}
  \end{enumerate}
-
-
 
 \begin{table}[htbp!]
 \caption{Face detection validation results on FERET database.} \label{Tab:FERET}
@@ -4020,8 +3956,8 @@ the belief values to pose angle, we could not confirm quantitatively
 how accurate the pose estimations were. Through visual consort, one
 can verify that the labeling is meaningful.
 
-\chapter{TRACKING PEOPLE IN THE SOCIAL SCENE}
-The problem of person localization in general is very broad in its scope and wide varieties of challenges such as variations in articulation, scale, clothing, partial appearances, occlusions, etc make this a complex problem. Narrowing the focus, this paper targets person localization in real world video sequences captured from the wearable camera of the Social Interaction Assistant. Specifically, we focus on the task of localizing a person who is approaching the user to initiate a social interaction or just conversation. In this context, the problem of person localization can be constrained to the cases where the person of interest is facing the user.
+\chapter{SENSING DYNAMICS OF THE SOCIAL SCENE}
+The problem of person localization in general is very broad in its scope and wide varieties of challenges such as variations in articulation, scale, clothing, partial appearances, occlusions, etc make this a complex problem. Narrowing the focus, this chapter targets person localization in real world video sequences captured from the wearable camera of the Social Interaction Assistant. Specifically, we focus on the task of localizing a person who is approaching the user to initiate a social interaction or just conversation. In this context, the problem of person localization can be constrained to the cases where the person of interest is facing the user.
 
 \begin{figure}[htbp!]
 \centering
@@ -4312,10 +4248,24 @@ Figure \ref{Fig:Figure118}, Figure \ref{Fig:Figure119} and Figure \ref{Fig:Figur
 
 The results presented as a comparison between Color PF and SMSPF shows that incorporating a deterministic structured search into the stochastic particle filtering framework improves the person tracking performance in complex scenarios. The SMSPF algorithm strikes a balance between specificity and generality offered by detection and tracking algorithms as discussed in Section 2. It uses specific structure-aware features in the search in order to handle non-homogeneity of the object and the cluttered nature of the background. On the other hand, generality is maintained by using simple, global features in the particle filtering framework so as to handle non-rigidity and deformability of the object. The clear advantage of using the structured search can be observed on the complex Dataset 3 which encompasses most of the challenges generally encountered while using the Social Interaction Assistant.
 
-\chapter{COMMUNICATING PROXEMICS}
+\chapter{COMMUNICATING SOCIAL SCENE DYNAMICS}
+
+\section{Conceptual Framework of Social Scene Structure Extractor}
+As shown in Figure 1, the output of the face detection process (indicated by a green rectangle on the image) provided by the Social Interaction Assistant is directly coupled with the haptic belt. Every frame in the video sequence captured by the Social Interaction Assistant is divided into 7 regions. After face detection, the region to which the top-left corner of the face detection output belongs is identified (as shown by the star in Figure 3). This region directly corresponds to the tactor on the belt that needs to be activated to indicate the direction of the person with respect to the user. To this end, a control byte is used to communicate between the software and the hardware components of the system. Regions 1 through 7 are coded into 7 bits on the parallel port of a PC. Depending on the location of the face image, the corresponding bit is set to 1. The software also controls the duration of the vibration by using timers. The duration of a vibration indicates the distance between the user and the person in his or her visual field. The longer the vibration, the closer the people are, which is estimated by the face image size determined during the face detection process.
+
+An overall perspective of the system and its process flow is given below. When a user encounters a person in his or her field of view, the face is detected and recognized (if the person is not in the face database, the user can add it). The delivery of information comprises two steps: Firstly, the identity of the person is audibly communicated to the user (we are currently investigating the use of tactons \cite{brewster_tactons:_2004} to convey identities through touch, but this is part of future work). Secondly, the location of the person is conveyed through a vibrotactile cue in the haptic belt, where the location of the vibration indicates the direction of the person and the duration of vibration indicates the distance between the person and the user. Based on user preference, this information can be repeatedly conveyed with every captured frame, or just when the direction or distance of the person has changed. The presence of multiple people in the visual field is not problematic as long as faces are not occluded and can be detected and recognized by the Social Interaction Assistant. We are currently investigating how to effectively and efficiently communicate non-verbal communication cues when the user is interacting with more than one person.
+
+**********************************
+In this chapter we introduce the sensing and the delivery end of the system that can deliver proxemics information to an individual who is blind or visually impaired. From the sensing end, we describe a face detection methodology that is capable of identifying exact boundaries of the face region through which we model the distance of the interaction partner from the person who is using the device. From the delivery end, we describe user tests that were conducted to determine the use of tactons for conveying direction and distance information.
+**********************************
+
 ********************************************************************************************
 An important shortcoming of the early Social Interaction Assistant [5] (and many other assistive devices for individuals who are blind) is that the prototype Assistant provides only audio outputs.
 **********************************************************************************************
+
+In \cite{ram_people_1998}, Ram and Sharf introduced The People Sensor: an electronic travel aid, for individuals who are blind, designed to help detect and localize people and objects in front of the user. The distance between the user and an obstacle is found using ultrasonic sensors and communicated through the rate of short vibratory pulses, where the rate is inversely proportional to distance. However, the researchers did not do any user testing to determine the usefulness of their technology.
+
+Tactile rhythms delivered using a vibrotactile belt were used in \cite{erp_waypoint_2005} to convey distance information during waypoint navigation. Time between vibratory pulses was varied using one of two schemes: monotonic (rate is inversely proportional to distance) or three-phase-model (three distinct rhythms mapped to three distances). Distinct tactile rhythms are promising for use with multidimensional tactons \cite{barralon_development_2007} \cite{brown_first_2005}, which are vibratory signals used to communicate abstract messages \cite{brown_first_2005} by changing the dimensions of the signal including frequency, amplitude, location, rhythm, etc. Based on pilot test results, we chose to pursue distinct rhythms over monotonic rhythms as users find it difficult to identify interpersonal distances using monotonic rhythms as the vibratory signal varies smoothly with changes in distance.
 
 This design is not practical for the target user population because individuals who are blind rely on their ears to perceive their environment, and audio outputs may interfere with normal hearing. This chapter describes an alternative delivery modality: a vibrotactile belt that can convey non-verbal communication cues to individuals who are blind or visually impaired. Specifically, we focus on the non-verbal cue listed in Section I.C: helping users perceive the number of people in their visual field, and the relative direction and distance of each individual with respect to the user. In some social situations, location information is available through audible cues, but this is not always the case. For example, when a group of friends approaches all of them may smile but only some may offer a verbal greeting, or a passing co-worker may nod to you in the hallway without exchanging a verbal greeting. These non-verbal communications are common occurrences, but are not accessible to someone who is blind.
 
@@ -4774,7 +4724,7 @@ Given proper functionality, specifically expressiveness, haptic belts can be use
 
 
 
-\chapter{SOCIAL DISABILITY}
+\chapter{THE SOCIAL INTERACTION ASSISTANT \& THE SOCIETY}
 \section{Social Intelligence}
 Studies in Cognitive Psychology support the hypothesis that social interactions play a vital role in the overall development of intelligence in humans, especially, in the development of Social Intelligence (or Interpersonal Intelligence \cite{gardner_frames_1993}) and Emotional Intelligence \cite{bradberry_emotional_2009}. Social and Emotional intelligence are vital components in an individual understanding the importance of other people and things in their surroundings. Without active social interactions, a large part of the learning component is lost.
 

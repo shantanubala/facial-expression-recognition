@@ -3268,7 +3268,7 @@ In the following three chapters, we discuss the problem of sensing and conveying
 
 
 \chapter{SENSING PRROXEMICS AND THE SOCIAL SPACE}
-In behavioral psychology, influences of interpersonal distances on social interactions between people have been studied for over four decades. The term proxemics, coined by Edward T. Hall, describes influence of interpersonal distances in animal and man \cite{hall_hidden_1990}. The following list describes the American proxemic distances; note that such distances vary with culture and environment.
+An important aspect of social interactions is the relative spatial location of the interacting partners. Definition of a certain culture correlates very closely to the accepted norms of interpersonal distance and the behavioral attributes displayed by the interacting partners. In behavioral psychology, influences of interpersonal distances on social interactions between people have been studied for over four decades. The term proxemics, coined by Edward T. Hall, describes influence of interpersonal distances in animal and man \cite{hall_hidden_1990}. The following list describes the American proxemic distances; note that such distances vary with culture and environment. A part of learning that visually able individuals go through is to understand what these norms are very quickly by observing interactions between other individuals who are familiar with the culture. People who are visually impaired might find the lack of access to this important information inconvenient. An important aspect of the technologies proposed in the next three chapters is to provide information to the users a means of accessing the social scene. 
 
 \begin{enumerate}[1.]
 \item Intimate Distance (Close Phase): 0-6 inches
@@ -3281,25 +3281,10 @@ In behavioral psychology, influences of interpersonal distances on social intera
 \item Public Distance (Far Phase): 25 feet or more
 \end{enumerate}
 
-Proxemics plays a very important role in interpersonal communication, but people who are blind and visually impaired do not have access to this information. In \cite{ram_people_1998}, Ram and Sharf introduced The People Sensor: an electronic travel aid, for individuals who are blind, designed to help detect and localize people and objects in front of the user. The distance between the user and an obstacle is found using ultrasonic sensors and communicated through the rate of short vibratory pulses, where the rate is inversely proportional to distance. However, the researchers did not do any user testing to determine the usefulness of their technology. Similar to this system, our technology uses the haptic belt described in Chapter 2 for delivering the proxemics information to an individual who is blind or visually impaired.
+From the sensing perspective we resort to the camera that is on the user and through the use of computer vision technology, face detection, we extract the social scene structure, including the number of people in the user's visual field, where people are located relative to the user, coarse information related to gaze direction (pose estimation algorithms could be used to extract finer estimates of pose), and the approximate distance of the person from the user based on the size of the face image. The camera is mounted on a pair of glasses that allow the camera to be directed by the user in which ever direction possible. The camera also tracks individuals as they move in the space in front of the users. Through the use of detected faces and a tracking algorithm it is possible so sense all the individuals within the interaction space and their relative location and movement in front of the user. This chapter describes the challenges involved in detecting faces within a scene and determining their exact size in order to determine the distance to the user. The following chapter describes tracking individuals within the social space, especially when they are moving in front of the users. 
 
-Tactile rhythms delivered using a vibrotactile belt were used in \cite{erp_waypoint_2005} to convey distance information during waypoint navigation. Time between vibratory pulses was varied using one of two schemes: monotonic (rate is inversely proportional to distance) or three-phase-model (three distinct rhythms mapped to three distances). Distinct tactile rhythms are promising for use with multidimensional tactons \cite{barralon_development_2007} \cite{brown_first_2005}, which are vibratory signals used to communicate abstract messages \cite{brown_first_2005} by changing the dimensions of the signal including frequency, amplitude, location, rhythm, etc. Based on pilot test results, we chose to pursue distinct rhythms over monotonic rhythms as users find it difficult to identify interpersonal distances using monotonic rhythms as the vibratory signal varies smoothly with changes in distance.
-
-From the sensing perspective we resort to the camera that is on the user's glasses and through the use of computer vision technology, face detection, we extract non-verbal cues for social interaction, including the number of people in the user's visual field, where people are located relative to the user, coarse information related to gaze direction (pose estimation algorithms could be used to extract finer estimates of pose), and the approximate distance of the person from the user based on the size of the face image.
-
-\section{Conceptual Framework}
-As shown in Figure 1, the output of the face detection process (indicated by a green rectangle on the image) provided by the Social Interaction Assistant is directly coupled with the haptic belt. Every frame in the video sequence captured by the Social Interaction Assistant is divided into 7 regions. After face detection, the region to which the top-left corner of the face detection output belongs is identified (as shown by the star in Figure 3). This region directly corresponds to the tactor on the belt that needs to be activated to indicate the direction of the person with respect to the user. To this end, a control byte is used to communicate between the software and the hardware components of the system. Regions 1 through 7 are coded into 7 bits on the parallel port of a PC. Depending on the location of the face image, the corresponding bit is set to 1. The software also controls the duration of the vibration by using timers. The duration of a vibration indicates the distance between the user and the person in his or her visual field. The longer the vibration, the closer the people are, which is estimated by the face image size determined during the face detection process.
-
-An overall perspective of the system and its process flow is given below. When a user encounters a person in his or her field of view, the face is detected and recognized (if the person is not in the face database, the user can add it). The delivery of information comprises two steps: Firstly, the identity of the person is audibly communicated to the user (we are currently investigating the use of tactons \cite{brewster_tactons:_2004} to convey identities through touch, but this is part of future work). Secondly, the location of the person is conveyed through a vibrotactile cue in the haptic belt, where the location of the vibration indicates the direction of the person and the duration of vibration indicates the distance between the person and the user. Based on user preference, this information can be repeatedly conveyed with every captured frame, or just when the direction or distance of the person has changed. The presence of multiple people in the visual field is not problematic as long as faces are not occluded and can be detected and recognized by the Social Interaction Assistant. We are currently investigating how to effectively and efficiently communicate non-verbal communication cues when the user is interacting with more than one person.
-
-**********************************
-In this chapter we introduce the sensing and the delivery end of the system that can deliver proxemics information to an individual who is blind or visually impaired. From the sensing end, we describe a face detection methodology that is capable of identifying exact boundaries of the face region through which we model the distance of the interaction partner from the person who is using the device. From the delivery end, we describe user tests that were conducted to determine the use of tactons for conveying direction and distance information.
-**********************************
-
-
-
-\section{Accurate Face Detection}\label{Introduction} \vspace{-0.2in} Face
-detection has become an important first step towards solving
+\section{Accurate Face Detection}\label{Introduction} \
+Face detection has become an important first step towards solving
 plethora of other computer vision problems like face recognition,
 face tracking, pose estimation, intent monitoring and other face
 related processing. Over the years many researchers have come up
@@ -3350,7 +3335,7 @@ for their validation.
 \label{Fig:BlockDiagram}
 \end{figure}
 
-This paper treats the problem of face detection validation in a
+This chapter treats the problem of face detection validation in a
 systematic manner, and proposes a learning framework that
 incorporates both contextual and structural knowledge of human
 faces. A face validation filter is designed by combining two
@@ -3369,7 +3354,7 @@ framework. Section 5 presents the results while Section 6 discusses
 them. Section 7 concludes the paper and discusses future work.
 
 %-------------------------------------------------------------------------
-\section{Related Work}\label{RelatedWork} \vspace{-0.2in} As
+\section{Related Work in Accurate Face Detection}\label{RelatedWork} As
 mentioned earlier, the problem of face detection validation has not
 been treated methodically before, though the problem has been
 handled by many as an integral component of face detection
@@ -3704,7 +3689,7 @@ the LCPDs and hence the discriminating capability. This motivated us
 to design three different sets of RFs, one for each pose. This was
 accomplished by grouping {\emph true} face detections into three
 piles, Turned right ($r$), Facing front ($f$), and, Turned Left
-($l$).
+($l$). 
 
 \begin{figure}[htbp!]
 \centering
@@ -3822,7 +3807,7 @@ versus non-face discrimination as explained in Section
 \ref{CombiningEvidence}.
 
 %-------------------------------------------------------------------------
-\section{Experiments}\label{Experiments} \vspace{-0.2in} In all our
+\section{Testing the Abilities of the Face Detector}\label{Experiments} \vspace{-0.2in} In all our
 experiments, Viola-Jones face detection algorithm
 \cite{viola_robust_2004} was used for extracting face subimages. The
 proposed face validation filter was tested on two face image data
@@ -3878,8 +3863,6 @@ this manual labeling is shown below:
  \mbox{FDR} \nonumber
  \end{equation}
  \end{enumerate}
-
-
 
 \begin{table}[htbp!]
 \caption{Face detection validation results on FERET database.} \label{Tab:FERET}
@@ -3974,7 +3957,8 @@ how accurate the pose estimations were. Through visual consort, one
 can verify that the labeling is meaningful.
 
 \chapter{SENSING DYNAMICS OF THE SOCIAL SCENE}
-The problem of person localization in general is very broad in its scope and wide varieties of challenges such as variations in articulation, scale, clothing, partial appearances, occlusions, etc make this a complex problem. Narrowing the focus, this paper targets person localization in real world video sequences captured from the wearable camera of the Social Interaction Assistant. Specifically, we focus on the task of localizing a person who is approaching the user to initiate a social interaction or just conversation. In this context, the problem of person localization can be constrained to the cases where the person of interest is facing the user.
+As described earlier, determining the social scene is based on 
+The problem of person localization in general is very broad in its scope and wide varieties of challenges such as variations in articulation, scale, clothing, partial appearances, occlusions, etc make this a complex problem. Narrowing the focus, this chapter targets person localization in real world video sequences captured from the wearable camera of the Social Interaction Assistant. Specifically, we focus on the task of localizing a person who is approaching the user to initiate a social interaction or just conversation. In this context, the problem of person localization can be constrained to the cases where the person of interest is facing the user.
 
 \begin{figure}[htbp!]
 \centering
@@ -4266,9 +4250,23 @@ Figure \ref{Fig:Figure118}, Figure \ref{Fig:Figure119} and Figure \ref{Fig:Figur
 The results presented as a comparison between Color PF and SMSPF shows that incorporating a deterministic structured search into the stochastic particle filtering framework improves the person tracking performance in complex scenarios. The SMSPF algorithm strikes a balance between specificity and generality offered by detection and tracking algorithms as discussed in Section 2. It uses specific structure-aware features in the search in order to handle non-homogeneity of the object and the cluttered nature of the background. On the other hand, generality is maintained by using simple, global features in the particle filtering framework so as to handle non-rigidity and deformability of the object. The clear advantage of using the structured search can be observed on the complex Dataset 3 which encompasses most of the challenges generally encountered while using the Social Interaction Assistant.
 
 \chapter{COMMUNICATING SOCIAL SCENE DYNAMICS}
+
+\section{Conceptual Framework of Social Scene Structure Extractor}
+As shown in Figure 1, the output of the face detection process (indicated by a green rectangle on the image) provided by the Social Interaction Assistant is directly coupled with the haptic belt. Every frame in the video sequence captured by the Social Interaction Assistant is divided into 7 regions. After face detection, the region to which the top-left corner of the face detection output belongs is identified (as shown by the star in Figure 3). This region directly corresponds to the tactor on the belt that needs to be activated to indicate the direction of the person with respect to the user. To this end, a control byte is used to communicate between the software and the hardware components of the system. Regions 1 through 7 are coded into 7 bits on the parallel port of a PC. Depending on the location of the face image, the corresponding bit is set to 1. The software also controls the duration of the vibration by using timers. The duration of a vibration indicates the distance between the user and the person in his or her visual field. The longer the vibration, the closer the people are, which is estimated by the face image size determined during the face detection process.
+
+An overall perspective of the system and its process flow is given below. When a user encounters a person in his or her field of view, the face is detected and recognized (if the person is not in the face database, the user can add it). The delivery of information comprises two steps: Firstly, the identity of the person is audibly communicated to the user (we are currently investigating the use of tactons \cite{brewster_tactons:_2004} to convey identities through touch, but this is part of future work). Secondly, the location of the person is conveyed through a vibrotactile cue in the haptic belt, where the location of the vibration indicates the direction of the person and the duration of vibration indicates the distance between the person and the user. Based on user preference, this information can be repeatedly conveyed with every captured frame, or just when the direction or distance of the person has changed. The presence of multiple people in the visual field is not problematic as long as faces are not occluded and can be detected and recognized by the Social Interaction Assistant. We are currently investigating how to effectively and efficiently communicate non-verbal communication cues when the user is interacting with more than one person.
+
+**********************************
+In this chapter we introduce the sensing and the delivery end of the system that can deliver proxemics information to an individual who is blind or visually impaired. From the sensing end, we describe a face detection methodology that is capable of identifying exact boundaries of the face region through which we model the distance of the interaction partner from the person who is using the device. From the delivery end, we describe user tests that were conducted to determine the use of tactons for conveying direction and distance information.
+**********************************
+
 ********************************************************************************************
 An important shortcoming of the early Social Interaction Assistant [5] (and many other assistive devices for individuals who are blind) is that the prototype Assistant provides only audio outputs.
 **********************************************************************************************
+
+In \cite{ram_people_1998}, Ram and Sharf introduced The People Sensor: an electronic travel aid, for individuals who are blind, designed to help detect and localize people and objects in front of the user. The distance between the user and an obstacle is found using ultrasonic sensors and communicated through the rate of short vibratory pulses, where the rate is inversely proportional to distance. However, the researchers did not do any user testing to determine the usefulness of their technology.
+
+Tactile rhythms delivered using a vibrotactile belt were used in \cite{erp_waypoint_2005} to convey distance information during waypoint navigation. Time between vibratory pulses was varied using one of two schemes: monotonic (rate is inversely proportional to distance) or three-phase-model (three distinct rhythms mapped to three distances). Distinct tactile rhythms are promising for use with multidimensional tactons \cite{barralon_development_2007} \cite{brown_first_2005}, which are vibratory signals used to communicate abstract messages \cite{brown_first_2005} by changing the dimensions of the signal including frequency, amplitude, location, rhythm, etc. Based on pilot test results, we chose to pursue distinct rhythms over monotonic rhythms as users find it difficult to identify interpersonal distances using monotonic rhythms as the vibratory signal varies smoothly with changes in distance.
 
 This design is not practical for the target user population because individuals who are blind rely on their ears to perceive their environment, and audio outputs may interfere with normal hearing. This chapter describes an alternative delivery modality: a vibrotactile belt that can convey non-verbal communication cues to individuals who are blind or visually impaired. Specifically, we focus on the non-verbal cue listed in Section I.C: helping users perceive the number of people in their visual field, and the relative direction and distance of each individual with respect to the user. In some social situations, location information is available through audible cues, but this is not always the case. For example, when a group of friends approaches all of them may smile but only some may offer a verbal greeting, or a passing co-worker may nod to you in the hallway without exchanging a verbal greeting. These non-verbal communications are common occurrences, but are not accessible to someone who is blind.
 

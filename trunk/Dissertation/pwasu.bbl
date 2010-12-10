@@ -1460,34 +1460,6 @@ M.~Turk and A.~Pentland, ``Face recognition using eigenfaces,'' in {\em
 E.~T. Hall, {\em The Hidden Dimension}.
 \newblock Anchor, Oct. 1990.
 
-\bibitem{ram_people_1998}
-S.~Ram and J.~Sharf, ``The people sensor: a mobility aid for the visually
-  impaired,'' pp.~166--167, 1998.
-
-\bibitem{erp_waypoint_2005}
-J.~B. F.~V. Erp, H.~A. H. C.~V. Veen, C.~Jansen, and T.~Dobbins, ``Waypoint
-  navigation with a vibrotactile waist belt,'' {\em {ACM} Trans. Appl.
-  Percept.}, vol.~2, no.~2, pp.~106--117, 2005.
-
-\bibitem{barralon_development_2007}
-P.~Barralon, G.~Ng, G.~Dumont, S.~K.~W. Schwarz, and M.~Ansermino,
-  ``Development and evaluation of multidimensional tactons for a wearable
-  tactile display,'' in {\em Proceedings of the 9th international conference on
-  Human computer interaction with mobile devices and services}, (Singapore),
-  pp.~186--189, {ACM}, 2007.
-
-\bibitem{brown_first_2005}
-L.~Brown, S.~Brewster, and H.~Purchase, ``A first investigation into the
-  effectiveness of tactons,'' in {\em Eurohaptics Conference, 2005 and
-  Symposium on Haptic Interfaces for Virtual Environment and Teleoperator
-  Systems, 2005. World Haptics 2005. First Joint}, pp.~167--176, 2005.
-
-\bibitem{brewster_tactons:_2004}
-S.~Brewster and L.~Brown, ``Tactons: structured tactile messages for non-visual
-  information display,'' in {\em {AUIC} '04: Proceedings of the fifth
-  conference on Australasian user interface}, pp.~23, 15, Australian Computer
-  Society, Inc., 2004.
-
 \bibitem{viola_robust_2004}
 P.~Viola and M.~J. Jones, ``Robust {Real-Time} face detection,'' {\em Int. J.
   Comput. Vision}, vol.~57, no.~2, pp.~137--154, 2004.
@@ -1651,6 +1623,34 @@ V.~Manohar, P.~Soundararajan, D.~Goldgof, R.~Kasturi, and J.~Garofolo,
   ``Performance evaluation of object detection and tracking in video,'' {\em
   {IN} {PROCEEDINGS} {OF} {THE} {SEVENTH} {ASIAN} {CONFERENCE} {ON} {COMPUTER}
   {VISION}}, vol.~2, pp.~151---161, 2006.
+
+\bibitem{brewster_tactons:_2004}
+S.~Brewster and L.~Brown, ``Tactons: structured tactile messages for non-visual
+  information display,'' in {\em {AUIC} '04: Proceedings of the fifth
+  conference on Australasian user interface}, pp.~23, 15, Australian Computer
+  Society, Inc., 2004.
+
+\bibitem{ram_people_1998}
+S.~Ram and J.~Sharf, ``The people sensor: a mobility aid for the visually
+  impaired,'' pp.~166--167, 1998.
+
+\bibitem{erp_waypoint_2005}
+J.~B. F.~V. Erp, H.~A. H. C.~V. Veen, C.~Jansen, and T.~Dobbins, ``Waypoint
+  navigation with a vibrotactile waist belt,'' {\em {ACM} Trans. Appl.
+  Percept.}, vol.~2, no.~2, pp.~106--117, 2005.
+
+\bibitem{barralon_development_2007}
+P.~Barralon, G.~Ng, G.~Dumont, S.~K.~W. Schwarz, and M.~Ansermino,
+  ``Development and evaluation of multidimensional tactons for a wearable
+  tactile display,'' in {\em Proceedings of the 9th international conference on
+  Human computer interaction with mobile devices and services}, (Singapore),
+  pp.~186--189, {ACM}, 2007.
+
+\bibitem{brown_first_2005}
+L.~Brown, S.~Brewster, and H.~Purchase, ``A first investigation into the
+  effectiveness of tactons,'' in {\em Eurohaptics Conference, 2005 and
+  Symposium on Haptic Interfaces for Virtual Environment and Teleoperator
+  Systems, 2005. World Haptics 2005. First Joint}, pp.~167--176, 2005.
 
 \bibitem{edwards_pragmatic_2009}
 N.~Edwards, J.~Rosenthal, D.~Molbery, J.~Lindsey, K.~Blair, T.~{McDaniel},
