@@ -221,7 +221,7 @@ We refer to the term Social Situational Awareness (SSA) as the ability of indivi
 The Transactional Communication Model \cite{sameroff_reproductive_1975} suggests that during any face-to-face interaction, the interpretation of the social stimulation and the corresponding social response are under the control of various factors including the culture, physical and emotional state, experience, memory, expectation, self concept and attitude of the individuals involved in the interaction. In order to effectively cognize and react to the social stimulation, it is necessary that individuals be able to receive and synthesize these above factors. The essence of enriching social situational awareness then represents the ability of a mediator (telecommunication technology for remote interactions; social assistive technologies for the disabled population) to allow the social cognition of an individual to have access to the above mentioned factors and thereby evoke appropriate social reciprocation. Multimedia technologies
 
 \subsection{Social Situational Awareness in Everyday Social Interactions}
-\subsubsection{SSA in Dyadic Interactions}
+\subsubsection{SSA in Dyadic Interactions} \label{SubSubSec:1.2.1.1}
 Human communication theories have studied dyadic or bilateral interaction between individuals as the basis of most communication models. Theories of leadership, conflict and trust base their findings on dyadic interaction primitives where the importance of the various non-verbal cues is heightened due to the one-on-one nature of dyadic interactions. Eye contact, head gestures (nod and shake), body posture (conveying dominance or submissiveness), social touch (hand shake, shoulder pat, hug, etc.), facial expressions and mannerisms (smile, surprise, inquiry, etc.), eye gestures (threatened gaze, inquisitive gaze, etc.) are some of the parameters that are studied closely in dyadic understanding of human bilateral communication \cite{altmann_analysis_2007}.
 
  \noindent \maltese \hspace*{0.25in} \emph{Enriching SSA in dyadic communication} thus focuses on appropriate extraction and delivery of communicator's face, body and voice based behaviors between interacting individuals.
@@ -316,7 +316,7 @@ Body decoration or artifacts & \cite{sanders_customizing_2008}\\
 \end{center}
 \end{table}
 
-\subsection{Behavior of the Communicator} \label{SubSec:BoC} 
+\subsection{Behavior of the Communicator} \label{SubSec:BoC}
 The last of the three factors that affect non-verbal communication is the behavior of the communicators. While the term behavior is used loosely in defining this unit, this encompasses both static posture and dynamic movements demonstrated by communicators. Of the three factors discussed here, the behavior forms the most important aspect. Most part of the emotional information encoded by humans is delivered through the behavior of individuals during social interactions. Gestures, Posture, Touch and Voice form the basic subdivisions in behavioral non-verbal cueing as was made evident in Figure \ref{Fig:Figure1}. Important aspects of non-verbal cueing are discussed below with various related works in behavioral psychology that highlight the importance of communicator's behaviors in mutual social interactions.
 
 \subsubsection{Gesture}
@@ -554,12 +554,12 @@ Acknowledging this complexity, the research highlighted in this book assumes an 
 \noindent\begin{center}
 \parbox{4in}{\emph{EBM/EBP recognizes that many aspects of health care depend on individual factors such as quality- and value-of-life judgments, which are only partially subject to scientific methods.}}
 \end{center}
-\noindent Though it has pitfalls, Evidence-based Medicine has been successful in saving lives \cite{timmermans_promises_2005} and increased the perceived quality of life. 
+\noindent Though it has pitfalls, Evidence-based Medicine has been successful in saving lives \cite{timmermans_promises_2005} and increased the perceived quality of life.
 
 Based on the above observations, the research described in the rest of the book follows an evidence-based method towards enriching interpersonal interactions among individuals. Further, the book focuses on the first area introduced in this chapter, mediating interpersonal interactions for people who are blind and visually impaired.
 
 \subsection{Example of an Evidence-based Understanding of Social Situational Awareness: The Handshake Example}
-In Section \ref{Section:1.1} of Chapter \ref{Chap:2}, the hand shake scenario was introduced as a perspective into the complexity involved with even simple social interactions. Here we reintroduce the complexity and describe how people who are blind and visually impaired face challenges. 
+In Section \ref{Section:1.1} of Chapter \ref{Chap:2}, the hand shake scenario was introduced as a perspective into the complexity involved with even simple social interactions. Here we reintroduce the complexity and describe how people who are blind and visually impaired face challenges.
 
 What seems to be a simple act of shaking hands between two individuals is actually a rather complex cognition of sensorimotor events. Two individuals who engage in shaking hands have to first make eye contact, exchange emotional desire to interact (this usually happens through face and body gestures, such as smile and increased upper body movements), determine the exact distance between themselves, move appropriately towards each other maintaining interpersonal distance that are befitting of their cultural setting, engage in shaking hands, and finally, move apart assuming a conversational distance which is invariably wider than the hand shake distance. Verbal exchanges may occur before, during or after the hand shake itself. This example shows the need for sensory (visual senses of face and bodily actions, auditory verbal exchange etc.), perceptual (understanding expressions, social distance between individuals etc.), and cognitive (recognizing the desire to interact, engaging in verbal communication etc.) exchange during everyday social interactions.
 
@@ -650,6 +650,16 @@ Natural vs manmade environment &	\cite{radke_image_2005} & & & \cite{todorovic_d
 
 While the above section reviewed some of the finer details of developing an assistive mediation technology, on a coarser note, computer vision research has matured over the past two decades to a point where most visual aspects of human vision are being addressed through the use of cameras. Table \ref{Tab:Table3.1} and \ref{Tab:Table3.2} identifies the various non-verbal cues listed in Section \label{SubSec:1.3.1} through \label{SubSec:BoC} along the rows, while the columns represent how a certain state-of-the-art research within computer vision has approached the problem. For example, consider identifying the non-verbal cue of body posture, in Table \ref{Tab:Table3.2}, we identify that \cite{benabdelkader_person_2002} addressed posture by recognizing who the person is and associating posture data appropriately.  \cite{balan_detailed_2007} used body part segmentation, \cite{kanaujia_emblem_2006} approached it through facial feature segmentation, and \cite{sangho_park_segmentation_2002} and \cite{jingyu_yan_factorization-based_2008} approached posture by analyzing the motion patterns of the limbs.
 
+
+\section{Requirements Analysis for a Social Assistive Technology: Evidence Aggregation}
+As a part of the evidence-based model for developing the social interaction assistant, after addressing important design principles for assitive technologies (See Section \ref{Sec:3.1}), we focused on collecting important evidences from the user community about their need for social interaction enrichment. These evidences would not only address the functionality question of the assistive technology, but would address the important human factor issues of perceived quality of life improvement. In order to identify these unmet needs of the visually impaired community, two focus groups consisting primarily of people who are blind, as well as disability specialists and parents of students with visual impairment and blindness where conducted \footnote{ In  order  to  understand  the  assistive  technology  requirements  of  people  who  are  blind, we conducted two focus group studies (one in Tempe, Arizona USA - $9$ participants, and another in Tucson, Arizona USA - $11$ participants) which included:
+\begin{enumerate}[1.]
+\item Students and adult professionals who are blind,
+\item Parents of individuals who are blind
+\item Professionals who work in the area of blindness and visual impairments.
+\end{enumerate}
+There was unanimous agreement among participants that a technology that would help people with visual impairment to recognize people or hear them described would significantly enhance their social life.}.
+
 \begin{landscape}
 \begin{table}[htbp!]
 \label{Tab:Table3.2}
@@ -706,17 +716,10 @@ Posture	& \cite{benabdelkader_person_2002} & & \cite{balan_detailed_2007} & \cit
 \end{landscape}
 
 
-\section{Requirements Analysis for a Social Assistive Technology: Evidence Aggregation}
-As a part of the evidence-based model for developing the social interaction assistant, after addressing important design principles for assitive technologies (See Section \ref{Sec:3.1}), we focused on collecting important evidences from the user community about their need for social interaction enrichment. These evidences would not only address the functionality question of the assistive technology, but would address the important human factor issues of perceived quality of life improvement. In order to identify these unmet needs of the visually impaired community, two focus groups consisting primarily of people who are blind, as well as disability specialists and parents of students with visual impairment and blindness where conducted \footnote{ In  order  to  understand  the  assistive  technology  requirements  of  people  who  are  blind, we conducted two focus group studies (one in Tempe, Arizona USA - $9$ participants, and another in Tucson, Arizona USA - $11$ participants) which included:
-\begin{enumerate}[1.]
-\item Students and adult professionals who are blind,
-\item Parents of individuals who are blind
-\item Professionals who work in the area of blindness and visual impairments.
-\end{enumerate}
-There was unanimous agreement among participants that a technology that would help people with visual impairment to recognize people or hear them described would significantly enhance their social life.}. Members of these focus groups who were blind or visually impaired were encouraged to speak freely about their challenges in coping with daily living. During these focus groups, the participants agreed on many issues as being important problems. However, one particular problem - that of engaging freely with their sighted counterparts - was highlighted as a particularly important problem that was not being addressed by technology specialists \footnote{  To quote some candidate's opinion about social assistance technology in a everyday setting:
+Members of these focus groups who were blind or visually impaired were encouraged to speak freely about their challenges in coping with daily living. During these focus groups, the participants agreed on many issues as being important problems. However, one particular problem - that of engaging freely with their sighted counterparts - was highlighted as a particularly important problem that was not being addressed by technology specialists \footnote{  To quote some candidate's opinion about social assistance technology in a everyday setting:
 \begin{itemize}
-\item \"It would be nice to walk into a room and immediately get to know who are all in front of me before they start a conversation\".
-\item One young man said, \"It would be great to walk into a bar and identify beautiful women\".
+\item ``It would be nice to walk into a room and immediately get to know who are all in front of me before they start a conversation''.
+\item One young man said, ``It would be great to walk into a bar and identify beautiful women''.
 \end{itemize}}.
 
 While various other examples were cited by individuals during these focus group studies, the inability to access non-verbal cues were considered to be of highest priority. Based on these discussions, a list of needs was complied that characterized social needs often experienced by people with visual impairments. In doing so, two important aspects of social interactions and social situational awareness were identified. These included
@@ -724,6 +727,7 @@ While various other examples were cited by individuals during these focus group 
 \item Access to the non-verbal cues of others during social interactions, and
 \item How one is perceived by others during social interactions.
 \end{enumerate}
+
 
 These needs correlated with the psychology studies conducted by Jindal-Snape with children who were visually impaired. She identifies these two needs as \emph{Social Learning} and \emph{Social Feedback}. While these two important categories were identified, for simplification, the non-verbal cue needs were reduced to $8$ aspects of social interactions that focused primarily on the physical characteristics of the interaction partner and the behaviors of the
 interaction partner. These questions were developed with the help of visually impaired professionals and students:
@@ -813,22 +817,30 @@ The important observations from the above results include,
 \item Facial expressions form the most important visual non-verbal cue that individuals who are blind or visually impaired feel they do not have access to (based on Question 6 on the survey). This correlates with the studies into non-verbal communication that highlights the importance of facial mannerisms and gestures, which are mostly visual in their decoding.
 \item Followed by facial expressions, body mannerisms seem to be of higher importance for individuals who are blind and visually impaired (based on Question 3 of the survey).
 \item The responses to questions 7, 1 and 2 suggest that respondents would like to know the identities of the people with whom they are communicating, relative location of these people and whether their attentions are focused on the respondent. This corresponds to knowing the position of their interaction partners when they are involved in a bilateral or group communication. People tend to move around, especially when they are standing, causing people who are blind to lose their bearing on where people were standing. This can result in individuals addressing an empty space assuming that someone was standing there based on their memory.
-\item The responses to questions 4 and 5 indicate that there was a wide variation in respondents' interest in (4) knowing the physical appearance of people with whom they are communicating and (5) knowing about changes in the physical appearance of people with whom they are communicating (See Figure \ref{{Fig:Figure6}}. Many respondents indicated moderate, little, or no interest in either of these areas.
+\item The responses to questions 4 and 5 indicate that there was a wide variation in respondents' interest in (4) knowing the physical appearance of people with whom they are communicating and (5) knowing about changes in the physical appearance of people with whom they are communicating (See Figure \ref{Fig:Figure6}. Many respondents indicated moderate, little, or no interest in either of these areas.
 \end{itemize}
 
-\section{System Architecture for a Social Interaction Assistant: An Evidence-based Assessment of Requirements}
-From the observations made on the development of a social interaction assistant, we conclude that the device should be portable, wearable and inconspicuous, and be able to provide access to visual cues, while enabling social feedback. To this end, we propose a system that consists essentially of a set of body worn sensor suite capable of extracting important social signals from the environment, while at the same time using a suite of actuators that communicate extracted data back to the user without overloading their sensory system. Figure \ref{Fig:Figure3XX}
-
 \begin{figure}[htbp!]
-\includegraphics[width=5in]{rankaverage.jpg}
+\begin{center}
+\includegraphics[width=4in]{SysArchSIA.jpg}
 \caption{Social Interaction Assistant System Architecture.}
 \label{Fig:Figure3XX}
+\end{center}
 \end{figure}
 
+\section{System Architecture for a Social Interaction Assistant: An Evidence-based Assessment of Requirements}
+From the observations made on the development of a social interaction assistant, we conclude that the device should be portable, wearable and inconspicuous, and be able to provide access to visual cues, while enabling social feedback. To this end, we propose a system that consists essentially of a set of body worn sensor suite capable of extracting important social signals from the environment, while at the same time using a suite of actuators that communicate extracted data back to the user without overloading their sensory system. Figure \ref{Fig:Figure3XX} shows the system architecture of the social interaction assistant, the realization of which is delayed until the components are described in the later chapters. Note the use of specific user input channel into the social interaction assistant along with the sensor suite. This provides unique opportunity for the user to control some of the basic functionalities of the system itself. The details of these user chosen functionalities will become apparent in the later chapters.
+
+\section{Organization of the Later Chapters}
 
 
-\chapter{DETECTING STEREOTYPIC BODY MANNERISMS}
-STEREOTYPIC behavior refers to any mannerism or utterance that is repetitive and non functional in nature \cite{thompson_stereotyped_1995} \cite{jankovic_stereotypies_1994}. Stereotypy occurs in a large portion of the general population in various forms, although aggressive forms have been associated with sensory and cognitive disabilities in individuals. For example, individuals who are blind have the tendency to develop body rocking, head weaving, head drooping, and eye poking \cite{mcadam_self-monitoring_1993}, while, individuals who are deaf have a propensity to develop various repetitive vocal behaviors \cite{reivich_behavior_1972}\cite{haag_repetitive_1985}. Cognitive disabilities (both acquired, like brain injury and congenital, like autism and mental retardation) are associated with stereotypic behaviors like body rocking, hand flapping, jumping, and marching in place \cite{shabani_reducing_2001}.
+
+
+\chapter{ENRICHING SOCIAL FEEDBACK: EGOCENTRIC SENSING OF STEREOTYPIC BEHAVIORS}
+From the evidence-based modeling of the needs of the social interaction assistant, it was clear that people who are blind and visually impaired required social feedback on their body mannerisms more than any other social information. This is understandable as they don't receive any form of self-report on their behaviors if their sighted counterparts resort to unconscious non-verbal reactions that are visual in nature. It has been noticed that people who are blind become very conscious of this inability to receive social feedback and they resort to rather timid expression of body or face based gestures. While this prevents them from unconsciously displaying behaviors that may be considered atypical for the social setting, this also results in them appearing too rigid and asocial. That is, there exists a fine balance of bodily expressions which define the boundaries of cultural norms, which sensorially able people can learn through observation, but is inaccessible to people who are blind. In this chapter we discuss a variant of this above problem, residual stereotypic body rocking in adults who are blind and visually impaired. The problem is delineated in light of enriching social situational awareness and a solution is discussed along with a means of alleviating the condition.
+
+\section{Stereotypic Body Behaviors}
+Stereotypic behavior refers to any mannerism or utterance that is repetitive and non functional in nature \cite{thompson_stereotyped_1995} \cite{jankovic_stereotypies_1994}. Stereotypy occurs in a large portion of the general population in various forms, although aggressive forms have been associated with sensory and cognitive disabilities in individuals. For example, individuals who are blind have the tendency to develop body rocking, head weaving, head drooping, and eye poking \cite{mcadam_self-monitoring_1993}, while, individuals who are deaf have a propensity to develop various repetitive vocal behaviors \cite{reivich_behavior_1972}\cite{haag_repetitive_1985}. Cognitive disabilities (both acquired, like brain injury and congenital, like autism and mental retardation) are associated with stereotypic behaviors like body rocking, hand flapping, jumping, and marching in place \cite{shabani_reducing_2001}.
 
 Though harmless by itself, Stereotypy can become a hindrance to social interactions and social acceptance \cite{loftin_social_2008}. Reference \cite{felps_modification_1988} introduces a 21 year old congenitally blind student who has an extreme case of body rocking (both while sitting and standing) that has become an obstruction to his career and an independent vocational evaluation states that a reduction in the student's body rocking was absolutely necessary for any form of employment. Stereotypy is a concerning problem in children, for whom peer acceptance is very important for their healthy growth and development of good social skills \cite{yu_loneliness_2005}. Children with stereotypic behaviors become victims of teasing thereby leading to social isolation, bullying and social segregation leading to negative self esteem. Aggravating these problems, social segregation and isolation have long term psychologically effects on the individual rendering an overall poor social skill set. Studies have shown that poor social skills are a leading cause for psychological problems such as depression, loneliness, and social anxiety \cite{segrin_poor_2000}.
 
@@ -1212,16 +1224,845 @@ Feature 4 having the highest distribution of simple classifiers under Modest Ada
 
 We are now ready to answer the last research question stating that the use of approximately 2 seconds (or 200 samples @ 100 Hz sampling rate) packet length used with a learning framework biased towards generalized learning (like Modest AdaBoost) would be a good assistive technology solution for detecting and giving feedback towards stereotypic body rocking. We can extend the same argument to other body mannerisms that involve any form of repetitive body part movement.
 
-\section{Conclusion}
- In this chapter, we have addressed the topic detecting stereotypic body mannerisms, specifically body rocking, and propose a technology solution for providing an assistive technology that may reduce or control body rocking. We have discussed the hardware and software components of the proposed system in detail and offer a thorough analysis on the learning framework that provides generalization benefits to allow this framework to be extended to detection of any body mannerism. Investigations are in progress to determine how incoming samples of acceleration data can be labeled automatically by the system based on the AdaBoost classifier's classification confidence metrics. This would provide opportunity for self-learning \cite{raina_self-taught_2007} modes where the device can readily understand and learn data points that were not available in the training set. Combining such self-learning into a generalized learner would provide immense opportunities for not only body mannerism detection, but for solving future data mining problems where typical lab setting training data collection would just not be sufficient to train a robust classifier.
+In this chapter, we have addressed the topic of detecting stereotypic body mannerisms, specifically body rocking, and propose a technology solution for providing an assistive technology that may reduce or control body rocking. We have discussed the hardware and software components of the proposed system in detail and offer a thorough analysis on the learning framework that provides generalization benefits to allow this framework to be extended to detection of any body mannerism. Investigations are in progress to determine how incoming samples of acceleration data can be labeled automatically by the system based on the AdaBoost classifier's classification confidence metrics. This would provide opportunity for self-learning \cite{raina_self-taught_2007} modes where the device can readily understand and learn data points that were not available in the training set. Combining such self-learning into a generalized learner would provide immense opportunities for not only body mannerism detection, but for solving future data mining problems where typical lab setting training data collection would just not be sufficient to train a robust classifier.
 
-***************************************************************************************************************
-From the assistive technology perspective, we plan to integrate a well planned self-monitoring as a part of the proposed device. We are exploring the broad area of human communication to determine the best cognitive self-correction techniques that could augment the proposed solution. . We have implemented a rudimentary form of real-time body rock counter, as discussed in [3], but we have not yet tested it for its feedback capabilities.
-****************************************************************************************************************
+\chapter{ENRICHING FACIAL EXPRESSIONS DURING DYADIC INTERACTIONS}
+As described in Chapter \ref{Chap:3}, the evidence towards facial expression recognition precedes other non-verbal cue sensing and delivery. This is supported by the argument that most part of the non-verbal cues occur through visual facial mannerisms as described in Figure \ref{Fig:Figure1}. The face encodes a lot of information that is both communicative and expressive in nature. Unfortunately, the face is a very complex data generator and the encodings on the face are very individualistic in nature. Evolving computing technologies have been focused on developing solutions towards understanding the nature of facial mannerisms and gestures, but most of this research has been focused on the development of sensors and algorithms that understand user's emotional state for a human-machine interaction scenario. Such interactions are mostly unilateral in nature and focused primarily on developing technologies that will allow the machine to interpret the user's emotional state. That is, the machine becomes the primary \emph{consumer} of the affective cues. But from the perspective of an assistive technology the extracted facial expression primitives have to be augmentations that enrich human-human interpersonal interaction, where the machines not only interpret communicator's affective state, but also deliver affect information through novel affect actuators to the user of the technology. That is, the technology needed in a social interaction assistant is not a consumer, but a \emph{mediator}.
 
-\chapter{PERSON-SPECIFIC FACE RECOGNITION}
-face recognition has the potential for recognizing
-people at a distance, without their knowledge or cooperation.  For
+Affect information is causal in nature and understanding what the expression or mannerism means requires an understanding of the context in which it took place. State-of-the-art computational models developed towards understanding context are very simplistic and performs only nominally even under very well controlled laboratory conditions. Contrary to such a setting, assistive technologies provide some respite to the complexities by allowing the user to make all the cognitive decisions. That is, while human computer interfaces need to mimic sensing, cognition and delivery, assistive technologies for people who are blind have to look at sensing and delivery alone and include the human cognition in the loop. This requires precise sensing of the facial and head movements while delivering as much information back to the user as possible through technologies that do not overload the user with information but provides just the right level of information to allow them to cognitively process this information.
+
+Facial expressions are of utmost importance when humans interact on a one on one basis as explained in Section \ref{SubSubSec:1.2.1.1} of Chapter \ref{Chap:1}. That is, facial expressions become very relevant when the person who is blind is involved in a dyadic interaction with his/her sighted counterpart. To this end, it is essential that the technologies developed towards enabling the user to access facial expressions be a) able to precisely sense facial movements, b) able to deliver facial expression information seamlessly to the user through non-visual modality. Below we consider the challenges of dealing with facial expressions in a dyadic interaction scenario.
+
+\section{Design Considerations}
+The human face is very dynamic when it comes to generating important non-verbal communicative cues. Subtle movements in the facial features can convey great amounts of information. For example, slight opening of the eyelids conveys confusion or interest, whereas a slight closing of the eye lids conveys anger or doubt. Thus, the human face can be considered to be a very high bandwidth information stream, where careful design considerations need to be taken into account if this data has to be encoded optimally and effectively through other modalities.
+
+In the past, most researchers and technologists have resorted to auditory cueing when information has to be delivered to persons with visual disabilities; but there is a strong growing discomfort in the target population when it comes to overloading their hearing. People with visual disabilities have a natural tendency to accommodate for the lack of a primary sensory channel by relying on hearing. For example, with the aid of ambient noise in a room, they can gauge approximately how big a room is. Thus, when designing assistive devices aimed at social aid, we need to carefully consider how to deliver high bandwidth data streams to users relating to the facial movements of interaction partners. Touch or haptic based delivery is a growing area of research which is relatively underutilized, except for Braille. In the next chapter, we explore the use of vibrotactile cueing (on the human hand through a Haptic Glove) towards delivering facial expression data to the user. Below we provide the overall application scenario for the proposed dyadic interaction assistant the details of which are presented in this and the next chapter.
+
+\section{Dyadic Interaction Assistant - Proposed Solution}
+Dyadic interactions represent a large portion of social interactions between individuals; and during dyadic interactions, it is very important to assess the communicator's face, head and body-based gestures and mannerisms. The dyadic interaction assistant is meant to convey important facial and head mannerisms of the interaction partner that might correlate to communicative gestures like head nod, head shake, doubt, anger, frustration, happiness, interest, etc. See Figure \ref{DAFigure1} for a typical dyadic interaction setting. The device incorporates an automated table top face tracker which acts as the input to the system while allowing any extracted data to be delivered on a wearable haptic display called the Haptic Glove.
+
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=4in]{DyadicInteraction.JPG}
+\caption{Typical use of the dyadic interaction assistance scenario, a third person perspective on the use case scenario.}
+\label{DAFigure1}
+\end{figure}
+
+The dyadic interaction assistant was designed to be a compact device that can be carried into meetings where an individual who is blind or visually impaired could place it in front of his/her interaction partner. The device, as shown in Figure \ref{DAFigure1a}, consists of a micro pan-tilt mechanism that is controlled from a PDA like computing platform. Real-time face detection (as explained in the previous section) tracks the face of the interaction partner and captures only the face image for further processing. We use the FaceAPI®, a commercially available facial feature tracking package to determine the locations of all the facial features including eyelids, eye brows and the mouth. Figure \ref{DAFigure2} shows a typical output of the FaceAPI software.
+
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=3in]{MiniTracker.jpg}
+\caption{Face tracker with an auto-focus camera and a micro pan-tilt mechanism.}
+\label{DAFigure1a}
+\end{figure}
+
+This chapter focuses on the sensing of facial expressions using the proposed dyadic interaction assistant. Since facial expressions are all visual in nature, the proposed solution uses computer vision solutions to track the face of the interaction partner and extracts all the necessary facial feature information for decision making and delivery. The following section gives a summary of the current state-of-the-art in computer vision based facial expressions recognition algorithms. Following this discussion, the proposed methodology for extracting the expression primitives are detailed.
+
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=5in]{FaceAPITracking.JPG}
+\caption{Typical use of the dyadic interaction assistance scenario, a third person perspective on the use case scenario.}
+\label{DAFigure2}
+\end{figure}
+
+\section{Facial Expression Recognition - State of the art}
+Computer based facial expression recognition is mostly centered around the process of identifying the various facial mannerisms and gestures of individuals through the use of mostly electrooptical cameras. While recent developments relate to their recognition using infrared [REF], thermal[REF] and face electromyogram (EMG) [REF], in this chapter, we restrict to the discussions of EO camera based facial expression recognition as the primary sensor on the dyadic interaction assistant is restricted to the use of an auto-focus Complementary Metal Oxide Semiconductor (CMOS) camera.
+
+Most facial expression recognition algorithms treat the underlying problem as a classification problem and group spatio-temporal facial actions into predetermined bins of specific facial gestures or mannerisms. Popular classifications include the Ekman [REF] grouping of 6 basic facial expression of emotion, including Happy, Sad, Surprise, Fear, Anger and Disgust. These classes are distinguished from the otherwise Neutral expression of the individual's face.
+
+Table \ref{Tab:FaceExpRecog} below shows a compilation of the state-of-the-art in facial expression recognition algorithms. Note that the table is an extension of the 2009 work that was published by Zaho et. al. [REF].
+
+\begin{landscape}
+\begin{table}[htbp!]
+\label{Tab:FaceExpRecog}
+\scriptsize
+\caption{State-of-the-art facial expression recognition algorithms and their performance. \newline
+Exp: Spontaneous(S) / Posed expression (P);
+Per: 	Person Dependent(P) / Independent (I);
+Class: 	Number of classes;
+Sub: 	Number of subjects;
+Type: 	Data Type: Video (V) / Image(I);
+\% Acc: 	Percentage Accuracy;
+?: 	missing entry.}
+\begin{tabularx}{8in}{|X|XX|XX|X|X|X|X|X|X|}
+\hline
+\textbf{Ref.} & \multicolumn{2}{|c|}{\textbf{Features}} & \multicolumn{2}{|c|}{\textbf{Classifier}} & \multicolumn{6}{|c|}{\textbf{Performance}} \\
+\cline{6-11}
+ & \multicolumn{2}{|c|}{} & \multicolumn{2}{|c|}{} & \textbf{Exp} &	\textbf{Per} &	\textbf{Class} & \textbf{Sub} & \textbf{Type} & \textbf{\% Acc} \\
+\hline
+\cite{ashraf_painful_2009} & \multicolumn{2}{|c|}{AAM}	& \multicolumn{2}{|c|}{SVM}       & S & I &	2     &	21 & ? & 81 \\
+\hline
+\cite{m.s._bartlett_prototype_2003} & \multicolumn{2}{|c|}{Gabor} & \multicolumn{2}{|c|}{SVM + HMM} &	S &	I &	3 AUs &	17 & V & 98 \\
+\hline
+\cite{yeasin_recognition_2006} \cite{bartlett_fully_2006} & \multicolumn{2}{|c|}{Gabor} & \multicolumn{2}{|c|}{AdaBoot SVM} & S P & I & 17 AUs & 119 + 12 & I & 93 + 90.5 \\
+\hline
+\cite{cohen_facial_2003} & \multicolumn{2}{|c|}{12 motion units} & \multicolumn{2}{|c|}{Tree DBN HMM} & P & D I & 6 & 5 + 53 & V & 66.5 + 73.2 \\
+\hline
+\cite{cohn_automatic_2004} & \multicolumn{2}{|c|}{Shape Models, Gabor} & \multicolumn{2}{|c|}{LDC} &	S &	I &	3 AUs &	21 & I &	76 \\
+\hline
+\cite{kaliouby_real-time_2004} & \multicolumn{2}{|c|}{24 facial points} & \multicolumn{2}{|c|}{DBN} & P & D & 6 & 30 & V & 77 \\
+\hline
+\cite{fasel_latent_2004} & \multicolumn{2}{|c|}{Intensity} & \multicolumn{2}{|c|}{NN} & P & ? & 7 & ? & I & 68 \\
+\hline
+\cite{gunes_affect_2005} & \multicolumn{2}{|c|}{Shape fea, Optic flow} & \multicolumn{2}{|c|}{C4.5 Bayes Net} & P & ? & 8 & 4 & I & 100 \\
+\hline
+\cite{ioannou_emotion_2005} & \multicolumn{2}{|c|}{FAPs} &	\multicolumn{2}{|c|}{Neurofuzzy network} & S & I & 3 & ? & I & 78 \\
+\hline
+\cite{qiang_ji_probabilistic_2006} & \multicolumn{2}{|c|}{Shape fea} &	\multicolumn{2}{|c|}{DBN} & S & ? & 2 & 8 & V & 95.3 \\
+\hline
+\cite{kapoor_multimodal_2005} & \multicolumn{2}{|c|}{Facial and head gesture} & \multicolumn{2}{|c|}{GP SVM HMM NN} & S &	? &	2 &	8 &	 V &	 86\\
+\hline
+\cite{kapoor_automatic_2007} & \multicolumn{2}{|c|}{Pixel diff of mouth}	& \multicolumn{2}{|c|}{GP SVM HMM NN} &	S &	I &	2 &	24 &	 V &	 79\\
+\hline
+\cite{lee_facial_2005} & \multicolumn{2}{|c|}{Intensity of face} &	\multicolumn{2}{|c|}{Decomposable model} &	P &	I &	6 &	8 + 16 &	 V &	 61\\
+\hline
+\cite{littlewort_faces_2007} & \multicolumn{2}{|c|}{Gabor} &	\multicolumn{2}{|c|}{AdaBoost SVM} &	S &	I &	2 &	26 &	V &	72\\
+\hline
+\cite{lucey_investigating_2007} & \multicolumn{2}{|c|}{AAM} &	\multicolumn{2}{|c|}{SVM} &	S P &	I &	AUs	& 100 &	? &	95\\
+\hline
+\cite{pantic_dynamics_2006} & \multicolumn{2}{|c|}{Facial profile} & \multicolumn{2}{|c|}{Rule-based}	& P &	I &	27 AUs & 19 &	V &	 86.3\\
+\hline
+\cite{pantic_case-based_2004} & \multicolumn{2}{|c|}{Frontal profile facial points} & \multicolumn{2}{|c|}{Rule and case based}	& P &	 I &	 9 &	8 &	I &	 83\\
+\hline
+\cite{sebe_authentic_2004} & \multicolumn{2}{|c|}{12 motion units} &	\multicolumn{2}{|c|}{kNN} &	S &	I &	4 &	53 + 28 &	V &	93 + 95\\
+\hline
+\cite{yan_tong_facial_2007} & \multicolumn{2}{|c|}{Gabor} &	\multicolumn{2}{|c|}{AdaBoost DBN} &	P &	I &	14 AUs &	100 + 10 &	I	 & 93 + 93\\
+\hline
+\cite{valstar_how_2007} & \multicolumn{2}{|c|}{Motion history} &	\multicolumn{2}{|c|}{SNoW kNN} &	P &	I &	15 AUs &	 19 + 100 &	 V	& 61 + 68\\
+\hline
+\cite{valstar_spontaneous_2006} & \multicolumn{2}{|c|}{8 facial points}	& \multicolumn{2}{|c|}{Gentle Boost SVM} &	S P &	I &	2 &	27 + 32 + 65 &	V &	 90\\
+\hline
+\cite{valstar_how_2007} & \multicolumn{2}{|c|}{20 facial points} &	\multicolumn{2}{|c|}{Gentle SVM} &	S P &	I &	2 &	52 &	 V &	 94\\
+\hline
+\cite{wang_facial_2003} & \multicolumn{2}{|c|}{Shape fea, Intensity} &	\multicolumn{2}{|c|}{NN} &	S &	? &	7 &	14 &	I &	 84\\
+\hline
+\cite{jun_wang_3d_2006} & \multicolumn{2}{|c|}{3D surface} &	\multicolumn{2}{|c|}{LDA} &	P &	I	& 6 &	60 &	I	& 83\\
+\hline
+\cite{zhen_wen_capturing_2003} & \multicolumn{2}{|c|}{Geometric ratio}	& \multicolumn{2}{|c|}{GMM} &	P &	I &	4 &	47 &	I &	75\\
+\hline
+\cite{whitehill_haar_2006} & \multicolumn{2}{|c|}{Harr} &	\multicolumn{2}{|c|}{AdaBoost} &	P &	I &	11 AUs &	? &	I &	 92\\
+\hline
+\cite{yeasin_recognition_2006} & \multicolumn{2}{|c|}{Intensity} &	\multicolumn{2}{|c|}{kNN HMM} &	S P &	&	6 &	97 + 21 &	 V &	 90.7 + 82\\
+\hline
+\cite{zeng_spontaneous_2006} & \multicolumn{2}{|c|}{Texture with LPP} &	\multicolumn{2}{|c|}{SVDD} &	S &	D &	2 &	2 &	I &	 87\\
+\hline
+\end{tabularx}
+\end{table}
+\end{landscape}
+
+\section{Design Considerations for Dyadic Interaction Assistant} \label{DesignConsiderations}
+As seen from the Table \ref{Tab:FaceExpRecog}, facial expression recognition algorithm is a mature area with various solutions being suggested towards myriad applications ranging from biometrics to human computer interfaces. In contrast, the requirements in the proposed application is focused towards mediating human-human communication and thus imposes important constraints like,
+\begin{itemize}
+\item \emph{Real-time interpretation of the facial expressions and gestures:} People who are blind, or disabled in general, prefer not to rely on technologies that do not respond to their needs immediately and reliably. Survey of early adoption of assistive technologies show that the technology need not accomplish a large range of tasks, but the tasks being performed should be executed reliably and in useful time [REF]. Range of facial expressions range from a few hundredths of a second to couple of seconds at max [REF]. It is essential that the facial expression recognition algorithms be able to respond within this time frame to enable seamless interactions with sighted counterparts.
+\item \emph{Ability for the user to choose varying levels of facial information of their interaction partner:} In our interactions with the user community, it has become evident that each user has his/her own requirement of the details of the facial information that they receive from their interaction counterparts. For example, in a professional setting, individuals preferred to receive information that was delicate and down to detail, while in a personal setting, they preferred that the device does not overwhelm the user with facial interaction information.
+\item \emph{Ability to switch between subject-dependent and subject-independent facial expression recognition:} Social interactions vary between personal interactions with friends and family to professional meetings with strangers that the user may meet only once. An important aspect of social interaction is the ability to relate to an individual's personal mannerisms and gestures. This is especially true in personal interactions and behavioral psychology studies shows the inherent need for individuals to recognize and reenact their interaction partner's gestures (popularly termed as the \emph{Chameleon Effect}). From the sensing perspective, thus it is important that the algorithm be able to adapt to generic facial expression recognition, while also be able to adapt to subtle changes in a single subject's facial movements. That is, the algorithm requires the benefit of switching between subject-dependent and subject-independent facial expression and gesture recognition.
+\end{itemize}
+
+In the following section, we describe a recently proposed framework for facial expression recognition, termed as the Temporal Exemplar-based Bayesian Network, which demonstrates the ability to satisfy the needs itemized above. We first describe the framework and provide justification for its suitability to address the identified requirements.
+
+\section{Temporal Exemplar-based Bayesian Network (TEBN) for Facial Expression \& Gesture Sensing}
+A Bayesian Network is a interdependency graph representing the influence of various events on a desired outcome. A Bayesian Network is the extension of the Bayes Rule of conditional probabilities to multiple acyclically interdependent variables. For example, consider the problem of estimating the probability of a lawn being wet, under the possibilities that it could have rained, or the sprinklers could have turned on. The probability of wet grass $P(w_g)$ then depends on the probability of raining $P(r)$ and the probability of sprinkler turning on $P(s)$. Thus, the joint probability $P(w_g,s,r)$ can be written as
+
+\begin{equation}
+P(w_g,s,r) = P(w_g/r,s) . P(s). P(r)
+\end{equation}
+
+Further, most sprinklers can be assumed to be dependent on whether it rained or not, there by making the probability $P(s)$ dependent on the rain. Incorporating this into the above equation,
+
+\begin{equation}
+P(w_g,s,r) = P(w_g/r,s).P(s/r).P(r)
+\end{equation}
+
+Graphically, the above equation can be represented as shown in Figure \ref{DAFigure3},
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=3in]{BayesianNW.JPG}
+\caption{Example Bayesian Network.}
+\label{DAFigure3}
+\end{figure}
+
+Typically, the various conditional probabilities associated with the graph are determined through statistical analysis of observations. Most often, the analysis results in inductive models that generalize the training observations to all test cases. In contrast, the Exemplar-based Bayesian Network determines the conditional probabilities transductively on a case-by-case basis of the test set. Thus, the network is dynamic, allowing the conditional densities to transform based on the input test condition. Also, the network accounts for the temporal transmission of decision probabilities from time instance $t$ to $t+1$. This transmission is also modeled into the network through a Markovian process. The details of the implementation follows, as described in [REF].
+
+
+\newenvironment{Equations}
+{\noindent\ignorespaces}%
+{\par\noindent\ignorespacesafterend}
+\begin{Equations}
+
+\noindent Given any facial expression image sequence $I(t)$ with $M$ number of frames, the goal of TEBN is to provide a posterior conditional probability of the sequence belonging to a possible set of $N$ facial expression labels $Y_i$. $N$ depend on the application under consideration. Thus, the conditional probability can be defined as
+
+\begin{equation}
+P\left(Y_i/\left(I(t), H(t)\right)\right) = \frac{P\left(I(t)/\left(Y_i, H(t)\right)\right) P\left(Y_i/H(t)\right)}{P\left(I(t)/ H(t)\right)}
+\label{EqnDBN1}
+\end{equation}
+
+\noindent If we assume that the image sequence $I(t)$ is independent of the past history $H(t)$, given that we know the expression label $Y_i$ and introducing the exemplar layer $L_i(t)$ as all the knowledge from which the labels $Y_i$ will be derived, the likelihood in the equation \ref{EqnDBN1} can be rewritten as,
+
+\begin{equation}
+P\left(I(t)/\left(Y_i, H(t)\right)\right) = P\left(I(t)/L_i(t)\right) P\left(L_i(t)/Y_i \right)
+\label{EqnDBN2}
+\end{equation}
+
+\noindent Thus,
+
+\begin{equation}
+P\left(I(t)/\left(Y_i, H(t)\right)\right) = \frac{P\left(I(t)/L_i(t)\right) P\left(L_i(t)/Y_i \right) P\left(Y_i/H(t)\right)}{P\left(I(t)/ H(t)\right)}
+\end{equation}
+
+\noindent Neglecting the scaling factor in the denominator, the network can be defined by three layers, namely, \emph{Observation Layer}, \emph{Exemplar Layer}, and \emph{Prior Knowledge Layer}, as shown in the Figure \ref{DAFigure4}. The three layers shown in the figure contribute towards the final decision on the nature of the facial expression. Note that this example represents a classification problem where the six basic human expression (Happy, Sad, Surprise, Anger, Fear and Disgust) are considered to be the prime focus. In the later sections, we describe how this framework can be adopted to suit dyadic interaction assistance requirements.
+\end{Equations}
+
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=5in]{TEBN.JPG}
+\caption{Temporal Exemplar-based Bayesian Network for facial expression recognition.}
+\label{DAFigure4}
+\end{figure}
+
+\subsection{The Observation Layer}
+As described earlier, we use the results from the FaceAPI software as the inputs into the facial expression recognition algorithm. As shown in Figure \ref{DAFigure5}, 36 points returned by the software are used as the input observation vector,$X(t)$ into the TEBN. The length of this observation vector, $N$, is 2x36 = 72, corresponding to $(x,y)$ coordinates of the 36 facial fiducial. Structurally, the 72 data points are arranged as a linear vector $X(t)$ that represents the structural configuration of the facial features at time instant $t$. As time progresses, the vector $X$ evolves into an expression or gesture. $X(t)$ extracted at each frame is used for choosing $K$ examples from each of the $N$ expression classes, 6 in the example described in in Figure \ref{DAFigure4}.
+
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=4in]{FaceAPIPoints.JPG}
+\caption{36 Facial fiducial points tracked with FaceAPI software. Both $x$ and $y$ coordinates from all 36 points are used for facial expression recognition.}
+\label{DAFigure5}
+\end{figure}
+
+\noindent Given that all training data is available at sequence of images, $I(t)$, we choose to represent each frame of the image just by their FaceAPI tracked points. Thus, in the above equations, $I(t)$ can be conveniently replaced with $X(t)$, the 72 point vector of tracked points. Note that this is done only to reduce the computational load. Later, in the experiments section, we demonstrate the possibility of representing $I(t)$ through other image features.
+
+\noindent Thus, equation \ref{EqnDBN2} can be rewritten in terms of the extracted features $X(t)$ as,
+
+\begin{equation}
+P\left(X(t)/\left(Y_i, H(t)\right)\right) \propto P\left(X(t)/L_i(t)\right) P\left(L_i(t)/Y_i \right) P\left(Y_i/H(t)\right)
+\end{equation}
+
+\subsection{The Exemplar Layer}
+The Exemplar Layer represents the aggregate knowledge for every test facial expression to be evaluated by the TEBN. As the name suggests, given a test sample of image sequence, $I_t(t)$ , for which we need to estimate the facial expression label, $Y_{i_t}$, the exemplar layer is constructed dynamically to best represent the test data. Thus, the exemplar layer $L_i(t)$ is chosen from the training pool, $E(t)$, by comparing $I_t(t)$ with every candidate image sequence in $E(t)$. For each of the expression labels, $Y_i, i=\{1,\ldots,N\}$, $k$ nearest neighbor points are chosen in $E(t)$ to represent the test data. We chose Euclidean distance between the test observations $X_t(t)$ and all observations $X_{E}(t)$ from the training pool $E(t)$. Once the $k$ nearest neighbors have been identified for the given test sequence, the Bayesian Network is developed by representing the test point $X_t(t)$ as the weighted average of $L_{ij}$ training points chosen from the training pool. The examples $L_{ij}, i=\{1,\ldots,N\} \& j=\{1,\ldots,k\}$ represents $k$ examples taken from $N$ expression classes. Figure \ref{DAFigure6} shows the steps involved in developing the Exemplar Layer for any given test point $X_t(t)$ and highlights the problem of finding $w_{ij}$ such that
+
+\begin{equation}
+X_t(t) = \sum\limits_{i=1}^{N} \sum\limits_{j=1}^{k} w_{ij} L_{ij}
+\end{equation}
+
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=5.5in]{ComputingLikelihood.JPG}
+\caption{Deriving the exemplar layer of the TEBN based on every test point $X_t(t)$.}
+\label{DAFigure6}
+\end{figure}
+
+\subsubsection{Computing $P\left(X(t)/L_{ij}(t)\right)$: Representing the test data in terms of existing examples}
+If any test point $X(t)$ can be represented as the sum average of a set of chosen example training data, in our case $L_{ij}(t)$ (chosen based on $k$ nearest neighbors of $X(t)$), the likelihood $P\left(X(t)/L_{ij}(t)\right)$ can be computed as
+
+\begin{equation}
+P\left(L_{ij}(t)/X(t)\right) = \frac{\sum\limits_{j=1}^k w_{ij}(t)}{\sum\limits_{i=1}^{N} \sum\limits_{j=1}^{k}w_{ij}(t)} \\
+\end{equation}
+
+and,
+
+\begin{equation}
+P\left(X(t)/L_{ij}(t)\right) = \frac{P\left(L_{ij}(t)/X(t)\right) P(X(t)}{P\left(L_i(t)\right)}
+\end{equation}
+
+\noindent where, $P\left(L_i(t)\right)$ can be considered as a proportionality constant and the probability of occurrence of any $X(t)$ is considered to be equal. Thus,
+
+\begin{equation}
+P\left(X(t)/L_{ij}(t)\right) \propto P\left(L_{ij}(t)/X(t)\right)
+\end{equation}
+
+\noindent \emph{Determining $w_{it}(t)$ given test point $X(t)$ and examples $L_{ij}(t)$:}
+ In [REF], the problem of determining $w_{ij}(t)$ is posed as a entropy maximization problem,
+
+ \begin{eqnarray}
+ \mathrm{Maximize} &  \left( -\sum\limits_{i=1}^{N} \sum\limits_{j=1}^{k} w_{ij}(t) \ln\left( w_{ij}(t) \right)   \right) \label{MainOpt}\\
+ \mathrm{Subject to} & \sum\limits_{i=1}^{N} \sum\limits_{j=1}^{k} w_{ij}(t) =  1 \nonumber \\
+ & \sum\limits_{i=1}^{N} \sum\limits_{j=1}^{k} w_{ij}(t) L_{ij}(t) = X(t) \nonumber \\
+ \end{eqnarray}
+
+ \noindent The above problem is a convex optimization problem with the local maxima being the same as the global maxima. Appendix \ref{AppendixB} shows the solution to be problem using Newton's method and the steps shown in subsection \ref{NWMethod} of Appendix \ref{AppendixB} shows the algorithm for determining the weights $w_{ij}$ associated with $L_{ij}$.
+
+ \subsubsection{Computing $P(L_i(t) / Y_i)$: Determining the prior probability of chosen examples w.r.t the complete training data}
+ The Exemplar-based Bayesian model assumes that all the known knowledge of the problem is embedded within the complete training set $E(t)$. Thus, given a subset of the examples, $L_{ij}(t)$ that is extracted from the training set, the likelihood of a given expression label, $Y_i$ can be obtained as the ratio of likelihood of occurrence of the selected training samples over all the training samples in the database. This can be achieved through,
+
+ \begin{equation}
+ P(L_i(t)/Y_i) = \frac{\sum\limits_{x \in L_i} P(x)}{\sum\limits_{x \in E}P(x)}
+ \end{equation}
+
+ \noindent The probability $P(x)$ can be determined through Kernel Probability Density Estimation as
+
+ \begin{equation}
+ P(x) = \frac{1}{n h^D} %\sum_\limits_{y\in E}\phi_h(x-y)
+ \end{equation}
+
+ \noindent Assuming $\phi$ to be a Gaussian Density function,
+
+ \begin{equation}
+ \phi_h(z) = \frac{1}{(2 \pi)^{D/2}} \exp{- \frac{1}{2} z^T z}
+ \end{equation}
+
+ \noindent where, $h$ represents the window width and an optimal value for this can be found (See [REF] for more information) as,
+
+ \begin{equation}
+ h_{opt} = \sigma \left\{ \frac{4}{n(2D+1)} \right\}^{\frac{1}{D+4}}
+ \end{equation}
+
+ \noindent $\sigma^2$ is the average marginal variance on the $D$ dimensions of the data in the set $E$.
+
+ \subsection{The Prior Knowledge Layer}
+ Facial expressions evolve over time and the rate at which one displays  a certain facial expression varies from one individual to another. Further, some of the facial expressions show commonalities that exhibit temporal correlations. For example, consider the expressions Fear and Surprise as shown in the Figure \ref{DAFigure7}. The movements on the upper half of the face are very similar in the two expressions, but not alike. The differences in the final expression label depends on the curvature and the opening of the mouth. Thus, a temporal evaluation of any facial expression requires that the frame train be analyzed as an evolving probability confidence over time history $H(t)$.
+
+ \begin{figure} [htbp!]
+ \centering
+ \includegraphics[width=1.75in]{Fear.jpg} \hspace*{0.75in}
+ \includegraphics[width=2in]{Surprise.jpg} \\
+ \caption{Comparison of Fear and Surprise facial expressions.}
+ \label{DAFigure7}
+ \end{figure}
+
+ \subsubsection{Computation of $P(Y_i/H(t))$: Temporal propagation of expression probabilities}
+ The temporal nature of the TEBN is embedded in the propagation of probabilities across time (video frames). That is, propagation of expression probability from time $t$ to $t+1$, can be represented as a function of the transition probability given the frame history,
+
+ \begin{equation}
+ P(Yi/X(1,\ldots,t)) = \sum\limits_{j=1}^{N} P(Y_i/(Y_j, X(1,\ldots,t-1)) P(Y_j/X(1,\ldots,t-1))
+ \end{equation}
+
+ \noindent  Considering a Markovian nature of probability propagation, we can rewrite the above equations as,
+
+  \begin{equation}
+  P(Yi/X(1,\ldots,t)) = \sum\limits_{j=1}^{N} P(Y_i/Y_j) P(Y_j/X(1,\ldots,t-1))
+  \end{equation}
+
+  \noindent In the above equation, the propagation is centered only on the transition probability $P(Y_i/Y_j)$. It is difficult to determine the transition probabilities before hand as they are dependent on the length of the video stream and also dependent on the duration of the expression in question. Hence, the transitions are determined while the expression evolves in the video frames. To this end,
+
+  \begin{enumerate}
+  \item Define a transition matrix $T$ of size $N$x$N$, to describe transitions between any of the $N$ expressions.
+  \item Initialize $T$ to $1$s.
+  \item At at given time instance, $t$, the transition probability, $P(Y_i/Y_j)$ can be obtained as
+      \begin{equation}
+      P(Y_i/Y_j) = \frac{T_{ji}(t))}{\sum\limits_{k=1}^N T_{jk}(t)}
+      \end{equation}
+  \item On an iterative basis update $T$ matrix based on a frame-by-frame transition from expression $i$ to $j$. That is, increment the entry $T_{ij}$ by 1, if the $t-1$ frame is assessed to be expression $Y_i$, through $P((Y_{X(t)} = Y_i)/X(1,\ldots,t-1))$ and the expression label transitions to $Y_j$ at time frame $t$, through $P((Y_{X(t)} = Y_j)/X(1,\ldots,t-1))$.
+  \end{enumerate}
+
+ \section{Discussion of Design Considerations: TEBN perspectives}
+ Having discussed the TEBN framework, we highlight the importance of using TEBN for addressing the three important design constraints that were highlighted in Section \ref{DesignConsiderations}. Below we highlight the importance of TEBN framework in addressing this design considerations.
+ \begin{itemize}
+\item \emph{Real-time interpretation of the facial expressions and gestures:} The TEBN framework enables real-time performance. See the experiments section to determine the time taken towards each expression assessment.
+\item \emph{Ability for the user to choose varying levels of facial information of their interaction partner:} The number of decision levels that the TEBN can have is controlled by the design of the exemplar layer. In the discussions a single layer (6 expression) TEBN was discussed, but the same can be extended to incorporate more classes of expression bases like the Actions Units (AU), various intensity of AUs or the raw movement data itself. That is, the number of elements representing $N$ in the above discussions can be extended based on the classifications desired by the application, scenario and user choice.
+\item \emph{Ability to switch between subject-dependent and subject-independent facial expression recognition:} Subject dependence and independence can be easily controlled through the determination of the example pool from which the data is being selected for building the TEBN. If the identity of an interaction partner can be established before the expression analysis, it is possible to build $X(t)$, the test vector as a sum of expressions that belong to that specific individual, $L_i^r$, where $i \in \{1,\ldots,N\}$ represents the $N$ expressions and $r \in \{1,\ldots,R\}$ represents the total number of individuals in the database.
+    On the other hand, if the interaction partner's identity cannot be established, all expression examples independent of the subject identity can be used for building the exemplar layer for $X(t)$.
+\end{itemize}
+
+\section{Experiments}
+\subsection{Data}
+All experiments were carried out on the Cohen-Kanade Facial Expression Database [REF] version 1. Version 1 (the original or initial release (Kanade, Cohn, \& Tian, 2000)) includes 486 sequences from 97 posers. Each sequence begins with a neutral expression and proceeds to a peak expression. The peak expression for each sequence is fully FACS (Ekman, Friesen, \& Hager, 2002; Ekman \& Friesen, 1979) coded and given an emotion label.  The emotion label refers to what expression was requested rather than what may actually have been performed. In order to validate the emotion that was displayed, the final expression images of the 486 sequences were displayed to unbiased participants through a web portal. Each emotion image was displayed to the user and requested to label them as belonging to one of 7 classes, \emph{Happy}, \emph{Sad}, \emph{Surprise}, \emph{Fear}, \emph{Disgust}, \emph{Surprise} and \emph{Neutral}. During the screening process, it was noticed that some of the subjects did not display expressions as requested (either displayed neutral expression through the sequence or displayed exaggerated facial mannerism unlikely of requested emotion). Hence all the participants who labeled the expression images were required to label on a scale of 1 to 5, the genuineness of the expression displayed, 1 being least correlation to genuine expression and 5 being most genuine. Based on the user responses, we identified 182 sequences where subjects displayed emotions that were named as being genuine up to a scale level of 4 or 5. These sequences were then used for testing the TEBN.
+
+
+In this chapter, we discussed the use of a Temporal Exemplar-based Bayesian Network to determine the facial expressions of the interaction partner. Given that the dyadic interaction assistant is able to extract these facial expression cues, it is thus required to deliver this information back to the users who are blind. This is a challenge in itself as the very high bandwidth information delivered by a human face could easily overload the user. As explained before, the next chapter investigates the use of the human perception of touch to develop novel haptic interfaces for delivering highly dynamic facial expressions.
+
+\chapter{DELIVERING HIGH BANDWIDTH FACIAL EXPRESSIONS THROUGH VIBROTACTILE STIMULATIONS}
+Over the past few decades, the environments in which humans live and operate have become increasingly information rich. Audio and visual modalities have been occupied by more than one source at the same time. Increasing audio-visual stimulations in the human's surroundings have increased the need for divided attention, which competes with the need for selective and sustained attention to complete a task at hand \cite{sohlberg_introduction_1989}. While audio and video have evolved as a medium for immersing humans in rich sensory experience, touch \cite{grunwald_human_2008}, taste \cite{maynes-aminzade_edible_2005} and smell \cite{chen_olfactory_2006} have only recently being considered for sensory augmentation and substitutions - note the subtlety between augmentation and substitution. When augmenting the already utilized sensory channels, the newer medium is not in demand to reproduce all of the information, but only enrich the already delivered experience. On the other hand, substitutions have to deliver information that was once being provided by a certain sensory channel on a newer medium, while maintaining similar or lesser cognitive load.
+
+Vision is the primary sense organ for most mammals and for a few primates, including humans, trichromatic vision is so highly evolved \cite{dominy_ecological_2001} that a major portion of the neuronal pathway in the brain is dedicated to sensing, perceiving and cognizing visual stimuli. This allows the human vision to process high intensities of data that stimulates the eyes - Koch et. al. estimated that human eyes, with 106 ganglion cells, could transmit up to 10 Mbits/s \cite{koch_how_2006} to the brain. Hence substituting vision with any other sensory channel is a challenging task that requires appropriate design taking into account the high intensity of data generated by visual stimuli.
+
+In this chapter, we present a visuo-haptic sensory substitution device that intends to replace visual channel with somatosensory vibrotactile stimulations for delivering the facial expression data that was derived from the dyadic interaction assistant, as described in the pervious chapter. A prominent visuo-haptic sensory substitution system is the TVSS (Tactile-Visual Sensory Substitution) \cite{bach-y-rita_vision_1969} that substitutes visual data into a 400 point tactile array worn on the back of the user. A similar effort by Rahman et. al. \cite{rehman_vibrotactile_2008} focused on delivering facial emotions of interaction partners using vibrators installed on a chair such that the user's back is in direct contact with the vibrators. Both of these technologies have the obvious disadvantage that the user is restricted to a seated position with immobile augmentations. Recently we have explored the use of vibrotactile technologies on a belt like form factor for delivering direction and distance information \cite{mcdaniel_using_2008}. Unfortunately, the waist (combined with a belt like form factor) did not prove suitable for delivering high intensity data like facial expressions. Table below presents some of the popular haptic technologies developed for communicating high bandwidth interpersonal interaction data. While these provide opportunity to appreciate the possibility of haptic information delivery, the end goal was not clearly defined towards delineating fine facial movements that are deemed important in typical dyadic social interactions.
+First we investigate various haptic interpersonal communication technologies that have been developed over the past several years, following which we discuss the choice of technology and any specific justifications for its use in delivering facial expressions.
+
+\section{Related Work in Haptic Interpersonal Communication Interfaces}
+Haptics has recently seen a uphill trend in terms of the number of interfaces that are being suggested by academia and the industry. It is not surprising to notice a plethora of devices that are intended for personal interpersonal communications. Tables \ref{InterpersonalTable1} through \ref{InterpersonalTable4} discuss various interpersonal communication technologies that were mostly developed for enriching remote interactions between humans. This list provides an appreciation for the types of technologies that have been implemented in the human-human communication enrichment space. Following these tables, we discuss the technology that we propose to use for delivering facial expression information.
+
+\begin{landscape}
+\begin{table}[htbp!]
+\caption{Haptic interpersonal interaction enrichment devices}
+\label{InterpersonalTable1}
+\scriptsize
+\begin{tabularx}{8.5in}{||X|X|X|X|X|X||XXXX|XXXX||}
+\hline
+\hline
+\textbf{Device} & \textbf{Actuation} &	\textbf{Major Organ} & \textbf{Non-verbal Cue} & \textbf{Application}	& \textbf{User Experience} & \multicolumn{4}{|c|}{\textbf{Device}} & \multicolumn{4}{|c|}{\textbf{Device}}\\
+\hline
+\hline
+
+inTouch \newline \cite{brave_intouch:_1997} & Vibration Pressure Texture &	Hand &	Social Touch &	-Interpersonal communication through remote touch &	No Testing & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2in]{inTouch1.jpg}}}
+& \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2in]{TheBed.jpg}}}\\
+\cline{1-6}
+
+The Bed \newline \cite{dodge_bed:_1997} & Pressure Texture Temperature &	Body &	Social Touch & Remote interpersonal intimate communication	 Self report & System found to produce feelings of intimacy. & \multicolumn{4}{|c|}{\multirow{2}{*}{}} & \multicolumn{4}{|c|}{\multirow{2}{*}{}} \\
+\hline
+
+HandJive \newline \cite{fogg_handjive:_1998} & Pressure Proprioception &	Hand & Handshake Touch	& Interpersonal communication through new cueing language & No Data & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2in]{HandJive.jpg}}} & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2in]{HyperMirror.jpg}}}\\
+
+\cline{1-6}
+
+HyperMirror \newline \cite{morikawa_sense_2000} & Pressure &	Shoulders &	interpersonal distance, relative position, crossing paths &	 -Remote crossing of paths. \newline
+-Initiating interaction in strangers across distance. \newline Tap to initiate conversation. &	Eye contact was made across distant users. \newline
+Tap signal aroused attention. \newline
+Crossing paths initiated conversations. & \multicolumn{4}{|c|}{\multirow{2}{*}{}} & \multicolumn{4}{|c|}{\multirow{2}{*}{}}\\
+\hline
+\hline
+\end{tabularx}
+\end{table}
+\end{landscape}
+
+
+\begin{landscape}
+\begin{table}[htbp!]
+\caption{Haptic interpersonal interaction enrichment devices contd.}
+\label{InterpersonalTable2}
+\scriptsize
+\begin{tabularx}{8.5in}{||X|X|X|X|X|X||XXXX|}
+\hline
+\hline
+\textbf{Device} & \textbf{Actuation} &	\textbf{Major Organ} & \textbf{Non-verbal Cue} & \textbf{Application}	& \textbf{User Experience} & \multicolumn{4}{|c|}{\textbf{Device}} \\
+\hline
+\hline
+Com Touch \newline \cite{chang_comtouch:_2002} & Vibration Pressure &	Hands &	Touch Emotions & Bidirectional operation. \newline
+24 subject tested. Remote participant squeezes one end and a recipient at the other end feels vibrations. & Subjects came up with their own cueing. \newline
+83\% of participants used atleast one gesture. 67\% developed their own gestures. & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2.5in]{comTouch.jpg}}}
+\\
+\hline
+
+Haptic Instant Messenger \newline \cite{rovers_him:_2004} & Audio Vibrations & Hands & Emotions &	Based on user selections at a remote location, haptic and audio codes are transmitted to the receiver. &	No user testing. \vspace*{1.4in} & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2.5in]{HapInstMess.jpg}}} \\
+\hline
+
+Hug over Distance	\newline 	\cite{Hug over a distance} & Pressure Proprioception	 & Upper Body &	Touch Hug & At one end the user rubs tummy of a stuffed toy and based on the pressure applied, air bags are filled at the remote end to simulate hug. & Air compressor at the receivers end makes a lot of noise. Six couple focus group found the concept weird. \vspace*{.75in} & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=1in]{Hug.jpg}\includegraphics[width=2in]{Hug2.png} }} \\
+
+
+\hline
+\hline
+\end{tabularx}
+\end{table}
+\end{landscape}
+
+
+\begin{landscape}
+\begin{table}[htbp!]
+\caption{Haptic interpersonal interaction enrichment devices contd.}
+\label{InterpersonalTable3}
+\scriptsize
+\begin{tabularx}{8.5in}{||X|X|X|X|X|X||XXXX|}
+\hline
+\hline
+\textbf{Device} & \textbf{Actuation} &	\textbf{Major Organ} & \textbf{Non-verbal Cue} & \textbf{Application}	& \textbf{User Experience} & \multicolumn{4}{|c|}{\textbf{Device}} \\
+\hline
+\hline
+VinroBod \newline \cite{dobson_creating_2001} & Pressure, Temperature &	Hands & Touch & Convey remote interpersonal cues. &	 15 subjects found the device useful and intuitive \vspace*{0.85in} & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2.5in]{VinroBod.JPG}}}
+\\
+\hline
+
+What's Shaking \newline \cite{dobson_creating_2001} & Vibration Temperature &	Hands &	Proxemics	& Heat corresponds to the number of people. \newline
+Vibration corresponds to the amount of activity in the environment \vspace*{.75in} & 12 subjects found the glove intuitive and were able to identify activity around them.
+ & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=1.5in]{WhatsShaking.JPG}}} \\
+\hline
+
+Tele Handshake	\newline 	\cite{alhalabi_experimental_2003} & Proprioception &	Hnads &	Touch	& Remote handshake between interaction partners	& 65\% Satisfaction \newline 55\% Convincing \newline 60\% Intiutive \vspace*{1in} & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=1.8in]{telehandshake.jpg}}} \\
+\hline
+\hline
+\end{tabularx}
+\end{table}
+\end{landscape}
+
+\begin{landscape}
+\begin{table}[htbp!]
+\caption{Haptic interpersonal interaction enrichment devices contd.}
+\label{InterpersonalTable4}
+\scriptsize
+\begin{tabularx}{8.5in}{||X|X|X|X|X|X||XXXX|}
+\hline
+\hline
+\textbf{Device} & \textbf{Actuation} &	\textbf{Major Organ} & \textbf{Non-verbal Cue} & \textbf{Application}	& \textbf{User Experience} & \multicolumn{4}{|c|}{\textbf{Device}} \\
+\hline
+\hline
+TapTap	 \newline	\cite{bonanni_taptap:_2006} & Pressure & Shoulders &	Touch Tap &	Solenoids and vibrators used on the shoulder to simulate tapping. &	8 men and 8 women tested on the device found based on the tap, it reminded them of someone. \vspace*{0.3in}& \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2in]{TapTap.jpg}}}
+\\
+\hline
+
+United Pulse \newline 	\cite{werner_united-pulse:_2008} & Vibrations	& Finger & Intimacy & Vibrators on the ring stimulated to initiate communication between remote couple. Simulated heart beats were delivered	& 20 couples tested with the device. 22 liked the idea. 5 were irritated. \vspace*{0.75in}& \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2in]{UnitedPulse.jpg} \includegraphics[width=1in]{Ring.jpg}}} \\
+\hline
+
+Haptic Chair \newline  	\cite{rehman_vibrotactile_2008} & Vibrations &	Back &	Emotions &	Vibrations corresponding to emotions are delivered to the back of the user. \newline Has sensing of the emotions inbuilt through vision technologies & 3 expressions tested.  100\% recognition on expressions. 10\% of participants complained of cognitive load. \vspace*{0.75in}
+ & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=1.5in]{HapticChair.jpg}\includegraphics[width=1.5in]{Chair2.jpg} }} \\
+
+
+\hline
+\hline
+\end{tabularx}
+\end{table}
+\end{landscape}
+
+\section{Proposed Visuo-Haptic Sensory Substitution Device}
+In order to deliver the high bandwidth visual facial expression data, we resort to choosing a modality for communication and the human body organ where the data will be delivered to. To this end, we chose vibrotactile stimulaters for encoding the facial movement patterns to temporal vibrations. Further, the facial expressions themselves were delivered as spatial pattern on a matrix of haptic actuators placed in contact with the dorsal surface of the fingers, which allows both spatial and temporal mapping of vibration patterns. The fingers have the largest tactile representation in the brain after the tongue. Together, the fingers have the largest projection on the cortical surface, similar in sensitivity to the tongue and lips (See Figure \ref{DAFigure7aa} \cite{nakamura_somatosensory_1998}). The concentrated neuronal mapping of the fingers allow for a very high sensitivity (both spatial and temporal resolution) making them an ideal candidate for sensory substitution. Further, to allow functional operation of the user's hands, the vibratos are placed on the dorsal surface of the fingers. The following table shows a list of applications that have called for the use of haptic glove based solutions.
+
+ \begin{figure} [htbp!]
+ \centering
+ \includegraphics[width=2.45in]{SomatosensoryHom1.JPG}
+ \includegraphics[width=1in]{SomatosensoryHom2.JPG} \\
+ \caption{Somatosensory homonculus as mapped through  magnetoencephalography \cite{nakamura_somatosensory_1998}.}
+ \label{DAFigure7aa}
+ \end{figure}
+
+\begin{landscape}
+\begin{table}[htbp!]
+\centering
+\caption{Related work in the development of haptic gloves for information delivery}
+\label{HapticGloveRelated1}
+\scriptsize %\addtolength{\tabcolsep}{-3pt}
+\begin{tabularx}{8.5in}{|X|X|X|X|X|X|X|X|}
+\hline
+\textbf{Ref.} & \textbf{Application} & \textbf{No. of \newline vibrators} &	\textbf{Location of vibrators} &	 \textbf{Vibration Pattern} &	 \textbf{Encoding} &	\textbf{Experiments}	& \textbf{User Study} \\
+\hline
+\hline
+
+\cite{cappelletti_vibrotactile_1998} & Convey color information to people who are blind. &	3 &	Distal phalanges of index, middle and ring fingers (T). \newline
+- Three phalanges of the index finger. (O)	& - Continuous on all three vibrators (S). \newline
+- 0.5s time gap between vibrators (D). 	& - Encode R, G and B channel to each of the 3 vibrators. \newline
+- Amplitude of vibration proportional to the intensity of the color channel. &	- Convey only colors individually (C). \newline
+- Allow users to explore a down sampled color image using a mouse (I). &	- 5 participants who are blind. \newline
+-2 sighted participants. \newline - COS: 71\% \newline - CTS: 87\% \newline - ITS: 100\% \newline - IOD: 67\% \newline - IOS: 92\% \newline - COD: 87\% \newline - CTD: 90\% \\
+\hline
+
+
+\cite{oron-gilad_vibrotactile_2007} &
+Vibrotactile cueing to improve target acquisition in virtual 2D environment using mouse as input. &	4 &	-2 on the lower part of the palm just above the wrist. \newline
+- 2 on the back of the lower palm  just above the wrist. &	- 100ms vibratory cues to indicate direction of the target and on-target signals.	 \newline - Frequency of the vibration was proportional to the direction and distance from the target location. & - Two vibrators were turned on to indicate arrival on a target.	& - Expt 1 tested vibrators on the front and back of palm. \newline - Expt 2 tested continuous distance cueing with suppressing or increasing frequency as the target is approached. &
+	- The location of the tractors did not have an effect. Front and Back worked the same. \newline
+- Suppressing the frequency as the user approaches the target worked better than enhancing. \\
+\hline
+
+\cite{uchiyama_vibrotactile_2008} &
+Vibrotactile array for delivering distance to an obstacle from a wheelchair driven by a visually impaired person. &	 9 & Array on the front of the palm in a 3x3 matrix.	& - Warning signals \newline - Spatial obstacle location signal. \newline
+- Direction conveyance to the user.	& - Warning signal vibrates all vibrators. \newline - Spatial location of an obstacle is sent in the particular motor with near, medium and far range to obstacle. \newline - Direction cue vibrates the center motor with two pulses and then vibrates motor of the desired direction.	& - No user testing done yet &	- No user testing done yet \\
+\hline
+\end{tabularx}
+\end{table}
+\end{landscape}
+
+
+\begin{landscape}
+\begin{table}[htbp!]
+\centering
+\caption{Related work in the development of haptic gloves for information delivery contd.}
+\label{HapticGloveRelated2}
+\scriptsize %\addtolength{\tabcolsep}{-3pt}
+\begin{tabularx}{8.5in}{|X|X|X|X|X|X|X|X|}
+\hline
+\textbf{Ref.} & \textbf{Application} & \textbf{No. of \newline vibrators} &	\textbf{Location of vibrators} &	 \textbf{Vibration Pattern} &	 \textbf{Encoding} &	\textbf{Experiments}	& \textbf{User Study} \\
+\hline
+\hline
+
+\cite{hein_contact_2007} \cite{brell_fusion_2008} &
+Vibrotactile cues for navigating surgeons hand during surgery. &	4	&
+ See Figure. \newline \newline  \includegraphics[width=0.9in]{HapticGloveRef226.jpg} &	- Continuous vibrations based on the amount of off target displacement	 & - Optical tracking of visual markers on the surgeons hand is translated to vibrotactile cues to give off-center information. &	- Subjects were required to move a surgical tool to the target location. \newline - Subjects react to varying impulse input as required. & No quantification provided in the paper. \\
+\hline
+
+\cite{brell_fusion_2008} &
+Field of view in front of individual who is blind is captured with a camera and translated to vibrotactile cues corresponding to a depth map. &	No data &	 No specific information provided. \newline \newline \includegraphics[width=0.9in]{HapticGloveRef228_1.jpg} \newline &
+ 	- Magnitude of vibration is directly proportional to distance to obstacle. \newline
+- Frequency of vibration is inversely proportional to the confidence in depth measurement. &	The image from the camera is used to determine a depth map of obstacles in front of the user and is translated into vibrotactile cues. &	Two obstacle courses were set within the labotatory environment and the participants were required to navigate the course.
+Course 1: \newline \includegraphics[width=0.9in]{HapticGloveRef228_2} \newline
+Course 2: \newline \includegraphics[width=0.9in]{HapticGloveRef228_3} \newline & - 9 participants, 3 blind and 6 with low vision.
+-  Course 1:
+Travelled the minimal hitting path 65\% with their existing navigation aid and increased to 75\% with the glove. \newline
+- Course 2:
+Travelled the minimal hitting path 65\% with their existing navigation aid and decreased to 57\% with the glove. \\
+\hline
+
+\end{tabularx}
+\end{table}
+\end{landscape}
+
+\begin{landscape}
+\begin{table}[htbp!]
+\centering
+\caption{Related work in the development of haptic gloves for information delivery contd.}
+\label{HapticGloveRelated2}
+\scriptsize %\addtolength{\tabcolsep}{-3pt}
+\begin{tabularx}{8.5in}{|X|X|X|X|X|X|X|X|}
+\hline
+\textbf{Ref.} & \textbf{Application} & \textbf{No. of \newline vibrators} &	\textbf{Location of vibrators} &	 \textbf{Vibration Pattern} &	 \textbf{Encoding} &	\textbf{Experiments}	& \textbf{User Study} \\
+\hline
+\hline
+
+\cite{cha_authoring/editing_2007} \cite{cha_framework_2009} &
+Framework for delivering haptic data along with audio video data from an entertainment perspective. Specifically, adding a haptic layer to the MPEG 4 audio video coding. & 76 & 	Vibrotactors are added all over the glove both on top and bottom of the hand. No specific configuration pattern is discussed in the paper. &	 Custom designed vibration patterns that take into account all the vibrators on the glove. &	Manually encoded by entertainment specialists based on the movie and the scene. & No user study. &	 No user study. \\
+\hline
+
+\cite{murray_psychophysical_2003} &
+Using vibrators to convey slip information in a prehensile glove. &	5 &	Fingertips of the five fingers. &	Motion sensors (optical motion sensor similar to the one used in an optical mouse) mounted outside the glove on the finger tips measure the slip of an object. The slip information measured as optic flow is conveyed to the vibrator as varying frequency. &	
+Slip motion is proportional to the frequency of vibration. & 12 subjects. \newline Users placed the glove on a surface that was laterally pulled from under the glove and the reaction time was measured by asking the participants to press a button with their free hand. Experiment was conducted with bare hands, with a prehensile glove without vibrators and with the slip glove. &	
+\underline{Mean reaction time:} \newline
+Bare hand: 0.214s \newline
+Normal Glove: 1.669s \newline
+Slip Glove: 0.483s \newline
+\underline{Percent Failure:} \newline
+Bare hand: 0\% \newline
+Normal Glove: 27.8\% \newline
+Slip Glove: 5.6\% \newline \\
+\hline
+\end{tabularx}
+\end{table}
+\end{landscape}
+
+These technologies have proved the viability for glove based vibrotactile sensory augmentations. Adding to these findings, the experiments described in this paper addresses the vibrotactile sensory abilities of the dorsal surface of the fingers, especially for sensory substitution.
+
+
+
+\section{The Vibrotactile Glove}
+
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=5.5in]{Glove.JPG}
+\caption{The Vibrotactile Glove.}
+\label{Chap10Figure1}
+\end{figure}
+
+As shown in Figure \ref{Chap10Figure1}, 14 shaftless vibration motors are installed on the dorsal surface of the phalanges of a stretchable anti-static glove - corresponding to the 14 phalanges of the human hand. Each vibrator has an effective displacement of 1.5mm @ 55Hz with an effective acceleration along X, Y and Z of $X_g$ = 0.38g, $Y_g$ = 0.29g and $Z_g$ = 1.08g, respectively, with Z axis perpendicular to the skin. The $g$ here refers to the acceleration due to gravity, which is equal to $9.8 m/s^2$ roller via a serial port that is translated to USB for interfacing with any generic computing element. The USB port also provides the necessary power for the operation of the glove. Through these commands, the microcontroller allows precise simultaneous control of three dimensions of vibrations, namely, the intensity of vibration, the location of vibration and the duration of vibration. The location of vibration is controlled by choosing the appropriate output port of the microcontroller; the duration of vibration is controlled by the onboard timer; the intensity of the vibration is controlled via simulated Pulse Width Modulation (PWM) on the output ports. In order to isolate and protect the controller from the vibration motor induced back-EMF (electromotive force) two 7-array Darlington transistors with opto-isolation are used between the controller and the motors.
+
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=5.5in]{SoftwareGlove.JPG}
+\caption{Localization and spatio-temporal cueing software used for the vibrotactile glove.}
+\label{Chap10Figure2}
+\end{figure}
+
+The software to control the vibrations on the glove is shown in Figure \ref{Chap10Figure2}. Two independent programs where developed to explore the localization capabilities of users, and for testing the ability of users to identify spatio-temporal cues, the saptio-temporal cues here refer to the facial expressions that were being delivered from the Temporal Exemplar-based Bayesian Network decision system. The number of spatio-temporal patterns were decided based on the number of classes $N$ that were chosen in the TEBN, in our case 6 corresponding to the 6 basic human expressions. We also added one more class, Neutral class, to represent that the interaction partner was not displaying any expression. The serial port interface for the glove is designed similar to the popular Hayes AT command set. Activation commands are passed as ASCII strings that are interpreted by the microcontroller to activate the appropriate motor for the requested duration and intensity of vibration. The details of the cueing patterns are presented in the next section.
+
+\section{Haptic Cueing to Test Localization and Spatio-Temporal Mapping}
+\subsection{Localization}
+To determine how well users were able to perceive the vibratory patterns on the phalanges, vibrators were excited at randomly selected locations. Each excitation was applied at 100\% intensity and duration of 5 seconds. The localization experiments were focused on studying the vibrotactile detection capabilities of the individual phalanges, fingers as a whole, and groupings based on the distance of the phalanges from the palm (distant, intermediate and proximal phalange) as shown in Figure \ref{Chap10Figure3}.
+
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=4.5in]{Phalanges.JPG}
+\caption{Phalange naming convention and grouping based on the anatomical distances.}
+\label{Chap10Figure3}
+\end{figure}
+
+\subsection{Spatio-Temporal Cueing}
+While the versatility of the VibroGlove allows it to be used for various applications, here we discuss the specific application of delivering the six basic facial expressions, along with the neutral face, of an interaction partner to a user who is visually disabled. Humans rely heavily on the shape of the mouth and the eye area to decipher facial expressions. Motivated from this, we focused only on the mouth area to design spatio-temporal haptic alternates for facial expressions. We used only the three central fingers on the glove: 9 vibrators, as shown in Figure 4. In order to represent the seven facial expressions, we designed haptic expression icons that were motivated by two important factors: 1) Icons similar to the visual emoticon that are already in popular use, like Happy, Sad, Surprise and Neutral, where the mouth shapes prominently represent the expression, and 2) Icons like Anger, Fear and Disgust where the mouth area alone does not convey the expression, thereby forcing us to create haptic icons that could evoke a sense of the expression in question. Figure \ref{Chap10Figure4} provides details of the haptic expression icons. All 7 patterns were designed to be 750ms long with each motor vibrating for at least 50ms. These numbers were determined based on pilot studies where we found that participants could not isolate vibrations if the duration was less than 50ms long. Further, patterns longer than 800ms were considered to be too long by the participants, while patterns shorter than 600 ms were confusing, and training phase accuracies were unacceptable.
+
+
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=5.5in]{HapticEncoding.JPG}
+\caption{Mapping of Group 1 and Group 2 haptic expression icons to the central three fingers (9 Phalanges) of the vibrotactile glove. In the expression mapping chart, Columns 1 to 3 represent the expression. Column 4 shows the spatial mapping of vibrations. Column 5 shows the temporal mapping of the vibrations.}
+\label{Chap10Figure4}
+\end{figure}
+
+\subsubsection{Group 1 - The visual emoticon motivated haptic icons:}
+The Group 1 haptic expression icons primarily represent popular emoticons that are in wide use within the Instant Messaging community. These icons mostly model the shape of the mouth.
+
+\begin{enumerate}[1)]
+\item Happy is represented by a $\cup$ shaped pattern,
+\item Sad by an inverted $\cup$,
+\item Surprise by a circle $\bigcirc$, and
+\item Neutral by a straight line \textemdash.
+\end{enumerate}
+
+\subsubsection{Group 2 - The auxiliary haptic icons:}
+Anger, Fear and Disgust cannot be conveyed through the appearance of mouth alone. To this end, we resorted to defining haptic patterns that were unique from what was already defined for Group 1, while keeping in mind a need to represent the underlying expression in question.
+\begin{enumerate}[1)]
+\item Anger is represented by successive vibrations on six lower phalanges representing an open mouth showing teeth during an expression of anger;
+\item Fear is represented by very brief vibrations on the dorsal phalanges of the central 3 fingers in three quick successive vibration sequences representing a fast emotional response that people show towards fear, and
+\item Disgust is represented through a vibration pattern going from right to left on the bottom phalanges of the central fingers corresponding to a slightly opened mouth during the display of disgust.
+\end{enumerate}
+
+\section{Research Hypothesis} \label{Sec:Hypotheses}
+\subsection{Localization}
+While testing the localization capabilities of the haptic glove, three distinct and correlated hypotheses were tested. These hypotheses are related to the individual phalange localization, localization per finger, and localization on the phalange groups based on their distance from the palm.
+\subsubsection{Hypothesis 1:}
+ \begin{enumerate}[a)]
+  \item The recognition rates per phalange will be above chance (50\%);
+  \item The mean recognition rate per phalange will not be significantly different between any two phalanges.
+  \end{enumerate}
+
+\subsubsection{Hypothesis 2:}
+ \begin{enumerate}[a)]
+  \item The recognition rates per finger will be above chance (50\%);
+  \item The mean recognition rate per finger will not be significantly different between two fingers.
+  \end{enumerate}
+
+\subsubsection{Hypothesis 3:}
+\begin{enumerate}[a)]
+ \item The recognition rates per phalange group (distal, intermediate, proximal) will be above chance (50\%);
+ \item The mean recognition rate per phalange group will not be significantly different between two phalange groups.
+ \end{enumerate}
+
+\subsection{Spatio-Temporal Cueing}
+Similar to the localization experiments, the hypotheses relating to the spatio-temporal cueing relates to the ability of the users to recognize the individual expression and also the two groups of expressions as identified in Section IV B.
+\subsubsection{Hypothesis 4:}
+\begin{enumerate}[a)]
+\item The recognition rates for the spatio-temporal expression patterns will be above chance (50\%);
+\item The mean recognition rate per expression will not be significantly different between any two expressions.
+\end{enumerate}
+\subsubsection{Hypothesis 5:}
+\begin{enumerate}[a)]
+\item The recognition rates per expression group (Group 1 and 2) will be above chance (50\%);
+\item The mean recognition rates between the two groups will not be significantly different.
+\end{enumerate}
+
+\section{Experiments and Analysis Methodology}
+Two independent and consecutive experiments were conducted to test the localization and spatio-temporal cue identification capabilities of uses. Participants were engaged for the entire time of the two experiments and the localization experiments preceded the spatio-temporal cueing experiments. In the spatio-temporal experiments, along with the accuracy of recognizing the spatio-temporal vibrotactile cues, we were also interested in knowing how quickly the participants were able to recognize the expressions. The duration for recognition is very important in social interactions as the human face changes drastically over short time. Experiments have shown that expressions vary anywhere from 1 to 5 seconds (\cite{knapp_nonverbal_1996}, Page 322). Conforming to these time scales, it is important that any device developed towards enriching social experience should react in real-social-time towards facilitating smooth interpersonal interaction.
+
+\subsection{Participants}
+The experiments were conducted with one individual who was blind and 11 other participants who were sighted but blindfolded during the experiment. It is important to note that the individual who was blind had lost his sight after 25 years of having vision. To a large extent, this individual could correlate with the Group 1 haptic expressions, of the spatio-temporal cueing experiment, to his visual experiences from the past. None of the participants had any obvious medical conditions that prevented them from perceiving the vibrotactile stimulations on their right hand.
+
+\subsection{Procedure}
+Once the subjects wore the glove, they were seated in a chair with a blindfold and asked to keep their hand on their lap in the most comfortable position. Both the localization and spatio-temporal cueing experiments were conducted in three successive phases, namely, Familiarization phase, Training phase and Testing phase.
+\begin{description}
+\item [\emph{Familiarization Phase:}] Subjects were first familiarized with the various vibration patterns by presenting them in order - each phalange for the localization experiment and each facial expression for the spatio-temporal experiments. During this phase, the corresponding location or the facial expression was spoken aloud by the experimenter. The familiarization was continued until the subjects were comfortable in remembering all the locations and expressions.
+
+\item [\emph{Training Phase:}] The familiarization was followed by the training phase in which all the fourteen vibration locations and seven facial expression patterns were presented in random order, in multiple sets, and subjects were asked to identify them by speaking them out. The experimenter confirmed any correct response, and corrected incorrect responses. Subjects had to demonstrate 100\% recognition on at least one set of all fourteen locations and seven expressions before moving to the testing phase. Note that, the speaking was replaced by the use of a keyboard in the spatio-temporal experiments where the participants were asked to type their answers directly into a keypad having 7 keys corresponding to the 6 basic expressions and the neutral face. The keypad allowed us to capture the exact time taken by the participants to arrive at the decision and respond with a key press. A 15 minute time limit was placed on the training irrespective of the training accuracy.
+
+\item [\emph{Testing Phase:}] The testing phase was similar to the training phase except the experimenter did not provide feedback to subjects, and each location and expression pattern was randomly presented 10 times making a total of 14 locations x 10 trials = 140 localization results, 7 expressions x 10 trials = 70 expression results. The subjects were given 5 seconds per trial to respond.
+\end{description}
+
+\subsection{Analysis}\label{SubSec:Chap10Section}
+In order to test the hypotheses presented in Section \ref{Sec:Hypotheses} (relating to the localization and spatio-temporal cueing experiments), three related analyses were carried out, namely, a) location or expression recognition rate, b) One-way analysis of variance (ANOVA) on the recognition accuracies, and c) Tuckey Honestly Significant Difference (HSD) test to determine the mutual performance of location and expression results. The details of the three techniques are discussed below.
+
+\subsubsection{Recognition Accuracies}
+As the name suggests, the recognition accuracies measure the average true positive rate of recognition on the localization and expression recognition experiments. Along with the mean recognition rate, the deviation in the recognition rates across the 11 participants is also shown.
+
+\subsubsection{ANOVA}
+One-way analysis of variance is a statistical tool used for comparing two or more sample groups to test null hypothesis that the samples were drawn from different populations using an F-distribution. The F statistic is derived from the sample means and the group means.  Following the central limit theorem, if the samples are drawn from the same population, the variance between group means have to be smaller than the sample variance. A higher ratio of the variances justifies the null hypothesis, else it's rejected. The results of ANOVA are reported as p-value scores from the F-statistic with the dimensions (k-1) and (n-1), where the k is the number of groups and n is the number of samples. Lower the p-value higher is the chance of accepting the null hypothesis and vice versa.
+
+\subsubsection{Tuckey HSD}
+While ANOVA tests for a chance that the samples could have been derived from different populations, the Tuckey Honestly Significant Difference (HSD) test relies only on the group means to determine if there is a significant difference between groups of samples. A significant difference calls for reasoning to suspect/explain performance differences within groups derived from a single sample set. Unlike ANONA, where all the groups and samples are combined into the dimensions of comparison, HSD allows individual group-wise comparisons, providing for an opportunity to identify which groups are performing differently from others. Mostly reported as a ratio of the group mean difference and the standard group mean error, it is possible to quickly identify the significant group differences. In the results section below, the group means and the standard errors are plotted as circles and whiskers, respectively. Significant difference is established when one group's standard error stretch is beyond the scope of any of the other groups.
+
+\section{Results of the Experiments}
+In this section, five sets of results are presented. Each set presents the three analyses that were described in Section \ref{SubSec:Chap10Section}. Three of the five sets correspond to the localization experiments, while the other two correspond to the spatio-temporal experiments.
+\clearpage
+
+\subsection{Localization Experiments}
+\subsubsection{Phalange Level Localization}
+
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=4in]{HAVE10Figure5a.jpg}\\
+(a)\\
+\includegraphics[width=4in]{HAVE10Figure5b.jpg}\\
+(b)\\
+\includegraphics[width=4in]{HAVE10Figure5c.jpg}\\
+(c)\\
+\caption{(a) Recognition Accuracies; (b) ANOVA; (c) HSD}
+\label{Chap10Figure5}
+\end{figure}	
+
+\clearpage
+
+
+\subsubsection{Finger Level Localization}
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=4in]{HAVE10Figure6a.jpg}\\
+(a)\\
+\includegraphics[width=4in]{HAVE10Figure6b.jpg}\\
+(b)\\
+\includegraphics[width=4in]{HAVE10Figure6c.jpg}\\
+(c)\\
+\caption{(a) Recognition Accuracies; (b) ANOVA; (c) HSD}
+\label{Chap10Figure6}
+\end{figure}	
+
+
+\clearpage
+
+\subsubsection{Phalange Position Localization}
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=4in]{HAVE10Figure7a.jpg}\\
+(a)\\
+\includegraphics[width=4in]{HAVE10Figure7b.jpg}\\
+(b)\\
+\includegraphics[width=4in]{HAVE10Figure7c.jpg}\\
+(c)\\
+\caption{(a) Recognition Accuracies; (b) ANOVA; (c) HSD}
+\label{Chap10Figure7}
+\end{figure}	
+
+
+\clearpage
+
+\subsection{Spatio-Temporal Experiments}
+\subsubsection{Individual Spatio-temporal Patterns}
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=4in]{HAVE10Figure8a.jpg}\\
+(a)\\
+\includegraphics[width=4in]{HAVE10Figure8b.jpg}\\
+(b)\\
+\includegraphics[width=4in]{HAVE10Figure8c.jpg}\\
+(c)\\
+\caption{(a) Recognition Accuracies; (b) ANOVA; (c) HSD}
+\label{Chap10Figure8}
+\end{figure}
+
+
+\clearpage
+
+\subsubsection{Comparison of Spatio-temporal Cueing groups}
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=4in]{HAVE10Figure9a.jpg}\\
+(a)\\
+\includegraphics[width=4in]{HAVE10Figure9b.jpg}\\
+(b)\\
+\includegraphics[width=4in]{HAVE10Figure9c.jpg}\\
+(c)\\
+\caption{(a) Recognition Accuracies; (b) ANOVA; (c) HSD}
+\label{Chap10Figure9}
+\end{figure}
+
+
+\clearpage
+
+From Figure \ref{Chap10Figure5} through \ref{Chap10Figure9}, it can be seen that the part (a) of the five research hypotheses can be answered immediately. Users of the device found it convenient to localize vibration patterns and identify expressions easily. The localization recognition accuracy was at 92\% (SD: 7.5\%), while the expression recognition rate was measured at 89\% (SD: 5.9\%). This validates the null hypothesis that the users were able to localize and identify vibrotactile patterns well above average.
+
+Investigating part (b) of the five hypotheses reveals interesting insights into the user's abilities to detect and localize vibrotactile stimulations.  From Figure \ref{Chap10Figure5}(b) and \ref{Chap10Figure5}(c) it can be concluded that Hypothesis 1(b) is accepted; both ANOVA HSD tests reveal no significant difference between phalange performances. Similarly from Figure \ref{Chap10Figure6}(b) and \ref{Chap10Figure6}(c), it can be concluded that there is no significant difference in the performance between fingers. Figure \ref{Chap10Figure8}(b) and \ref{Chap10Figure8}(c) accepts the Hypothesis 4(b) and we see no significant difference in the mean performance of the seven spatio-temporal cueing patterns of facial expressions.
+
+In contrast, from Figure \ref{Chap10Figure7}(b) and \ref{Chap10Figure7}(c), we see that the Hypothesis 3(b) is rejected as user performance diminished at the proximal phalanges. This could be attributed to the fact that the vibration motors are very closely placed next to one another at the proximal phalanges which may cause inter-motor vibrations. From Figure \ref{Chap10Figure9}(b) and \ref{Chap10Figure9}(c), we see that Group 2 performance was much higher than Group 1 rejecting the Hypothesis 5(b). Studies are underway to determine the nature of the haptic cues in Group 2 that make them significantly better than Group 1. This could have been due to the fact that Group 2 cues were designed based on extensive user feedback when compared to Group 1 expressions which were designed based on popular visual emoticons.
+
+
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=4.5in]{HAVE10Figure10.jpg}\\
+\caption{Confusion Matrix across the 12 participants. The rows are the stimulation and the columns are the responses of the participants. Each row adds to 100\% (rounding error of 1\%).}
+\label{Chap10Figure9}
+\end{figure}
+
+Figure \ref{Chap10Figure6} shows the confusion matrix for all the seven expressions. The diagonals correspond to the bar graph shown in Figure \ref{Chap10Figure5}. The off-diagonal elements represent the confusion between expressions. These off-diagonal elements provide insight into the parameters that control effective and responsive haptic patterns. While subjects confused Sad and Neutral expressions with various others (mostly in Group 1), Anger and Surprise show exchangeability, where there is strong confusion between each other. Fear and Disgust are strongly isolated from the rest of the expressions as they were very well recognized by the subjects.
+
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=5in]{HAVE10Figure11.jpg}\\
+\caption{Average recognition rate and response time for the subject who is blind, for over 70 trails.}
+\label{Chap10Figure10}
+\end{figure}
+
+Figure \ref{Chap10Figure7} shows the average recognition performance and the average time of response for the subject who is blind. The individual was able to recognize most of the expressions at 100\%, over the 70 trails.
+
+
+\subsubsection{Time for Recognition:}
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=5in]{HAVE10Figure12.jpg}\\
+\caption{Average response time for all 12 participants. Four important results are shown above, 1) Avg. correct response time per expression (Cyan), 2) Avg. incorrect response time per expression (Red), 3) Avg. correct response time for Group 1 (Blue), and 4) Avg. correct response time for Group 2 (Magenta).}
+\label{Chap10Figure11}
+\end{figure}
+
+Figure \ref{Chap10Figure8} shows the average time taken by the subjects per expression when they recognized the haptic patterns correctly (cyan), and when they misclassified them (red). The bar graph shows excess or shortage of response time around the mean value. It can be seen that correct identification happened in just over a second (1.4s). When the subjects were not sure of the haptic pattern, they took more time to respond. This can be seen from the inverse correlation of the response time and recognition rates in Figure \ref{Chap10Figure5}. The pattern for Sad had the worst performance of 81\% and the corresponding response time was the highest (2s). Pattern for Fear had the best performance (98\%) and least response time (765ms). This analysis can be extended to the Group level where Group 1 has a higher recognition time when compared to Group 2. Whenever the subjects responded wrong, they seem to take more time, as seen by the average incorrect response time of 2.31s (red), almost a second more than the response time for correct responses. We could not find any significant relevance between the response time for incorrect answers and the recognition rate graph. We conclude that subjects were responding with random answers once they crossed a self imagined time limit less than the 5 seconds that was provided.
+
+\section{Conveying Facial Expressions through Dyadic Social Situational Assistant}
+In this chapter we demonstrated a novel interface, a vibrotactile glove, for delivering seven facial expressions as part of dyadic social situational assistant. We have explored only the seven classes based on the output of the Temporal Exemplar-based Bayesian Network (TEBN). If the number of classes could be increased (possibly to transmit more detailed information about the face, like Action Units of the face), the same could be done on the glove to incorporate the extension of the number of spatio-temporal classes. While the seven spatio-temporal mappings were chosen here based on their visual emoticon (Group 1) and based on the emotion that they communicated (Group 2), but if the number of classes are extended, very careful design choices would need to be made on how to extend the spatio-temporal classes without causing a sensory overload on the participants.
+
+In the next chapter we focus on the problem of recognizing the interaction partners based on facial biometrics. We highlight the importance of face recognition in the social context.
+
+\chapter{FACIAL BIOMETRICS IN SOCIAL CONTEXT: IDENTIFYING INTERACTION PARTNERS}
+Social interactions and social communication dynamics are very specific to the interacting partners. Social interactions of every individual with another varies depending on how they are related on the social fabric. As identified by the individuals who are blind on the online survey of important non-verbal cues (Chapter \ref{Chap:3}, identity of the interaction partner was considered as being important. In our discussions with the user population, we realized that the identity of individuals is very important while being in group discussions as they would like to know who is located where and what a certain individuals facial expressions are. 
+
+Camera-based face recognition has the potential for recognizing
+people at a distance, without their need to explicitly .  For
 decades, banking, retail, commercial, and industrial buildings have
 been populated with surveillance cameras that capture video streams
 of all people passing through critical areas.  More recently, as a
@@ -3931,810 +4772,7 @@ Given proper functionality, specifically expressiveness, haptic belts can be use
 **********************************************************
 
 
-\chapter{SENSING FACIAL EXPRESSIONS OF INTERACTION PARTNERS}
-As described in Chapter 2, in the survey conducted towards understanding the non-verbal cue needs for people who are blind and visually impaired, they emphasized on the lack of access to facial expressions and mannerisms of their interaction partners. This is supported by the argument that most part of the non-verbal cues occur through visual facial mannerisms as described in Section 1.2.1 of Chapter 1. The face encodes a lot of information that is both communicative and expressive in nature. Unfortunately, the face is a very complex data generator and the encodings on the face are not very context sensitive and individualistic in nature. Evolving computing technologies have been focused on developing solutions towards understanding the nature of facial mannerisms and gestures, but most of this multi-modal affective interaction research has been focused on the development of sensors and algorithms that understand user's emotional state in a human-machine interaction scenario. These interactions are mostly unilateral in nature and directed primarily towards the machine interpreting the user's emotional state. That is, the machines become the primary consumers of the affective cues. But from the perspective of an assistive technology affect interactions have to be augmentations that enrich human-human interpersonal interaction, where the machines not only interpret communicator's affective state, but also delivers affect information through novel affect actuators to a social interaction recipient.
 
-As mentioned before most affect information is causal in nature and understanding what the expression or mannerism means requires an understanding of context when it is happening and the situation in which the communication is occurring. Our understanding of the cognitive models within the human brain that allows for the processing of complex facial expressions and emotions is very naïve. Computational models developed towards understanding context are very simplistic and performs nominally even under very well controlled laboratory conditions. Contrary to such a setting, assistive technologies provide some respite to the complexities by having the cognitive abilities of the user of the technology to make decisions. That is, while human computer interfaces need to mimic sensing, cognition and delivery, assistive technologies for people who are blind have to look at sensing and delivery alone and piggy back on human cognition. This requires precise sensing of the facial and head movements while delivering as much information back to the user as possible through technologies that do not overload the user with information but provides just the right level of information to allow them to cognitively process this information.
-
-Thus, the focus of this chapter is on the precise sensing and proficient delivery of facial mannerisms and gestures of interaction partners to the user of the Social Interaction Assistant who is blind or visually impaired. To this end, the two important aspects of sense and delivery will be handled simultaneously to meet the goal of delivering dynamic facial and head movement information to the user of the social interaction assistant.
-
-
-\section{Design Considerations}
-The human face is very dynamic when it comes to generating important non-verbal communicative cues. Subtle movements in the facial features can convey great amounts of information. For example, slight opening of the eyelids conveys confusion or interest, whereas a slight closing of the eye lids conveys anger or doubt. Thus, the human face can be considered to be a very high bandwidth information stream, where careful design considerations need to be taken into account if this data has to be encoded optimally and effectively through other modalities.
-
-In the past, most researchers and technologists have resorted to auditory cueing when information has to be delivered to persons with visual disabilities; but there is a strong growing discomfort in the target population when it comes to overloading their hearing. People with visual disabilities have a natural tendency to accommodate for the lack of a primary sensory channel by relying on hearing. For example, with the aid of ambient noise in a room, they can gauge approximately how big a room is. Thus, when designing assistive devices aimed at social aid, we need to carefully consider how to deliver high bandwidth data streams to users relating to the facial movements of interaction partners. Touch or haptic based delivery is a growing area of research which is relatively underutilized, except for Braille. To this end, we explore the use of vibrotactile cueing on the back of the human palm (the human hand has a very large representation in the somatosensory cortex of the brain) to be both versatile and unobtrusive.
-
-\section{Dyadic Interaction Assistant - Proposed Solution}
-Dyadic interactions represent a large portion of social interactions between individuals; and during dyadic interactions, it is very important to assess the communicator's face, head and body-based gestures and mannerisms. As presented in Figure 2, the face captures the largest portion of the non-verbal cues and the current implementation of the dyadic interaction assistant focuses on the interaction partner's face (and head). The dyadic interaction assistant is to convey important facial and head mannerisms of the interaction partner that might correlate to communicative gestures like head nod, head shake, doubt, anger, frustration, happiness, interest, etc. See Figure 10 for a typical dyadic interaction setting. The device incorporates an automated table top face tracker which acts as the input to the system while allowing any extracted data to be delivered on a wearable haptic display called the Haptic Glove.
-
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=4in]{DyadicInteraction.JPG}
-\caption{Typical use of the dyadic interaction assistance scenario, a third person perspective on the use case scenario.}
-\label{DAFigure1}
-\end{figure}
-
-The dyadic interaction assistant was designed to be a compact device that can be carried into meetings where an individual who is blind or visually impaired could place it in front of his/her interaction partner. The device, as shown in Figure 11, consists of a micro pan-tilt mechanism that is controlled from a PDA like computing platform. Real-time face detection (as explained in the previous section) tracks the face of the interaction partner and captures only the face image for further processing. We use the FaceAPI®, a commercially available facial feature tracking package to determine the locations of all the facial features including eyelids, eye brows and the mouth. Figure 12 shows a typical output of the FaceAPI software.
-
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=5in]{FaceAPITracking.JPG}
-\caption{Typical use of the dyadic interaction assistance scenario, a third person perspective on the use case scenario.}
-\label{DAFigure2}
-\end{figure}
-
-\section{Facial Expression Recognition - State of the art}
-Computer based facial expression recognition is mostly centered around the process of identifying the various facial mannerisms and gestures of individuals through the use of mostly electrooptical cameras. While recent developments relate to their recognition using infrared [REF], thermal[REF] and face electromyogram (EMG) [REF], in this chapter, we restrict to the discussions of EO camera based facial expression recognition as the primary sensor on the dyadic interaction assistant is restricted to the use of an auto-focus Complementary Metal Oxide Semiconductor (CMOS) camera.
-
-Most facial expression recognition algorithms treat the underlying problem as a classification problem and group spatio-temporal facial actions into predetermined bins of specific facial gestures or mannerisms. Popular classifications include the Ekman [REF] grouping of 6 basic facial expression of emotion, including Happy, Sad, Surprise, Fear, Anger and Disgust. These classes are distinguished from the otherwise Neutral expression of the individual's face.
-
-Table XXX below shows a compilation of the state-of-the-art in facial expression recognition algorithms. Note that the table is an extension of the 2009 work that was published by Zaho et. al. [REF].
-
-\begin{landscape}
-\begin{table}[htbp!]
-\scriptsize
-\caption{State-of-the-art facial expression recognition algorithms and their performance. \newline
-Exp: Spontaneous(S) / Posed expression (P);
-Per: 	Person Dependent(P) / Independent (I);
-Class: 	Number of classes;
-Sub: 	Number of subjects;
-Type: 	Data Type: Video (V) / Image(I);
-\% Acc: 	Percentage Accuracy;
-?: 	missing entry.}
-\begin{tabularx}{8in}{|X|XX|XX|X|X|X|X|X|X|}
-\hline
-\textbf{Ref.} & \multicolumn{2}{|c|}{\textbf{Features}} & \multicolumn{2}{|c|}{\textbf{Classifier}} & \multicolumn{6}{|c|}{\textbf{Performance}} \\
-\cline{6-11}
- & \multicolumn{2}{|c|}{} & \multicolumn{2}{|c|}{} & \textbf{Exp} &	\textbf{Per} &	\textbf{Class} & \textbf{Sub} & \textbf{Type} & \textbf{\% Acc} \\
-\hline
-\cite{ashraf_painful_2009} & \multicolumn{2}{|c|}{AAM}	& \multicolumn{2}{|c|}{SVM}       & S & I &	2     &	21 & ? & 81 \\
-\hline
-\cite{m.s._bartlett_prototype_2003} & \multicolumn{2}{|c|}{Gabor} & \multicolumn{2}{|c|}{SVM + HMM} &	S &	I &	3 AUs &	17 & V & 98 \\
-\hline
-\cite{yeasin_recognition_2006} \cite{bartlett_fully_2006} & \multicolumn{2}{|c|}{Gabor} & \multicolumn{2}{|c|}{AdaBoot SVM} & S P & I & 17 AUs & 119 + 12 & I & 93 + 90.5 \\
-\hline
-\cite{cohen_facial_2003} & \multicolumn{2}{|c|}{12 motion units} & \multicolumn{2}{|c|}{Tree DBN HMM} & P & D I & 6 & 5 + 53 & V & 66.5 + 73.2 \\
-\hline
-\cite{cohn_automatic_2004} & \multicolumn{2}{|c|}{Shape Models, Gabor} & \multicolumn{2}{|c|}{LDC} &	S &	I &	3 AUs &	21 & I &	76 \\
-\hline
-\cite{kaliouby_real-time_2004} & \multicolumn{2}{|c|}{24 facial points} & \multicolumn{2}{|c|}{DBN} & P & D & 6 & 30 & V & 77 \\
-\hline
-\cite{fasel_latent_2004} & \multicolumn{2}{|c|}{Intensity} & \multicolumn{2}{|c|}{NN} & P & ? & 7 & ? & I & 68 \\
-\hline
-\cite{gunes_affect_2005} & \multicolumn{2}{|c|}{Shape fea, Optic flow} & \multicolumn{2}{|c|}{C4.5 Bayes Net} & P & ? & 8 & 4 & I & 100 \\
-\hline
-\cite{ioannou_emotion_2005} & \multicolumn{2}{|c|}{FAPs} &	\multicolumn{2}{|c|}{Neurofuzzy network} & S & I & 3 & ? & I & 78 \\
-\hline
-\cite{qiang_ji_probabilistic_2006} & \multicolumn{2}{|c|}{Shape fea} &	\multicolumn{2}{|c|}{DBN} & S & ? & 2 & 8 & V & 95.3 \\
-\hline
-\cite{kapoor_multimodal_2005} & \multicolumn{2}{|c|}{Facial and head gesture} & \multicolumn{2}{|c|}{GP SVM HMM NN} & S &	? &	2 &	8 &	 V &	 86\\
-\hline
-\cite{kapoor_automatic_2007} & \multicolumn{2}{|c|}{Pixel diff of mouth}	& \multicolumn{2}{|c|}{GP SVM HMM NN} &	S &	I &	2 &	24 &	 V &	 79\\
-\hline
-\cite{lee_facial_2005} & \multicolumn{2}{|c|}{Intensity of face} &	\multicolumn{2}{|c|}{Decomposable model} &	P &	I &	6 &	8 + 16 &	 V &	 61\\
-\hline
-\cite{littlewort_faces_2007} & \multicolumn{2}{|c|}{Gabor} &	\multicolumn{2}{|c|}{AdaBoost SVM} &	S &	I &	2 &	26 &	V &	72\\
-\hline
-\cite{lucey_investigating_2007} & \multicolumn{2}{|c|}{AAM} &	\multicolumn{2}{|c|}{SVM} &	S P &	I &	AUs	& 100 &	? &	95\\
-\hline
-\cite{pantic_dynamics_2006} & \multicolumn{2}{|c|}{Facial profile} & \multicolumn{2}{|c|}{Rule-based}	& P &	I &	27 AUs & 19 &	V &	 86.3\\
-\hline
-\cite{pantic_case-based_2004} & \multicolumn{2}{|c|}{Frontal profile facial points} & \multicolumn{2}{|c|}{Rule and case based}	& P &	 I &	 9 &	8 &	I &	 83\\
-\hline
-\cite{sebe_authentic_2004} & \multicolumn{2}{|c|}{12 motion units} &	\multicolumn{2}{|c|}{kNN} &	S &	I &	4 &	53 + 28 &	V &	93 + 95\\
-\hline
-\cite{yan_tong_facial_2007} & \multicolumn{2}{|c|}{Gabor} &	\multicolumn{2}{|c|}{AdaBoost DBN} &	P &	I &	14 AUs &	100 + 10 &	I	 & 93 + 93\\
-\hline
-\cite{valstar_how_2007} & \multicolumn{2}{|c|}{Motion history} &	\multicolumn{2}{|c|}{SNoW kNN} &	P &	I &	15 AUs &	 19 + 100 &	 V	& 61 + 68\\
-\hline
-\cite{valstar_spontaneous_2006} & \multicolumn{2}{|c|}{8 facial points}	& \multicolumn{2}{|c|}{Gentle Boost SVM} &	S P &	I &	2 &	27 + 32 + 65 &	V &	 90\\
-\hline
-\cite{valstar_how_2007} & \multicolumn{2}{|c|}{20 facial points} &	\multicolumn{2}{|c|}{Gentle SVM} &	S P &	I &	2 &	52 &	 V &	 94\\
-\hline
-\cite{wang_facial_2003} & \multicolumn{2}{|c|}{Shape fea, Intensity} &	\multicolumn{2}{|c|}{NN} &	S &	? &	7 &	14 &	I &	 84\\
-\hline
-\cite{jun_wang_3d_2006} & \multicolumn{2}{|c|}{3D surface} &	\multicolumn{2}{|c|}{LDA} &	P &	I	& 6 &	60 &	I	& 83\\
-\hline
-\cite{zhen_wen_capturing_2003} & \multicolumn{2}{|c|}{Geometric ratio}	& \multicolumn{2}{|c|}{GMM} &	P &	I &	4 &	47 &	I &	75\\
-\hline
-\cite{whitehill_haar_2006} & \multicolumn{2}{|c|}{Harr} &	\multicolumn{2}{|c|}{AdaBoost} &	P &	I &	11 AUs &	? &	I &	 92\\
-\hline
-\cite{yeasin_recognition_2006} & \multicolumn{2}{|c|}{Intensity} &	\multicolumn{2}{|c|}{kNN HMM} &	S P &	&	6 &	97 + 21 &	 V &	 90.7 + 82\\
-\hline
-\cite{zeng_spontaneous_2006} & \multicolumn{2}{|c|}{Texture with LPP} &	\multicolumn{2}{|c|}{SVDD} &	S &	D &	2 &	2 &	I &	 87\\
-\hline
-\end{tabularx}
-\end{table}
-\end{landscape}
-
-\section{Design Considerations for Dyadic Interaction Assistant} \label{DesignConsiderations}
-As seen from the Table XXXX, facial expression recognition algorithm is a mature area with various solutions being suggested towards myriad applications ranging from biometrics to human computer interfaces. In contrast, the requirements in the proposed application is focused towards mediating human-human communication and thus imposes important constraints like,
-\begin{itemize}
-\item \emph{Real-time interpretation of the facial expressions and gestures:} People who are blind, or disabled in general, prefer not to rely on technologies that do not respond to their needs immediately and reliably. Survey of early adoption of assistive technologies show that the technology need not accomplish a large range of tasks, but the tasks being performed should be executed reliably and in useful time [REF]. Range of facial expressions range from a few hundredths of a second to couple of seconds at max [REF]. It is essential that the facial expression recognition algorithms be able to respond within this time frame to enable seamless interactions with sighted counterparts.
-\item \emph{Ability for the user to choose varying levels of facial information of their interaction partner:} In our interactions with the user community, it has become evident that each user has his/her own requirement of the details of the facial information that they receive from their interaction counterparts. For example, in a professional setting, individuals preferred to receive information that was delicate and down to detail, while in a personal setting, they preferred that the device does not overwhelm the user with facial interaction information.
-\item \emph{Ability to switch between subject-dependent and subject-independent facial expression recognition:} Social interactions vary between personal interactions with friends and family to professional meetings with strangers that the user may meet only once. An important aspect of social interaction is the ability to relate to an individual's personal mannerisms and gestures. This is especially true in personal interactions and behavioral psychology studies shows the inherent need for individuals to recognize and reenact their interaction partner's gestures (popularly termed as the \emph{Chameleon Effect}). From the sensing perspective, thus it is important that the algorithm be able to adapt to generic facial expression recognition, while also be able to adapt to subtle changes in a single subject's facial movements. That is, the algorithm requires the benefit of switching between subject-dependent and subject-independent facial expression and gesture recognition.
-\end{itemize}
-
-In the following section, we describe a recently proposed framework for facial expression recognition, termed as the Temporal Exemplar-based Bayesian Network, which demonstrates the ability to satisfy the needs itemized above. We first describe the framework and provide justification for its suitability to address the identified requirements.
-
-\section{Temporal Exemplar-based Bayesian Network (TEBN) for Facial Expression \& Gesture Sensing}
-
-A Bayesian Network is a interdependency graph representing the influence of various events on a desired outcome. A Bayesian Network is the extension of the Bayes Rule of conditional probabilities to multiple acyclically interdependent variables. For example, consider the problem of estimating the probability of a lawn being wet, under the possibilities that it could have rained, or the sprinklers could have turned on. The probability of wet grass $P(w_g)$ then depends on the probability of raining $P(r)$ and the probability of sprinkler turning on $P(s)$. Thus, the joint probability $P(w_g,s,r)$ can be written as
-
-\begin{equation}
-P(w_g,s,r) = P(w_g/r,s) . P(s). P(r)
-\end{equation}
-
-Further, most sprinklers can be assumed to be dependent on whether it rained or not, there by making the probability $P(s)$ dependent on the rain. Incorporating this into the above equation,
-
-\begin{equation}
-P(w_g,s,r) = P(w_g/r,s).P(s/r).P(r)
-\end{equation}
-
-Graphically, the above equation can be represented as shown below,
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=3in]{BayesianNW.JPG}
-\caption{Example Bayesian Network.}
-\label{DAFigure3}
-\end{figure}
-
-Typically, the various conditional probabilities associated with the graph are determined through statistical analysis of observations. Most often, the analysis results in inductive models that generalize the training observations to all test cases. In contrast, the Exemplar-based Bayesian Network determines the conditional probabilities transductively on a case-by-case basis of the test set. Thus, the network is dynamic, allowing the conditional densities to transform based on the input test condition. Also, the network accounts for the temporal transmission of decision probabilities from time instance $t$ to $t+1$. This transmission is also modeled into the network through a Markovian process. The details of the implementation follows, as described in [REF].
-
-
-\newenvironment{Equations}
-{\noindent\ignorespaces}%
-{\par\noindent\ignorespacesafterend}
-\begin{Equations}
-
-Given any facial expression image sequence $I(t)$ with $M$ number of frames, the goal of TEBN is to provide a posterior conditional probability of the sequence belonging to a possible set of $N$ facial expression labels $Y_i$. $N$ depend on the application under consideration. Thus, the conditional probability can be defined as
-
-\begin{equation}
-P\left(Y_i/\left(I(t), H(t)\right)\right) = \frac{P\left(I(t)/\left(Y_i, H(t)\right)\right) P\left(Y_i/H(t)\right)}{P\left(I(t)/ H(t)\right)}
-\label{EqnDBN1}
-\end{equation}
-
-if we assume that the image sequence $I(t)$ is independent of the past history $H(t)$, given that we know the expression label $Y_i$ and introducing the exemplar layer $L_i(t)$ as all the knowledge from which the labels $Y_i$ will be derived, the likelihood in the equation \ref{EqnDBN1} can be rewritten as,
-
-\begin{equation}
-P\left(I(t)/\left(Y_i, H(t)\right)\right) = P\left(I(t)/L_i(t)\right) P\left(L_i(t)/Y_i \right)
-\end{equation}
-
-\noindent Thus,
-
-\begin{equation}
-P\left(I(t)/\left(Y_i, H(t)\right)\right) = \frac{P\left(I(t)/L_i(t)\right) P\left(L_i(t)/Y_i \right) P\left(Y_i/H(t)\right)}{P\left(I(t)/ H(t)\right)}
-\end{equation}
-
-Neglecting the scaling factor in the denominator, the network can be defined by three layers, namely, \emph{Observation Layer}, \emph{Exemplar Layer}, and \emph{Prior Knowledge Layer}, as shown in the Figure XXX. The three layers shown in the figure contribute towards the final decision on the nature of the facial expression. Note that this example represents a classification problem where the six basic human expression (Happy, Sad, Surprise, Anger, Fear and Disgust) are considered to be the prime focus. In the later sections, we describe how this framework can be adopted to suit dyadic interaction assistance requirements.
-\end{Equations}
-
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=5in]{TEBN.JPG}
-\caption{Temporal Exemplar-based Bayesian Network for facial expression recognition.}
-\label{DAFigure3}
-\end{figure}
-
-\subsection{The Observation Layer}
-As described earlier, we use the results from the FaceAPI software as the inputs into the facial expression recognition algorithm. As shown in Figure XXX, 36 points returned by the software are used as the input observation vector,$X(t)$ into the TEBN. The length of this observation vector, $N$, is 2x36 = 72, corresponding to $(x,y)$ coordinates of the 36 facial fiducial. Structurally, the 72 data points are arranged as a linear vector $X(t)$ that represents the structural configuration of the facial features at time instant $t$. As time progresses, the vector $X$ evolves into an expression or gesture. $X(t)$ extracted at each frame is used for choosing $K$ examples from each of the $N$ expression classes, 6 in the example described in in Figure XXX.
-
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=4in]{FaceAPIPoints.JPG}
-\caption{36 Facial fiducial points tracked with FaceAPI software. Both $x$ and $y$ coordinates from all 36 points are used for facial expression recognition.}
-\label{DAFigure3}
-\end{figure}
-
-Given that all training data is available at sequence of images, $I(t)$, we choose to represent each frame of the image just by their FaceAPI tracked points. Thus, in the above equations, $I(t)$ can be conveniently replaced with $X(t)$, the 72 point vector of tracked points. Note that this is done only to reduce the computational load. Later, in the experiments section, we demonstrate the possibility of representing $I(t)$ through other image features.
-
-Thus, equation XXX can be rewritten in terms of the extracted features $X(t)$ as,
-
-\begin{equation}
-P\left(X(t)/\left(Y_i, H(t)\right)\right) \propto P\left(X(t)/L_i(t)\right) P\left(L_i(t)/Y_i \right) P\left(Y_i/H(t)\right)
-\end{equation}
-
-\subsection{The Exemplar Layer}
-The Exemplar Layer represents the aggregate knowledge for every test facial expression to be evaluated by the TEBN. As the name suggests, given a test sample of image sequence, $I_t(t)$ , for which we need to estimate the facial expression label, $Y_{i_t}$, the exemplar layer is constructed dynamically to best represent the test data. Thus, the exemplar layer $L_i(t)$ is chosen from the training pool, $E(t)$, by comparing $I_t(t)$ with every candidate image sequence in $E(t)$. For each of the expression labels, $Y_i, i=\{1,\ldots,N\}$, $k$ nearest neighbor points are chosen in $E(t)$ to represent the test data. We chose Euclidean distance between the test observations $X_t(t)$ and all observations $X_{E}(t)$ from the training pool $E(t)$. Once the $k$ nearest neighbors have been identified for the given test sequence, the Bayesian Network is developed by representing the test point $X_t(t)$ as the weighted average of $L_{ij}$ training points chosen from the training pool. The examples $L_{ij}, i=\{1,\ldots,N\} \& j=\{1,\ldots,k\}$ represents $k$ examples taken from $N$ expression classes. Figure XXX shows the steps involved in developing the Exemplar Layer for any given test point $X_t(t)$ and highlights the problem of finding $w_{ij}$ such that
-
-\begin{equation}
-X_t(t) = \sum\limits_{i=1}^{N} \sum\limits_{j=1}^{k} w_{ij} L_{ij}
-\end{equation}
-
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=5.5in]{ComputingLikelihood.JPG}
-\caption{Deriving the exemplar layer of the TEBN based on every test point $X_t(t)$.}
-\label{DAFigure3}
-\end{figure}
-
-\subsubsection{Computing $P\left(X(t)/L_{ij}(t)\right)$: Representing the test data in terms of existing examples}
-If any test point $X(t)$ can be represented as the sum average of a set of chosen example training data, in our case $L_{ij}(t)$ (chosen based on $k$ nearest neighbors of $X(t)$), the likelihood $P\left(X(t)/L_{ij}(t)\right)$ can be computed as
-
-\begin{equation}
-P\left(L_{ij}(t)/X(t)\right) = \frac{\sum\limits_{j=1}^k w_{ij}(t)}{\sum\limits_{i=1}^{N} \sum\limits_{j=1}^{k}w_{ij}(t)} \\
-\end{equation}
-
-and,
-
-\begin{equation}
-P\left(X(t)/L_{ij}(t)\right) = \frac{P\left(L_{ij}(t)/X(t)\right) P(X(t)}{P\left(L_i(t)\right)}
-\end{equation}
-
-where, $P\left(L_i(t)\right)$ can be considered as a proportionality constant and the probability of occurrence of any $X(t)$ is considered to be equal. Thus,
-
-\begin{equation}
-P\left(X(t)/L_{ij}(t)\right) \propto P\left(L_{ij}(t)/X(t)\right)
-\end{equation}
-
-\emph{Determining $w_{it}(t)$ given test point $X(t)$ and examples $L_{ij}(t)$:}
- In [REF], the problem of determining $w_{ij}(t)$ is posed as a entropy maximization problem,
-
- \begin{eqnarray}
- \mathrm{Maximize} &  \left( -\sum\limits_{i=1}^{N} \sum\limits_{j=1}^{k} w_{ij}(t) \ln\left( w_{ij}(t) \right)   \right) \label{MainOpt}\\
- \mathrm{Subject to} & \sum\limits_{i=1}^{N} \sum\limits_{j=1}^{k} w_{ij}(t) =  1 \nonumber \\
- & \sum\limits_{i=1}^{N} \sum\limits_{j=1}^{k} w_{ij}(t) L_{ij}(t) = X(t) \nonumber \\
- \end{eqnarray}
-
- The above problem is a convex optimization problem with the local maxima being the same as the global maxima. Appendix XXXX shows the solution to be problem using Newton's method and the steps shown in subsection \ref{XXX} of Appendix XXX shows the algorithm for determining the weights $w_{ij}$ associated with $L_{ij}$.
-
- \subsubsection{Computing $P(L_i(t) / Y_i)$: Determining the prior probability of chosen examples w.r.t the complete training data}
- The Exemplar-based Bayesian model assumes that all the known knowledge of the problem is embedded within the complete training set $E(t)$. Thus, given a subset of the examples, $L_{ij}(t)$ that is extracted from the training set, the likelihood of a given expression label, $Y_i$ can be obtained as the ratio of likelihood of occurrence of the selected training samples over all the training samples in the database. This can be achieved through,
-
- \begin{equation}
- P(L_i(t)/Y_i) = \frac{\sum\limits_{x \in L_i} P(x)}{\sum\limits_{x \in E}P(x)}
- \end{equation}
-
- \noindent The probability $P(x)$ can be determined through Kernel Probability Density Estimation as
-
- \begin{equation}
- P(x) = \frac{1}{n h^D} %\sum_\limits_{y\in E}\phi_h(x-y)
- \end{equation}
-
- \noindent Assuming $\phi$ to be a Gaussian Density function,
-
- \begin{equation}
- \phi_h(z) = \frac{1}{(2 \pi)^{D/2}} \exp{- \frac{1}{2} z^T z}
- \end{equation}
-
- \noindent where, $h$ represents the window width and an optimal value for this can be found (See [REF] for more information) as,
-
- \begin{equation}
- h_{opt} = \sigma \left\{ \frac{4}{n(2D+1)} \right\}^{\frac{1}{D+4}}
- \end{equation}
-
- \noindent $\sigma^2$ is the average marginal variance on the $D$ dimensions of the data in the set $E$.
-
- \subsection{The Prior Knowledge Layer}
- Facial expressions evolve over time and the rate at which one displays  a certain facial expression varies from one individual to another. Further, some of the facial expressions show commonalities that exhibit temporal correlations. For example, consider the expressions Fear and Surprise as shown in the Figure XXX. The movements on the upper half of the face are very similar in the two expressions, but not alike. The differences in the final expression label depends on the curvature and the opening of the mouth. Thus, a temporal evaluation of any facial expression requires that the frame train be analyzed as an evolving probability confidence over time history $H(t)$.
-
- \begin{figure} [htbp!]
- \centering
- \includegraphics[width=1.75in]{Fear.jpg} \hspace*{0.75in}
- \includegraphics[width=2in]{Surprise.jpg} \\
- \caption{Comparison of Fear and Surprise facial expressions.}
- \end{figure}
-
- \subsubsection{Computation of $P(Y_i/H(t))$: Temporal propagation of expression probabilities}
- The temporal nature of the TEBN is embedded in the propagation of probabilities across time (video frames). That is, propagation of expression probability from time $t$ to $t+1$, can be represented as a function of the transition probability given the frame history,
-
- \begin{equation}
- P(Yi/X(1,\ldots,t)) = \sum\limits_{j=1}^{N} P(Y_i/(Y_j, X(1,\ldots,t-1)) P(Y_j/X(1,\ldots,t-1))
- \end{equation}
-
- Considering a Markovian nature of probability propagation, we can rewrite the above equations as,
-
-  \begin{equation}
-  P(Yi/X(1,\ldots,t)) = \sum\limits_{j=1}^{N} P(Y_i/Y_j) P(Y_j/X(1,\ldots,t-1))
-  \end{equation}
-
-  In the above equation, the propagation is centered only on the transition probability $P(Y_i/Y_j)$. It is difficult to determine the transition probabilities before hand as they are dependent on the length of the video stream and also dependent on the duration of the expression in question. Hence, the transitions are determined while the expression evolves in the video frames. To this end,
-
-  \begin{enumerate}
-  \item Define a transition matrix $T$ of size $N$x$N$, to describe transitions between any of the $N$ expressions.
-  \item Initialize $T$ to $1$s.
-  \item At at given time instance, $t$, the transition probability, $P(Y_i/Y_j)$ can be obtained as
-      \begin{equation}
-      P(Y_i/Y_j) = \frac{T_{ji}(t))}{\sum\limits_{k=1}^N T_{jk}(t)}
-      \end{equation}
-  \item On an iterative basis update $T$ matrix based on a frame-by-frame transition from expression $i$ to $j$. That is, increment the entry $T_{ij}$ by 1, if the $t-1$ frame is assessed to be expression $Y_i$, through $P((Y_{X(t)} = Y_i)/X(1,\ldots,t-1))$ and the expression label transitions to $Y_j$ at time frame $t$, through $P((Y_{X(t)} = Y_j)/X(1,\ldots,t-1))$.
-  \end{enumerate}
-
- \section{Discussion of Design Considerations: TEBN perspectives}
- Having discussed the TEBN framework, we highlight the importance of using TEBN for addressing the three important design constraints that were highlighted in Section \ref{DesignConsiderations}. Below we highlight the importance of TEBN framework in addressing this design considerations.
- \begin{itemize}
-\item \emph{Real-time interpretation of the facial expressions and gestures:} The TEBN framework enables real-time performance. See the experiments section to determine the time taken towards each expression assessment.
-\item \emph{Ability for the user to choose varying levels of facial information of their interaction partner:} The number of decision levels that the TEBN can have is controlled by the design of the exemplar layer. In the discussions a single layer (6 expression) TEBN was discussed, but the same can be extended to incorporate more classes of expression bases like the Actions Units (AU), various intensity of AUs or the raw movement data itself. That is, the number of elements representing $N$ in the above discussions can be extended based on the classifications desired by the application, scenario and user choice.
-\item \emph{Ability to switch between subject-dependent and subject-independent facial expression recognition:} Subject dependence and independence can be easily controlled through the determination of the example pool from which the data is being selected for building the TEBN. If the identity of an interaction partner can be established before the expression analysis, it is possible to build $X(t)$, the test vector as a sum of expressions that belong to that specific individual, $L_i^r$, where $i \in \{1,\ldots,N\}$ represents the $N$ expressions and $r \in \{1,\ldots,R\}$ represents the total number of individuals in the database.
-    On the other hand, if the interaction partner's identity cannot be established, all expression examples independent of the subject identity can be used for building the exemplar layer for $X(t)$.
-\end{itemize}
-
-\section{Experiments}
-\subsection{Data}
-All experiments were carried out on the Cohen-Kanade Facial Expression Database [REF] version 1. Version 1 (the original or initial release (Kanade, Cohn, \& Tian, 2000)) includes 486 sequences from 97 posers. Each sequence begins with a neutral expression and proceeds to a peak expression. The peak expression for each sequence is fully FACS (Ekman, Friesen, \& Hager, 2002; Ekman \& Friesen, 1979) coded and given an emotion label.  The emotion label refers to what expression was requested rather than what may actually have been performed. In order to validate the emotion that was displayed, the final expression images of the 486 sequences were displayed to unbiased participants through a web portal. Each emotion image was displayed to the user and requested to label them as belonging to one of 7 classes, \emph{Happy}, \emph{Sad}, \emph{Surprise}, \emph{Fear}, \emph{Disgust}, \emph{Surprise} and \emph{Neutral}. During the screening process, it was noticed that some of the subjects did not display expressions as requested (either displayed neutral expression through the sequence or displayed exaggerated facial mannerism unlikely of requested emotion). Hence all the participants who labeled the expression images were required to label on a scale of 1 to 5, the genuineness of the expression displayed, 1 being least correlation to genuine expression and 5 being most genuine. Based on the user responses, we identified 182 sequences where subjects displayed emotions that were named as being genuine up to a scale level of 4 or 5. These sequences were then used for testing the TEBN.
-
- \chapter{DELIVERING FACIAL EXPRESSIONS OF INTERACTION PARTNERS}
-Over the past few decades, the environments in which humans live and operate have become increasingly information rich. Audio and visual modalities have been occupied by more than one source at the same time. Increasing audio-visual stimulations in the human's surroundings have increased the need for divided attention, which competes with the need for selective and sustained attention to complete a task at hand \cite{sohlberg_introduction_1989}. While audio and video have evolved as a medium for immersing humans in rich sensory experience, touch \cite{grunwald_human_2008}, taste \cite{maynes-aminzade_edible_2005} and smell \cite{chen_olfactory_2006} have only recently being considered for sensory augmentation and substitutions - note the subtlety between augmentation and substitution. When augmenting the already utilized sensory channels, the newer medium is not in demand to reproduce all of the information, but only enrich the already delivered experience. On the other hand, substitutions have to deliver information that was once being provided by a certain sensory channel on a newer medium, while maintaining similar or lesser cognitive load.
-
-Vision is the primary sense organ for most mammals and for a few primates, including humans, trichromatic vision is so highly evolved \cite{dominy_ecological_2001} that a major portion of the neuronal pathway in the brain is dedicated to sensing, perceiving and cognizing visual stimuli. This allows the human vision to process high intensities of data that stimulates the eyes - Koch et. al. estimated that human eyes, with 106 ganglion cells, could transmit up to 10 Mbits/s \cite{koch_how_2006} to the brain. Hence substituting vision with any other sensory channel is a challenging task that requires appropriate design taking into account the high intensity of data generated by visual stimuli.
-
-In this paper, we present a visuo-haptic sensory substitution device that intends to replace visual channel with somatosensory vibrotactile stimulations for specific applications. The high intensity visual stimuli are mapped to a matrix of haptic actuators placed in contact with the dorsal surface of the fingers, which allows both spatial and temporal mapping of vibration patterns. The fingers have the largest tactile representation in the brain after the tongue. Together, the fingers have the largest projection on the cortical surface when compared to any other body part \cite{nakamura_somatosensory_1998}. The concentrated neuronal mapping of the fingers allow for a very high sensitivity (both spatial and temporal resolution) making them an ideal candidate for sensory substitution. Further, to allow functional operation of the user's hands, the vibratos are placed on the dorsal surface of the fingers.
-
-In order to test the effectiveness of the visuo-haptic sensory substitution of the proposed vibrotactile glove, we explore one specific application area of delivering facial expressions via the glove. We targeted an assistive technology to translate facial expressions of social interaction partners into haptic spatio-temporal cues which could then be interpreted by people who are blind. The human face is very dynamic when it comes to generating important non-verbal communicative cues. Subtle movements in the facial features can convey great amounts of information. For example, slight opening of the eyelids conveys confusion or interest, whereas a slight closing of the eye lids conveys anger or doubt. Thus, the human face can be considered to be a very high bandwidth information stream, where careful design considerations are needed if this data has to be encoded optimally and effectively through haptic modalities.
-
-\section{Related Work}
-A prominent visuo-haptic sensory substitution system is the TVSS (Tactile-Visual Sensory Substitution) \cite{bach-y-rita_vision_1969} that substitutes visual data into a 400 point tactile array worn on the back of the user. A similar effort by Rahman et. al. \cite{rehman_vibrotactile_2008} focused on delivering facial emotions of interaction partners using vibrators installed on a chair such that the user's back is in direct contact with the vibrators. Both of these technologies have the obvious disadvantage that the user is restricted to a seated position with immobile augmentations. Recently we have explored the use of vibrotactile technologies on a belt like form factor for delivering direction and distance information \cite{mcdaniel_using_2008}. Unfortunately, the waist (combined with a belt like form factor) did not prove suitable for delivering high intensity data like facial expressions. Table below presents some of the popular haptic technologies developed for communicating high bandwidth interpersonal interaction data. While these provide opportunity to appreciate the possibility of haptic information delivery, the end goal was not clearly defined towards delineating fine facial movements that are deemed important in typical social interactions.
-
-\begin{landscape}
-\begin{table}[htbp!]
-\caption{Haptic interpersonal interaction enrichment devices}
-\label{InterpersonalTable1}
-\scriptsize
-\begin{tabularx}{8.5in}{||X|X|X|X|X|X||XXXX|XXXX||}
-\hline
-\hline
-\textbf{Device} & \textbf{Actuation} &	\textbf{Major Organ} & \textbf{Non-verbal Cue} & \textbf{Application}	& \textbf{User Experience} & \multicolumn{4}{|c|}{\textbf{Device}} & \multicolumn{4}{|c|}{\textbf{Device}}\\
-\hline
-\hline
-
-inTouch \newline \cite{brave_intouch:_1997} & Vibration Pressure Texture &	Hand &	Social Touch &	-Interpersonal communication through remote touch &	No Testing & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2in]{inTouch1.jpg}}}
-& \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2in]{TheBed.jpg}}}\\
-\cline{1-6}
-
-The Bed \newline \cite{dodge_bed:_1997} & Pressure Texture Temperature &	Body &	Social Touch & Remote interpersonal intimate communication	 Self report & System found to produce feelings of intimacy. & \multicolumn{4}{|c|}{\multirow{2}{*}{}} & \multicolumn{4}{|c|}{\multirow{2}{*}{}} \\
-\hline
-
-HandJive \newline \cite{fogg_handjive:_1998} & Pressure Proprioception &	Hand & Handshake Touch	& Interpersonal communication through new cueing language & No Data & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2in]{HandJive.jpg}}} & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2in]{HyperMirror.jpg}}}\\
-
-\cline{1-6}
-
-HyperMirror \newline \cite{morikawa_sense_2000} & Pressure &	Shoulders &	interpersonal distance, relative position, crossing paths &	 -Remote crossing of paths. \newline
--Initiating interaction in strangers across distance. \newline Tap to initiate conversation. &	Eye contact was made across distant users. \newline
-Tap signal aroused attention. \newline
-Crossing paths initiated conversations. & \multicolumn{4}{|c|}{\multirow{2}{*}{}} & \multicolumn{4}{|c|}{\multirow{2}{*}{}}\\
-\hline
-\hline
-\end{tabularx}
-\end{table}
-\end{landscape}
-
-
-\begin{landscape}
-\begin{table}[htbp!]
-\caption{Haptic interpersonal interaction enrichment devices contd.}
-\label{InterpersonalTable1}
-\scriptsize
-\begin{tabularx}{8.5in}{||X|X|X|X|X|X||XXXX|}
-\hline
-\hline
-\textbf{Device} & \textbf{Actuation} &	\textbf{Major Organ} & \textbf{Non-verbal Cue} & \textbf{Application}	& \textbf{User Experience} & \multicolumn{4}{|c|}{\textbf{Device}} \\
-\hline
-\hline
-Com Touch \newline \cite{chang_comtouch:_2002} & Vibration Pressure &	Hands &	Touch Emotions & Bidirectional operation. \newline
-24 subject tested. Remote participant squeezes one end and a recipient at the other end feels vibrations. & Subjects came up with their own cueing. \newline
-83\% of participants used atleast one gesture. 67\% developed their own gestures. & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2.5in]{comTouch.jpg}}}
-\\
-\hline
-
-Haptic Instant Messenger \newline \cite{rovers_him:_2004} & Audio Vibrations & Hands & Emotions &	Based on user selections at a remote location, haptic and audio codes are transmitted to the receiver. &	No user testing. \vspace*{1.4in} & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2.5in]{HapInstMess.jpg}}} \\
-\hline
-
-Hug over Distance	\newline 	\cite{Hug over a distance} & Pressure Proprioception	 & Upper Body &	Touch Hug & At one end the user rubs tummy of a stuffed toy and based on the pressure applied, air bags are filled at the remote end to simulate hug. & Air compressor at the receivers end makes a lot of noise. Six couple focus group found the concept weird. \vspace*{.75in} & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=1in]{Hug.jpg}\includegraphics[width=2in]{Hug2.png} }} \\
-
-
-\hline
-\hline
-\end{tabularx}
-\end{table}
-\end{landscape}
-
-
-\begin{landscape}
-\begin{table}[htbp!]
-\caption{Haptic interpersonal interaction enrichment devices contd.}
-\label{InterpersonalTable1}
-\scriptsize
-\begin{tabularx}{8.5in}{||X|X|X|X|X|X||XXXX|}
-\hline
-\hline
-\textbf{Device} & \textbf{Actuation} &	\textbf{Major Organ} & \textbf{Non-verbal Cue} & \textbf{Application}	& \textbf{User Experience} & \multicolumn{4}{|c|}{\textbf{Device}} \\
-\hline
-\hline
-VinroBod \newline \cite{dobson_creating_2001} & Pressure, Temperature &	Hands & Touch & Convey remote interpersonal cues. &	 15 subjects found the device useful and intuitive \vspace*{0.85in} & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2.5in]{VinroBod.JPG}}}
-\\
-\hline
-
-What's Shaking \newline \cite{dobson_creating_2001} & Vibration Temperature &	Hands &	Proxemics	& Heat corresponds to the number of people. \newline
-Vibration corresponds to the amount of activity in the environment \vspace*{.75in} & 12 subjects found the glove intuitive and were able to identify activity around them.
- & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=1.5in]{WhatsShaking.JPG}}} \\
-\hline
-
-Tele Handshake	\newline 	\cite{alhalabi_experimental_2003} & Proprioception &	Hnads &	Touch	& Remote handshake between interaction partners	& 65\% Satisfaction \newline 55\% Convincing \newline 60\% Intiutive \vspace*{1in} & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=1.8in]{telehandshake.jpg}}} \\
-
-
-\hline
-\hline
-\end{tabularx}
-\end{table}
-\end{landscape}
-
-\begin{landscape}
-\begin{table}[htbp!]
-\caption{Haptic interpersonal interaction enrichment devices contd.}
-\label{InterpersonalTable1}
-\scriptsize
-\begin{tabularx}{8.5in}{||X|X|X|X|X|X||XXXX|}
-\hline
-\hline
-\textbf{Device} & \textbf{Actuation} &	\textbf{Major Organ} & \textbf{Non-verbal Cue} & \textbf{Application}	& \textbf{User Experience} & \multicolumn{4}{|c|}{\textbf{Device}} \\
-\hline
-\hline
-TapTap	 \newline	\cite{bonanni_taptap:_2006} & Pressure & Shoulders &	Touch Tap &	Solenoids and vibrators used on the shoulder to simulate tapping. &	8 men and 8 women tested on the device found based on the tap, it reminded them of someone. \vspace*{0.3in}& \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2in]{TapTap.jpg}}}
-\\
-\hline
-
-United Pulse \newline 	\cite{werner_united-pulse:_2008} & Vibrations	& Finger & Intimacy & Vibrators on the ring stimulated to initiate communication between remote couple. Simulated heart beats were delivered	& 20 couples tested with the device. 22 liked the idea. 5 were irritated. \vspace*{0.75in}& \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2in]{UnitedPulse.jpg} \includegraphics[width=1in]{Ring.jpg}}} \\
-\hline
-
-Haptic Chair \newline  	\cite{rehman_vibrotactile_2008} & Vibrations &	Back &	Emotions &	Vibrations corresponding to emotions are delivered to the back of the user. \newline Has sensing of the emotions inbuilt through vision technologies & 3 expressions tested.  100\% recognition on expressions. 10\% of participants complained of cognitive load. \vspace*{0.75in}
- & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=1.5in]{HapticChair.jpg}\includegraphics[width=1.5in]{Chair2.jpg} }} \\
-
-
-\hline
-\hline
-\end{tabularx}
-\end{table}
-\end{landscape}
-
-
-Cappelletti et. al. \cite{cappelletti_vibrotactile_1998} developed a vibrotactile glove to deliver color information to the tips of the fingers as vibrations. But the glove required that the users wear the vibrators on the inside which restricts functional use of one's hand. From a sensory augmentation perspective, vibrotactile gloves have been explored for applications ranging from assistive technologies to telesurgery. Uchiyama et. al. \cite{uchiyama_vibrotactile_2008} have developed a glove that provides directional information to users of a semi autonomous wheelchairs, while Brell et. al. \cite{brell_fusion_2008} used haptic gloves for providing feedback during telesurgery. These technologies have proved the viability for glove based vibrotactile sensory augmentation. Adding to these findings, the experiments described in this paper addresses the vibrotactile sensory abilities of the dorsal surface of the fingers, especially for sensory substitution. The following table shows a list of applications that have called for the use of haptic glove based solutions.
-
-\begin{landscape}
-\begin{table}[htbp!]
-\centering
-\caption{Related work in the development of haptic gloves for information delivery}
-\label{HapticGloveRelated1}
-\scriptsize %\addtolength{\tabcolsep}{-3pt}
-\begin{tabularx}{8.5in}{|X|X|X|X|X|X|X|X|}
-\hline
-\textbf{Ref.} & \textbf{Application} & \textbf{No. of \newline vibrators} &	\textbf{Location of vibrators} &	 \textbf{Vibration Pattern} &	 \textbf{Encoding} &	\textbf{Experiments}	& \textbf{User Study} \\
-\hline
-\hline
-
-\cite{cappelletti_vibrotactile_1998} & Convey color information to people who are blind. &	3 &	Distal phalanges of index, middle and ring fingers (T). \newline
-- Three phalanges of the index finger. (O)	& - Continuous on all three vibrators (S). \newline
-- 0.5s time gap between vibrators (D). 	& - Encode R, G and B channel to each of the 3 vibrators. \newline
-- Amplitude of vibration proportional to the intensity of the color channel. &	- Convey only colors individually (C). \newline
-- Allow users to explore a down sampled color image using a mouse (I). &	- 5 participants who are blind. \newline
--2 sighted participants. \newline - COS: 71\% \newline - CTS: 87\% \newline - ITS: 100\% \newline - IOD: 67\% \newline - IOS: 92\% \newline - COD: 87\% \newline - CTD: 90\% \\
-\hline
-
-
-\cite{oron-gilad_vibrotactile_2007} &
-Vibrotactile cueing to improve target acquisition in virtual 2D environment using mouse as input. &	4 &	-2 on the lower part of the palm just above the wrist. \newline
-- 2 on the back of the lower palm  just above the wrist. &	- 100ms vibratory cues to indicate direction of the target and on-target signals.	 \newline - Frequency of the vibration was proportional to the direction and distance from the target location. & - Two vibrators were turned on to indicate arrival on a target.	& - Expt 1 tested vibrators on the front and back of palm. \newline - Expt 2 tested continuous distance cueing with suppressing or increasing frequency as the target is approached. &
-	- The location of the tractors did not have an effect. Front and Back worked the same. \newline
-- Suppressing the frequency as the user approaches the target worked better than enhancing. \\
-\hline
-
-\cite{uchiyama_vibrotactile_2008} &
-Vibrotactile array for delivering distance to an obstacle from a wheelchair driven by a visually impaired person. &	 9 & Array on the front of the palm in a 3x3 matrix.	& - Warning signals \newline - Spatial obstacle location signal. \newline
-- Direction conveyance to the user.	& - Warning signal vibrates all vibrators. \newline - Spatial location of an obstacle is sent in the particular motor with near, medium and far range to obstacle. \newline - Direction cue vibrates the center motor with two pulses and then vibrates motor of the desired direction.	& - No user testing done yet &	- No user testing done yet \\
-\hline
-\end{tabularx}
-\end{table}
-\end{landscape}
-
-
-\begin{landscape}
-\begin{table}[htbp!]
-\centering
-\caption{Related work in the development of haptic gloves for information delivery contd.}
-\label{HapticGloveRelated2}
-\scriptsize %\addtolength{\tabcolsep}{-3pt}
-\begin{tabularx}{8.5in}{|X|X|X|X|X|X|X|X|}
-\hline
-\textbf{Ref.} & \textbf{Application} & \textbf{No. of \newline vibrators} &	\textbf{Location of vibrators} &	 \textbf{Vibration Pattern} &	 \textbf{Encoding} &	\textbf{Experiments}	& \textbf{User Study} \\
-\hline
-\hline
-
-\cite{hein_contact_2007} \cite{brell_fusion_2008} &
-Vibrotactile cues for navigating surgeons hand during surgery. &	4	&
- See Figure. \newline \newline  \includegraphics[width=0.9in]{HapticGloveRef226.jpg} &	- Continuous vibrations based on the amount of off target displacement	 & - Optical tracking of visual markers on the surgeons hand is translated to vibrotactile cues to give off-center information. &	- Subjects were required to move a surgical tool to the target location. \newline - Subjects react to varying impulse input as required. & No quantification provided in the paper. \\
-\hline
-
-\cite{brell_fusion_2008} &
-Field of view in front of individual who is blind is captured with a camera and translated to vibrotactile cues corresponding to a depth map. &	No data &	 No specific information provided. \newline \newline \includegraphics[width=0.9in]{HapticGloveRef228_1.jpg} \newline &
- 	- Magnitude of vibration is directly proportional to distance to obstacle. \newline
-- Frequency of vibration is inversely proportional to the confidence in depth measurement. &	The image from the camera is used to determine a depth map of obstacles in front of the user and is translated into vibrotactile cues. &	Two obstacle courses were set within the labotatory environment and the participants were required to navigate the course.
-Course 1: \newline \includegraphics[width=0.9in]{HapticGloveRef228_2} \newline
-Course 2: \newline \includegraphics[width=0.9in]{HapticGloveRef228_3} \newline & - 9 participants, 3 blind and 6 with low vision.
--  Course 1:
-Travelled the minimal hitting path 65\% with their existing navigation aid and increased to 75\% with the glove. \newline
-- Course 2:
-Travelled the minimal hitting path 65\% with their existing navigation aid and decreased to 57\% with the glove. \\
-\hline
-
-\end{tabularx}
-\end{table}
-\end{landscape}
-
-\begin{landscape}
-\begin{table}[htbp!]
-\centering
-\caption{Related work in the development of haptic gloves for information delivery contd.}
-\label{HapticGloveRelated2}
-\scriptsize %\addtolength{\tabcolsep}{-3pt}
-\begin{tabularx}{8.5in}{|X|X|X|X|X|X|X|X|}
-\hline
-\textbf{Ref.} & \textbf{Application} & \textbf{No. of \newline vibrators} &	\textbf{Location of vibrators} &	 \textbf{Vibration Pattern} &	 \textbf{Encoding} &	\textbf{Experiments}	& \textbf{User Study} \\
-\hline
-\hline
-
-\cite{cha_authoring/editing_2007} \cite{cha_framework_2009} &
-Framework for delivering haptic data along with audio video data from an entertainment perspective. Specifically, adding a haptic layer to the MPEG 4 audio video coding. & 76 & 	Vibrotactors are added all over the glove both on top and bottom of the hand. No specific configuration pattern is discussed in the paper. &	 Custom designed vibration patterns that take into account all the vibrators on the glove. &	Manually encoded by entertainment specialists based on the movie and the scene. & No user study. &	 No user study. \\
-\hline
-
-\cite{murray_psychophysical_2003} &
-Using vibrators to convey slip information in a prehensile glove. &	5 &	Fingertips of the five fingers. &	Motion sensors (optical motion sensor similar to the one used in an optical mouse) mounted outside the glove on the finger tips measure the slip of an object. The slip information measured as optic flow is conveyed to the vibrator as varying frequency. &	
-Slip motion is proportional to the frequency of vibration. & 12 subjects. \newline Users placed the glove on a surface that was laterally pulled from under the glove and the reaction time was measured by asking the participants to press a button with their free hand. Experiment was conducted with bare hands, with a prehensile glove without vibrators and with the slip glove. &	
-\underline{Mean reaction time:} \newline
-Bare hand: 0.214s \newline
-Normal Glove: 1.669s \newline
-Slip Glove: 0.483s \newline
-\underline{Percent Failure:} \newline
-Bare hand: 0\% \newline
-Normal Glove: 27.8\% \newline
-Slip Glove: 5.6\% \newline \\
-\hline
-\end{tabularx}
-\end{table}
-\end{landscape}
-
-
-\section{The Vibrotactile Glove}
-
-\section{Proposed Solution}
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=5.5in]{Glove.JPG}
-\caption{The Vibrotactile Glove.}
-\label{Chap10Figure1}
-\end{figure}
-
-As shown in Figure \ref{Chap10Figure1}, 14 shaftless vibration motors are installed on the dorsal surface of the phalanges of a stretchable anti-static glove - corresponding to the 14 phalanges of the human hand. Each vibrator has an effective displacement of 1.5mm @ 55Hz with an effective acceleration along X, Y and Z of $X_g$ = 0.38g, $Y_g$ = 0.29g and $Z_g$ = 1.08g, respectively, with Z axis perpendicular to the skin. The $g$ here refers to the acceleration due to gravity, which is equal to $9.8 m/s^2$ roller via a serial port that is translated to USB for interfacing with any generic computing element. The USB port also provides the necessary power for the operation of the glove. Through these commands, the microcontroller allows precise simultaneous control of three dimensions of vibrations, namely, the intensity of vibration, the location of vibration and the duration of vibration. The location of vibration is controlled by choosing the appropriate output port of the microcontroller; the duration of vibration is controlled by the onboard timer; the intensity of the vibration is controlled via simulated Pulse Width Modulation (PWM) on the output ports. In order to isolate and protect the controller from the vibration motor induced back-EMF (electromotive force) two 7-array Darlington transistors with opto-isolation are used between the controller and the motors.
-
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=5.5in]{SoftwareGlove.JPG}
-\caption{Localization and spatio-temporal cueing software used for the vibrotactile glove.}
-\label{Chap10Figure2}
-\end{figure}
-
-
-The software to control the vibrations on the glove is shown in Figure \ref{Chap10Figure2}. Two independent programs where developed to explore the localization capabilities of users, and for testing the ability of users to identify spatio-temporal cues. The serial port interface for the glove is designed similar to the popular Hayes AT command set. Activation commands are passed as ASCII strings that are interpreted by the microcontroller to activate the appropriate motor for the requested duration and intensity of vibration. The details of the cueing patterns are presented in the next section.
-
-
-\section{Haptic Cueing}
-\subsection{Localization}
-To determine how well users were able to perceive the vibratory patterns on the phalanges, vibrators were excited at randomly selected locations. Each excitation was applied at 100\% intensity and duration of 5 seconds. The localization experiments were focused on studying the vibrotactile detection capabilities of the individual phalanges, fingers as a whole, and groupings based on the distance of the phalanges from the palm (distant, intermediate and proximal phalange) as shown in Figure \ref{Chap10Figure3}.
-
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=4.5in]{Phalanges.JPG}
-\caption{Phalange naming convention and grouping based on the anatomical distances.}
-\label{Chap10Figure3}
-\end{figure}
-
-\subsection{Spatio-Temporal Cueing}
-While the versatility of the VibroGlove allows it to be used for various applications, here we discuss the specific application of delivering the six basic facial expressions, along with the neutral face, of an interaction partner to a user who is visually disabled. Humans rely heavily on the shape of the mouth and the eye area to decipher facial expressions. Motivated from this, we focused only on the mouth area to design spatio-temporal haptic alternates for facial expressions. We used only the three central fingers on the glove: 9 vibrators, as shown in Figure 4. In order to represent the seven facial expressions, we designed haptic expression icons that were motivated by two important factors: 1) Icons similar to the visual emoticon that are already in popular use, like Happy, Sad, Surprise and Neutral, where the mouth shapes prominently represent the expression, and 2) Icons like Anger, Fear and Disgust where the mouth area alone does not convey the expression, thereby forcing us to create haptic icons that could evoke a sense of the expression in question. Figure \ref{Chap10Figure4} provides details of the haptic expression icons. All 7 patterns were designed to be 750ms long with each motor vibrating for at least 50ms. These numbers were determined based on pilot studies where we found that participants could not isolate vibrations if the duration was less than 50ms long. Further, patterns longer than 800ms were considered to be too long by the participants, while patterns shorter than 600 ms were confusing, and training phase accuracies were unacceptable.
-
-
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=5.5in]{HapticEncoding.JPG}
-\caption{Mapping of Group 1 and Group 2 haptic expression icons to the central three fingers (9 Phalanges) of the vibrotactile glove. In the expression mapping chart, Columns 1 to 3 represent the expression. Column 4 shows the spatial mapping of vibrations. Column 5 shows the temporal mapping of the vibrations.}
-\label{Chap10Figure4}
-\end{figure}
-
-\subsubsection{Group 1 - The visual emoticon motivated haptic icons:}
-The Group 1 haptic expression icons primarily represent popular emoticons that are in wide use within the Instant Messaging community. These icons mostly model the shape of the mouth.
-
-\begin{enumerate}[1)]
-\item Happy is represented by a $\cup$ shaped pattern,
-\item Sad by an inverted $\cup$,
-\item Surprise by a circle $\bigcirc$, and
-\item Neutral by a straight line $\textemdash$.
-\end{enumerate}
-
-\subsubsection{Group 2 - The auxiliary haptic icons:}
-Anger, Fear and Disgust cannot be conveyed through the appearance of mouth alone. To this end, we resorted to defining haptic patterns that were unique from what was already defined for Group 1, while keeping in mind a need to represent the underlying expression in question.
-\begin{enumerate}[1)]
-\item Anger is represented by successive vibrations on six lower phalanges representing an open mouth showing teeth during an expression of anger;
-\item Fear is represented by very brief vibrations on the dorsal phalanges of the central 3 fingers in three quick successive vibration sequences representing a fast emotional response that people show towards fear, and
-\item Disgust is represented through a vibration pattern going from right to left on the bottom phalanges of the central fingers corresponding to a slightly opened mouth during the display of disgust.
-\end{enumerate}
-
-\section{Research Hypothesis} \label{Sec:Hypotheses}
-\subsection{Localization}
-While testing the localization capabilities of the haptic glove, three distinct and correlated hypotheses were tested. These hypotheses are related to the individual phalange localization, localization per finger, and localization on the phalange groups based on their distance from the palm.
-\subsubsection{Hypothesis 1:}
- \begin{enumerate}[a)]
-  \item The recognition rates per phalange will be above chance (50\%);
-  \item The mean recognition rate per phalange will not be significantly different between any two phalanges.
-  \end{enumerate}
-
-\subsubsection{Hypothesis 2:}
- \begin{enumerate}[a)]
-  \item The recognition rates per finger will be above chance (50\%);
-  \item The mean recognition rate per finger will not be significantly different between two fingers.
-  \end{enumerate}
-
-\subsubsection{Hypothesis 3:}
-\begin{enumerate}[a)]
- \item The recognition rates per phalange group (distal, intermediate, proximal) will be above chance (50\%);
- \item The mean recognition rate per phalange group will not be significantly different between two phalange groups.
- \end{enumerate}
-
-\subsection{Spatio-Temporal Cueing}
-Similar to the localization experiments, the hypotheses relating to the spatio-temporal cueing relates to the ability of the users to recognize the individual expression and also the two groups of expressions as identified in Section IV B.
-\subsubsection{Hypothesis 4:}
-\begin{enumerate}[a)]
-\item The recognition rates for the spatio-temporal expression patterns will be above chance (50\%);
-\item The mean recognition rate per expression will not be significantly different between any two expressions.
-\end{enumerate}
-\subsubsection{Hypothesis 5:}
-\begin{enumerate}[a)]
-\item The recognition rates per expression group (Group 1 and 2) will be above chance (50\%);
-\item The mean recognition rates between the two groups will not be significantly different.
-\end{enumerate}
-
-\section{Experiments and Analysis Methodology}
-Two independent and consecutive experiments were conducted to test the localization and spatio-temporal cue identification capabilities of uses. Participants were engaged for the entire time of the two experiments and the localization experiments preceded the spatio-temporal cueing experiments. In the spatio-temporal experiments, along with the accuracy of recognizing the spatio-temporal vibrotactile cues, we were also interested in knowing how quickly the participants were able to recognize the expressions. The duration for recognition is very important in social interactions as the human face changes drastically over short time. Experiments have shown that expressions vary anywhere from 1 to 5 seconds (\cite{knapp_nonverbal_1996}, Page 322). Conforming to these time scales, it is important that any device developed towards enriching social experience should react in real-social-time towards facilitating smooth interpersonal interaction.
-
-\subsection{Participants}
-The experiments were conducted with one individual who was blind and 11 other participants who were sighted but blindfolded during the experiment. It is important to note that the individual who was blind had lost his sight after 25 years of having vision. To a large extent, this individual could correlate with the Group 1 haptic expressions, of the spatio-temporal cueing experiment, to his visual experiences from the past. None of the participants had any obvious medical conditions that prevented them from perceiving the vibrotactile stimulations on their right hand.
-
-\subsection{Procedure}
-Once the subjects wore the glove, they were seated in a chair with a blindfold and asked to keep their hand on their lap in the most comfortable position. Both the localization and spatio-temporal cueing experiments were conducted in three successive phases, namely, Familiarization phase, Training phase and Testing phase. Subjects were first familiarized with the various vibration patterns by presenting them in order - each phalange for the localization experiment and each facial expression for the spatio-temporal experiments. During this phase, the corresponding location or the facial expression was spoken aloud by the experimenter. The familiarization was continued until the subjects were comfortable in remembering all the locations and expressions. This was followed by the training phase in which all the fourteen vibration locations and seven facial expression patterns were presented in random order, in multiple sets, and subjects were asked to identify them by speaking them out. The experimenter confirmed any correct response, and corrected incorrect responses. Subjects had to demonstrate 100\% recognition on at least one set of all fourteen locations and seven expressions before moving to the testing phase. Note that, the speaking was replaced by the use of a keyboard in the spatio-temporal experiments where the participants were asked to type their answers directly into a keypad having 7 keys corresponding to the 6 basic expressions and the neutral face. The keypad allowed us to capture the exact time taken by the participants to arrive at the decision and respond with a key press. A 15 minute time limit was placed on the training irrespective of the training accuracy. The testing phase was similar to the training phase except the experimenter did not provide feedback to subjects, and each location and expression pattern was randomly presented 10 times making a total of 14 locations x 10 trials = 140 localization results, 7 expressions x 10 trials = 70 expression results. The subjects were given 5 seconds per trial to respond.
-
-\subsection{Analysis}\label{SubSec:Chap10Section}
-In order to test the hypotheses presented in Section \ref{Sec:Hypotheses} (relating to the localization and spatio-temporal cueing experiments), three related analyses were carried out, namely, a) location or expression recognition rate, b) One-way analysis of variance (ANOVA) on the recognition accuracies, and c) Tuckey Honestly Significant Difference (HSD) test to determine the mutual performance of location and expression results. The details of the three techniques are discussed below.
-
-\subsubsection{Recognition Accuracies}
-As the name suggests, the recognition accuracies measure the average true positive rate of recognition on the localization and expression recognition experiments. Along with the mean recognition rate, the deviation in the recognition rates across the 11 participants is also shown.
-
-\subsubsection{ANOVA}
-One-way analysis of variance is a statistical tool used for comparing two or more sample groups to test null hypothesis that the samples were drawn from different populations using an F-distribution. The F statistic is derived from the sample means and the group means.  Following the central limit theorem, if the samples are drawn from the same population, the variance between group means have to be smaller than the sample variance. A higher ratio of the variances justifies the null hypothesis, else it's rejected. The results of ANOVA are reported as p-value scores from the F-statistic with the dimensions (k-1) and (n-1), where the k is the number of groups and n is the number of samples. Lower the p-value higher is the chance of accepting the null hypothesis and vice versa.
-
-\subsubsection{Tuckey HSD}
-While ANOVA tests for a chance that the samples could have been derived from different populations, the Tuckey Honestly Significant Difference (HSD) test relies only on the group means to determine if there is a significant difference between groups of samples. A significant difference calls for reasoning to suspect/explain performance differences within groups derived from a single sample set. Unlike ANONA, where all the groups and samples are combined into the dimensions of comparison, HSD allows individual group-wise comparisons, providing for an opportunity to identify which groups are performing differently from others. Mostly reported as a ratio of the group mean difference and the standard group mean error, it is possible to quickly identify the significant group differences. In the results section below, the group means and the standard errors are plotted as circles and whiskers, respectively. Significant difference is established when one group's standard error stretch is beyond the scope of any of the other groups.
-
-\section{Results}
-In this section, five sets of results are presented. Each set presents the three analyses that were described in Section \ref{SubSec:Chap10Section}. Three of the five sets correspond to the localization experiments, while the other two correspond to the spatio-temporal experiments.
-\clearpage
-
-\subsection{Localization Experiments}
-\subsubsection{Phalange Level Localization}
-
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=4in]{HAVE10Figure5a.jpg}\\
-(a)\\
-\includegraphics[width=4in]{HAVE10Figure5b.jpg}\\
-(b)\\
-\includegraphics[width=4in]{HAVE10Figure5c.jpg}\\
-(c)\\
-\caption{(a) Recognition Accuracies; (b) ANOVA; (c) HSD}
-\label{Chap10Figure5}
-\end{figure}	
-
-\clearpage
-
-
-\subsubsection{Finger Level Localization}
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=4in]{HAVE10Figure6a.jpg}\\
-(a)\\
-\includegraphics[width=4in]{HAVE10Figure6b.jpg}\\
-(b)\\
-\includegraphics[width=4in]{HAVE10Figure6c.jpg}\\
-(c)\\
-\caption{(a) Recognition Accuracies; (b) ANOVA; (c) HSD}
-\label{Chap10Figure6}
-\end{figure}	
-
-
-\clearpage
-
-\subsubsection{Phalange Position Localization}
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=4in]{HAVE10Figure7a.jpg}\\
-(a)\\
-\includegraphics[width=4in]{HAVE10Figure7b.jpg}\\
-(b)\\
-\includegraphics[width=4in]{HAVE10Figure7c.jpg}\\
-(c)\\
-\caption{(a) Recognition Accuracies; (b) ANOVA; (c) HSD}
-\label{Chap10Figure7}
-\end{figure}	
-
-
-\clearpage
-
-\subsection{Spatio-Temporal Experiments}
-\subsubsection{Individual Spatio-temporal Patterns}
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=4in]{HAVE10Figure8a.jpg}\\
-(a)\\
-\includegraphics[width=4in]{HAVE10Figure8b.jpg}\\
-(b)\\
-\includegraphics[width=4in]{HAVE10Figure8c.jpg}\\
-(c)\\
-\caption{(a) Recognition Accuracies; (b) ANOVA; (c) HSD}
-\label{Chap10Figure8}
-\end{figure}
-
-
-\clearpage
-
-\subsubsection{Comparison of Spatio-temporal Cueing groups}
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=4in]{HAVE10Figure9a.jpg}\\
-(a)\\
-\includegraphics[width=4in]{HAVE10Figure9b.jpg}\\
-(b)\\
-\includegraphics[width=4in]{HAVE10Figure9c.jpg}\\
-(c)\\
-\caption{(a) Recognition Accuracies; (b) ANOVA; (c) HSD}
-\label{Chap10Figure9}
-\end{figure}
-
-
-\clearpage
-
-From Figure \ref{Chap10Figure5} through \ref{Chap10Figure9}, it can be seen that the part (a) of the five research hypotheses can be answered immediately. Users of the device found it convenient to localize vibration patterns and identify expressions easily. The localization recognition accuracy was at 92\% (SD: 7.5\%), while the expression recognition rate was measured at 89\% (SD: 5.9\%). This validates the null hypothesis that the users were able to localize and identify vibrotactile patterns well above average.
-
-Investigating part (b) of the five hypotheses reveals interesting insights into the user's abilities to detect and localize vibrotactile stimulations.  From Figure \ref{Chap10Figure5}(b) and \ref{Chap10Figure5}(c) it can be concluded that Hypothesis 1(b) is accepted; both ANOVA HSD tests reveal no significant difference between phalange performances. Similarly from Figure \ref{Chap10Figure6}(b) and \ref{Chap10Figure6}(c), it can be concluded that there is no significant difference in the performance between fingers. Figure \ref{Chap10Figure8}(b) and \ref{Chap10Figure8}(c) accepts the Hypothesis 4(b) and we see no significant difference in the mean performance of the seven spatio-temporal cueing patterns of facial expressions.
-
-In contrast, from Figure \ref{Chap10Figure7}(b) and \ref{Chap10Figure7}(c), we see that the Hypothesis 3(b) is rejected as user performance diminished at the proximal phalanges. This could be attributed to the fact that the vibration motors are very closely placed next to one another at the proximal phalanges which may cause inter-motor vibrations. From Figure \ref{Chap10Figure9}(b) and \ref{Chap10Figure9}(c), we see that Group 2 performance was much higher than Group 1 rejecting the Hypothesis 5(b). Studies are underway to determine the nature of the haptic cues in Group 2 that make them significantly better than Group 1. This could have been due to the fact that Group 2 cues were designed based on extensive user feedback when compared to Group 1 expressions which were designed based on popular visual emoticons.
-
-
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=4.5in]{HAVE10Figure10.jpg}\\
-\caption{Confusion Matrix across the 12 participants. The rows are the stimulation and the columns are the responses of the participants. Each row adds to 100\% (rounding error of 1\%).}
-\label{Chap10Figure9}
-\end{figure}
-
-Figure \ref{Chap10Figure6} shows the confusion matrix for all the seven expressions. The diagonals correspond to the bar graph shown in Figure \ref{Chap10Figure5}. The off-diagonal elements represent the confusion between expressions. These off-diagonal elements provide insight into the parameters that control effective and responsive haptic patterns. While subjects confused Sad and Neutral expressions with various others (mostly in Group 1), Anger and Surprise show exchangeability, where there is strong confusion between each other. Fear and Disgust are strongly isolated from the rest of the expressions as they were very well recognized by the subjects.
-
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=5in]{HAVE10Figure11.jpg}\\
-\caption{Average recognition rate and response time for the subject who is blind, for over 70 trails.}
-\label{Chap10Figure10}
-\end{figure}
-
-Figure \ref{Chap10Figure7} shows the average recognition performance and the average time of response for the subject who is blind. The individual was able to recognize most of the expressions at 100\%, over the 70 trails.
-
-
-\subsubsection{Time for Recognition:}
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=5in]{HAVE10Figure12.jpg}\\
-\caption{Average response time for all 12 participants. Four important results are shown above, 1) Avg. correct response time per expression (Cyan), 2) Avg. incorrect response time per expression (Red), 3) Avg. correct response time for Group 1 (Blue), and 4) Avg. correct response time for Group 2 (Magenta).}
-\label{Chap10Figure11}
-\end{figure}
-
-Figure \ref{Chap10Figure8} shows the average time taken by the subjects per expression when they recognized the haptic patterns correctly (cyan), and when they misclassified them (red). The bar graph shows excess or shortage of response time around the mean value. It can be seen that correct identification happened in just over a second (1.4s). When the subjects were not sure of the haptic pattern, they took more time to respond. This can be seen from the inverse correlation of the response time and recognition rates in Figure \ref{Chap10Figure5}. The pattern for Sad had the worst performance of 81\% and the corresponding response time was the highest (2s). Pattern for Fear had the best performance (98\%) and least response time (765ms). This analysis can be extended to the Group level where Group 1 has a higher recognition time when compared to Group 2. Whenever the subjects responded wrong, they seem to take more time, as seen by the average incorrect response time of 2.31s (red), almost a second more than the response time for correct responses. We could not find any significant relevance between the response time for incorrect answers and the recognition rate graph. We conclude that subjects were responding with random answers once they crossed a self imagined time limit less than the 5 seconds that was provided.
-
-\section{Conclusion}
-In this paper we demonstrated a novel interface, a vibrotactile glove, used as an assistive device for delivering seven facial expressions to persons who are visually disabled. Results are convincing that it is possible to convey basic facial expressions through haptic interfaces. Work is in progress to make the system more dynamic for delivering all facial movements, thereby allowing the user to make the judgment of what facial expressions someone is displaying. This would allow independent access to all interpersonal communicative cues, and not just the basic expressions. Efforts are underway to recruit more individuals who are blind and visually impaired towards testing the efficacy of the system. \cite{vinciarelli_proceedings_2008}
 
 \chapter{SOCIAL DISABILITY}
 \section{Social Intelligence}
@@ -4989,7 +5027,7 @@ f^{\prime}(\beta_n) + \triangle\beta f^{\prime\prime}(\beta_n) & = 0 \\
 
 \noindent The iterations are continued until the optimal solution is found within a numerical error bound or until a predetermined number of iterations have been completed.
 
-\subsection{Newton's Method for Estimating Weights $w_{ij}$}
+\subsection{Newton's Method for Estimating Weights $w_{ij}$} \label{NWMethod}
 
 \noindent Equation \ref{Eqn20} has a similar form as the Equation \ref{MainOpt}. The steps below shows the Newton method optimization to determine the $w_{ij}$s.
 
