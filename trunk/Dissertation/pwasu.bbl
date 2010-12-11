@@ -1630,43 +1630,15 @@ S.~Brewster and L.~Brown, ``Tactons: structured tactile messages for non-visual
   conference on Australasian user interface}, pp.~23, 15, Australian Computer
   Society, Inc., 2004.
 
-\bibitem{ram_people_1998}
-S.~Ram and J.~Sharf, ``The people sensor: a mobility aid for the visually
-  impaired,'' pp.~166--167, 1998.
-
-\bibitem{erp_waypoint_2005}
-J.~B. F.~V. Erp, H.~A. H. C.~V. Veen, C.~Jansen, and T.~Dobbins, ``Waypoint
-  navigation with a vibrotactile waist belt,'' {\em {ACM} Trans. Appl.
-  Percept.}, vol.~2, no.~2, pp.~106--117, 2005.
-
-\bibitem{barralon_development_2007}
-P.~Barralon, G.~Ng, G.~Dumont, S.~K.~W. Schwarz, and M.~Ansermino,
-  ``Development and evaluation of multidimensional tactons for a wearable
-  tactile display,'' in {\em Proceedings of the 9th international conference on
-  Human computer interaction with mobile devices and services}, (Singapore),
-  pp.~186--189, {ACM}, 2007.
-
-\bibitem{brown_first_2005}
-L.~Brown, S.~Brewster, and H.~Purchase, ``A first investigation into the
-  effectiveness of tactons,'' in {\em Eurohaptics Conference, 2005 and
-  Symposium on Haptic Interfaces for Virtual Environment and Teleoperator
-  Systems, 2005. World Haptics 2005. First Joint}, pp.~167--176, 2005.
-
-\bibitem{edwards_pragmatic_2009}
-N.~Edwards, J.~Rosenthal, D.~Molbery, J.~Lindsey, K.~Blair, T.~{McDaniel},
-  S.~Krishna, and S.~Panchanathan, ``A pragmatic approach to the design and
-  implementation of a vibrotactile belt and its applications,'' (Italy),
-  pp.~13--18, 2009.
+\bibitem{jones_tactile_2008}
+L.~A. Jones and N.~B. Sarter, ``Tactile displays: guidance for their design and
+  application,'' {\em Human Factors}, vol.~50, pp.~90--111, Feb. 2008.
+\newblock {PMID:} 18354974.
 
 \bibitem{tan_tactual_2005}
 H.~Z. Tan and A.~Pentland, ``Tactual displays for sensory substitution and
   wearable computers,'' in {\em {ACM} {SIGGRAPH} 2005 Courses on - {SIGGRAPH}
   '05}, (Los Angeles, California), p.~105, 2005.
-
-\bibitem{jones_tactile_2008}
-L.~A. Jones and N.~B. Sarter, ``Tactile displays: guidance for their design and
-  application,'' {\em Human Factors}, vol.~50, pp.~90--111, Feb. 2008.
-\newblock {PMID:} 18354974.
 
 \bibitem{geldard_adventures_1957}
 F.~A. Geldard, ``Adventures in tactile literacy.,'' {\em American Psychologist.
@@ -1686,6 +1658,11 @@ F.~A. Geldard and C.~E. Sherrick, ``The cutaneous {"Rabbit":} a perceptual
 J.~Cha, M.~Eid, L.~Rahal, and A.~E. Saddik, ``{HugMe:} an interpersonal haptic
   communication system,'' in {\em Haptic Audio visual Environments and Games,
   2008. {HAVE} 2008. {IEEE} International Workshop on}, pp.~99--102, 2008.
+
+\bibitem{erp_waypoint_2005}
+J.~B. F.~V. Erp, H.~A. H. C.~V. Veen, C.~Jansen, and T.~Dobbins, ``Waypoint
+  navigation with a vibrotactile waist belt,'' {\em {ACM} Trans. Appl.
+  Percept.}, vol.~2, no.~2, pp.~106--117, 2005.
 
 \bibitem{heuten_tactile_2008}
 W.~Heuten, N.~Henze, S.~Boll, and M.~Pielot, ``Tactile wayfinder: a non-visual
@@ -1731,6 +1708,10 @@ A.~Ferscha, B.~Emsenhuber, A.~Riener, C.~Holzman, M.~Hechinger, D.~Hochreiter,
   Vibro-tactile space awareness,'' Adjunct Proceedings of the 10th
   International Conference on Ubiquitous Computing, 2008.
 
+\bibitem{ram_people_1998}
+S.~Ram and J.~Sharf, ``The people sensor: a mobility aid for the visually
+  impaired,'' pp.~166--167, 1998.
+
 \bibitem{computer_guidelines_2002}
 I.~H. Computer, ``Guidelines for the use of {Vibro-Tactile} displays,'' 2002.
 
@@ -1738,6 +1719,42 @@ I.~H. Computer, ``Guidelines for the use of {Vibro-Tactile} displays,'' 2002.
 J.~Ryu and S.~Choi, ``posvibeditor: Graphical authoring tool of vibrotactile
   patterns,'' in {\em Haptic Audio visual Environments and Games, 2008. HAVE
   2008. IEEE International Workshop on}, pp.~120 --125, 2008.
+
+\bibitem{barralon_development_2007}
+P.~Barralon, G.~Ng, G.~Dumont, S.~K.~W. Schwarz, and M.~Ansermino,
+  ``Development and evaluation of multidimensional tactons for a wearable
+  tactile display,'' in {\em Proceedings of the 9th international conference on
+  Human computer interaction with mobile devices and services}, (Singapore),
+  pp.~186--189, {ACM}, 2007.
+
+\bibitem{brown_first_2005}
+L.~Brown, S.~Brewster, and H.~Purchase, ``A first investigation into the
+  effectiveness of tactons,'' in {\em Eurohaptics Conference, 2005 and
+  Symposium on Haptic Interfaces for Virtual Environment and Teleoperator
+  Systems, 2005. World Haptics 2005. First Joint}, pp.~167--176, 2005.
+
+\bibitem{Veen:2000:TIP:645443.652679}
+H.~A. H. C.~v. Veen and J.~B. F.~v. Erp, ``Tactile information presentation in
+  the cockpit,'' in {\em Proceedings of the First International Workshop on
+  Haptic Human-Computer Interaction}, (London, UK), pp.~174--181,
+  Springer-Verlag, 2001.
+
+\bibitem{picard_affective}
+R.~W. Picard, {\em Affective Computing}.
+\newblock MIT Press, 2000.
+
+\bibitem{mcdaniel_using_2009}
+T.~L. {McDaniel}, S.~Krishna, D.~Colbry, and S.~Panchanathan, ``Using tactile
+  rhythm to convey interpersonal distances to individuals who are blind,'' in
+  {\em Proceedings of the 27th international conference extended abstracts on
+  Human factors in computing systems}, (Boston, {MA,} {USA}), pp.~4669--4674,
+  {ACM}, 2009.
+
+\bibitem{edwards_pragmatic_2009}
+N.~Edwards, J.~Rosenthal, D.~Molbery, J.~Lindsey, K.~Blair, T.~{McDaniel},
+  S.~Krishna, and S.~Panchanathan, ``A pragmatic approach to the design and
+  implementation of a vibrotactile belt and its applications,'' (Italy),
+  pp.~13--18, 2009.
 
 \bibitem{lieberman_development_2007}
 J.~Lieberman and C.~Breazeal, ``Development of a wearable vibrotactile feedback
@@ -1780,23 +1797,6 @@ A.~Nakamura, S.~Tabata, T.~Ueda, S.~Kiyofuji, and Y.~Kuno, ``Multimodal
   presentation method for a dance training system,'' in {\em {CHI} '05 extended
   abstracts on Human factors in computing systems - {CHI} '05}, (Portland,
   {OR,} {USA}), p.~1685, 2005.
-
-\bibitem{Veen:2000:TIP:645443.652679}
-H.~A. H. C.~v. Veen and J.~B. F.~v. Erp, ``Tactile information presentation in
-  the cockpit,'' in {\em Proceedings of the First International Workshop on
-  Haptic Human-Computer Interaction}, (London, UK), pp.~174--181,
-  Springer-Verlag, 2001.
-
-\bibitem{picard_affective}
-R.~W. Picard, {\em Affective Computing}.
-\newblock MIT Press, 2000.
-
-\bibitem{mcdaniel_using_2009}
-T.~L. {McDaniel}, S.~Krishna, D.~Colbry, and S.~Panchanathan, ``Using tactile
-  rhythm to convey interpersonal distances to individuals who are blind,'' in
-  {\em Proceedings of the 27th international conference extended abstracts on
-  Human factors in computing systems}, (Boston, {MA,} {USA}), pp.~4669--4674,
-  {ACM}, 2009.
 
 \bibitem{gardner_frames_1993}
 H.~E. Gardner, {\em Frames Of Mind: The Theory Of Multiple Intelligences}.
