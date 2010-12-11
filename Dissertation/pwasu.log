@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.10.13)  11 DEC 2010 02:57
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.10.13)  11 DEC 2010 13:39
 entering extended mode
 **C:/Documents*and*Settings/Sreekar/Desktop/Dissertation/pwasu.tex
 ("C:/Documents and Settings/Sreekar/Desktop/Dissertation/pwasu.tex"
@@ -669,7 +669,7 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [13]
-Overfull \hbox (4.42859pt too wide) in paragraph at lines 247--247
+Overfull \hbox (4.42859pt too wide) in paragraph at lines 248--248
  [][] []\OT1/ptm/m/n/10.95 CONVEX OP-TI-MIZA-TION US-ING NEW-TON'S METHOD - EN-
 TROPY MAX- 
  []
@@ -4253,10 +4253,6 @@ File: TIMFigure12a.jpg Graphic file (type jpg)
 <TIMFigure12b.jpg, id=1050, 344.78813pt x 300.3722pt>
 File: TIMFigure12b.jpg Graphic file (type jpg)
  <use TIMFigure12b.jpg>
-<GroupInteractions.jpg, id=1051, 657.95813pt x 473.51906pt>
-File: GroupInteractions.jpg Graphic file (type jpg)
-
-<use GroupInteractions.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4269,39 +4265,52 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[258 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/GroupInteractions.
-jpg>]
+[258
+
+] <DyadicInteraction1.jpg, id=1060, 733.99219pt x 289.83281pt>
+File: DyadicInteraction1.jpg Graphic file (type jpg)
+
+<use DyadicInteraction1.jpg>
+<DyadicInteraction2.jpg, id=1061, 770.12718pt x 377.91188pt>
+File: DyadicInteraction2.jpg Graphic file (type jpg)
+
+<use DyadicInteraction2.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[259
+[259 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DyadicInteraction1
+.jpg> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DyadicInteraction
+2.jpg>] <GroupInteractions2.jpg, id=1065, 716.6775pt x 298.11375pt>
+File: GroupInteractions2.jpg Graphic file (type jpg)
 
-]
+<use GroupInteractions2.jpg>
+<GroupInteractions.jpg, id=1066, 657.95813pt x 473.51906pt>
+File: GroupInteractions.jpg Graphic file (type jpg)
+
+<use GroupInteractions.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[260] <StressVsDepression.jpg, id=1068, 444.91219pt x 406.51875pt>
-File: StressVsDepression.jpg Graphic file (type jpg)
-
-<use StressVsDepression.jpg>
-<StressVsLonliness.JPG, id=1069, 475.02469pt x 417.81094pt>
-File: StressVsLonliness.JPG Graphic file (type jpg)
-
-<use StressVsLonliness.JPG>
+[260]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[261]
+[261 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/GroupInteractions2
+.jpg> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/GroupInteractions
+.jpg>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[262 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/StressVsDepression
-.jpg> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/StressVsLonliness
-.JPG>]
+[262]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[263]
+[263] <WageByAge.jpg, id=1080, 562.1pt x 421.575pt>
+File: WageByAge.jpg Graphic file (type jpg)
+ <use WageByAge.jpg>
+<WageByEdu.jpg, id=1081, 562.1pt x 421.575pt>
+File: WageByEdu.jpg Graphic file (type jpg)
+ <use WageByEdu.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4309,13 +4318,8 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[265] <WageByAge.jpg, id=1085, 562.1pt x 421.575pt>
-File: WageByAge.jpg Graphic file (type jpg)
- <use WageByAge.jpg>
-<WageByEdu.jpg, id=1086, 562.1pt x 421.575pt>
-File: WageByEdu.jpg Graphic file (type jpg)
- <use WageByEdu.jpg>
-("C:\Documents and Settings\Sreekar\Desktop\Dissertation\pwasu.bbl"
+[265 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/WageByAge.jpg> <C:
+/Documents and Settings/Sreekar/Desktop/Dissertation/WageByEdu.jpg>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4323,20 +4327,40 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[267 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/WageByAge.jpg> <C:
-/Documents and Settings/Sreekar/Desktop/Dissertation/WageByEdu.jpg>]
+[267] <StressVsDepression.jpg, id=1095, 444.91219pt x 406.51875pt>
+File: StressVsDepression.jpg Graphic file (type jpg)
+
+<use StressVsDepression.jpg>
+<StressVsLonliness.JPG, id=1096, 475.02469pt x 417.81094pt>
+File: StressVsLonliness.JPG Graphic file (type jpg)
+
+<use StressVsLonliness.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[268 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/StressVsDepression
+.jpg> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/StressVsLonliness
+.JPG>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[269] ("C:\Documents and Settings\Sreekar\Desktop\Dissertation\pwasu.bbl"
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[270]
 bibitemlist
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[268
+[271
 
 ]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[269]
+[272]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
@@ -4345,26 +4369,26 @@ Missing character: There is no © in font ptmr7t!
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[270]
+[273]
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[271]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[272]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[273]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
 [274]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[275]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[276]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[277]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no „ in font ptmr7t!
 Missing character: There is no ¢ in font ptmr7t!
@@ -4376,24 +4400,12 @@ Missing character: There is no © in font ptmr7t!
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[275]
+[278]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[276]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[277]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[278]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4406,9 +4418,6 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [281]
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
-
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4417,13 +4426,13 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [283]
-Missing character: There is no Â in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
-
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [284]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4432,8 +4441,8 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [286]
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
@@ -4443,15 +4452,12 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [288]
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no Ÿ in font ptmr7t!
-
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [289]
 Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
@@ -4461,10 +4467,16 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [291]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [292]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4481,6 +4493,18 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [296]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[297]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[298]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[299]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -4488,7 +4512,7 @@ Missing character: There is no “ in font ptmr7t!
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[297]
+[300]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -4502,60 +4526,48 @@ Missing character: There is no “ in font ptmr7t!
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[298])
+[301])
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[299]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[300
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 4818--4821
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4818--4821
-
- []
-
-
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[301
-
-]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[302
-
-
-] <Lagrange.jpg, id=1205, 628.59843pt x 438.8897pt>
-File: Lagrange.jpg Graphic file (type jpg)
- <use Lagrange.jpg>
+[302]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [303
 
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4845--4848
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4845--4848
+
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[304
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[305
+
+
+] <Lagrange.jpg, id=1217, 628.59843pt x 438.8897pt>
+File: Lagrange.jpg Graphic file (type jpg)
+ <use Lagrange.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[306
+
  <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Lagrange.jpg>]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[304]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[305]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[306]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4567,7 +4579,19 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[309
+[309]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[310]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[311]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[312
 
 ]
 \tf@toc=\write4
@@ -4582,10 +4606,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7016 strings out of 495285
- 99246 string characters out of 3180282
- 229793 words of memory out of 3000000
- 9958 multiletter control sequences out of 15000+200000
+ 7033 strings out of 495285
+ 99657 string characters out of 3180282
+ 230242 words of memory out of 3000000
+ 9972 multiletter control sequences out of 15000+200000
  59795 words of font info for 136 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  30i,14n,24p,3487b,421s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -4601,9 +4625,9 @@ Files/MiKTeX 2.8/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.8/f
 onts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/urw/ti
 mes/utmbi8a.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/urw/times/utmr8a.pfb><
 C:/Program Files/MiKTeX 2.8/fonts/type1/urw/times/utmri8a.pfb>
-Output written on pwasu.pdf (332 pages, 9652925 bytes).
+Output written on pwasu.pdf (335 pages, 9880848 bytes).
 PDF statistics:
- 1282 PDF objects out of 1440 (max. 8388607)
+ 1294 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 811 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 826 words of extra memory for PDF output out of 10000 (max. 10000000)
 
