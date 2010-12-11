@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.10.13)  10 DEC 2010 00:38
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.10.13)  11 DEC 2010 02:57
 entering extended mode
 **C:/Documents*and*Settings/Sreekar/Desktop/Dissertation/pwasu.tex
 ("C:/Documents and Settings/Sreekar/Desktop/Dissertation/pwasu.tex"
@@ -521,9 +521,6 @@ LaTeX Warning: Label `Chap10Figure9' multiply defined.
 
 LaTeX Warning: Label `Fig:Figure108' multiply defined.
 
-
-LaTeX Warning: Label `TIMFigure119' multiply defined.
-
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
 LaTeX Font Info:    ... okay on input line 90.
@@ -672,7 +669,7 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [13]
-Overfull \hbox (4.42859pt too wide) in paragraph at lines 252--252
+Overfull \hbox (4.42859pt too wide) in paragraph at lines 247--247
  [][] []\OT1/ptm/m/n/10.95 CONVEX OP-TI-MIZA-TION US-ING NEW-TON'S METHOD - EN-
 TROPY MAX- 
  []
@@ -3705,7 +3702,7 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 ]
 
 LaTeX Warning: Citation `hjelmýs_face_2001' on page 170 undefined on input line
- 3297.
+ 3299.
 
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
@@ -3727,7 +3724,7 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 [172 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Figure2.jpg>]
 
 LaTeX Warning: Citation `hjelmýs_face_2001' on page 173 undefined on input line
- 3379.
+ 3381.
 
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
@@ -3739,13 +3736,14 @@ File: Figure3.jpg Graphic file (type jpg)
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[174] <Figure4.jpg, id=743, 319.1925pt x 453.695pt>
-File: Figure4.jpg Graphic file (type jpg)
- <use Figure4.jpg>
+[174]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [175 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Figure3.jpg>]
+<Figure4.jpg, id=746, 319.1925pt x 453.695pt>
+File: Figure4.jpg Graphic file (type jpg)
+ <use Figure4.jpg>
 <Figure5.jpg, id=747, 520.94624pt x 218.8175pt>
 File: Figure5.jpg Graphic file (type jpg)
  <use Figure5.jpg>
@@ -3842,8 +3840,7 @@ File: FarPerson.JPG Graphic file (type jpg)
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[190 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/SimpleBackground.J
-PG>] <rigidobject.JPG, id=807, 934.99312pt x 237.13594pt>
+[190] <rigidobject.JPG, id=807, 934.99312pt x 237.13594pt>
 File: rigidobject.JPG Graphic file (type jpg)
 
 <use rigidobject.JPG> <nonrigidobject.JPG, id=808, 936.49875pt x 234.1247pt>
@@ -3853,8 +3850,9 @@ File: nonrigidobject.JPG Graphic file (type jpg)
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[191 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/rigidobject.JPG> <
-C:/Documents and Settings/Sreekar/Desktop/Dissertation/nonrigidobject.JPG>]
+[191 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/SimpleBackground.J
+PG> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/rigidobject.JPG> <C
+:/Documents and Settings/Sreekar/Desktop/Dissertation/nonrigidobject.JPG>]
 File: FarPerson.JPG Graphic file (type jpg)
 
 <use FarPerson.JPG> <MotionBlur.JPG, id=812, 973.38657pt x 242.40562pt>
@@ -3935,28 +3933,29 @@ File: Campher.JPG Graphic file (type jpg)
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[204 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Campher.JPG>]
+[204]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[205] <Results.JPG, id=864, 464.4853pt x 463.7325pt>
+[205 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Campher.JPG>]
+<Results.JPG, id=864, 464.4853pt x 463.7325pt>
 File: Results.JPG Graphic file (type jpg)
  <use Results.JPG>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[206 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Results.JPG>]
+[206]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[207] <Result1.JPG, id=872, 649.67719pt x 413.29407pt>
+[207 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Results.JPG>]
+<Result1.JPG, id=872, 649.67719pt x 413.29407pt>
 File: Result1.JPG Graphic file (type jpg)
  <use Result1.JPG>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[208 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Result1.JPG>]
-<Result2.JPG, id=876, 649.67719pt x 367.3725pt>
+[208] <Result2.JPG, id=876, 649.67719pt x 367.3725pt>
 File: Result2.JPG Graphic file (type jpg)
  <use Result2.JPG>
 <ResultBar1.JPG, id=877, 534.49687pt x 398.23781pt>
@@ -3971,48 +3970,32 @@ File: ResultBar1.JPG Graphic file (type jpg)
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[209 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Result2.JPG>]
+[209 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Result1.JPG>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[210 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/ResultBar1.JPG> <C
-:/Documents and Settings/Sreekar/Desktop/Dissertation/ResultBar2.JPG>]
+[210 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Result2.JPG> <C:/D
+ocuments and Settings/Sreekar/Desktop/Dissertation/ResultBar1.JPG>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[211]
+[211 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/ResultBar2.JPG>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[212
+[212] <Proxemics.jpg, id=892, 368.87813pt x 404.26031pt>
+File: Proxemics.jpg Graphic file (type jpg)
+ <use Proxemics.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[213
 
 ]
-Overfull \hbox (49.22833pt too wide) in paragraph at lines 4258--4261
-\OT1/ptm/m/n/10.95 of tac-tons for con-vey-ing di-rec-tion and dis-tance in-for
--ma-tion. ********************************** 
- []
-
-
-Overfull \hbox (142.34917pt too wide) in paragraph at lines 4262--4265
-[]\OT1/ptm/m/n/10.95 **********************************************************
-**********************************
- []
-
-
-Overfull \hbox (181.73569pt too wide) in paragraph at lines 4262--4265
-\OT1/ptm/m/n/10.95 au-dio out-puts. *******************************************
-*************************************************** 
- []
-
-
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[213]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[214]
+[214 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Proxemics.jpg>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4024,34 +4007,47 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[217] <TIMComparisonTable.jpg, id=907, 504.38437pt x 354.57469pt>
+[217] <TIMComparisonTable.jpg, id=908, 504.38437pt x 354.57469pt>
 File: TIMComparisonTable.jpg Graphic file (type jpg)
 
 <use TIMComparisonTable.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[218 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMComparisonTable
+[218]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[219 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMComparisonTable
 .jpg>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[219] <belt.jpg, id=915, 724.20563pt x 479.54156pt>
+[220] <belt.jpg, id=919, 724.20563pt x 479.54156pt>
 File: belt.jpg Graphic file (type jpg)
  <use belt.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[220]
+[221]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[221 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/belt.jpg>]
+[222 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/belt.jpg>]
+<SystemArchitecture.jpg, id=926, 847.66687pt x 614.295pt>
+File: SystemArchitecture.jpg Graphic file (type jpg)
+
+<use SystemArchitecture.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[222]
-Overfull \hbox (9.79588pt too wide) in paragraph at lines 4340--4341
+[223 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/SystemArchitecture
+.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[224]
+Overfull \hbox (9.79588pt too wide) in paragraph at lines 4344--4345
 \OT1/ptm/m/n/10.95 The soft-ware com-po-nents of our pro-posed de-sign con-tain
  two im-por-tant as-pects: the firmware,
  []
@@ -4060,91 +4056,84 @@ Overfull \hbox (9.79588pt too wide) in paragraph at lines 4340--4341
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[223] <MainController.jpg, id=928, 733.99219pt x 506.6428pt>
+[225] <MainController.jpg, id=937, 733.99219pt x 506.6428pt>
 File: MainController.jpg Graphic file (type jpg)
 
 <use MainController.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[224 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/MainController.jpg
+[226 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/MainController.jpg
 >]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[225]
+[227] <AmplitudePWM.jpg, id=944, 921.4425pt x 210.7875pt>
+File: AmplitudePWM.jpg Graphic file (type jpg)
+
+<use AmplitudePWM.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[226] <AmplitudePWM.jpg, id=939, 921.4425pt x 210.7875pt>
-File: AmplitudePWM.jpg Graphic file (type jpg)
-
-<use AmplitudePWM.jpg> <TRSTRU.jpg, id=940, 768.62157pt x 523.20468pt>
+[228] <TRSTRU.jpg, id=948, 768.62157pt x 523.20468pt>
 File: TRSTRU.jpg Graphic file (type jpg)
-
-<use TRSTRU.jpg>
-Overfull \hbox (16.85815pt too wide) in paragraph at lines 4396--4397
+ <use TRSTRU.jpg>
+Overfull \hbox (16.85815pt too wide) in paragraph at lines 4400--4401
 []\OT1/ptm/m/n/10.95 The tac-tor con-troller firmware com-mu-ni-cates di-rectly
  with the main con-troller firmware
  []
 
+<TactorController.jpg, id=949, 560.0925pt x 398.99063pt>
+File: TactorController.jpg Graphic file (type jpg)
+
+<use TactorController.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[229 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/AmplitudePWM.jpg>]
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[227 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/AmplitudePWM.jpg>]
-<TactorController.jpg, id=944, 560.0925pt x 398.99063pt>
-File: TactorController.jpg Graphic file (type jpg)
-
-<use TactorController.jpg>
-<SoftwareSection.jpg, id=945, 809.27344pt x 497.60907pt>
+[230 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TRSTRU.jpg> <C:/Do
+cuments and Settings/Sreekar/Desktop/Dissertation/TactorController.jpg>]
+<SoftwareSection.jpg, id=957, 809.27344pt x 497.60907pt>
 File: SoftwareSection.jpg Graphic file (type jpg)
 
 <use SoftwareSection.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[228 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TRSTRU.jpg>]
+[231 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/SoftwareSection.jp
+g>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[229 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TactorController.j
-pg> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/SoftwareSection.jpg
->] <Experiments.jpg, id=952, 457.71pt x 573.64313pt>
-File: Experiments.jpg Graphic file (type jpg)
- <use Experiments.jpg>
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[230]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[231 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Experiments.jpg>]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[232] <LocalizationResult.jpg, id=963, 499.11469pt x 401.24907pt>
+[232] <LocalizationResult.jpg, id=964, 499.11469pt x 401.24907pt>
 File: LocalizationResult.jpg Graphic file (type jpg)
 
 <use LocalizationResult.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[233 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/LocalizationResult
+[233]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[234 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/LocalizationResult
 .jpg>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[234] <DistanceExperiment1.jpg, id=970, 500.62032pt x 396.7322pt>
+[235] <DistanceExperiment1.jpg, id=974, 500.62032pt x 396.7322pt>
 File: DistanceExperiment1.jpg Graphic file (type jpg)
 
 <use DistanceExperiment1.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[235]
-Overfull \hbox (2.54807pt too wide) in paragraph at lines 4471--4472
+[236]
+Overfull \hbox (2.54807pt too wide) in paragraph at lines 4468--4469
 []\OT1/ptm/m/n/10.95 In Ex-per-i-ment 2B, over-all clas-si-fi-ca-tion ac-cu-rac
 y of du-ra-tion dropped to (67 11.8)%.
  []
@@ -4153,56 +4142,48 @@ y of du-ra-tion dropped to (67 11.8)%.
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[236 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DistanceExperiment
-1.jpg>] <DistanceExperiment2.jpg, id=978, 531.48563pt x 478.78876pt>
+[237 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DistanceExperiment
+1.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[238] <DistanceExperiment2.jpg, id=985, 531.48563pt x 478.78876pt>
 File: DistanceExperiment2.jpg Graphic file (type jpg)
 
 <use DistanceExperiment2.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[237]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[238 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DistanceExperiment
+[239 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DistanceExperiment
 2.jpg>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[239] <DistanceExperiment3.jpg, id=988, 532.99126pt x 415.5525pt>
+[240] <DistanceExperiment3.jpg, id=992, 532.99126pt x 415.5525pt>
 File: DistanceExperiment3.jpg Graphic file (type jpg)
 
 <use DistanceExperiment3.jpg>
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[240 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DistanceExperiment
-3.jpg>] <DistanceExperiment4.jpg, id=992, 535.2497pt x 426.84468pt>
+<DistanceExperiment4.jpg, id=993, 535.2497pt x 426.84468pt>
 File: DistanceExperiment4.jpg Graphic file (type jpg)
 
 <use DistanceExperiment4.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[241 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DistanceExperiment
-4.jpg>]
+[241]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[242] <TIMFigure6.jpg, id=1000, 842.14626pt x 361.35pt>
-File: TIMFigure6.jpg Graphic file (type jpg)
- <use TIMFigure6.jpg>
+[242 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DistanceExperiment
+3.jpg> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DistanceExperime
+nt4.jpg>] <HAVE2009.jpg, id=1001, 585.68813pt x 268.00125pt>
+File: HAVE2009.jpg Graphic file (type jpg)
+
+<use HAVE2009.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[243 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure6.jpg>]
-<TIMFigure7.jpg, id=1004, 531.9875pt x 580.1675pt>
-File: TIMFigure7.jpg Graphic file (type jpg)
- <use TIMFigure7.jpg>
-<TIMFigure8.jpg, id=1005, 1019.81pt x 538.01pt>
-File: TIMFigure8.jpg Graphic file (type jpg)
- <use TIMFigure8.jpg>
+[243 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/HAVE2009.jpg>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4210,104 +4191,103 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[245 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure7.jpg>]
+[245]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[246 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure8.jpg>]
+[246] <TIMFigure6.jpg, id=1014, 842.14626pt x 361.35pt>
+File: TIMFigure6.jpg Graphic file (type jpg)
+ <use TIMFigure6.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[247]
+[247 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure6.jpg>]
+<TIMFigure7.jpg, id=1018, 531.9875pt x 580.1675pt>
+File: TIMFigure7.jpg Graphic file (type jpg)
+ <use TIMFigure7.jpg>
+<TIMFigure8.jpg, id=1019, 1019.81pt x 538.01pt>
+File: TIMFigure8.jpg Graphic file (type jpg)
+ <use TIMFigure8.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[248] <TIMFigure9.jpg, id=1022, 747.79375pt x 568.1225pt>
+[248 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure7.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[249 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure8.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[250]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[251] <TIMFigure9.jpg, id=1033, 747.79375pt x 568.1225pt>
 File: TIMFigure9.jpg Graphic file (type jpg)
  <use TIMFigure9.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[249] <TIMFigure10.jpg, id=1026, 698.61pt x 608.2725pt>
+[252] <TIMFigure10.jpg, id=1037, 698.61pt x 608.2725pt>
 File: TIMFigure10.jpg Graphic file (type jpg)
  <use TIMFigure10.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[250 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure9.jpg>]
-<TIMFigure11.jpg, id=1030, 791.95876pt x 628.3475pt>
+[253 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure9.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[254 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure10.jpg>]
+<TIMFigure11.jpg, id=1045, 791.95876pt x 628.3475pt>
 File: TIMFigure11.jpg Graphic file (type jpg)
  <use TIMFigure11.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[251 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure10.jpg>]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[252 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure11.jpg>]
-<TIMFigure12a.jpg, id=1037, 331.99031pt x 300.3722pt>
+[255 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure11.jpg>]
+<TIMFigure12a.jpg, id=1049, 331.99031pt x 300.3722pt>
 File: TIMFigure12a.jpg Graphic file (type jpg)
  <use TIMFigure12a.jpg>
-<TIMFigure12b.jpg, id=1038, 344.78813pt x 300.3722pt>
+<TIMFigure12b.jpg, id=1050, 344.78813pt x 300.3722pt>
 File: TIMFigure12b.jpg Graphic file (type jpg)
  <use TIMFigure12b.jpg>
-<Proxemics.jpg, id=1039, 368.87813pt x 404.26031pt>
-File: Proxemics.jpg Graphic file (type jpg)
- <use Proxemics.jpg>
-<HAVE2009.jpg, id=1040, 585.68813pt x 268.00125pt>
-File: HAVE2009.jpg Graphic file (type jpg)
- <use HAVE2009.jpg>
+<GroupInteractions.jpg, id=1051, 657.95813pt x 473.51906pt>
+File: GroupInteractions.jpg Graphic file (type jpg)
+
+<use GroupInteractions.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[253]
+[256]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[254 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure12a.jpg> 
+[257 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure12a.jpg> 
 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure12b.jpg>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[255 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Proxemics.jpg>]
-Overfull \hbox (9.78824pt too wide) in paragraph at lines 4720--4723
-\OT1/ptm/m/n/10.95 *********************************************************** 
-Given proper func-
- []
-
-
+[258 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/GroupInteractions.
+jpg>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[256 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/HAVE2009.jpg>]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[257]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[258
+[259
 
 ]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[259] <StressVsDepression.jpg, id=1063, 444.91219pt x 406.51875pt>
+[260] <StressVsDepression.jpg, id=1068, 444.91219pt x 406.51875pt>
 File: StressVsDepression.jpg Graphic file (type jpg)
 
 <use StressVsDepression.jpg>
-<StressVsLonliness.JPG, id=1064, 475.02469pt x 417.81094pt>
+<StressVsLonliness.JPG, id=1069, 475.02469pt x 417.81094pt>
 File: StressVsLonliness.JPG Graphic file (type jpg)
 
 <use StressVsLonliness.JPG>
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[260 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/StressVsDepression
-.jpg> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/StressVsLonliness
-.JPG>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4315,7 +4295,9 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[262]
+[262 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/StressVsDepression
+.jpg> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/StressVsLonliness
+.JPG>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4323,34 +4305,38 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[264] <WageByAge.jpg, id=1081, 562.1pt x 421.575pt>
+[264]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[265] <WageByAge.jpg, id=1085, 562.1pt x 421.575pt>
 File: WageByAge.jpg Graphic file (type jpg)
  <use WageByAge.jpg>
-<WageByEdu.jpg, id=1082, 562.1pt x 421.575pt>
+<WageByEdu.jpg, id=1086, 562.1pt x 421.575pt>
 File: WageByEdu.jpg Graphic file (type jpg)
  <use WageByEdu.jpg>
 ("C:\Documents and Settings\Sreekar\Desktop\Dissertation\pwasu.bbl"
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[265]
+[266]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[266 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/WageByAge.jpg> <C:
+[267 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/WageByAge.jpg> <C:
 /Documents and Settings/Sreekar/Desktop/Dissertation/WageByEdu.jpg>]
 bibitemlist
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[267
+[268
 
 ]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[268]
+[269]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
@@ -4359,14 +4345,10 @@ Missing character: There is no © in font ptmr7t!
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[269]
+[270]
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[270]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4379,6 +4361,10 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [273]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[274]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no „ in font ptmr7t!
 Missing character: There is no ¢ in font ptmr7t!
@@ -4390,16 +4376,12 @@ Missing character: There is no © in font ptmr7t!
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[274]
+[275]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[275]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4420,24 +4402,24 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [280]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[281]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[281]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
 [282]
-Missing character: There is no Â in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
-
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [283]
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4446,31 +4428,31 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [285]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[286]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[286]
+[287]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[287]
+[288]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no Ÿ in font ptmr7t!
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[288]
+[289]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[289]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4495,16 +4477,6 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [295]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
-
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4516,52 +4488,62 @@ Missing character: There is no “ in font ptmr7t!
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[297])
+[297]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[298]
+[298])
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[299
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 4824--4827
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4824--4827
-
- []
-
-
+[299]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [300
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 4818--4821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4818--4821
+
+ []
+
+
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [301
 
-
-] <Lagrange.jpg, id=1200, 628.59843pt x 438.8897pt>
-File: Lagrange.jpg Graphic file (type jpg)
- <use Lagrange.jpg>
+]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [302
 
- <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Lagrange.jpg>]
+
+] <Lagrange.jpg, id=1205, 628.59843pt x 438.8897pt>
+File: Lagrange.jpg Graphic file (type jpg)
+ <use Lagrange.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[303]
+[303
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Lagrange.jpg>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4581,7 +4563,11 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[308
+[308]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[309
 
 ]
 \tf@toc=\write4
@@ -4596,10 +4582,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7007 strings out of 495285
- 99037 string characters out of 3180282
- 229761 words of memory out of 3000000
- 9950 multiletter control sequences out of 15000+200000
+ 7016 strings out of 495285
+ 99246 string characters out of 3180282
+ 229793 words of memory out of 3000000
+ 9958 multiletter control sequences out of 15000+200000
  59795 words of font info for 136 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  30i,14n,24p,3487b,421s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -4615,9 +4601,9 @@ Files/MiKTeX 2.8/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.8/f
 onts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/urw/ti
 mes/utmbi8a.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/urw/times/utmr8a.pfb><
 C:/Program Files/MiKTeX 2.8/fonts/type1/urw/times/utmri8a.pfb>
-Output written on pwasu.pdf (331 pages, 9476793 bytes).
+Output written on pwasu.pdf (332 pages, 9652925 bytes).
 PDF statistics:
- 1278 PDF objects out of 1440 (max. 8388607)
+ 1282 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 806 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 811 words of extra memory for PDF output out of 10000 (max. 10000000)
 
