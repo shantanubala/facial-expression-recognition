@@ -236,16 +236,18 @@
 \contentsline {section}{\numberline {10.11}Group Interaction Dynamics Through Haptic Belt}{256}
 \contentsline {chapter}{\chapternumberline {11}THE SOCIAL INTERACTION ASSISTANT \& ITS ROLE IN SOCIETY}{258}
 \contentsline {section}{\numberline {11.1}Role of Social Assistance in the Society: A Policy Discussion}{260}
-\contentsline {section}{\numberline {11.2}Social Disability: The hidden barrier to professional growth in the disabled population}{262}
-\contentsline {section}{\numberline {11.3}Social Intelligence}{266}
-\contentsline {section}{\numberline {11.4}Psychological Breakdown related to Social Skills}{268}
-\contentsline {section}{\numberline {11.5}Visual Impairment - A hindrance to Social Interactions}{269}
-\contentsline {chapter}{REFERENCES}{271}
-\contentsline {chapter}{APPENDIX}{302}
-\contentsline {appendix}{\chapternumberline {A}\uppercase {Algorithm for Estimating Rank Average of Groups}}{303}
-\contentsline {subsection}{\numberline {A.0.1}Procedure}{304}
-\contentsline {chapter}{APPENDIX}{305}
-\contentsline {appendix}{\chapternumberline {B}\uppercase {Convex Optimization using Newton's Method - Entropy Maximization under Linear Constraints}}{305}
-\contentsline {section}{\numberline {B.1}Entropy Maximization under Linear Constraints Problem:}{306}
-\contentsline {section}{\numberline {B.2}Newton's method}{309}
-\contentsline {subsection}{\numberline {B.2.1}Newton's Method for Estimating Weights $w_{ij}$}{310}
+\contentsline {subsection}{\numberline {11.1.1}Social Disability: The hidden barrier to professional growth in the disabled population}{262}
+\contentsline {subsection}{\numberline {11.1.2}Effect on Social \& Emotional Intelligence due to Disability}{264}
+\contentsline {subsection}{\numberline {11.1.3}Societal Metrics of Social Disability}{266}
+\contentsline {subsubsection}{\numberline {11.1.3.1}Economic Status Comparison}{266}
+\contentsline {subsubsection}{\numberline {11.1.3.2}Comparison of Personal Lives}{267}
+\contentsline {subsection}{\numberline {11.1.4}Psychological Breakdown related to Social Skills}{267}
+\contentsline {chapter}{REFERENCES}{270}
+\contentsline {chapter}{APPENDIX}{301}
+\contentsline {appendix}{\chapternumberline {A}\uppercase {Algorithm for Estimating Rank Average of Groups}}{302}
+\contentsline {subsection}{\numberline {A.0.5}Procedure}{303}
+\contentsline {chapter}{APPENDIX}{304}
+\contentsline {appendix}{\chapternumberline {B}\uppercase {Convex Optimization using Newton's Method - Entropy Maximization under Linear Constraints}}{304}
+\contentsline {section}{\numberline {B.1}Entropy Maximization under Linear Constraints Problem:}{305}
+\contentsline {section}{\numberline {B.2}Newton's method}{308}
+\contentsline {subsection}{\numberline {B.2.1}Newton's Method for Estimating Weights $w_{ij}$}{309}
