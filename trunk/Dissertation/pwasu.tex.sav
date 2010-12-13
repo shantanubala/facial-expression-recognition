@@ -50,6 +50,8 @@
 \parskip 7.2pt           % sets spacing between paragraphs
 %\renewcommand{\baselinestretch}{1.5} % Uncomment for 1.5 spacing between lines
 \parindent 0pt          % sets leading space for paragraphs
+
+\usepackage{pdfpages}
  %%%%%%%%
 % Fig
 % fig
@@ -108,11 +110,11 @@
 
 \asuabstract
 \setlength{\parindent}{.5in}
-This is a sample abstract
+Social situational awareness, or the awareness of one's social surroundings including the people, their interactions and the 
 
 % your acknowledgement
 
-\setdedication{Your dedication goes here. } % if you want a dedication
+\setdedication{To my grandfather. } % if you want a dedication
 
 \asudedication
 
@@ -4752,7 +4754,7 @@ An important component of the group interaction assistant is the integration of 
 \end{figure}
 
 \section{Role of Social Assistance in the Society: A Policy Discussion}
-Having introduced a novel concept in assistive technologies, namely the social interaction assistant, we would like to spend sometime discussing the role of such a technology in the society. The study of interactions of technology and society provides an opportunity to understand the real contribution of a certain technology or concept to the economic, social and cultural future of a society. Especially since the proposed social interaction assistant bears its roots in the social interaction issues that form the core of human societies, we find it intriguing to understand not only the broader impact of such a technology, but the need for it in general. Further, recently, there has been a growing awareness on the role of technology on society. This growth in interest can be correlated to various technologies that have unforeseen consequences on the public, which could have been averted if the artifacts of new technology could have been studied before their mass proliferation. It is always impossible to demonstrate the role a certain technology will assume as the parameters involved in assessing the consequences are innumerable, the most problematic of which are the humans and their behavior towards a certain technology. A clear example of such a technology in the recent decades is the prolific use of cameras in every form of technology from surveillance systems to reverse view cameras in cars. While the clear advantage of the technology is demonstrated by its use, there are unprecedented privacy issues associated with the use of cameras. Such privacy issues are heightened by the proposed technology where we consider the use of wearable cameras on the user who is blind or visually impaired. While it can be argued that the use of camera is restricted to the user alone and that no explicit user images will not be saved on the device, it is impossible to inform all interacting partners that there is a camera on the user and that they are being captured. Before we enter the technology debate, we highlight the need for social assistance in the society.
+Having introduced a novel concept in assistive technologies, namely the social interaction assistant, we would like to spend sometime discussing the role of such a technology in the society. The study of interactions of technology and society provides an opportunity to understand the real contribution of a certain technology or concept to the economic, social and cultural future of a society. Especially since the proposed social interaction assistant bears its roots in the social interaction issues that form the core of human societies, we find it intriguing to understand not only the broader impact of such a technology, but the need for it in general. Further, recently, there has been a growing awareness on the role of technology on society. This growth in interest can be correlated to various technologies that have unforeseen consequences on the public, which could have been averted if the artifacts of new technology could have been studied before their mass proliferation. It is always impossible to demonstrate the role a certain technology will assume as the parameters involved in assessing the consequences are innumerable, the most problematic of which are the humans and their behavior towards a certain technology. A clear example of such a technology in the recent decades is the prolific use of cameras in every form of technology from surveillance systems to reverse view cameras in cars. While the clear advantage of the technology is demonstrated by its use, there are unprecedented privacy issues associated with the use of cameras. Such privacy issues are heightened by the proposed technology where we consider the use of wearable cameras on the user who is blind or visually impaired. While it can be argued that the use of camera is restricted to the user alone and that no explicit user images will not be saved on the device, it is impossible to inform all interacting partners that there is a camera on the user and that they are being captured. Though there are open technology debates related to this technology, in the rest of this chapter we highlight the need for social assistance in the society and make a policy case for the proposed social interaction assistant.
 
 \subsection{Social Disability: The hidden barrier to professional growth in the disabled population}
 On February 12, 2009, Vice President Joe Biden announced the appointment of a Special Assistant to the President for Disability Policy. By selecting the Associate Director of White House Office of Public Engagement, Kareem Dale, to this post Obama became the first President in the US history to have a special policy advisor overseeing disability issues.
@@ -4784,7 +4786,6 @@ From a neuro-physiological perspective, advanced functional brain imaging is ena
 
 The disabled population faces social barriers due to their sensory, motor or cognitive dysfunction. Overcoming this social barrier cannot happen overnight through "enforcement of laws" as reported on the White House's disability policy website. This has to happen through strong dedicated programs that study the social barrier to employment in the disabled population and offer effective solutions (social assistive aid, social education programs and co-ed of disabled and non-disabled children to encourage mutual learning of social skills, to name a few) to reduce the  consequences of social disability.
 
-Hedgpeth emphasizes the point that people skills are the most important tool for professional success. Unfortunately, social disconnect is a repercussion of disabilities. It is important to train the disabled population to circumvent their social disconnect, while we train the rest of the population to understand and acknowledge this social barrier.
 
 \subsection{Psychological Breakdown related to Social Skills}
 Recent studies by Segrin et al. \cite{segrin_poor_2000} have shown that poor social skills are antecedents to psychosocial problems including depression, loneliness, social anxiety, etc. The authors conducted a battery of tests on college students to determine the effect of stress on the students when they live at away from home.  Figure 1 shows Depression and Loneliness plotted against stress levels of undergraduate students. Depression was measured using the Beck Depression Inventory \cite{beck_inventory_1961}, while Loneliness was measured on the UCLA Loneliness Scale (version 3) \cite{russell_ucla_1996} as an index into the students experience of loneliness. For both of these tests, the participating students were categorized into high, medium and low social skilled groups based on the Social Skills Inventory \cite{riggio_social_1989} (a battery of tests administered to determine the socialization ability of an individual).
@@ -4802,8 +4803,6 @@ Similar results were found in \cite{riggio_assessment_1986} where the authors co
 
 \subsection{Societal Metrics of Social Disability}
 \subsubsection{Comparison of Economic Status}
-The Americans with Disabilities Act was signed into law in 1990 by President George H. W. Bush and from then on, pretty much the same verbiage has followed each successive president's agenda on disability employment. As a nation, we have been successful in moving this segment of population into the work force, but still there is a large gap in their professional success. On a wage comparison scale (data extracted from the 2008 American Community Survey questionnaires), the US visually impaired population make on an average 32\% less than general population of the same age. The US physically challenged population makes 42\% less. When one includes education level in these statistics, the results are even more disappointing. People with visual disability, with post graduate education, make 47\% less than the average population with post graduate education and people with physical disability with post graduate degrees make 72\% less than the general population with similar degrees.
-
 \begin{figure}[htbp!]
 \centering
 \includegraphics[width=5in]{WageByAge.jpg}\\
@@ -4814,7 +4813,24 @@ The Americans with Disabilities Act was signed into law in 1990 by President Geo
 \label{SocialDisabilityFig2}
 \end{figure}
 
+The Americans with Disabilities Act was signed into law in 1990 by President George H. W. Bush and from then on, pretty much the same verbiage has followed each successive president's agenda on disability employment. As a nation, we have been successful in moving this segment of population into the work force, but still there is a large gap in their professional success. On a wage comparison scale (data extracted from the 2008 American Community Survey (ACS) questionnaires\footnote{The ACS is a long format survey conducted on a yearly basis with the American public. The survey is carried out in a format similar to the American decennial census survey. Current survey standard seeks ~ 10\% of the population (3 million individuals) and are requested to respond to a long format survey that asks questions on the the living standards, salary, family structure, housing quality etc. A long format of the survey can be found in the Appendix \ref{AppendixC}. The statistics used for the analysis here has 27990 individuals who were visually impaired alone with no other associated disabilities, 155726 individuals with only physical disability and no other disabilities, and 2591521 with no disabilities whatsoever.}), the US visually impaired population make on an average 32\% less than general population of the same age. The US physically challenged population makes 42\% less. See Figure \ref{SocialDisabilityFig2}. When one includes education level in these statistics, the results are even more disappointing. People with visual disability, with post graduate education, make 47\% less than the average population with post graduate education and people with physical disability with post graduate degrees make 72\% less than the general population with similar degrees.
+
+
 \subsubsection{Comparison of Personal Lives}
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=4in]{FamilyACS2.jpg}\\
+(a)\\
+\includegraphics[width=4in]{FamilyACS1.jpg}\\
+(b)
+\caption{Comparison of personal lives of visually impaired, physically disabled and non-disabled population. (a) Number of times married. (b) Companionship status.}
+\label{SocialDisabilityFig3}
+\end{figure}
+
+Similar to the wage comparison, we also focused on the personal lives of individuals with disability and compared it with the personal lives of individuals without any disability. The goal was to compare the companionship among the various populations and decipher any correlations that may exist between disability and the number of times people got into and out of civil unions. Hedgpeth explains that disability could come in the way of social personal interactions and many times disabilities could impose unforeseen pressure on the marriage. Figure \ref{SocialDisabilityFig3}(a) shows a comparison of the number of times individuals were married, as compared between visually disabled, physically disabled and the non-disabled population. On an average the number of marriages is higher among the disabled population and specifically higher among the physically disabled. Similar results are seen while comparing the companionship status of individuals who are disabled. There is a higher chance of widowing, divorce and separation among the disabled popoulations when compared with the non-disabled population.
+
+Hedgpeth emphasizes the point that people skills are the most important tool for professional success. Unfortunately, social disconnect is a repercussion of disabilities. It is important to train the disabled population to circumvent their social disconnect, while we train the rest of the population to understand and acknowledge this social barrier. To this end, some of the concepts introduced as part of the social interaction assistant proposes to address them by providing access to the social cues that are otherwise inaccessible to the individuals who are disabled. While the discussions in this book are restricted to sensory disability, specifically vision disability, and discuss all the social problems associated with it, the same could be said of the problems faced by people with other sensory disability (like hearing loss). We reserve our discussions only to sensory disabilities as the problem of determining appropriate adaptations for overcoming cognitive disabilities require research that is beyond the scope of this document.
+
 
 
 %\newpage
@@ -5071,7 +5087,12 @@ u_i & = \exp{\beta^T \Phi(:,i)} \\
  \end{aligned}
  \end{equation}
 
+\addcontentsline{toc}{chapter}{APPENDIX}
+\chapter{\uppercase{American Community Survey Form - Sample 2008}}
+\label{AppendixC}
+\clearpage
 
+\includepdf[pages={1,2,5,6,7,8,9,10,11}, fitpaper=true]{ACS.pdf}
 
 
 %\begin{Equations}
