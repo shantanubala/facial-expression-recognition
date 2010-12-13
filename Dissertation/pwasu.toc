@@ -1,5 +1,5 @@
-\contentsline {chapter}{LIST OF TABLES}{xv}
-\contentsline {chapter}{LIST OF FIGURES}{xvii}
+\contentsline {chapter}{LIST OF TABLES}{xvi}
+\contentsline {chapter}{LIST OF FIGURES}{xviii}
 \contentsline {chapter}{CHAPTER}{1}
 \contentsline {chapter}{\chapternumberline {1}SOCIAL SITUATIONAL AWARENESS IN EVERYDAY SOCIAL INTERACTIONS}{1}
 \contentsline {section}{\numberline {1.1}Components of Social Interactions}{2}
@@ -252,4 +252,4 @@
 \contentsline {section}{\numberline {B.2}Newton's method}{310}
 \contentsline {subsection}{\numberline {B.2.1}Newton's Method for Estimating Weights $w_{ij}$}{311}
 \contentsline {chapter}{APPENDIX}{312}
-\contentsline {appendix}{\chapternumberline {C}\uppercase {American Community Survey Form - Sample 2008}}{313}
+\contentsline {appendix}{\chapternumberline {C}\uppercase {American Community Survey Form - Sample Pages from 2008 Survey Form}}{313}

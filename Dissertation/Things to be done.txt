@@ -1,7 +1,6 @@
 Major
 	Add Experiments section to Chapter 5 -TEBN
 	Extend Chapter 5 Related Work on Facial Expression Recognition
-	Write Abstract
 	Write Acknowledgements
 	
 Minor
@@ -9,6 +8,7 @@ Minor
 	Check for [REF] in the document
 	Check for [?] in the document
 	Check for XXX in the document
+	Write Organization of the Book Section - End of Chapter 3
 	
 	
 Addendum
