@@ -50,6 +50,8 @@
 \parskip 7.2pt           % sets spacing between paragraphs
 %\renewcommand{\baselinestretch}{1.5} % Uncomment for 1.5 spacing between lines
 \parindent 0pt          % sets leading space for paragraphs
+
+\usepackage{pdfpages}
  %%%%%%%%
 % Fig
 % fig
@@ -4784,25 +4786,6 @@ From a neuro-physiological perspective, advanced functional brain imaging is ena
 
 The disabled population faces social barriers due to their sensory, motor or cognitive dysfunction. Overcoming this social barrier cannot happen overnight through "enforcement of laws" as reported on the White House's disability policy website. This has to happen through strong dedicated programs that study the social barrier to employment in the disabled population and offer effective solutions (social assistive aid, social education programs and co-ed of disabled and non-disabled children to encourage mutual learning of social skills, to name a few) to reduce the  consequences of social disability.
 
-\subsection{Societal Metrics of Social Disability}
-\subsubsection{Economic Status Comparison}
-The Americans with Disabilities Act was signed into law in 1990 by President George H. W. Bush and from then on, pretty much the same verbiage has followed each successive president's agenda on disability employment. As a nation, we have been successful in moving this segment of population into the work force, but still there is a large gap in their professional success. On a wage comparison scale (data extracted from the 2008 American Community Survey questionnaires), the US visually impaired population make on an average 32\% less than general population of the same age. The US physically challenged population makes 42\% less. When one includes education level in these statistics, the results are even more disappointing. People with visual disability, with post graduate education, make 47\% less than the average population with post graduate education and people with physical disability with post graduate degrees make 72\% less than the general population with similar degrees.
-
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width=5in]{WageByAge.jpg}\\
-(a)\\
-\includegraphics[width=5in]{WageByEdu.jpg}\\
-(b)
-\caption{Comparison of annual wage of the visually impaired, physically disabled and non-disabled population. (a) Compared by age group. (b) Compared by education level.}
-\label{SocialDisabilityFig2}
-\end{figure}
-
-\subsubsection{Comparison of Personal Lives}
-
-
-
-
 Hedgpeth emphasizes the point that people skills are the most important tool for professional success. Unfortunately, social disconnect is a repercussion of disabilities. It is important to train the disabled population to circumvent their social disconnect, while we train the rest of the population to understand and acknowledge this social barrier.
 
 \subsection{Psychological Breakdown related to Social Skills}
@@ -4819,6 +4802,32 @@ One can immediately identify a positive correlation between stress and an increa
 
 Similar results were found in \cite{riggio_assessment_1986} where the authors conclude that people with high competence in communication are known to display immense capability towards adapting their social behavior based on others in their surroundings. Such competence has been acknowledged to reinforce social skills thereby creating a reinforcement feedback that allows these individuals to be successful in their social endeavors \cite{riggio_social_1991} and in turn successful in their life.  In a tangential study, though Magnusson \cite{magnusson_analysis_1991} was not looking for social interaction needs in people, found that social interaction is an important dimension in the cognitive organization of human behaviors. When college students were assessed individually, and as a group, to determine how they classified everyday activities into different situations, Magnusson discovered 5 dimensions (Principle Dimensions). These included two dimensions based on whether the students perceived a situation as being positive (positivity) or negative (negativity) influence on their behavior, two dimensions based on whether the situations were active or passive, and finally, the fifth dimension was based on social interaction with others. His study emphasizes how social interactions are perceived by individuals as an important scale for judgments on their activity of daily living.
 
+\subsection{Societal Metrics of Social Disability}
+\subsubsection{Comparison of Economic Status}
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=5in]{WageByAge.jpg}\\
+(a)\\
+\includegraphics[width=5in]{WageByEdu.jpg}\\
+(b)
+\caption{Comparison of annual wage of the visually impaired, physically disabled and non-disabled population. (a) Compared by age group. (b) Compared by education level.}
+\label{SocialDisabilityFig2}
+\end{figure}
+
+The Americans with Disabilities Act was signed into law in 1990 by President George H. W. Bush and from then on, pretty much the same verbiage has followed each successive president's agenda on disability employment. As a nation, we have been successful in moving this segment of population into the work force, but still there is a large gap in their professional success. On a wage comparison scale (data extracted from the 2008 American Community Survey (ACS) questionnaires\footnote{The ACS is a long format survey conducted on a yearly basis with the American public. The survey is carried out in a format similar to the American decennial census survey. Current survey standard seeks ~ 10\% of the population (3 million individuals) and are requested to respond to a long format survey that asks questions on the the living standards, salary, family structure, housing quality etc. A long format of the survey can be found in the Appendix \ref{AppendixC}. The statistics used for the analysis here has 27990 individuals who were visually impaired alone with no other associated disabilities, 155726 individuals with only physical disability and no other disabilities, and 2591521 with no disabilities whatsoever.}), the US visually impaired population make on an average 32\% less than general population of the same age. The US physically challenged population makes 42\% less. When one includes education level in these statistics, the results are even more disappointing. People with visual disability, with post graduate education, make 47\% less than the average population with post graduate education and people with physical disability with post graduate degrees make 72\% less than the general population with similar degrees.
+
+
+\subsubsection{Comparison of Personal Lives}
+Similar to the wage comparison, we also focused on the personal lives of individuals with disability and 
+\begin{figure}[htbp!]
+\centering
+\includegraphics[width=5in]{FamilyACS1.jpg}\\
+(a)\\
+\includegraphics[width=5in]{FamilyACS2.jpg}\\
+(b)
+\caption{Comparison of personal lives of visually impaired, physically disabled and non-disabled population. (a) Number of times married. (b) Companionship status.}
+\label{SocialDisabilityFig2}
+\end{figure}
 
 
 %\newpage
@@ -5075,7 +5084,12 @@ u_i & = \exp{\beta^T \Phi(:,i)} \\
  \end{aligned}
  \end{equation}
 
+\addcontentsline{toc}{chapter}{APPENDIX}
+\chapter{\uppercase{American Community Survey Form - Sample 2008}}
+\label{AppendixC}
+\clearpage
 
+\includepdf[pages={1,2,5,6,7,8,9,10,11}, fitpaper=true]{ACS.pdf}
 
 
 %\begin{Equations}
