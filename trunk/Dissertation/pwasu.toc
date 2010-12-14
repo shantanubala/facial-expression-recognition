@@ -90,6 +90,7 @@
 \contentsline {section}{\numberline {5.6}Discussion of Design Considerations: TEBN perspectives}{102}
 \contentsline {section}{\numberline {5.7}Experiments}{103}
 \contentsline {subsection}{\numberline {5.7.1}Data}{103}
+\contentsline {subsection}{\numberline {5.7.2}Results}{104}
 \contentsline {chapter}{\chapternumberline {6}DELIVERING DYADIC INTERACTION CUES THROUGH VIBROTACTILE STIMULATIONS}{105}
 \contentsline {section}{\numberline {6.1}Related Work in Haptic Interpersonal Communication Interfaces}{106}
 \contentsline {section}{\numberline {6.2}Proposed Visuo-Haptic Sensory Substitution Device}{111}
@@ -242,14 +243,13 @@
 \contentsline {subsection}{\numberline {11.1.4}Societal Metrics of Social Disability}{268}
 \contentsline {subsubsection}{\numberline {11.1.4.1}Comparison of Economic Status}{268}
 \contentsline {subsubsection}{\numberline {11.1.4.2}Comparison of Personal Lives}{268}
-\contentsline {chapter}{REFERENCES}{272}
-\contentsline {chapter}{APPENDIX}{303}
-\contentsline {appendix}{\chapternumberline {A}\uppercase {Algorithm for Estimating Rank Average of Groups}}{304}
-\contentsline {subsection}{\numberline {A.0.5}Procedure}{305}
-\contentsline {chapter}{APPENDIX}{306}
-\contentsline {appendix}{\chapternumberline {B}\uppercase {Convex Optimization using Newton's Method - Entropy Maximization under Linear Constraints}}{306}
-\contentsline {section}{\numberline {B.1}Entropy Maximization under Linear Constraints Problem:}{307}
-\contentsline {section}{\numberline {B.2}Newton's method}{310}
-\contentsline {subsection}{\numberline {B.2.1}Newton's Method for Estimating Weights $w_{ij}$}{311}
-\contentsline {chapter}{APPENDIX}{312}
-\contentsline {appendix}{\chapternumberline {C}\uppercase {American Community Survey Form - Sample Pages from 2008 Survey Form}}{313}
+\contentsline {section}{\numberline {11.2}Wearable Cameras: Ethics \& Privacy}{271}
+\contentsline {chapter}{REFERENCES}{277}
+\contentsline {chapter}{APPENDIX}{308}
+\contentsline {appendix}{\chapternumberline {A}\uppercase {Algorithm for Estimating Rank Average of Groups}}{309}
+\contentsline {subsection}{\numberline {A.0.1}Procedure}{310}
+\contentsline {appendix}{\chapternumberline {B}\uppercase {Convex Optimization using Newton's Method - Entropy Maximization under Linear Constraints}}{311}
+\contentsline {section}{\numberline {B.1}Entropy Maximization under Linear Constraints Problem:}{312}
+\contentsline {section}{\numberline {B.2}Newton's method}{315}
+\contentsline {subsection}{\numberline {B.2.1}Newton's Method for Estimating Weights $w_{ij}$}{316}
+\contentsline {appendix}{\chapternumberline {C}\uppercase {American Community Survey Form - Sample Pages from 2008 Survey Form}}{318}

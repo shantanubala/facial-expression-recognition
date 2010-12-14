@@ -4,14 +4,15 @@ Major
 	Write Acknowledgements
 	
 Minor
-	Prune References
+	Prune References - there may be doubles
 	Check for [REF] in the document
 	Check for [?] in the document
 	Check for XXX in the document
-	Write Organization of the Book Section - End of Chapter 3
+	Write Organization of the Book - End of Chapter 1, Page 17
+	Organization of the following chapter - End of Chapter 3, Page 51
 	
 	
-Addendum
+Addendum (if and when time permits)
 	Improve Tables in Chapter 1 on the non-verbal components tables - Add conclusions from paper into the table.
 	Add a section at the end of Haptic Glove Chapter - Proposed future plan of using a back display
 	Add section on technology policy with wearable cameras.
