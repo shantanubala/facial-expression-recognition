@@ -110,8 +110,11 @@
 
 \asuabstract
 \setlength{\parindent}{.5in}
-Social situational awareness, or the attentiveness to one's social surroundings including the people, their interactions and their behaviors is a complex sensory cognitive motor task that requires one to be engaged thoroughly in their social interactions. These interactions are formed out of the very elements of human interpersonal communication including both verbal and non-verbal cues. While the verbal cues are instructive and delivered through speech or script, the non-verbal cues are mostly interpretive and requires the full attention of the participants to understand, comprehend and respond to them appropriately. The level of attention one pays to the non-verbal cues could define the individual as being socially adept or inept. Unfortunately certain situations are not conducive for a person to have complete access to their social surroundings. For example, a person is who is blind or visually impaired may find th A good awareness of one's social surroundings gives them the ability to understand and empathize with their interaction partners. Further, a good assessment of the interaction partner's socio-emotio
+Social situational awareness, or the attentiveness to one's social surroundings including the people, their interactions and their behaviors is a complex sensory cognitive motor task that requires one to be engaged thoroughly in understanding their social interactions. These interactions are formed out of the very elements of human interpersonal communication including both verbal and non-verbal cues. While the verbal cues are instructive and delivered through speech or script, the non-verbal cues are mostly interpretive and requires the full attention of the participants to understand, comprehend and respond to them appropriately. Unfortunately certain situations are not conducive for a person to have complete access to their social surroundings, especially the non-verbal cues. For example, a person is who is blind or visually impaired may find that the non-verbal cues like smiling, head nod, etc. of their interaction partners are not accessible due to their sensory depravation. The same could be said of people who are remotely engaged in a conversation and physically separated to have a visual access to all the display of one's body and facial mannerisms. In this book, we describe novel multimedia technologies to aid situations where it is necessary to mediate social situational information between interacting participants.
 
+As an important example of the proposed system, we use an evidence-based model for understanding the accessibility problem faced by people who are blind or visually impaired. From the derived model, we develop a sleuth of sensing and delivery technologies that use state-of-the-art computer vision algorithms in combination with novel haptic interfaces to develop a) \emph{A Dyadic Interaction Assistant}, capable of helping individuals who are blind to access important head and face based non-verbal communicative cues during one-on-one dyadic interactions, and  b) \emph{A Group Interaction Assistant}, capable of provide situational awareness about the interaction partners and their dynamics to a user who is blind, while also providing important social feedback about their own body mannerisms. To goal is to increases the effective social situational data that one has access to with the conjuncture that a good awareness of one's social surroundings gives them the ability to understand and empathize with their interaction partners better. Extending the work from this important social interaction assistive technology, we demonstrate the need for enriched social situational awareness is everyday professional situations including, a) enriched remote interactions between physically separated interaction partners, and b) enriched communication between medical professionals during critical care procedures towards enhanced patient safety.
+
+In the concluding remarks, this book engages the readers into a science and technology policy debate on the potential effect of a new technology like the social interaction assistant on the society. Discussing along the policy lines, social disability is highlighted as an important area that require special attention from researchers and policy makers. Given that the proposed technology relies on wearable inconspicuous cameras, the discussion of privacy policies is extended to encompass such newly evolving interpersonal interaction recorders.
 % your acknowledgement
 
 \setdedication{To my grandfather. } % if you want a dedication
@@ -699,7 +702,7 @@ Identity & \cite{matta_behavioural_2006} \cite{gallagher_clothing_2008} \cite{ha
 \multicolumn{10}{|c|}{Behavior of the Communicator}\\
 \hline
 \hline
-Description of facial features	& & & &	\cite{kanaujia_emblem_2006} \cite{kawade_vision-based_2002} & & & & & \\			 
+Description of facial features	& & & &	\cite{kanaujia_emblem_2006} \cite{kawade_vision-based_2002} & & & & & \\			
 \hline
 Body Mannerisms & & & \cite{gunes_affect_2005} \cite{kulic_combining_2008} \cite{oliver_bayesian_2000} & & \cite{xuelong_li_gait_2008} & & \cite{hwang_automatic_2006} \cite{sangho_park_segmentation_2002} \cite{mitra_gesture_2007} \cite{nunamaker_hmm-based_2005} & & \\	
 \hline
@@ -1315,9 +1318,9 @@ Type: 	Data Type: Video (V) / Image(I);
 \hline
 \cite{kapoor_multimodal_2005} & \multicolumn{2}{|c|}{Facial and head gesture} & \multicolumn{2}{|c|}{GP SVM HMM NN} & S &	 ? &	2 &	8 &	 V &	 86\\
 \hline
-\cite{kapoor_automatic_2007} & \multicolumn{2}{|c|}{Pixel diff of mouth}	& \multicolumn{2}{|c|}{GP SVM HMM NN} &	S &	I &	2 &	24 &	 V &	 79\\
+\cite{kapoor_automatic_2007} & \multicolumn{2}{|c|}{Pixel diff of mouth}	& \multicolumn{2}{|c|}{GP SVM HMM NN} &	S &	I &	 2 &	24 &	 V &	 79\\
 \hline
-\cite{lee_facial_2005} & \multicolumn{2}{|c|}{Intensity of face} &	\multicolumn{2}{|c|}{Decomposable model} &	P &	I &	6 &	8 + 16 &	 V &	 61\\
+\cite{lee_facial_2005} & \multicolumn{2}{|c|}{Intensity of face} &	\multicolumn{2}{|c|}{Decomposable model} &	P &	I &	6 &	 8 + 16 &	 V &	 61\\
 \hline
 \cite{littlewort_faces_2007} & \multicolumn{2}{|c|}{Gabor} &	\multicolumn{2}{|c|}{AdaBoost SVM} &	S &	I &	2 &	26 &	 V &	72\\
 \hline
@@ -1349,9 +1352,13 @@ Type: 	Data Type: Video (V) / Image(I);
 \hline
 \cite{zeng_spontaneous_2006} & \multicolumn{2}{|c|}{Texture with LPP} &	\multicolumn{2}{|c|}{SVDD} &	S &	D &	2 &	2 &	I &	 87\\
 \hline
+\multicolumn{11}{|c|}{MAJOR ITEM 2: EXTEND THIS TABLE WITH THE LATEST WORK}\\
+\hline
 \end{tabularx}
 \end{table}
 \end{landscape}
+
+
 
 \section{Design Considerations for Dyadic Interaction Assistant} \label{DesignConsiderations}
 As seen from the Table \ref{Tab:FaceExpRecog}, facial expression recognition algorithm is a mature area with various solutions being suggested towards myriad applications ranging from biometrics to human computer interfaces. In contrast, the requirements in the proposed application is focused towards mediating human-human communication and thus imposes important constraints like,
@@ -1559,6 +1566,9 @@ P\left(X(t)/L_{ij}(t)\right) \propto P\left(L_{ij}(t)/X(t)\right)
 \section{Experiments}
 \subsection{Data}
 All experiments were carried out on the Cohen-Kanade Facial Expression Database [REF] version 1. Version 1 (the original or initial release (Kanade, Cohn, \& Tian, 2000)) includes 486 sequences from 97 posers. Each sequence begins with a neutral expression and proceeds to a peak expression. The peak expression for each sequence is fully FACS (Ekman, Friesen, \& Hager, 2002; Ekman \& Friesen, 1979) coded and given an emotion label.  The emotion label refers to what expression was requested rather than what may actually have been performed. In order to validate the emotion that was displayed, the final expression images of the 486 sequences were displayed to unbiased participants through a web portal. Each emotion image was displayed to the user and requested to label them as belonging to one of 7 classes, \emph{Happy}, \emph{Sad}, \emph{Surprise}, \emph{Fear}, \emph{Disgust}, \emph{Surprise} and \emph{Neutral}. During the screening process, it was noticed that some of the subjects did not display expressions as requested (either displayed neutral expression through the sequence or displayed exaggerated facial mannerism unlikely of requested emotion). Hence all the participants who labeled the expression images were required to label on a scale of 1 to 5, the genuineness of the expression displayed, 1 being least correlation to genuine expression and 5 being most genuine. Based on the user responses, we identified 182 sequences where subjects displayed emotions that were named as being genuine up to a scale level of 4 or 5. These sequences were then used for testing the TEBN.
+
+\subsection{Results}
+Major Item 1: TO BE ADDED
 
 
 In this chapter, we discussed the use of a Temporal Exemplar-based Bayesian Network to determine the facial expressions of the interaction partner. Given that the dyadic interaction assistant is able to extract these facial expression cues, it is thus required to deliver this information back to the users who are blind. This is a challenge in itself as the very high bandwidth information delivered by a human face could easily overload the user. As explained before, the next chapter investigates the use of the human perception of touch to develop novel haptic interfaces for delivering highly dynamic facial expressions.
@@ -4754,7 +4764,7 @@ An important component of the group interaction assistant is the integration of 
 \end{figure}
 
 \section{Role of Social Assistance in the Society: A Policy Discussion}
-Having introduced a novel concept in assistive technologies, namely the social interaction assistant, we would like to spend sometime discussing the role of such a technology in the society. The study of interactions of technology and society provides an opportunity to understand the real contribution of a certain technology or concept to the economic, social and cultural future of a society. Especially since the proposed social interaction assistant bears its roots in the social interaction issues that form the core of human societies, we find it intriguing to understand not only the broader impact of such a technology, but the need for it in general. Further, recently, there has been a growing awareness on the role of technology on society. This growth in interest can be correlated to various technologies that have unforeseen consequences on the public, which could have been averted if the artifacts of new technology could have been studied before their mass proliferation. It is always impossible to demonstrate the role a certain technology will assume as the parameters involved in assessing the consequences are innumerable, the most problematic of which are the humans and their behavior towards a certain technology. A clear example of such a technology in the recent decades is the prolific use of cameras in every form of technology from surveillance systems to reverse view cameras in cars. While the clear advantage of the technology is demonstrated by its use, there are unprecedented privacy issues associated with the use of cameras. Such privacy issues are heightened by the proposed technology where we consider the use of wearable cameras on the user who is blind or visually impaired. While it can be argued that the use of camera is restricted to the user alone and that no explicit user images will not be saved on the device, it is impossible to inform all interacting partners that there is a camera on the user and that they are being captured. Though there are open technology debates related to this technology, in the rest of this chapter we highlight the need for social assistance in the society and make a policy case for the proposed social interaction assistant.
+Having introduced a novel concept in assistive technologies, namely the social interaction assistant, we would like to spend sometime discussing the role of such a technology in the society. The study of interactions of technology and society provides an opportunity to understand the real contribution of a certain technology or concept to the economic, social and cultural future of a society. Especially since the proposed social interaction assistant bears its roots in the social interaction issues that form the core of human societies, we find it intriguing to understand not only the broader impact of such a technology, but the need for it in general. Further, recently, there has been a growing awareness on the role of technology on society. This growth in interest can be correlated to various technologies that have unforeseen consequences on the public, which could have been averted if the artifacts of new technology could have been studied before their mass proliferation. It is always impossible to demonstrate the role a certain technology will assume as the parameters involved in assessing the consequences are innumerable, the most problematic of which are the humans and their behavior towards a certain technology. A clear example of such a technology in the recent decades is the prolific use of cameras in every form of technology from surveillance systems to reverse view cameras in cars. While the clear advantage of the technology is demonstrated by its use, there are unprecedented privacy issues associated with the use of cameras. Such privacy issues are heightened by the proposed technology where we consider the use of wearable cameras on the user who is blind or visually impaired. While it can be argued that the use of camera is restricted to the user alone and that no explicit user images will not be saved on the device, it is impossible to inform all interacting partners that there is a camera on the user and that they are being captured. Before getting into the technology debates related to wearable cameras, we highlight the need for social assistance in the society and make a policy case for the proposed social interaction assistant. Following the social impact arguments, we discuss the implications of wearable cameras in public space.
 
 \subsection{Social Disability: The hidden barrier to professional growth in the disabled population}
 On February 12, 2009, Vice President Joe Biden announced the appointment of a Special Assistant to the President for Disability Policy. By selecting the Associate Director of White House Office of Public Engagement, Kareem Dale, to this post Obama became the first President in the US history to have a special policy advisor overseeing disability issues.
@@ -4769,7 +4779,7 @@ With this statement the Obama administration has identified some important emplo
 
 What does it take to succeed in one's career? Evidence shows that the social skills of individuals and their ability to integrate themselves into the work environment are incredibly important. Social skills - such as making friends at workplace, ability to lead a team, facilitating decision making in large teams, conveying confidence, etc. - all play a vital role in sustained professional growth. Unfortunately, people who are severely disabled, like those who are blind, often find it difficult to assimilate into the social atmosphere of their work place with the same ease of their functionally able counterpart.
 
-"There is no professional growth without social skills", explains Dr. Terri Hedgpeth, director of Disabilities Resource Center on Arizona State University's campus. Hedgpeth has been blind her whole life and had to learn how to socially interact with her sighted colleagues. For instance, she learned to turn her head towards her interaction partner to mimic eye contact. She learned to hear people's bodily movements to assess what they were communicating non-verbally.
+``There is no professional growth without social skills'', explains Dr. Terri Hedgpeth, director of Disabilities Resource Center on Arizona State University's campus. Hedgpeth has been blind her whole life and had to learn how to socially interact with her sighted colleagues. For instance, she learned to turn her head towards her interaction partner to mimic eye contact. She learned to hear people's bodily movements to assess what they were communicating non-verbally.
 
 Hedgpeth doesn't want to be offered any social leeway because of her disability, but strongly believes in training individuals who are blind and visually impaired to learn the same social skills as their sighted peers.  She laments the fact that currently there are no federal programs, either vocational or academic, that trains people who are visually impaired about important social skills in professional setting. Social training is generally reserved for children and young adults who have a severe case of tics, like body rocking or eye poking.
 
@@ -4831,7 +4841,46 @@ Similar to the wage comparison, we also focused on the personal lives of individ
 
 Hedgpeth emphasizes the point that people skills are the most important tool for professional success. Unfortunately, social disconnect is a repercussion of disabilities. It is important to train the disabled population to circumvent their social disconnect, while we train the rest of the population to understand and acknowledge this social barrier. To this end, some of the concepts introduced as part of the social interaction assistant proposes to address them by providing access to the social cues that are otherwise inaccessible to the individuals who are disabled. While the discussions in this book are restricted to sensory disability, specifically vision disability, and discuss all the social problems associated with it, the same could be said of the problems faced by people with other sensory disability (like hearing loss). We reserve our discussions only to sensory disabilities as the problem of determining appropriate adaptations for overcoming cognitive disabilities require research that is beyond the scope of this document.
 
+\section{Wearable Cameras: Ethics \& Privacy}
+Wearable cameras and cameras on smart phones have started a debate on their ethical use and the possible misuse through infringement of privacy. As discussed earlier, the social interaction assistant discussed in this book poses a significant challenge in terms of the ethical use and privacy as the camera used on the device is always recording (a term that needs to be considered carefully based on the underlying technology) the interactions of the user and their interaction partner. The discussion of wearable cameras and their role in the society has been debated by a number of related areas including, privacy proponents, civil liberties union, law makers, law enforcement, security and surveillance experts and finally the users. A very good example of a comprehensive discussion on the role of wearable cameras on the society can be found in \cite{barfield_information_2006}. Unfortunately, most of the times these discussions happen after a certain technology takes root in the society and most of the times it seems to be a retroactive fix to the privacy and ethics issue. In contrast, we would like to bring these topics to the forefront of the technology development to ensure that the device does not violate the ethics or privacy issues as far as possible. While the role a certain technology will play in the society can never be predicted with certainty before it is introduced and certain level of acceptance has come into play, it is possible to direct the development and deployment of the technology in directions that could result in fewer ethical barriers.
 
+Morgan and Newton, in their discussions on the issue of \emph{Protecting Public Anonymity}, highlight an interesting exercise carried out at public policy class in Carnegie Mellon University. We reproduce their writings from \cite{morgan_protecting_2004} here for clarity on their exercise.
+\noindent\begin{center}
+\parbox{5in}{\emph{... For years, we have used a teaching case in Carnegie Mellon’s Department of Engineering and Public Policy, in which graduate students are asked to assume that a basic “smart car” system is about to be implemented. They are asked to consider whether the state should run a pilot study that would implement a number of advanced system functions, such as insurance rates that are based on actual driving patterns, “externality taxes” for congestion and air pollution, and a system for vehicle location in the event of accident or theft. We find that students immediately assume a system architecture that includes real-time telemetering of all vehicle data to some central data repository. Then they become deeply concerned about issues of civil liberty, invasion of privacy, and social control, and often go on to construct arguments that such applications should be banned. }}
+\end{center}
+
+\noindent\begin{center}
+\parbox{5in}{\emph{It is often not until students have worked on the problem for several hours that someone finally stumbles on the insight that most of the difficulties they are concerned about result from the default assumptions they have made about the system’s architecture. If information about vehicle location and driving performance is not telemetered off vehicles on a real-time basis, but is instead kept on the vehicle, not as a time series but in the form of a set of simple integral measures (such as a histogram of speeds driven over the past six months), then insurance companies could access it twice a year with all the time resolution they need. If detailed records of who drove where and when are not created, then most of the civil liberty problems are eliminated. Many of the potential concerns raised by other system functions in this teaching case can also be largely or entirely eliminated through careful system design choices.}}
+\end{center}
+
+This example very well exemplifies the problems that technologists get into, if proper care is not taken towards designing the system from ground up. Similar to the case above, the social interaction assistant would really benefit from collecting all of the interaction data from the users and using them for further machine learning and signal processing. Unfortunately, this is not a viable solution as recording of video, especially of others, without their knowledge could result in privacy violations. To this end, we highlight on various steps that could be taken towards ensuring that the technology does not \emph{record} person identifiable data that have immediate consequence to a person or institution who are not interested the application of social assistance. For example, consider face recognition as a biometric, institutions are fighting the problem of securely storing the face images of their employees or members who are allowed into a building. The loss of the face images could immediately affect privacy of these individuals because images are human readable and have applications in various areas. On the other hand, if instead of saving the human readable face image, a certain proprietary encoding was applied to the face image and only the resulting features (a machine learning terminology applied to the end result of a transformed data) are saved, any loss of data could then be cordoned off from abuse by securing or destroying the methods used to create the features.
+
+We highlight here some concepts that could potentially reduce the problem of ethical and privacy concerns associated with the social interaction assistant.
+\begin{itemize}
+\item \emph{Never saving human readable data}
+As explained in the earlier section, with the current state-of-the-art in data representation technologies, it is possible to transform the personal data from the users into features that only proprietary algorithms could decode. By isolating the algorithm from the collected data, it should be possible to secure the data from ever being available in a human readable format.
+
+\item \emph{Erasable Biometrics}
+Erasable Biometrics is a newly emerging area of biometrics where it is essential, by law, to remove all biometric data collected on an individual when once he/she is not part of an institution that collected any such data. Pioneering work in the are of biometrics use a data morphing model as shown in the Figure \ref{Figure11d}. When an individual is added to an existing biometric database, he/she is assigned a private key which is user-specific and can be destroyed if need be. All the biometric data collected from the user will then be transformed from a global set of transformation parameters, which are then randomly encoded based on the private key. All machine learning takes place on top of the transformed biometric data and never on the actual data which is discarded immediately after its first use for registering the user. When once a user prefers his data be removed from their system, the erasing happens by destroying the user supplied private key. Since the key controls all the transformation parameters, there is no way the transformed biometric data be ever brought back into the human readable insecure format. 
+
+\begin{figure}[htbp!]
+\begin{center}
+\includegraphics[width=4in]{ErasableBio.jpg}
+\caption{Framework for Erasable Biometrics}
+\label{Figure11d}
+\end{center}
+\end{figure}
+
+Having introduced Erasable Biometrics, it is possible that such techniques could be adopted to ensure that any individual who prefers at a later time to be removed from the social interaction assistant could then be considered erasable.
+
+\item \emph{Design intelligent sharing of data}
+Uncontrolled sharing of digital data is becoming a menace to the future of our society. Users prefer a certain level of sharing that is impossible to prevent and at the same time care has to be taken to ensure that important private information is not lost. To this end it is essential to design intelligent user sharing where information on interaction partners could be shared among users who are blind.
+
+\item \emph{Other additional security features}
+In an emerging society of digital data sources, security has emerged as an important issue and everyday security features like password blocking, auto lock of device activity, theft control through tracking, etc. should be considered as an essential component of the social interaction assistant design along with the other constraints that were identified in Chapter \ref{Chap:3}. See \cite{morgan_protecting_2004} for an exhaustive list of specific design criterions for preventing collection of user-specific data from devices.
+\end{itemize}
+
+In conclusion, while social interaction assistant is well placed to make a tremendous impact on the quality of life for individuals who are blind and visually impaired, there could be possible ethical and privacy issues associated with the wearable camera on the user. (Not to mention the awkwardness a user may have to face if he/she had to wear a t-shirt all the time informing the interaction partner that they are being recorded.) This chapter tried to highlight some of the important privacy issues and proposed solutions that could potentially overcome some of them. As discussed earlier, it is very difficult to determine all the impact that a certain technology will have ont he society before it is introduced into the user space, but it is always possible to hypothesize the potential risks that the designers may expose to the society to. We have attempted such an exercise in the above discussion.
 
 %\newpage
 \vspace*{1in}
@@ -4851,7 +4900,7 @@ Hedgpeth emphasizes the point that people skills are the most important tool for
 \chapter{\uppercase{Algorithm for Estimating Rank Average of Groups}}
 \label{AppendixA}
 \clearpage
-While analyzing the responses of participants to the online survey, the participants responses for each question are represented as entries $x_{i,q}$, where, $i$ represents the $i^{th}$ participant and $q$ represents the $q^{th}$ question. $i = 1,\ldots,N$ are the $N$ participants who responded on the survey, and $q = 1, \ldots, Q$ are the $Q$ questions. In the survey presented in Chapter XXX, $N = 28$ and $Q = 8$.
+While analyzing the responses of participants to the online survey, the participants responses for each question are represented as entries $x_{i,q}$, where, $i$ represents the $i^{th}$ participant and $q$ represents the $q^{th}$ question. $i = 1,\ldots,N$ are the $N$ participants who responded on the survey, and $q = 1, \ldots, Q$ are the $Q$ questions. In the survey presented in Chapter \ref{Chap:3}, $N = 28$ and $Q = 8$.
 
 \subsection{Procedure}
 
@@ -5088,111 +5137,11 @@ u_i & = \exp{\beta^T \Phi(:,i)} \\
  \end{equation}
 
 \addcontentsline{toc}{chapter}{APPENDIX}
-\chapter{\uppercase{American Community Survey Form - Sample 2008}}
+\chapter{\uppercase{American Community Survey Form - Sample Pages from 2008 Survey Form}}
 \label{AppendixC}
 \clearpage
 
 \includepdf[pages={1,2,5,6,7,8,9,10,11}, fitpaper=true]{ACS.pdf}
-
-
-%\begin{Equations}
-%\begin{table}
-%\begin{center}
-%\begin{tabular}{|m{5in}|}
-%\hline
-%\vspace*{-2in}
-%\textbf{Step 0: Initialize}\\
-%\hline
-%\vspace*{-2in}
-%\begin{equation}
-%\begin{aligned}
-%\Phi & = \left(
-%\begin{array}{ccccccc}
-%                &&&&&& \\[-2.3in]
-%                1 & \ldots & 1 & \ldots & 1 & \ldots & 1 \\ [-1in]
-%                L_{11} & \ldots & L_{1k} & \ldots & L_{N1} & \ldots & L_{Nk} \\
-%              \end{array}
-%\right) \\
-%%\\
-%\beta_{N\times k+1} &= [0,\ldots,0]^T \\
-%%\\
-%x &= [1 \hspace*{0.2in} X(t)]^T \\
-%%\\
-%\varepsilon &= 10^{-3}
-%\end{aligned}
-%\end{equation}\\
-%\hline
-%\hline
-%\vspace*{-2in}
-%\textbf{Step 1}\\
-%\hline
-%\vspace*{-2in}
-%\begin{equation}
-%\begin{aligned}
-%u_i & = \exp{\beta^T \Phi(:,i)} \\
-%\mbox{where,} &  \\
-% u & = [u_1, u_2, \ldots, u_{N\times k}]^T \\
-% \end{aligned}
-% \end{equation}\\
-% \hline
-% \hline
-% \vspace*{-2in}
-%\textbf{Step 2}\\
-% \hline
-% \vspace*{-2in}
-% \begin{equation}
-% \begin{aligned}
-% v_j & = x_j - \sum\limits_{m=1}^{N\times k} \Phi(j,m) u_m \\
-% v & = [v_1, v_2,\ldots,v_{D+1}] \\
-% & \mbox{where,} \hspace*{0.1in} D \hspace*{0.1in} \mbox{is the dimension of the data}
-% \end{aligned}
-% \end{equation}\\
-% \hline
-%  \end{tabular}
-%\end{center}
-%\end{table}
-%
-%\begin{table}
-%\begin{center}
-%\begin{tabular}{|m{5in}|}
-%\hline
-% \vspace*{-2in}
-%\textbf{Step 3}\\
-% \hline
-% \vspace*{-2in}
-% \begin{equation}
-% \begin{aligned}
-% g_{ij} & = \sum\limits_{m=1}^{N\times k} \Phi(i,m) \Phi(j,m) u_m \\
-% & \mbox{where,} \hspace*{0.1in} G \hspace*{0.1in} \mbox{is the Jacobian Matrix} \\
-% \end{aligned}
-% \end{equation} \\
-% \hline
-% \hline
-% \vspace*{-2in}
-%\textbf{Step 4}\\
-%\hline
-%\vspace*{-2in}
-%\begin{equation}
-% \begin{aligned}
-% \beta_{New} &= \beta_{Old} + G^{-1} v \\
-% \end{aligned}
-% \end{equation}\\
-%\hline
-%\hline
-%\vspace*{-2in}
-% \textbf{Step 5}\\
-% \hline
-% \vspace*{-2in}
-% \begin{equation}
-% \begin{aligned}
-% \mbox{If } \parallel G^{-1}v \parallel > \epsilon \mbox{ , go back to Step 1.}
-% \end{aligned}
-% \end{equation}\\
-%\hline
-% \end{tabular}
-%\end{center}
-%\end{table}
-%\end{Equations}
 
 \clearpage
 
