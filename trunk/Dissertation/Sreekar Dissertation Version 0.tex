@@ -124,15 +124,15 @@ In the concluding remarks, this book engages the readers into a science and tech
 \asuacknowledgements
 I would like to express my deepest gratitude to my committee chair, Dr. Sethuraman Panchanathan, for being an excellent mentor, and a guiding light towards my research.
 
-I would also like to thank Dr. John Black for his invaluable advice and suggestions, both during my research and during the writing of this dissertation. John has made my research experience at Arizona State University a pleasurable one. 
+I would also like to thank Dr. John Black for his invaluable advice and suggestions, both during my research and during the writing of this dissertation. John has made my research experience at Arizona State University a pleasurable one.
 
-I sincerely acknowledge the role Dr. Terri Hedgpeth played in shaping my research career for the past 5 years. She was in essence the guiding light for my research and all the designs I conceptualized. 
+I sincerely acknowledge the role Dr. Terri Hedgpeth played in shaping my research career for the past 5 years. She was in essence the guiding light for my research and all the designs I conceptualized.
 
 I thank Dr. Gang Qian, Dr. Baoxin Li and Dr. Michelle Shiota for serving on my dissertation committee, while providing guidance in my research.
 
 I would like to thank all my colleagues and fellow researchers, at the Center for Cognitive Ubiquitous Computing for helping me, and for providing valuable advice.
 
-CHANGE: MORE TO BE ADDED HERE ..... 
+CHANGE: MORE TO BE ADDED HERE .....
 
 \begin{KeepFromToc}
 \tableofcontents
@@ -712,7 +712,7 @@ Identity & \cite{matta_behavioural_2006} \cite{gallagher_clothing_2008} \cite{ha
 \multicolumn{10}{|c|}{Behavior of the Communicator}\\
 \hline
 \hline
-Description of facial features	& & & &	\cite{kanaujia_emblem_2006} \cite{kawade_vision-based_2002} & & & & & \\			
+Description of facial features	& & & &	\cite{kanaujia_emblem_2006} \cite{kawade_vision-based_2002} & & & & & \\			 
 \hline
 Body Mannerisms & & & \cite{gunes_affect_2005} \cite{kulic_combining_2008} \cite{oliver_bayesian_2000} & & \cite{xuelong_li_gait_2008} & & \cite{hwang_automatic_2006} \cite{sangho_park_segmentation_2002} \cite{mitra_gesture_2007} \cite{nunamaker_hmm-based_2005} & & \\	
 \hline
@@ -4078,7 +4078,7 @@ While both the areas of detection and tracking have been explored extensively, t
 \section{Conceptual Framework}
 As discussed in the previous section, detection and tracking offer distinctive advantages and disadvantages when it comes to localizing objects. In the case of SIA, thorough object detection is not possible in every frame due to the lack of computational power (on a wearable platform computing platform) and tracking is not always efficient due to the movement of the camera and the object's (interaction partner's) independent motion. Though there are clear advantages in applying these techniques individually, the strengths of both these approaches need to be combined in order to tackle the challenges posed by the complex setting of the SIA. In the past, a few researchers have approached the problem of tracking in low frame rate or abrupt videos by interjecting a standard particle filtering algorithm with independent object detectors \cite{okuma_boosted_2004}. In our experience, the Social Interaction Assistant offers a weak temporal redundancy in most cases. We exploit this information trickle between frames to get an approximate estimate of the object location by incorporating a deterministic object search while avoiding the explicit use of pre-trained detectors. Due to the flexibility in the design, particle filtering algorithms provide a good platform to address the issues arising due to complex data. These algorithms give an estimate of an object's position by discretely building the underlying distribution which determines the object's properties. But, real-time constraints impose limits on the number of particles and the strength of the observation models that can be used. This generally causes the final estimate to be noisy when conventional particle filtering approaches are applied. Unless the choice of the particles and the observation models fit the underlying data well, the estimate is likely to drift away as the tracking progresses. To mitigate these problems faced in the use of the SIA, we propose a new particle filtering framework that gets an initial estimate of the person's location by spreading particles over a reasonably large area and then successively corrects the position  though a deterministic search in a reduced search space. Termed as Structured Mode Searching Particle Filter (SMSPF), the algorithm uses color histogram comparison in the particle filtering framework at each step to get an initial estimate which is then corrected by applying a structured search based on gradient features and chamfer matching. The details of this algorithm are described in the next section.
 
-\section{STRUCTURED MODE SEARCHING PARTICLE FILTER}
+\section{Structured Mode Searching Particle Filter}
 Assuming that an independent person detection algorithm can initialize this tracking algorithm with the initial estimate of the person location, this particle filtering framework focuses on tracking a single person under the following circumstances, namely
 \begin{itemize}
 \item Image region with the person is non-rigid and non-homogeneous
@@ -4871,7 +4871,7 @@ We highlight here some concepts that could potentially reduce the problem of eth
 As explained in the earlier section, with the current state-of-the-art in data representation technologies, it is possible to transform the personal data from the users into features that only proprietary algorithms could decode. By isolating the algorithm from the collected data, it should be possible to secure the data from ever being available in a human readable format.
 
 \item \emph{Erasable Biometrics}
-Erasable Biometrics is a newly emerging area of biometrics where it is essential, by law, to remove all biometric data collected on an individual when once he/she is not part of an institution that collected any such data. Pioneering work in the are of biometrics use a data morphing model as shown in the Figure \ref{Figure11d}. When an individual is added to an existing biometric database, he/she is assigned a private key which is user-specific and can be destroyed if need be. All the biometric data collected from the user will then be transformed from a global set of transformation parameters, which are then randomly encoded based on the private key. All machine learning takes place on top of the transformed biometric data and never on the actual data which is discarded immediately after its first use for registering the user. When once a user prefers his data be removed from their system, the erasing happens by destroying the user supplied private key. Since the key controls all the transformation parameters, there is no way the transformed biometric data be ever brought back into the human readable insecure format. 
+Erasable Biometrics is a newly emerging area of biometrics where it is essential, by law, to remove all biometric data collected on an individual when once he/she is not part of an institution that collected any such data. Pioneering work in the are of biometrics use a data morphing model as shown in the Figure \ref{Figure11d}. When an individual is added to an existing biometric database, he/she is assigned a private key which is user-specific and can be destroyed if need be. All the biometric data collected from the user will then be transformed from a global set of transformation parameters, which are then randomly encoded based on the private key. All machine learning takes place on top of the transformed biometric data and never on the actual data which is discarded immediately after its first use for registering the user. When once a user prefers his data be removed from their system, the erasing happens by destroying the user supplied private key. Since the key controls all the transformation parameters, there is no way the transformed biometric data be ever brought back into the human readable insecure format.
 
 \begin{figure}[htbp!]
 \begin{center}
