@@ -1,0 +1,4852 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.10.13)  14 DEC 2010 17:23
+entering extended mode
+**C:/Documents*and*Settings/Sreekar/Desktop/Dissertation/Sreekar*Dissertation*V
+ersion*0.tex
+
+("C:/Documents and Settings/Sreekar/Desktop/Dissertation/Sreekar Dissertation V
+ersion 0.tex"
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
+("C:\Program Files\MiKTeX 2.8\tex\latex\memoir\memoir.cls"
+Document Class: memoir 2010/09/19 v3.6g configurable book, report, article docu
+ment class
+\onelineskip=\skip41
+\lxvchars=\skip42
+\xlvchars=\skip43
+\@memcnta=\count79
+\c@@memmarkcntra=\count80
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2010/01/28 v2.1 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+Class memoir Info: An `ifetex' package is being emulated on input line 251.
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+\stockheight=\skip44
+\stockwidth=\skip45
+\trimtop=\skip46
+\trimedge=\skip47
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\misc\etex.sty"
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count81
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\memoir\mem11.clo"
+File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
+)
+\binding=\skip48
+\spinemargin=\skip49
+\foremargin=\skip50
+\uppermargin=\skip51
+\lowermargin=\skip52
+\headdrop=\skip53
+\normalrulethickness=\skip54
+\headwidth=\skip55
+\c@storedpagenumber=\count82
+\memPD=\dimen102
+\m@mabparskip=\skip56
+\thanksmarkwidth=\skip57
+\thanksmarksep=\skip58
+\droptitle=\skip59
+\c@book=\count83
+\c@part=\count84
+\c@chapter=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
+\beforechapskip=\skip60
+\midchapskip=\skip61
+\afterchapskip=\skip62
+\chapindent=\skip63
+\bottomsectionskip=\skip64
+\secindent=\skip65
+\beforesecskip=\skip66
+\aftersecskip=\skip67
+\subsecindent=\skip68
+\beforesubsecskip=\skip69
+\aftersubsecskip=\skip70
+\subsubsecindent=\skip71
+\beforesubsubsecskip=\skip72
+\aftersubsubsecskip=\skip73
+\paraindent=\skip74
+\beforeparaskip=\skip75
+\afterparaskip=\skip76
+\subparaindent=\skip77
+\beforesubparaskip=\skip78
+\aftersubparaskip=\skip79
+\pfbreakskip=\skip80
+\c@@ppsavesec=\count91
+\c@@ppsaveapp=\count92
+\ragrparindent=\dimen103
+\everylistparindent=\dimen104
+\parsepi=\skip81
+\topsepi=\skip82
+\itemsepi=\skip83
+\parsepii=\skip84
+\topsepii=\skip85
+\topsepiii=\skip86
+\itemsepii=\skip87
+\itemsepiii=\skip88
+\partopsepii=\skip89
+\partopsepiii=\skip90
+\m@msavetopsep=\skip91
+\m@msavepartopsep=\skip92
+\@enLab=\toks14
+\abstitleskip=\skip93
+\absleftindent=\skip94
+\abs@leftindent=\dimen105
+\absrightindent=\skip95
+\absparindent=\skip96
+\absparsep=\skip97
+\c@vslineno=\count93
+\c@poemline=\count94
+\c@modulo@vs=\count95
+\c@memfvsline=\count96
+\vleftskip=\skip98
+\vrightskip=\skip99
+\stanzaskip=\skip100
+\versewidth=\skip101
+\vgap=\skip102
+\vindent=\skip103
+\vleftmargin=\dimen106
+\c@verse=\count97
+\c@chrsinstr=\count98
+\beforepoemtitleskip=\skip104
+\afterpoemtitleskip=\skip105
+\c@poem=\count99
+\beforePoemTitleskip=\skip106
+\midPoemTitleskip=\skip107
+\afterPoemTitleskip=\skip108
+\col@sep=\dimen107
+\extrarowheight=\dimen108
+\NC@list=\toks15
+\extratabsurround=\skip109
+\backup@length=\skip110
+\TX@col@width=\dimen109
+\TX@old@table=\dimen110
+\TX@old@col=\dimen111
+\TX@target=\dimen112
+\TX@delta=\dimen113
+\TX@cols=\count100
+\TX@ftn=\toks16
+\heavyrulewidth=\dimen114
+\lightrulewidth=\dimen115
+\cmidrulewidth=\dimen116
+\belowrulesep=\dimen117
+\belowbottomsep=\dimen118
+\aboverulesep=\dimen119
+\abovetopsep=\dimen120
+\cmidrulesep=\dimen121
+\cmidrulekern=\dimen122
+\defaultaddspace=\dimen123
+\@cmidla=\count101
+\@cmidlb=\count102
+\@aboverulesep=\dimen124
+\@belowrulesep=\dimen125
+\@thisruleclass=\count103
+\@lastruleclass=\count104
+\@thisrulewidth=\dimen126
+\ctableftskip=\skip111
+\ctabrightskip=\skip112
+\abovecolumnspenalty=\count105
+\@linestogo=\count106
+\@cellstogo=\count107
+\@cellsincolumn=\count108
+\crtok=\toks17
+\@mincolumnwidth=\dimen127
+\c@newflo@tctr=\count109
+\@contcwidth=\skip113
+\@contindw=\skip114
+\abovecaptionskip=\skip115
+\belowcaptionskip=\skip116
+\subfloattopskip=\skip117
+\subfloatcapskip=\skip118
+\subfloatcaptopadj=\skip119
+\subfloatbottomskip=\skip120
+\subfloatlabelskip=\skip121
+\subfloatcapmargin=\dimen128
+\c@@contsubnum=\count110
+\m@mscap@capbox=\box26
+\m@mscap@fbox=\box27
+\sidecapsep=\dimen129
+\sidecapwidth=\dimen130
+\m@m@tempdima=\dimen131
+\m@mscapraise=\dimen132
+\sidecapraise=\dimen133
+\m@mscapmainwidth=\dimen134
+\m@mscaplkern=\dimen135
+\beforeepigraphskip=\skip122
+\afterepigraphskip=\skip123
+\epigraphwidth=\skip124
+\epigraphrule=\skip125
+LaTeX Info: Redefining \em on input line 7217.
+LaTeX Info: Redefining \emph on input line 7225.
+\tocentryskip=\skip126
+\tocbaseline=\skip127
+\cftparskip=\skip128
+\cftbeforebookskip=\skip129
+\cftbookindent=\dimen136
+\cftbooknumwidth=\dimen137
+\cftbeforepartskip=\skip130
+\cftpartindent=\skip131
+\cftpartnumwidth=\skip132
+\cftbeforechapterskip=\skip133
+\cftchapterindent=\skip134
+\cftchapternumwidth=\skip135
+\cftbeforesectionskip=\skip136
+\cftsectionindent=\skip137
+\cftsectionnumwidth=\skip138
+\cftbeforesubsectionskip=\skip139
+\cftsubsectionindent=\skip140
+\cftsubsectionnumwidth=\skip141
+\cftbeforesubsubsectionskip=\skip142
+\cftsubsubsectionindent=\skip143
+\cftsubsubsectionnumwidth=\skip144
+\cftbeforeparagraphskip=\skip145
+\cftparagraphindent=\skip146
+\cftparagraphnumwidth=\skip147
+\cftbeforesubparagraphskip=\skip148
+\cftsubparagraphindent=\skip149
+\cftsubparagraphnumwidth=\skip150
+\prechapterprecisshift=\dimen138
+\c@maxsecnumdepth=\count111
+\bibindent=\dimen139
+\bibitemsep=\skip151
+\indexcolsep=\skip152
+\indexrule=\skip153
+\indexmarkstyle=\toks18
+\@indexbox=\insert233
+\glossarycolsep=\dimen140
+\glossaryrule=\dimen141
+\sideparvshift=\skip154
+\sideins=\insert232
+\sidebartopsep=\skip155
+\sidebarhsep=\skip156
+\sidebarvsep=\skip157
+\sidebarwidth=\skip158
+\footmarkwidth=\skip159
+\footmarksep=\skip160
+\footparindent=\skip161
+\footinsdim=\skip162
+\footinsv@r=\insert231
+\@mpfootinsv@r=\insert230
+\m@m@k=\count112
+\m@m@h=\dimen142
+\m@mipn@skip=\skip163
+\sidefootins=\insert229
+\sidefootadjust=\skip164
+\sidefootheight=\skip165
+\sidefoothsep=\skip166
+\sidefootvsep=\skip167
+\sidefootwidth=\skip168
+\m@mdownsf=\skip169
+\c@sidefootnote=\count113
+\sidefootmarkwidth=\skip170
+\sidefootmarksep=\skip171
+\sidefootparindent=\skip172
+\c@pagenote=\count114
+\every@verbatim=\toks19
+\afterevery@verbatim=\toks20
+\verbatim@line=\toks21
+\tab@position=\count115
+\verbatim@in@stream=\read1
+\verbatimindent=\skip173
+\verbatim@out=\write3
+\bvboxsep=\skip174
+\c@memfbvline=\count116
+\c@bvlinectr=\count117
+\bvnumlength=\skip175
+\fb@frw=\dimen143
+\fb@frh=\dimen144
+\FrameRule=\dimen145
+\FrameSep=\dimen146
+\c@cp@cntr=\count118
+LaTeX Info: Redefining \: on input line 11560.
+LaTeX Info: Redefining \! on input line 11562.
+\c@ism@mctr=\count119
+\c@xsm@mctr=\count120
+\c@csm@mctr=\count121
+\c@ksm@mctr=\count122
+\c@xksm@mctr=\count123
+\c@cksm@mctr=\count124
+\c@msm@mctr=\count125
+\c@xmsm@mctr=\count126
+\c@cmsm@mctr=\count127
+\c@bsm@mctr=\count128
+\c@workm@mctr=\count129
+\c@sheetsequence=\count130
+\c@lastsheet=\count131
+\c@lastpage=\count132
+\c@figure=\count133
+\c@lofdepth=\count134
+\cftbeforefigureskip=\skip176
+\cftfigureindent=\skip177
+\cftfigurenumwidth=\skip178
+\c@table=\count135
+\c@lotdepth=\count136
+\cftbeforetableskip=\skip179
+\cfttableindent=\skip180
+\cfttablenumwidth=\skip181
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package array [2008/07/23] emulated by memoir.
+Package booktabs [2008/07/23] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package dcolumn [2008/07/23] emulated by memoir.
+Package delarray [2008/07/23] emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package ifetex [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package mparhack [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package tabularx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\memoir\mempatch.sty"
+Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
+))
+("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\mathptmx.sty"
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+("C:\Documents and Settings\Sreekar\Desktop\Dissertation\pwasu.sty"
+Package: pwasu 2009/04/18 v0.3 ASU thesis
+\toptafiddle=\skip182
+\bottafiddle=\skip183
+\topfiddle=\skip184
+\botfiddle=\skip185
+\linespace=\skip186
+
+
+******************************************************
+Stock height and width: 794.96999pt by 614.295pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 794.96999pt by 614.295pt
+Text height and width: 649.13762pt by 397pt
+Spine and edge margins: 108.405pt and 108.405pt
+Upper and lower margins: 84.27473pt and 61.55763pt
+Headheight and headsep: 1pt and 11.00475pt
+Footskip: 13.6pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 57pt
+Sidecapsep and sidecapwidth: 7pt and 57pt
+Sidebarhsep and sidebarwidth: 7pt and 57pt
+Sidebarvsep and sidebartopsep: 13.6pt and 0pt
+Sidebarheight: 539.9202pt
+Sidefoothsep and sidefootwidth: 7pt and 57pt
+Sidefootvsep and sidefootheight: 13.6pt and 539.9202pt
+******************************************************
+
+) ("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip187
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks22
+\ex@=\dimen147
+))
+("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen148
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count137
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count138
+\leftroot@=\count139
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count140
+\DOTSCASE@=\count141
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen149
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count142
+\c@MaxMatrixCols=\count143
+\dotsspace@=\muskip10
+\c@parentequation=\count144
+\dspbrk@lvl=\count145
+\tag@help=\toks23
+\row@=\count146
+\column@=\count147
+\maxfields@=\count148
+\andhelp@=\toks24
+\eqnshift@=\dimen150
+\alignsep@=\dimen151
+\tagshift@=\dimen152
+\tagwidth@=\dimen153
+\totwidth@=\dimen154
+\lineht@=\dimen155
+\@envbody=\toks25
+\multlinegap=\skip188
+\multlinetaggap=\skip189
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+("C:\Program Files\MiKTeX 2.8\tex\latex\threeparttable\threeparttable.sty"
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box30
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks27
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2010/09/14 v0.05b Graphics/color for pdfTeX
+\Gread@gobject=\count149
+))
+\Gin@req@height=\dimen156
+\Gin@req@width=\dimen157
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2010/08/08 v0.4k Insert pages of external PDF documents (AM)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count150
+\calc@Bcount=\count151
+\calc@Adimen=\dimen158
+\calc@Bdimen=\dimen159
+\calc@Askip=\skip190
+\calc@Bskip=\skip191
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count152
+\calc@Cskip=\skip192
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2010/03/25 v1.12 At begin shipout hook (HO)
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2010/04/26 v1.7 LaTeX kernel commands for general use (HO)
+))
+("C:\Program Files\MiKTeX 2.8\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+("C:\Program Files\MiKTeX 2.8\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2010/08/08 v0.4k Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box31
+\AM@toc@title=\toks28
+\c@AM@survey=\count153
+\AM@templatesizebox=\box32
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2008/08/11 v0.10 Landscape pages in PDF (HO)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 77.
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen160
+)
+("C:\Documents and Settings\Sreekar\Desktop\Dissertation\Sreekar Dissertation V
+ersion 0.aux"
+
+LaTeX Warning: Label `SubSec:1.3.1' multiply defined.
+
+
+LaTeX Warning: Label `SubSec:BoC' multiply defined.
+
+
+LaTeX Warning: Label `HapticGloveRelated2' multiply defined.
+
+
+LaTeX Warning: Label `Chap10Figure9' multiply defined.
+
+
+LaTeX Warning: Label `Fig:Figure108' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 92.
+ ("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+("C:\Program Files\MiKTeX 2.8\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count154
+\scratchdimen=\dimen161
+\scratchbox=\box33
+\nofMPsegments=\count155
+\nofMParguments=\count156
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count157
+\MPscratchDim=\dimen162
+\MPnumerator=\count158
+\everyMPtoPDFconversion=\toks30
+)
+\AtBeginShipoutBox=\box34
+ [1
+
+
+
+{C:/Documents and Settings/All Users/Application Data/MiKTeX/2.8/pdftex/config/
+pdftex.map}]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[2
+
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[3]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[4
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[5
+
+
+]
+("C:\Documents and Settings\Sreekar\Desktop\Dissertation\Sreekar Dissertation V
+ersion 0.toc"
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 1.
+
+ ("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\ot1ztmcm.fd"
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 1.
+
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\omlztmcm.fd"
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 1.
+
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\omsztmcm.fd"
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 1.
+
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\omxztmcm.fd"
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+
+Overfull \hbox (3.10944pt too wide) detected at line 2
+ \OT1/ptm/m/n/10.95 xviii
+ []
+
+
+Overfull \hbox (13.59587pt too wide) in paragraph at lines 23--23
+ [][] []\OT1/ptm/m/n/10.95 Mediating So-cial In-ter-ac-tions through En-rich-me
+nt of So-cial Sit-u-a-tional Aware- 
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[6
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[7]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[8]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[9]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[10]
+Overfull \hbox (2.3923pt too wide) in paragraph at lines 128--128
+ [][] []\OT1/ptm/m/n/10.95 BIOMETRICS IN SO-CIAL CON-TEXT: IDEN-TI-FY-ING IN-TE
+R-AC-TION PART- 
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[11]
+Overfull \hbox (12.62259pt too wide) in paragraph at lines 161--161
+ [][] []\OT1/ptm/m/n/10.95 Dynamically Learnt Multi-modal Gaus-sian Model for B
+ack- 
+ []
+
+
+Overfull \hbox (5.61467pt too wide) in paragraph at lines 162--162
+ [][] []\OT1/ptm/m/n/10.95 Skin and Back-ground Clas-si-fi-ca-tion us-ing the l
+earnt Multi- 
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[12]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[13]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[14]
+Overfull \hbox (4.42859pt too wide) in paragraph at lines 251--251
+ [][] []\OT1/ptm/m/n/10.95 CONVEX OP-TI-MIZA-TION US-ING NEW-TON'S METHOD - EN-
+TROPY MAX- 
+ []
+
+)
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[15]
+("C:\Documents and Settings\Sreekar\Desktop\Dissertation\Sreekar Dissertation V
+ersion 0.lot"
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[16
+
+])
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[17]
+("C:\Documents and Settings\Sreekar\Desktop\Dissertation\Sreekar Dissertation V
+ersion 0.lof"
+Overfull \hbox (2.76665pt too wide) in paragraph at lines 16--16
+ [][] []\OT1/ptm/m/n/10.95 Packet length to recog-ni-tion rate com-par-i-son un
+-der the Mod-est Ad-aBoost frame- 
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[18
+
+]
+Overfull \hbox (2.31735pt too wide) in paragraph at lines 18--18
+ [][] []\OT1/ptm/m/n/10.95 Piecewise per-for-mance anal-y-sis of the Mod-est Ad
+-aBoost frame-work; (a) Recog- 
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[19]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[20]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[21]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[22]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[23])
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[24]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[1
+
+
+]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 191.
+
+ ("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 191.
+
+<NVCEncodings.jpg, id=88, 151.11pt x 174.105pt>
+File: NVCEncodings.jpg Graphic file (type jpg)
+ <use NVCEncodings.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[2]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[3 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/NVCEncodings.jpg>]
+<Leakiness.jpg, id=95, 381.67593pt x 322.95656pt>
+File: Leakiness.jpg Graphic file (type jpg)
+ <use Leakiness.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[4 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Leakiness.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[5] <SSA.jpg, id=102, 240.7905pt x 135.6705pt>
+File: SSA.jpg Graphic file (type jpg)
+ <use SSA.jpg>
+<SSA2.jpg, id=103, 554.07pt x 90.3375pt>
+File: SSA2.jpg Graphic file (type jpg)
+ <use SSA2.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[6 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/SSA.jpg> <C:/Documen
+ts and Settings/Sreekar/Desktop/Dissertation/SSA2.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[7] <SSALearning.jpg, id=112, 598.48593pt x 237.88875pt>
+File: SSALearning.jpg Graphic file (type jpg)
+ <use SSALearning.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[8]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[9 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/SSALearning.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[10]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[11]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[12]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[13]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[14]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+[]|\OT1/ptm/m/n/10.95 Monitoring feed-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+[]|\OT1/ptm/m/n/10.95 Expressing emo-
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[16]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[17]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[18
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[19]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[20]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[21]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[22]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[23]
+
+LaTeX Warning: Reference `kock_ape_2001' on page 24 undefined on input line 469
+.
+
+<Suggestion1.jpg, id=164, 529.22719pt x 265.74281pt>
+File: Suggestion1.jpg Graphic file (type jpg)
+ <use Suggestion1.jpg>
+<Suggestion2.jpg, id=165, 368.1253pt x 281.55188pt>
+File: Suggestion2.jpg Graphic file (type jpg)
+ <use Suggestion2.jpg>
+<Suggestion3.jpg, id=166, 562.35094pt x 350.05782pt>
+File: Suggestion3.jpg Graphic file (type jpg)
+ <use Suggestion3.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[24]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[25 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Suggestion1.jpg> <C
+:/Documents and Settings/Sreekar/Desktop/Dissertation/Suggestion2.jpg> <C:/Docu
+ments and Settings/Sreekar/Desktop/Dissertation/Suggestion3.jpg>]
+<TeamStepps.jpg, id=174, 558.58687pt x 402.00188pt>
+File: TeamStepps.jpg Graphic file (type jpg)
+ <use TeamStepps.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[26 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TeamStepps.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[27]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[28] <Leadership.jpg, id=184, 731.73375pt x 397.485pt>
+File: Leadership.jpg Graphic file (type jpg)
+ <use Leadership.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[29 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Leadership.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[30]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[31]
+Overfull \hbox (2.48132pt too wide) in paragraph at lines 559--560
+\OT1/ptm/m/it/10.95 Challenge 2: Au-to-matic eval-u-a-tion of the so-cial affin
+-ity be-tween team mem-bers: \OT1/ptm/m/n/10.95 So-ciograms
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[32]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[33]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[34]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[35] <Handshakeex.jpg, id=207, 653.44125pt x 438.13687pt>
+File: Handshakeex.jpg Graphic file (type jpg)
+
+<use Handshakeex.jpg>
+Overfull \hbox (4.82465pt too wide) in paragraph at lines 590--591
+[]\OT1/ptm/m/n/10.95 Figure 2.3[] rep-re-sents an evidence-based model of de-li
+v-er-ing so-cial sit-u-a-tional aware-
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[36 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Handshakeex.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[37
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[38]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[39]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[40]
+Underfull \hbox (badness 2478) in paragraph at lines 663--663
+[]|\OT1/ptm/m/n/8 Scene Change De-
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[41]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 676.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 676.
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 729--729
+[]|\OT1/ptm/m/n/8 Clothing
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 729--729
+[]|\OT1/ptm/m/n/8 Facial Fea-ture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--729
+[]|\OT1/ptm/m/n/8 Gender Race
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 729--729
+[]|\OT1/ptm/m/n/8 Facial Mo-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--729
+[]|\OT1/ptm/m/n/8 Body Mo-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--729
+[]|\OT1/ptm/m/n/8 [[]] [[]]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--729
+[]|\OT1/ptm/m/n/8 [[]] [[]]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--729
+\OT1/ptm/m/n/8 [[]] [[]]
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 729--729
+[]|\OT1/ptm/m/n/8 Body Dec-o-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--729
+[]|\OT1/ptm/m/n/8 [[]] [[]]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--729
+\OT1/ptm/m/n/8 [[]] [[]]
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 729--729
+[]|\OT1/ptm/m/n/8 Description of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--729
+[]|\OT1/ptm/m/n/8 [[]] [[]]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--729
+[]|\OT1/ptm/m/n/8 [[]] [[]]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--729
+[]|\OT1/ptm/m/n/8 Expressions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--729
+[]|\OT1/ptm/m/n/8 [[]] [[]]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--729
+\OT1/ptm/m/n/8 [[]] [[]]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--729
+[]|\OT1/ptm/m/n/8 [[]] [[]]
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[43
+
+]
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 738.
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[44
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[45] <histogram.jpg, id=241, 421.575pt x 316.18124pt>
+File: histogram.jpg Graphic file (type jpg)
+ <use histogram.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[46] <responseratio.jpg, id=245, 421.575pt x 316.18124pt>
+File: responseratio.jpg Graphic file (type jpg)
+
+<use responseratio.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[47 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/histogram.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[48 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/responseratio.jpg>]
+<rankaverage.jpg, id=252, 612.78937pt x 395.22656pt>
+File: rankaverage.jpg Graphic file (type jpg)
+ <use rankaverage.jpg>
+
+LaTeX Warning: Reference `Tab:Table5' on page 49 undefined on input line 826.
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[49 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/rankaverage.jpg>]
+<SysArchSIA.jpg, id=257, 774.64406pt x 548.80031pt>
+File: SysArchSIA.jpg Graphic file (type jpg)
+ <use SysArchSIA.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[50]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[51 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/SysArchSIA.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[52
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[53]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[54]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[55]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[56]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[57]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[58] <JMMFigure1.JPG, id=286, 459.96844pt x 312.41719pt>
+File: JMMFigure1.JPG Graphic file (type jpg)
+ <use JMMFigure1.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[59]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[60 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/JMMFigure1.JPG>]
+<JMMFigure2.JPG, id=293, 922.44624pt x 673.51625pt>
+File: JMMFigure2.JPG Graphic file (type jpg)
+ <use JMMFigure2.JPG>
+
+LaTeX Warning: Citation `krishna_wearable_2005' on page 61 undefined on input l
+ine 925.
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[61] <AccelerometerData.jpg, id=298, 1245.65375pt x 729.72626pt>
+File: AccelerometerData.jpg Graphic file (type jpg)
+
+<use AccelerometerData.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[62 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/JMMFigure2.JPG>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[63 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/AccelerometerData.j
+pg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[64]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[65]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 967.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 967.
+ <Mean.jpg, id=311, 1284.8pt x 674.52pt>
+File: Mean.jpg Graphic file (type jpg)
+ <use Mean.jpg>
+Overfull \vbox (9.42294pt too high) detected at line 971
+ []
+
+<Variance.jpg, id=312, 1284.8pt x 517.935pt>
+File: Variance.jpg Graphic file (type jpg)
+ <use Variance.jpg>
+<Corr.jpg, id=313, 1284.8pt x 521.95pt>
+File: Corr.jpg Graphic file (type jpg)
+ <use Corr.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[66
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Mean.jpg> <C:/Document
+s and Settings/Sreekar/Desktop/Dissertation/Variance.jpg> <C:/Documents and Set
+tings/Sreekar/Desktop/Dissertation/Corr.jpg>]
+<DiffPower.jpg, id=317, 1284.8pt x 525.965pt>
+File: DiffPower.jpg Graphic file (type jpg)
+ <use DiffPower.jpg>
+<FFTVar.jpg, id=318, 1284.8pt x 504.88625pt>
+File: FFTVar.jpg Graphic file (type jpg)
+ <use FFTVar.jpg>
+Overfull \vbox (42.99619pt too high) detected at line 1025
+ []
+
+<FFTKurt.jpg, id=319, 1284.8pt x 529.98pt>
+File: FFTKurt.jpg Graphic file (type jpg)
+ <use FFTKurt.jpg>
+Overfull \vbox (47.93634pt too high) detected at line 1030
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[67
+
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DiffPower.jpg> <C:/Doc
+uments and Settings/Sreekar/Desktop/Dissertation/FFTVar.jpg> <C:/Documents and 
+Settings/Sreekar/Desktop/Dissertation/FFTKurt.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[68
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[69]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[70]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[71]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[72]
+
+LaTeX Warning: Reference `RoutineC' on page 73 undefined on input line 1121.
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[73] <PacketLength-Gentle.jpg, id=344, 799.98875pt x 680.5425pt>
+File: PacketLength-Gentle.jpg Graphic file (type jpg)
+
+<use PacketLength-Gentle.jpg>
+<PacketLength-Modest.jpg, id=345, 799.98875pt x 672.5125pt>
+File: PacketLength-Modest.jpg Graphic file (type jpg)
+
+<use PacketLength-Modest.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[74]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[75 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/PacketLength-Gentle
+.jpg> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/PacketLength-Mode
+st.jpg>] <AUCClassic.jpg, id=352, 799.98875pt x 666.49pt>
+File: AUCClassic.jpg Graphic file (type jpg)
+ <use AUCClassic.jpg>
+<ROC-Classic.jpg, id=353, 799.98875pt x 663.47874pt>
+File: ROC-Classic.jpg Graphic file (type jpg)
+ <use ROC-Classic.jpg>
+<FeatureSetRecogRate-Gentle.jpg, id=354, 799.98875pt x 666.49pt>
+File: FeatureSetRecogRate-Gentle.jpg Graphic file (type jpg)
+
+<use FeatureSetRecogRate-Gentle.jpg>
+<ClassicClassifierAnalysis.jpg, id=355, 799.98875pt x 694.595pt>
+File: ClassicClassifierAnalysis.jpg Graphic file (type jpg)
+
+<use ClassicClassifierAnalysis.jpg>
+<AUCModest.jpg, id=356, 799.98875pt x 673.51625pt>
+File: AUCModest.jpg Graphic file (type jpg)
+ <use AUCModest.jpg>
+<ROC-Modest.jpg, id=357, 799.98875pt x 654.445pt>
+File: ROC-Modest.jpg Graphic file (type jpg)
+ <use ROC-Modest.jpg>
+<FeatureSetRecogRate-Modest.jpg, id=358, 799.98875pt x 677.53125pt>
+File: FeatureSetRecogRate-Modest.jpg Graphic file (type jpg)
+
+<use FeatureSetRecogRate-Modest.jpg>
+<ModestClassifierAnalysis.jpg, id=359, 799.98875pt x 658.46pt>
+File: ModestClassifierAnalysis.jpg Graphic file (type jpg)
+
+<use ModestClassifierAnalysis.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[76]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[77 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/AUCClassic.jpg> <C:
+/Documents and Settings/Sreekar/Desktop/Dissertation/ROC-Classic.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[78 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/FeatureSetRecogRate
+-Gentle.jpg> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/ClassicCla
+ssifierAnalysis.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[79 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/AUCModest.jpg> <C:/
+Documents and Settings/Sreekar/Desktop/Dissertation/ROC-Modest.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[80 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/FeatureSetRecogRate
+-Modest.jpg> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/ModestClas
+sifierAnalysis.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[81]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[82]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[83]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[84]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[85]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[86
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[87] <DyadicInteraction.JPG, id=398, 546.54187pt x 423.83344pt>
+File: DyadicInteraction.JPG Graphic file (type jpg)
+
+<use DyadicInteraction.JPG>
+Missing character: There is no ® in font ptmr7t!
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[88 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DyadicInteraction.J
+PG>] <MiniTracker.jpg, id=402, 456.95718pt x 371.88937pt>
+File: MiniTracker.jpg Graphic file (type jpg)
+
+<use MiniTracker.jpg> <FaceAPITracking.JPG, id=403, 816.04875pt x 450.9347pt>
+File: FaceAPITracking.JPG Graphic file (type jpg)
+
+<use FaceAPITracking.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[89 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/MiniTracker.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[90 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/FaceAPITracking.JPG
+>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[91
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[92
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[93] <BayesianNW.JPG, id=420, 377.91188pt x 228.855pt>
+File: BayesianNW.JPG Graphic file (type jpg)
+ <use BayesianNW.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[94 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/BayesianNW.JPG>]
+<TEBN.JPG, id=424, 625.58719pt x 444.15938pt>
+File: TEBN.JPG Graphic file (type jpg)
+ <use TEBN.JPG>
+<FaceAPIPoints.JPG, id=425, 444.91219pt x 383.18156pt>
+File: FaceAPIPoints.JPG Graphic file (type jpg)
+ <use FaceAPIPoints.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[95]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[96 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TEBN.JPG> <C:/Docum
+ents and Settings/Sreekar/Desktop/Dissertation/FaceAPIPoints.JPG>]
+<ComputingLikelihood.JPG, id=432, 582.67688pt x 464.4853pt>
+File: ComputingLikelihood.JPG Graphic file (type jpg)
+
+<use ComputingLikelihood.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[97]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[98 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/ComputingLikelihood
+.JPG>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[99] <Fear.jpg, id=443, 140.02313pt x 196.48407pt>
+File: Fear.jpg Graphic file (type jpg)
+ <use Fear.jpg>
+<Surprise.jpg, id=444, 210.7875pt x 258.21469pt>
+File: Surprise.jpg Graphic file (type jpg)
+ <use Surprise.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[100]
+Overfull \hbox (1.94917pt too wide) in paragraph at lines 1555--1556
+\OT1/ptm/m/n/10.95 In the above equa-tion, the prop-a-ga-tion is cen-tered only
+ on the tran-si-tion prob-a-bil-ity $\OML/ztmcm/m/it/10.95 P\OT1/ztmcm/m/n/10.9
+5 (\OML/ztmcm/m/it/10.95 Y[]=Y[]\OT1/ztmcm/m/n/10.95 )$\OT1/ptm/m/n/10.95 .
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[101 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Fear.jpg> <C:/Docu
+ments and Settings/Sreekar/Desktop/Dissertation/Surprise.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[102]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[103]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[104]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[105
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[106] <inTouch1.jpg, id=467, 278.54062pt x 159.59625pt> <use inTouch1.jpg>
+Overfull \vbox (66.67009pt too high) detected at line 1626
+ []
+
+<TheBed.jpg, id=468, 261.97874pt x 219.06844pt> <use TheBed.jpg>
+Overfull \vbox (104.71912pt too high) detected at line 1626
+ []
+
+<HandJive.jpg, id=469, 232.61906pt x 178.41656pt> <use HandJive.jpg>
+Overfull \vbox (94.7149pt too high) detected at line 1626
+ []
+
+<HyperMirror.jpg, id=470, 277.78781pt x 193.47281pt> <use HyperMirror.jpg>
+Overfull \vbox (84.51848pt too high) detected at line 1626
+ []
+
+<use inTouch1.jpg>
+Overfull \vbox (66.67009pt too high) detected at line 1626
+ []
+
+<use TheBed.jpg>
+Overfull \vbox (104.71912pt too high) detected at line 1626
+ []
+
+<use HandJive.jpg>
+Overfull \vbox (94.7149pt too high) detected at line 1626
+ []
+
+<use HyperMirror.jpg>
+Overfull \vbox (84.51848pt too high) detected at line 1626
+ []
+
+<use inTouch1.jpg>
+Overfull \vbox (66.67009pt too high) detected at line 1626
+ []
+
+<use TheBed.jpg>
+Overfull \vbox (104.71912pt too high) detected at line 1626
+ []
+
+<use HandJive.jpg>
+Overfull \vbox (94.7149pt too high) detected at line 1626
+ []
+
+<use HyperMirror.jpg>
+Overfull \vbox (84.51848pt too high) detected at line 1626
+ []
+
+<use inTouch1.jpg>
+Overfull \vbox (66.67009pt too high) detected at line 1626
+ []
+
+<use TheBed.jpg>
+Overfull \vbox (104.71912pt too high) detected at line 1626
+ []
+
+<use HandJive.jpg>
+Overfull \vbox (94.7149pt too high) detected at line 1626
+ []
+
+<use HyperMirror.jpg>
+Overfull \vbox (84.51848pt too high) detected at line 1626
+ []
+
+<use inTouch1.jpg>
+Overfull \vbox (66.67009pt too high) detected at line 1626
+ []
+
+<use TheBed.jpg>
+Overfull \vbox (104.71912pt too high) detected at line 1626
+ []
+
+<use HandJive.jpg>
+Overfull \vbox (94.7149pt too high) detected at line 1626
+ []
+
+<use HyperMirror.jpg>
+Overfull \vbox (84.51848pt too high) detected at line 1626
+ []
+
+<use inTouch1.jpg>
+Overfull \vbox (66.67009pt too high) detected at line 1626
+ []
+
+<use TheBed.jpg>
+Overfull \vbox (104.71912pt too high) detected at line 1626
+ []
+
+<use HandJive.jpg>
+Overfull \vbox (94.7149pt too high) detected at line 1626
+ []
+
+<use HyperMirror.jpg>
+Overfull \vbox (84.51848pt too high) detected at line 1626
+ []
+
+<use inTouch1.jpg>
+Overfull \vbox (66.67009pt too high) detected at line 1626
+ []
+
+<use TheBed.jpg>
+Overfull \vbox (104.71912pt too high) detected at line 1626
+ []
+
+<use HandJive.jpg>
+Overfull \vbox (94.7149pt too high) detected at line 1626
+ []
+
+<use HyperMirror.jpg>
+Overfull \vbox (84.51848pt too high) detected at line 1626
+ []
+
+<use inTouch1.jpg>
+Overfull \vbox (66.67009pt too high) detected at line 1626
+ []
+
+<use TheBed.jpg>
+Overfull \vbox (104.71912pt too high) detected at line 1626
+ []
+
+<use HandJive.jpg>
+Overfull \vbox (94.7149pt too high) detected at line 1626
+ []
+
+<use HyperMirror.jpg>
+Overfull \vbox (84.51848pt too high) detected at line 1626
+ []
+
+<use inTouch1.jpg>
+Overfull \vbox (66.67009pt too high) detected at line 1626
+ []
+
+<use TheBed.jpg>
+Overfull \vbox (104.71912pt too high) detected at line 1626
+ []
+
+<use HandJive.jpg>
+Overfull \vbox (94.7149pt too high) detected at line 1626
+ []
+
+<use HyperMirror.jpg>
+Overfull \vbox (84.51848pt too high) detected at line 1626
+ []
+
+<use inTouch1.jpg>
+Overfull \vbox (66.67009pt too high) detected at line 1626
+ []
+
+<use TheBed.jpg>
+Overfull \vbox (104.71912pt too high) detected at line 1626
+ []
+
+<use HandJive.jpg>
+Overfull \vbox (94.7149pt too high) detected at line 1626
+ []
+
+<use HyperMirror.jpg>
+Overfull \vbox (84.51848pt too high) detected at line 1626
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+[]|\OT1/ptm/b/n/8 Non-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/b/n/8 verbal
+ []
+
+
+Overfull \hbox (3.13834pt too wide) in paragraph at lines 1626--1626
+[]|\OT1/ptm/b/n/8 Application| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+[]|\OT1/ptm/b/n/8 User Ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+[]|\OT1/ptm/m/n/8 Vibration
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 Pres-sure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+[]|\OT1/ptm/m/n/8 Social
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+[]|\OT1/ptm/m/n/8 -
+ []
+
+
+Overfull \hbox (5.53836pt too wide) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 Interpersonal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 com-mu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 ni-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 through
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 re-mote
+ []
+
+File: inTouch1.jpg Graphic file (type jpg)
+<use inTouch1.jpg>
+Overfull \vbox (66.67009pt too high) detected at line 1626
+ []
+
+File: TheBed.jpg Graphic file (type jpg)
+<use TheBed.jpg>
+Overfull \vbox (104.71912pt too high) detected at line 1626
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+[]|\OT1/ptm/m/n/8 Pressure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 Tex-ture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 Tem-per-a-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+[]|\OT1/ptm/m/n/8 Social
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 ter-per-sonal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 in-ti-mate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 com-mu-ni-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+[]|\OT1/ptm/m/n/8 System
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 found to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 pro-duce
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 feel-ings of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+[]|\OT1/ptm/m/n/8 Pressure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 Pro-pri-o-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+[]|\OT1/ptm/m/n/8 Handshake
+ []
+
+
+Overfull \hbox (5.53836pt too wide) in paragraph at lines 1626--1626
+[]|\OT1/ptm/m/n/8 Interpersonal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 com-mu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 ni-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 through
+ []
+
+File: HandJive.jpg Graphic file (type jpg)
+<use HandJive.jpg>
+Overfull \vbox (94.7149pt too high) detected at line 1626
+ []
+
+File: HyperMirror.jpg Graphic file (type jpg)
+<use HyperMirror.jpg>
+Overfull \vbox (84.51848pt too high) detected at line 1626
+ []
+
+
+Overfull \hbox (4.65047pt too wide) in paragraph at lines 1626--1626
+[]|\OT1/ptm/m/n/8 HyperMirror 
+ []
+
+
+Overfull \hbox (5.09831pt too wide) in paragraph at lines 1626--1626
+[]|\OT1/ptm/m/n/8 interpersonal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 dis-tance,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 rel-a-tive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 po-si-tion,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 cross-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+[]|\OT1/ptm/m/n/8 -Remote
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 -Initiating
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 in-ter-ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 tion in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 strangers
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 across
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 Tap to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 ini-ti-ate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 con-ver-sa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+[]|\OT1/ptm/m/n/8 Eye con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 tact was
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 made
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 across dis-
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 Tap sig-nal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 aroused
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 Crossing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 paths
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 ini-ti-ated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+\OT1/ptm/m/n/8 con-ver-sa-
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[107
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/inTouch1.jpg> <C:/Docu
+ments and Settings/Sreekar/Desktop/Dissertation/TheBed.jpg> <C:/Documents and S
+ettings/Sreekar/Desktop/Dissertation/HandJive.jpg> <C:/Documents and Settings/S
+reekar/Desktop/Dissertation/HyperMirror.jpg>]
+<comTouch.jpg, id=474, 188.20313pt x 144.54pt> <use comTouch.jpg>
+Overfull \vbox (122.61787pt too high) detected at line 1656
+ []
+
+<HapInstMess.jpg, id=475, 303.38344pt x 192.72pt> <use HapInstMess.jpg>
+Overfull \vbox (98.6213pt too high) detected at line 1656
+ []
+
+<Hug.jpg, id=476, 353.82187pt x 340.27126pt> <use Hug.jpg>
+<Hug2.png, id=477, 504.88625pt x 396.48125pt> <use Hug2.png>
+Overfull \vbox (97.35655pt too high) detected at line 1656
+ []
+
+<use comTouch.jpg>
+Overfull \vbox (122.61787pt too high) detected at line 1656
+ []
+
+<use HapInstMess.jpg>
+Overfull \vbox (98.6213pt too high) detected at line 1656
+ []
+
+<use Hug.jpg> <use Hug2.png>
+Overfull \vbox (97.35655pt too high) detected at line 1656
+ []
+
+<use comTouch.jpg>
+Overfull \vbox (122.61787pt too high) detected at line 1656
+ []
+
+<use HapInstMess.jpg>
+Overfull \vbox (98.6213pt too high) detected at line 1656
+ []
+
+<use Hug.jpg> <use Hug2.png>
+Overfull \vbox (97.35655pt too high) detected at line 1656
+ []
+
+<use comTouch.jpg>
+Overfull \vbox (122.61787pt too high) detected at line 1656
+ []
+
+<use HapInstMess.jpg>
+Overfull \vbox (98.6213pt too high) detected at line 1656
+ []
+
+<use Hug.jpg> <use Hug2.png>
+Overfull \vbox (97.35655pt too high) detected at line 1656
+ []
+
+<use comTouch.jpg>
+Overfull \vbox (122.61787pt too high) detected at line 1656
+ []
+
+<use HapInstMess.jpg>
+Overfull \vbox (98.6213pt too high) detected at line 1656
+ []
+
+<use Hug.jpg> <use Hug2.png>
+Overfull \vbox (97.35655pt too high) detected at line 1656
+ []
+
+<use comTouch.jpg>
+Overfull \vbox (122.61787pt too high) detected at line 1656
+ []
+
+<use HapInstMess.jpg>
+Overfull \vbox (98.6213pt too high) detected at line 1656
+ []
+
+<use Hug.jpg> <use Hug2.png>
+Overfull \vbox (97.35655pt too high) detected at line 1656
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+[]|\OT1/ptm/b/n/8 Non-verbal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+[]|\OT1/ptm/b/n/8 User Ex-pe-ri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+[]|\OT1/ptm/m/n/8 Touch Emo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+[]|\OT1/ptm/m/n/8 Bidirectional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 24 sub-ject
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 par-tic-i-pant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 squeezes one
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 end and a
+ []
+
+
+Underfull \hbox (badness 5345) in paragraph at lines 1656--1656
+[]|\OT1/ptm/m/n/8 Subjects came
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 up with their
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 83% of par-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 tic-i-pants used
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 atleast one
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 ges-ture. 67%
+ []
+
+File: comTouch.jpg Graphic file (type jpg)
+<use comTouch.jpg>
+Overfull \vbox (122.61787pt too high) detected at line 1656
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+[]|\OT1/ptm/m/n/8 Haptic In-stant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+[]|\OT1/ptm/m/n/8 Audio Vi-bra-
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 1656--1656
+[]|\OT1/ptm/m/n/8 Based on user
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 se-lec-tions at a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 re-mote lo-ca-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 trans-mit-ted to
+ []
+
+File: HapInstMess.jpg Graphic file (type jpg)
+<use HapInstMess.jpg>
+Overfull \vbox (98.6213pt too high) detected at line 1656
+ []
+
+
+LaTeX Warning: Citation `Hug over a distance' on page 108 undefined on input li
+ne 1656.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+[]|\OT1/ptm/m/n/8 Pressure Pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+[]|\OT1/ptm/m/n/8 At one end
+ []
+
+
+Underfull \hbox (badness 6461) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 the user rubs
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 tummy of a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 stuffed toy
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 and based on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 the pres-sure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 ap-plied, air
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 bags are filled
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 at the re-mote
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
+\OT1/ptm/m/n/8 cou-ple fo-cus
+ []
+
+File: Hug.jpg Graphic file (type jpg)
+<use Hug.jpg>
+File: Hug2.png Graphic file (type png)
+ <use Hug2.png>
+Overfull \vbox (97.35655pt too high) detected at line 1656
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[108
+
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/comTouch.jpg> <C:/Docu
+ments and Settings/Sreekar/Desktop/Dissertation/HapInstMess.jpg> <C:/Documents 
+and Settings/Sreekar/Desktop/Dissertation/Hug.jpg> <C:/Documents and Settings/S
+reekar/Desktop/Dissertation/Hug2.png (PNG copy)>]
+<VinroBod.JPG, id=481, 307.1475pt x 147.55125pt> <use VinroBod.JPG>
+Overfull \vbox (70.6456pt too high) detected at line 1684
+ []
+
+<WhatsShaking.JPG, id=482, 167.12437pt x 194.22563pt> <use WhatsShaking.JPG>
+Overfull \vbox (109.83737pt too high) detected at line 1684
+ []
+
+<telehandshake.jpg, id=483, 301.8778pt x 237.88875pt> <use telehandshake.jpg>
+Overfull \vbox (86.36163pt too high) detected at line 1684
+ []
+
+<use VinroBod.JPG>
+Overfull \vbox (70.6456pt too high) detected at line 1684
+ []
+
+<use WhatsShaking.JPG>
+Overfull \vbox (109.83737pt too high) detected at line 1684
+ []
+
+<use telehandshake.jpg>
+Overfull \vbox (86.36163pt too high) detected at line 1684
+ []
+
+<use VinroBod.JPG>
+Overfull \vbox (70.6456pt too high) detected at line 1684
+ []
+
+<use WhatsShaking.JPG>
+Overfull \vbox (109.83737pt too high) detected at line 1684
+ []
+
+<use telehandshake.jpg>
+Overfull \vbox (86.36163pt too high) detected at line 1684
+ []
+
+<use VinroBod.JPG>
+Overfull \vbox (70.6456pt too high) detected at line 1684
+ []
+
+<use WhatsShaking.JPG>
+Overfull \vbox (109.83737pt too high) detected at line 1684
+ []
+
+<use telehandshake.jpg>
+Overfull \vbox (86.36163pt too high) detected at line 1684
+ []
+
+<use VinroBod.JPG>
+Overfull \vbox (70.6456pt too high) detected at line 1684
+ []
+
+<use WhatsShaking.JPG>
+Overfull \vbox (109.83737pt too high) detected at line 1684
+ []
+
+<use telehandshake.jpg>
+Overfull \vbox (86.36163pt too high) detected at line 1684
+ []
+
+<use VinroBod.JPG>
+Overfull \vbox (70.6456pt too high) detected at line 1684
+ []
+
+<use WhatsShaking.JPG>
+Overfull \vbox (109.83737pt too high) detected at line 1684
+ []
+
+<use telehandshake.jpg>
+Overfull \vbox (86.36163pt too high) detected at line 1684
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1684--1684
+[]|\OT1/ptm/m/n/8 Pressure, Tem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1684--1684
+[]|\OT1/ptm/m/n/8 Convey re-mote
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1684--1684
+\OT1/ptm/m/n/8 in-ter-per-sonal
+ []
+
+File: VinroBod.JPG Graphic file (type jpg)
+<use VinroBod.JPG>
+Overfull \vbox (70.6456pt too high) detected at line 1684
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1684--1684
+[]|\OT1/ptm/m/n/8 Vibration Tem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1684--1684
+\OT1/ptm/m/n/8 Vibration cor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1684--1684
+\OT1/ptm/m/n/8 re-sponds to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1684--1684
+\OT1/ptm/m/n/8 the amount of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1684--1684
+\OT1/ptm/m/n/8 ac-tiv-ity in the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1684--1684
+\OT1/ptm/m/n/8 the glove in-tu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1684--1684
+\OT1/ptm/m/n/8 itive and were
+ []
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 1684--1684
+\OT1/ptm/m/n/8 able to iden-tify
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1684--1684
+\OT1/ptm/m/n/8 ac-tiv-ity around
+ []
+
+File: WhatsShaking.JPG Graphic file (type jpg)
+<use WhatsShaking.JPG>
+Overfull \vbox (109.83737pt too high) detected at line 1684
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1684--1684
+[]|\OT1/ptm/m/n/8 Remote hand-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1684--1684
+\OT1/ptm/m/n/8 shake be-tween
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1684--1684
+\OT1/ptm/m/n/8 in-ter-ac-tion part-
+ []
+
+File: telehandshake.jpg Graphic file (type jpg)
+<use telehandshake.jpg>
+Overfull \vbox (86.36163pt too high) detected at line 1684
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[109
+
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/VinroBod.JPG> <C:/Docu
+ments and Settings/Sreekar/Desktop/Dissertation/WhatsShaking.JPG> <C:/Documents
+ and Settings/Sreekar/Desktop/Dissertation/telehandshake.jpg>]
+<TapTap.jpg, id=488, 219.06844pt x 121.20282pt> <use TapTap.jpg>
+Overfull \vbox (63.8201pt too high) detected at line 1712
+ []
+
+<UnitedPulse.jpg, id=489, 358.33875pt x 254.45062pt> <use UnitedPulse.jpg>
+<Ring.jpg, id=490, 356.83313pt x 207.02344pt> <use Ring.jpg>
+Overfull \vbox (86.48654pt too high) detected at line 1712
+ []
+
+<HapticChair.jpg, id=491, 149.8097pt x 172.39406pt> <use HapticChair.jpg>
+<Chair2.jpg, id=492, 271.76532pt x 205.5178pt> <use Chair2.jpg>
+Overfull \vbox (108.59973pt too high) detected at line 1712
+ []
+
+<use TapTap.jpg>
+Overfull \vbox (63.8201pt too high) detected at line 1712
+ []
+
+<use UnitedPulse.jpg> <use Ring.jpg>
+Overfull \vbox (86.48654pt too high) detected at line 1712
+ []
+
+<use HapticChair.jpg> <use Chair2.jpg>
+Overfull \vbox (108.59973pt too high) detected at line 1712
+ []
+
+<use TapTap.jpg>
+Overfull \vbox (63.8201pt too high) detected at line 1712
+ []
+
+<use UnitedPulse.jpg> <use Ring.jpg>
+Overfull \vbox (86.48654pt too high) detected at line 1712
+ []
+
+<use HapticChair.jpg> <use Chair2.jpg>
+Overfull \vbox (108.59973pt too high) detected at line 1712
+ []
+
+<use TapTap.jpg>
+Overfull \vbox (63.8201pt too high) detected at line 1712
+ []
+
+<use UnitedPulse.jpg> <use Ring.jpg>
+Overfull \vbox (86.48654pt too high) detected at line 1712
+ []
+
+<use HapticChair.jpg> <use Chair2.jpg>
+Overfull \vbox (108.59973pt too high) detected at line 1712
+ []
+
+<use TapTap.jpg>
+Overfull \vbox (63.8201pt too high) detected at line 1712
+ []
+
+<use UnitedPulse.jpg> <use Ring.jpg>
+Overfull \vbox (86.48654pt too high) detected at line 1712
+ []
+
+<use HapticChair.jpg> <use Chair2.jpg>
+Overfull \vbox (108.59973pt too high) detected at line 1712
+ []
+
+<use TapTap.jpg>
+Overfull \vbox (63.8201pt too high) detected at line 1712
+ []
+
+<use UnitedPulse.jpg> <use Ring.jpg>
+Overfull \vbox (86.48654pt too high) detected at line 1712
+ []
+
+<use HapticChair.jpg> <use Chair2.jpg>
+Overfull \vbox (108.59973pt too high) detected at line 1712
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+[]|\OT1/ptm/b/n/8 Non-verbal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+[]|\OT1/ptm/b/n/8 User Ex-pe-ri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+[]|\OT1/ptm/m/n/8 Solenoids and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 vi-bra-tors used
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 to sim-u-late
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 1712--1712
+[]|\OT1/ptm/m/n/8 8 men and 8
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 women tested
+ []
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 on the de-vice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 found based
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 on the tap, it
+ []
+
+File: TapTap.jpg Graphic file (type jpg)
+<use TapTap.jpg>
+Overfull \vbox (63.8201pt too high) detected at line 1712
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+[]|\OT1/ptm/m/n/8 Vibrators on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 com-mu-ni-ca-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 tion be-tween
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 re-mote cou-ple.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 beats were
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+[]|\OT1/ptm/m/n/8 20 cou-ples
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 tested with
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 liked the idea.
+ []
+
+File: UnitedPulse.jpg Graphic file (type jpg)
+<use UnitedPulse.jpg>
+File: Ring.jpg Graphic file (type jpg)
+ <use Ring.jpg>
+Overfull \vbox (86.48654pt too high) detected at line 1712
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+[]|\OT1/ptm/m/n/8 Vibrations
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 cor-re-spond-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 to emo-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 Has sens-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 of the emo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 tions in-built
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 through vi-sion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+[]|\OT1/ptm/m/n/8 3 ex-pres-sions
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 tested. 100%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 recog-ni-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 on ex-pres-
+ []
+
+
+Underfull \hbox (badness 7116) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 sions. 10%
+ []
+
+
+Underfull \hbox (badness 5345) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 of par-tic-i-pants
+ []
+
+
+Underfull \hbox (badness 5345) in paragraph at lines 1712--1712
+\OT1/ptm/m/n/8 com-plained of
+ []
+
+File: HapticChair.jpg Graphic file (type jpg)
+<use HapticChair.jpg>
+File: Chair2.jpg Graphic file (type jpg)
+ <use Chair2.jpg>
+Overfull \vbox (108.59973pt too high) detected at line 1712
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[110
+
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TapTap.jpg> <C:/Docume
+nts and Settings/Sreekar/Desktop/Dissertation/UnitedPulse.jpg> <C:/Documents an
+d Settings/Sreekar/Desktop/Dissertation/Ring.jpg> <C:/Documents and Settings/Sr
+eekar/Desktop/Dissertation/HapticChair.jpg> <C:/Documents and Settings/Sreekar/
+Desktop/Dissertation/Chair2.jpg>]
+<SomatosensoryHom1.JPG, id=496, 359.09157pt x 459.21562pt>
+File: SomatosensoryHom1.JPG Graphic file (type jpg)
+
+<use SomatosensoryHom1.JPG>
+<SomatosensoryHom2.JPG, id=497, 229.60782pt x 723.45282pt>
+File: SomatosensoryHom2.JPG Graphic file (type jpg)
+
+<use SomatosensoryHom2.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[111
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/SomatosensoryHom1.JPG>
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/SomatosensoryHom2.JPG>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 ma-tion to peo-ple
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 in-dex, mid-dle and
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 - Three pha-langes
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 to the in-ten-sity of
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 -2 sighted par-tic-i-
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 1759--1759
+[]|\OT1/ptm/m/n/8 Vibrotactile cue-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 to im-prove tar-
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 get ac-qui-si-tion in
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 ment us-ing mouse
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 of the palm just
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 1759--1759
+[]|\OT1/ptm/m/n/8 - 100ms vi-bra-tory
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 and on-target sig-
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 vi-bra-tion was pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+[]|\OT1/ptm/m/n/8 - Two vi-bra-tors
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 were turned on to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+[]|\OT1/ptm/m/n/8 - Expt 1 tested
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 vi-bra-tors on the
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 front and back of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 - Expt 2 tested
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 con-tin-u-ous dis-
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 tance cue-ing with
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 sup-press-ing or in-
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 creas-ing fre-quency
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 as the tar-get is
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 1759--1759
+[]|\OT1/ptm/m/n/8 - The lo-ca-tion of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 the trac-tors did
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 Front and Back
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 - Sup-press-ing the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 fre-quency as the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+[]|\OT1/ptm/m/n/8 Vibrotactile ar-ray
+ []
+
+
+Underfull \hbox (badness 2359) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 for de-liv-er-ing dis-
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 from a wheelchair
+ []
+
+
+Underfull \hbox (badness 5681) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 - Spa-tial ob-sta-cle
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 - Di-rec-tion con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 veyance to the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 in the par-tic-u-lar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 mo-tor with near,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 medium and far
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 - Di-rec-tion cue
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 vi-brates the cen-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+\OT1/ptm/m/n/8 mo-tor with two
+ []
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 1759--1759
+[]|\OT1/ptm/m/n/8 - No user test-ing
+ []
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 1759--1759
+[]|\OT1/ptm/m/n/8 - No user test-ing
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[112] <HapticGloveRef226.jpg, id=504, 264.99pt x 179.92218pt>
+<use HapticGloveRef226.jpg>
+<HapticGloveRef228_1.jpg, id=505, 295.1025pt x 231.86626pt>
+<use HapticGloveRef228_1.jpg>
+<HapticGloveRef228_2.jpg, id=506, 94.10156pt x 99.37125pt>
+<use HapticGloveRef228_2.jpg>
+<HapticGloveRef228_3.jpg, id=507, 91.09032pt x 97.11281pt>
+<use HapticGloveRef228_3.jpg> <use HapticGloveRef226.jpg>
+<use HapticGloveRef228_1.jpg> <use HapticGloveRef228_2.jpg>
+<use HapticGloveRef228_3.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 1793--1793
+[]|\OT1/ptm/m/n/8 Vibrotactile cues
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 geons hand dur-ing
+ []
+
+File: HapticGloveRef226.jpg Graphic file (type jpg)
+<use HapticGloveRef226.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 1793--1793
+
+ []
+
+
+Overfull \hbox (0.70567pt too wide) in paragraph at lines 1793--1793
+[]| 
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 vi-sual mark-ers on
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 off-center in-for-ma-
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 quired to move a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1793--1793
+[]|\OT1/ptm/m/n/8 No quan-tifi-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 pro-vided in the
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 1793--1793
+[]|\OT1/ptm/m/n/8 Field of view in
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 front of in-di-vid-ual
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 tured with a cam-
+ []
+
+
+Underfull \hbox (badness 3579) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 era and trans-lated
+ []
+
+File: HapticGloveRef228_1.jpg Graphic file (type jpg)
+<use HapticGloveRef228_1.jpg>
+Underfull \hbox (badness 3792) in paragraph at lines 1793--1793
+[]|\OT1/ptm/m/n/8 No spe-cific in-for-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1793--1793
+
+ []
+
+
+Overfull \hbox (0.70567pt too wide) in paragraph at lines 1793--1793
+[] 
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 bra-tion is di-rectly
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 cam-era is used to
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 de-ter-mine a depth
+ []
+
+File: HapticGloveRef228_2.jpg Graphic file (type jpg)
+<use HapticGloveRef228_2.jpg>
+File: HapticGloveRef228_3.jpg Graphic file (type jpg)
+ <use HapticGloveRef228_3.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 1793--1793
+[]|\OT1/ptm/m/n/8 Two ob-sta-cle
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 courses were set
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 within the lab-o-ta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 tory en-vi-ron-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 were re-quired to
+ []
+
+
+Overfull \hbox (0.70567pt too wide) in paragraph at lines 1793--1793
+[] 
+ []
+
+
+Overfull \hbox (0.70567pt too wide) in paragraph at lines 1793--1793
+[] 
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 blind and 6 with
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 1: Trav-elled the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 min-i-mal hit-ting
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 ex-ist-ing nav-i-ga-tion
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 elled the min-i-mal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 hit-ting path 65%
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 with their ex-ist-ing
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 nav-i-ga-tion aid and
+ []
+
+
+Underfull \hbox (badness 3579) in paragraph at lines 1793--1793
+\OT1/ptm/m/n/8 de-creased to 57%
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[113
+
+
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/HapticGloveRef226.jpg>
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/HapticGloveRef228_1.jp
+g> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/HapticGloveRef228_2.
+jpg> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/HapticGloveRef228_
+3.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+[]|\OT1/ptm/m/n/8 Framework for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 de-liv-er-ing hap-tic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 data along with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 au-dio video data
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 from an en-ter-tain-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 ment per-spec-tive.
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 a hap-tic layer to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+[]|\OT1/ptm/m/n/8 Vibrotactors are
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 glove both on top
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 con-fig-u-ra-tion pat-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+[]|\OT1/ptm/m/n/8 Custom de-signed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 vi-bra-tion pat-terns
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 that take into
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 ac-count all the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 vi-bra-tors on the
+ []
+
+
+Underfull \hbox (badness 7291) in paragraph at lines 1825--1825
+[]|\OT1/ptm/m/n/8 Manually en-coded
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 by en-ter-tain-ment
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 1825--1825
+[]|\OT1/ptm/m/n/8 Using vi-bra-tors to
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 con-vey slip in-for-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+[]|\OT1/ptm/m/n/8 Fingertips of the
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 sim-i-lar to the one
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 used in an op-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 Users placed the
+ []
+
+
+Underfull \hbox (badness 6725) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 that was lat-er-ally
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 pulled from un-der
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 the glove and the
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 re-ac-tion time was
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 the par-tic-i-pants to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 their free hand.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 Ex-per-i-ment was
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 con-ducted with
+ []
+
+
+Underfull \hbox (badness 8075) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 bare hands, with
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 a pre-hen-sile glove
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 with-out vi-bra-tors
+ []
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 and with the slip
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 Normal Glove:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1825
+\OT1/ptm/m/n/8 Normal Glove:
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[114
+
+
+] <Glove.JPG, id=514, 785.93625pt x 509.65407pt>
+File: Glove.JPG Graphic file (type jpg)
+ <use Glove.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[115
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Glove.JPG>]
+<SoftwareGlove.JPG, id=519, 773.13844pt x 533.74406pt>
+File: SoftwareGlove.JPG Graphic file (type jpg)
+ <use SoftwareGlove.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[116 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/SoftwareGlove.JPG>
+] <Phalanges.JPG, id=523, 462.97969pt x 344.03531pt>
+File: Phalanges.JPG Graphic file (type jpg)
+ <use Phalanges.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[117 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Phalanges.JPG>]
+<HapticEncoding.JPG, id=527, 670.00313pt x 681.29532pt>
+File: HapticEncoding.JPG Graphic file (type jpg)
+
+<use HapticEncoding.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[118]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[119 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/HapticEncoding.JPG
+>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[120]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[121]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1936.
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[122]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[123]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[124]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[125] <HAVE10Figure5a.jpg, id=554, 668.4975pt x 429.10312pt>
+File: HAVE10Figure5a.jpg Graphic file (type jpg)
+
+<use HAVE10Figure5a.jpg>
+<HAVE10Figure5b.jpg, id=555, 785.93625pt x 130.98938pt>
+File: HAVE10Figure5b.jpg Graphic file (type jpg)
+
+<use HAVE10Figure5b.jpg>
+<HAVE10Figure5c.jpg, id=556, 551.81157pt x 434.37282pt>
+File: HAVE10Figure5c.jpg Graphic file (type jpg)
+
+<use HAVE10Figure5c.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[126
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure5a.jpg> <C
+:/Documents and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure5b.jpg> <C:/D
+ocuments and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure5c.jpg>]
+<HAVE10Figure6a.jpg, id=560, 704.6325pt x 465.23813pt>
+File: HAVE10Figure6a.jpg Graphic file (type jpg)
+
+<use HAVE10Figure6a.jpg>
+<HAVE10Figure6b.jpg, id=561, 784.43062pt x 127.97812pt>
+File: HAVE10Figure6b.jpg Graphic file (type jpg)
+
+<use HAVE10Figure6b.jpg>
+<HAVE10Figure6c.jpg, id=562, 524.71031pt x 386.19281pt>
+File: HAVE10Figure6c.jpg Graphic file (type jpg)
+
+<use HAVE10Figure6c.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[127
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure6a.jpg> <C
+:/Documents and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure6b.jpg> <C:/D
+ocuments and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure6c.jpg>]
+<HAVE10Figure7a.jpg, id=567, 701.62125pt x 463.7325pt>
+File: HAVE10Figure7a.jpg Graphic file (type jpg)
+
+<use HAVE10Figure7a.jpg>
+<HAVE10Figure7b.jpg, id=568, 696.35156pt x 114.4275pt>
+File: HAVE10Figure7b.jpg Graphic file (type jpg)
+
+<use HAVE10Figure7b.jpg>
+<HAVE10Figure7c.jpg, id=569, 558.58687pt x 369.63094pt>
+File: HAVE10Figure7c.jpg Graphic file (type jpg)
+
+<use HAVE10Figure7c.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[128
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure7a.jpg> <C
+:/Documents and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure7b.jpg> <C:/D
+ocuments and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure7c.jpg>]
+<HAVE10Figure8a.jpg, id=573, 685.05937pt x 418.56375pt>
+File: HAVE10Figure8a.jpg Graphic file (type jpg)
+
+<use HAVE10Figure8a.jpg>
+<HAVE10Figure8b.jpg, id=574, 739.26187pt x 121.20282pt>
+File: HAVE10Figure8b.jpg Graphic file (type jpg)
+
+<use HAVE10Figure8b.jpg>
+<HAVE10Figure8c.jpg, id=575, 546.54187pt x 392.96812pt>
+File: HAVE10Figure8c.jpg Graphic file (type jpg)
+
+<use HAVE10Figure8c.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[129
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure8a.jpg> <C
+:/Documents and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure8b.jpg> <C:/D
+ocuments and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure8c.jpg>]
+<HAVE10Figure9a.jpg, id=579, 640.64343pt x 428.35031pt>
+File: HAVE10Figure9a.jpg Graphic file (type jpg)
+
+<use HAVE10Figure9a.jpg>
+<HAVE10Figure9b.jpg, id=580, 737.75626pt x 122.70844pt>
+File: HAVE10Figure9b.jpg Graphic file (type jpg)
+
+<use HAVE10Figure9b.jpg> <HAVE10Figure9c.jpg, id=581, 575.14874pt x 361.35pt>
+File: HAVE10Figure9c.jpg Graphic file (type jpg)
+
+<use HAVE10Figure9c.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[130
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure9a.jpg> <C
+:/Documents and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure9b.jpg> <C:/D
+ocuments and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure9c.jpg>]
+<HAVE10Figure10.jpg, id=585, 539.01375pt x 411.03563pt>
+File: HAVE10Figure10.jpg Graphic file (type jpg)
+
+<use HAVE10Figure10.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[131
+
+] <HAVE10Figure11.jpg, id=589, 544.28343pt x 441.90094pt>
+File: HAVE10Figure11.jpg Graphic file (type jpg)
+
+<use HAVE10Figure11.jpg> <HAVE10Figure12.jpg, id=590, 539.01375pt x 397.485pt>
+File: HAVE10Figure12.jpg Graphic file (type jpg)
+
+<use HAVE10Figure12.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[132 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure10.jpg
+>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[133 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure11.jpg
+>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[134 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/HAVE10Figure12.jpg
+>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[135
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[136]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[137]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[138]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[139]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[140]
+Missing character: There is no ö in font ptmr7t!
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[141]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[142]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[143] <FRFig1.JPG, id=629, 973.38657pt x 355.3275pt>
+File: FRFig1.JPG Graphic file (type jpg)
+ <use FRFig1.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[144 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/FRFig1.JPG>]
+<FRFig2.JPG, id=633, 928.97063pt x 355.3275pt>
+File: FRFig2.JPG Graphic file (type jpg)
+ <use FRFig2.JPG>
+<FRFig3.JPG, id=634, 972.63374pt x 365.86688pt>
+File: FRFig3.JPG Graphic file (type jpg)
+ <use FRFig3.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[145 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/FRFig2.JPG>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[146 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/FRFig3.JPG>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[147]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[148]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[149] <Chromosome.JPG, id=651, 239.39438pt x 422.32782pt>
+File: Chromosome.JPG Graphic file (type jpg)
+ <use Chromosome.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[150 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Chromosome.JPG>]
+<Ranking.JPG, id=655, 533.74406pt x 399.74344pt>
+File: Ranking.JPG Graphic file (type jpg)
+ <use Ranking.JPG>
+<Rankorder.JPG, id=656, 361.35pt x 435.87843pt>
+File: Rankorder.JPG Graphic file (type jpg)
+ <use Rankorder.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[151 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Ranking.JPG>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[152 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Rankorder.JPG>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[153] <Crossover.JPG, id=667, 520.19344pt x 439.6425pt>
+File: Crossover.JPG Graphic file (type jpg)
+ <use Crossover.JPG>
+<Mutation.JPG, id=668, 196.48407pt x 439.6425pt>
+File: Mutation.JPG Graphic file (type jpg)
+ <use Mutation.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[154 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Crossover.JPG>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[155 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Mutation.JPG>]
+<Setup.JPG, id=675, 541.27219pt x 406.51875pt>
+File: Setup.JPG Graphic file (type jpg)
+ <use Setup.JPG>
+Missing character: There is no º in font ptmr7t!
+Missing character: There is no – in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[156 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Setup.JPG>]
+<FacePix.JPG, id=679, 902.6222pt x 348.55219pt>
+File: FacePix.JPG Graphic file (type jpg)
+ <use FacePix.JPG>
+Missing character: There is no º in font ptmr7t!
+Missing character: There is no ’ in font ptmr7t!
+
+<FacePixVariant.JPG, id=680, 819.8128pt x 284.56313pt>
+File: FacePixVariant.JPG Graphic file (type jpg)
+
+<use FacePixVariant.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[157 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/FacePix.JPG>]
+<Result.JPG, id=685, 359.09157pt x 363.60844pt>
+File: Result.JPG Graphic file (type jpg)
+ <use Result.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[158 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/FacePixVariant.JPG
+>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[159 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Result.JPG>]
+Overfull \hbox (4.7696pt too wide) in paragraph at lines 3013--3022
+[]\OT1/ptm/m/n/10.95 The cor-re-la-tion be-tween co-ef-fi-cients was used in-st
+ead of spa-tial sep-a-ra-tion to counter
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[160]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[161] <Distance.JPG, id=698, 493.845pt x 368.1253pt>
+File: Distance.JPG Graphic file (type jpg)
+ <use Distance.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[162 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Distance.JPG>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[163] <Result1FR.JPG, id=706, 480.29437pt x 400.49625pt>
+File: Result1FR.JPG Graphic file (type jpg)
+ <use Result1FR.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[164] <Result2FR.JPG, id=710, 475.7775pt x 389.20406pt>
+File: Result2FR.JPG Graphic file (type jpg)
+ <use Result2FR.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[165 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Result1FR.JPG>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[166 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Result2FR.JPG>]
+<ResultFR.JPG, id=717, 611.28375pt x 335.00156pt>
+File: ResultFR.JPG Graphic file (type jpg)
+ <use ResultFR.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[167 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/ResultFR.JPG>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[168]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[169
+
+]
+
+LaTeX Warning: Citation `hjelmýs_face_2001' on page 170 undefined on input line
+ 3321.
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[170] <Figure1.jpg, id=731, 390.45876pt x 407.5225pt>
+File: Figure1.jpg Graphic file (type jpg)
+ <use Figure1.jpg>
+<Figure2.jpg, id=732, 425.59pt x 658.46pt>
+File: Figure2.jpg Graphic file (type jpg)
+ <use Figure2.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[171 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Figure1.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[172 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Figure2.jpg>]
+
+LaTeX Warning: Citation `hjelmýs_face_2001' on page 173 undefined on input line
+ 3403.
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[173] <Figure3.jpg, id=742, 456.70625pt x 618.31pt>
+File: Figure3.jpg Graphic file (type jpg)
+ <use Figure3.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[174]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[175 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Figure3.jpg>]
+<Figure4.jpg, id=750, 319.1925pt x 453.695pt>
+File: Figure4.jpg Graphic file (type jpg)
+ <use Figure4.jpg>
+<Figure5.jpg, id=751, 520.94624pt x 218.8175pt>
+File: Figure5.jpg Graphic file (type jpg)
+ <use Figure5.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[176 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Figure4.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[177 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Figure5.jpg>]
+<Figure6.jpg, id=759, 574.145pt x 278.03876pt>
+File: Figure6.jpg Graphic file (type jpg)
+ <use Figure6.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[178] <Figure7.jpg, id=763, 496.85625pt x 233.87375pt>
+File: Figure7.jpg Graphic file (type jpg)
+ <use Figure7.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[179 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Figure6.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[180 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Figure7.jpg>]
+<Figure8.jpg, id=770, 581.17125pt x 608.2725pt>
+File: Figure8.jpg Graphic file (type jpg)
+ <use Figure8.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[181 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Figure8.jpg>]
+<Figure9.jpg, id=775, 353.32pt x 139.52126pt>
+File: Figure9.jpg Graphic file (type jpg)
+ <use Figure9.jpg>
+<Figure10.jpg, id=776, 366.36874pt x 282.05376pt>
+File: Figure10.jpg Graphic file (type jpg)
+ <use Figure10.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[182 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Figure9.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[183 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Figure10.jpg>]
+<Figure11.jpg, id=783, 602.25pt x 250.9375pt>
+File: Figure11.jpg Graphic file (type jpg)
+ <use Figure11.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[184 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Figure11.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[185] <Figure12.jpg, id=790, 342.27875pt x 203.76125pt>
+File: Figure12.jpg Graphic file (type jpg)
+ <use Figure12.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[186]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[187 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Figure12.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[188] <ClosePerson.JPG, id=801, 972.63374pt x 246.9225pt>
+File: ClosePerson.JPG Graphic file (type jpg)
+
+<use ClosePerson.JPG> <FarPerson.JPG, id=802, 974.89218pt x 246.9225pt>
+File: FarPerson.JPG Graphic file (type jpg)
+
+<use FarPerson.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[189
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/ClosePerson.JPG> <C:/D
+ocuments and Settings/Sreekar/Desktop/Dissertation/FarPerson.JPG>]
+<SimpleBackground.JPG, id=806, 936.49875pt x 234.1247pt>
+File: SimpleBackground.JPG Graphic file (type jpg)
+
+<use SimpleBackground.JPG>
+File: FarPerson.JPG Graphic file (type jpg)
+ <use FarPerson.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[190] <rigidobject.JPG, id=810, 934.99312pt x 237.13594pt>
+File: rigidobject.JPG Graphic file (type jpg)
+
+<use rigidobject.JPG> <nonrigidobject.JPG, id=811, 936.49875pt x 234.1247pt>
+File: nonrigidobject.JPG Graphic file (type jpg)
+
+<use nonrigidobject.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[191 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/SimpleBackground.J
+PG> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/rigidobject.JPG> <C
+:/Documents and Settings/Sreekar/Desktop/Dissertation/nonrigidobject.JPG>]
+File: FarPerson.JPG Graphic file (type jpg)
+
+<use FarPerson.JPG> <MotionBlur.JPG, id=815, 973.38657pt x 242.40562pt>
+File: MotionBlur.JPG Graphic file (type jpg)
+
+<use MotionBlur.JPG> <light.JPG, id=816, 936.49875pt x 234.1247pt>
+File: light.JPG Graphic file (type jpg)
+
+<use light.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[192 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/MotionBlur.JPG>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[193 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/light.JPG>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[194]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[195]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[196] <Step1.JPG, id=833, 331.99031pt x 462.22687pt>
+File: Step1.JPG Graphic file (type jpg)
+ <use Step1.JPG>
+<Step2.JPG, id=834, 329.73187pt x 456.20438pt>
+File: Step2.JPG Graphic file (type jpg)
+ <use Step2.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[197]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[198 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Step1.JPG>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[199 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Step2.JPG>]
+<StructuredSearch.JPG, id=845, 724.20563pt x 399.74344pt>
+File: StructuredSearch.JPG Graphic file (type jpg)
+
+<use StructuredSearch.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[200 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/StructuredSearch.J
+PG>] <SearchStructure.JPG, id=849, 464.4853pt x 417.81094pt>
+File: SearchStructure.JPG Graphic file (type jpg)
+
+<use SearchStructure.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[201 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/SearchStructure.JP
+G>] <ComparisonTracking.JPG, id=853, 367.3725pt x 447.92343pt>
+File: ComparisonTracking.JPG Graphic file (type jpg)
+
+<use ComparisonTracking.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[202]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[203 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/ComparisonTracking
+.JPG>] <Campher.JPG, id=860, 742.27313pt x 456.95718pt>
+File: Campher.JPG Graphic file (type jpg)
+ <use Campher.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[204]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[205 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Campher.JPG>]
+<Results.JPG, id=868, 464.4853pt x 463.7325pt>
+File: Results.JPG Graphic file (type jpg)
+ <use Results.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[206]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[207 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Results.JPG>]
+<Result1.JPG, id=875, 649.67719pt x 413.29407pt>
+File: Result1.JPG Graphic file (type jpg)
+ <use Result1.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[208] <Result2.JPG, id=879, 649.67719pt x 367.3725pt>
+File: Result2.JPG Graphic file (type jpg)
+ <use Result2.JPG>
+<ResultBar1.JPG, id=880, 534.49687pt x 398.23781pt>
+File: ResultBar1.JPG Graphic file (type jpg)
+ <use ResultBar1.JPG>
+<ResultBar2.JPG, id=881, 514.92375pt x 400.49625pt>
+File: ResultBar2.JPG Graphic file (type jpg)
+ <use ResultBar2.JPG>
+File: ResultBar1.JPG Graphic file (type jpg)
+
+<use ResultBar1.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[209 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Result1.JPG>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[210 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Result2.JPG> <C:/D
+ocuments and Settings/Sreekar/Desktop/Dissertation/ResultBar1.JPG>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[211 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/ResultBar2.JPG>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[212] <Proxemics.jpg, id=895, 368.87813pt x 404.26031pt>
+File: Proxemics.jpg Graphic file (type jpg)
+ <use Proxemics.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[213
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[214 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Proxemics.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[215]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[216]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[217] <TIMComparisonTable.jpg, id=912, 504.38437pt x 354.57469pt>
+File: TIMComparisonTable.jpg Graphic file (type jpg)
+
+<use TIMComparisonTable.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[218]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[219 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMComparisonTable
+.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[220] <belt.jpg, id=922, 724.20563pt x 479.54156pt>
+File: belt.jpg Graphic file (type jpg)
+ <use belt.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[221]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[222 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/belt.jpg>]
+<SystemArchitecture.jpg, id=929, 847.66687pt x 614.295pt>
+File: SystemArchitecture.jpg Graphic file (type jpg)
+
+<use SystemArchitecture.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[223 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/SystemArchitecture
+.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[224]
+Overfull \hbox (9.79588pt too wide) in paragraph at lines 4366--4367
+\OT1/ptm/m/n/10.95 The soft-ware com-po-nents of our pro-posed de-sign con-tain
+ two im-por-tant as-pects: the firmware,
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[225] <MainController.jpg, id=940, 733.99219pt x 506.6428pt>
+File: MainController.jpg Graphic file (type jpg)
+
+<use MainController.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[226 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/MainController.jpg
+>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[227] <AmplitudePWM.jpg, id=947, 921.4425pt x 210.7875pt>
+File: AmplitudePWM.jpg Graphic file (type jpg)
+
+<use AmplitudePWM.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[228] <TRSTRU.jpg, id=951, 768.62157pt x 523.20468pt>
+File: TRSTRU.jpg Graphic file (type jpg)
+ <use TRSTRU.jpg>
+Overfull \hbox (16.85815pt too wide) in paragraph at lines 4422--4423
+[]\OT1/ptm/m/n/10.95 The tac-tor con-troller firmware com-mu-ni-cates di-rectly
+ with the main con-troller firmware
+ []
+
+<TactorController.jpg, id=952, 560.0925pt x 398.99063pt>
+File: TactorController.jpg Graphic file (type jpg)
+
+<use TactorController.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[229 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/AmplitudePWM.jpg>]
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[230 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TRSTRU.jpg> <C:/Do
+cuments and Settings/Sreekar/Desktop/Dissertation/TactorController.jpg>]
+<SoftwareSection.jpg, id=960, 809.27344pt x 497.60907pt>
+File: SoftwareSection.jpg Graphic file (type jpg)
+
+<use SoftwareSection.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[231 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/SoftwareSection.jp
+g>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[232] <LocalizationResult.jpg, id=967, 499.11469pt x 401.24907pt>
+File: LocalizationResult.jpg Graphic file (type jpg)
+
+<use LocalizationResult.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[233]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[234 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/LocalizationResult
+.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[235] <DistanceExperiment1.jpg, id=978, 500.62032pt x 396.7322pt>
+File: DistanceExperiment1.jpg Graphic file (type jpg)
+
+<use DistanceExperiment1.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[236]
+Overfull \hbox (2.54807pt too wide) in paragraph at lines 4490--4491
+[]\OT1/ptm/m/n/10.95 In Ex-per-i-ment 2B, over-all clas-si-fi-ca-tion ac-cu-rac
+y of du-ra-tion dropped to (67 11.8)%.
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[237 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DistanceExperiment
+1.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[238] <DistanceExperiment2.jpg, id=988, 531.48563pt x 478.78876pt>
+File: DistanceExperiment2.jpg Graphic file (type jpg)
+
+<use DistanceExperiment2.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[239 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DistanceExperiment
+2.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[240] <DistanceExperiment3.jpg, id=995, 532.99126pt x 415.5525pt>
+File: DistanceExperiment3.jpg Graphic file (type jpg)
+
+<use DistanceExperiment3.jpg>
+<DistanceExperiment4.jpg, id=996, 535.2497pt x 426.84468pt>
+File: DistanceExperiment4.jpg Graphic file (type jpg)
+
+<use DistanceExperiment4.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[241]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[242 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DistanceExperiment
+3.jpg> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DistanceExperime
+nt4.jpg>] <HAVE2009.jpg, id=1004, 585.68813pt x 268.00125pt>
+File: HAVE2009.jpg Graphic file (type jpg)
+
+<use HAVE2009.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[243 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/HAVE2009.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[244]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[245]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[246] <TIMFigure6.jpg, id=1017, 842.14626pt x 361.35pt>
+File: TIMFigure6.jpg Graphic file (type jpg)
+ <use TIMFigure6.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[247 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure6.jpg>]
+<TIMFigure7.jpg, id=1022, 531.9875pt x 580.1675pt>
+File: TIMFigure7.jpg Graphic file (type jpg)
+ <use TIMFigure7.jpg>
+<TIMFigure8.jpg, id=1023, 1019.81pt x 538.01pt>
+File: TIMFigure8.jpg Graphic file (type jpg)
+ <use TIMFigure8.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[248 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure7.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[249 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure8.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[250]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[251] <TIMFigure9.jpg, id=1036, 747.79375pt x 568.1225pt>
+File: TIMFigure9.jpg Graphic file (type jpg)
+ <use TIMFigure9.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[252] <TIMFigure10.jpg, id=1040, 698.61pt x 608.2725pt>
+File: TIMFigure10.jpg Graphic file (type jpg)
+ <use TIMFigure10.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[253 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure9.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[254 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure10.jpg>]
+<TIMFigure11.jpg, id=1048, 791.95876pt x 628.3475pt>
+File: TIMFigure11.jpg Graphic file (type jpg)
+ <use TIMFigure11.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[255 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure11.jpg>]
+<TIMFigure12a.jpg, id=1052, 331.99031pt x 300.3722pt>
+File: TIMFigure12a.jpg Graphic file (type jpg)
+ <use TIMFigure12a.jpg>
+<TIMFigure12b.jpg, id=1053, 344.78813pt x 300.3722pt>
+File: TIMFigure12b.jpg Graphic file (type jpg)
+ <use TIMFigure12b.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[256]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[257 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure12a.jpg> 
+<C:/Documents and Settings/Sreekar/Desktop/Dissertation/TIMFigure12b.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[258
+
+] <DyadicInteraction1.jpg, id=1063, 733.99219pt x 289.83281pt>
+File: DyadicInteraction1.jpg Graphic file (type jpg)
+
+<use DyadicInteraction1.jpg>
+<DyadicInteraction2.jpg, id=1064, 770.12718pt x 377.91188pt>
+File: DyadicInteraction2.jpg Graphic file (type jpg)
+
+<use DyadicInteraction2.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[259 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DyadicInteraction1
+.jpg> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/DyadicInteraction
+2.jpg>] <GroupInteractions2.jpg, id=1069, 716.6775pt x 298.11375pt>
+File: GroupInteractions2.jpg Graphic file (type jpg)
+
+<use GroupInteractions2.jpg>
+<GroupInteractions.jpg, id=1070, 657.95813pt x 473.51906pt>
+File: GroupInteractions.jpg Graphic file (type jpg)
+
+<use GroupInteractions.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[260]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[261 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/GroupInteractions2
+.jpg> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/GroupInteractions
+.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[262]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[263]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[264]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[265] <StressVsDepression.jpg, id=1090, 444.91219pt x 406.51875pt>
+File: StressVsDepression.jpg Graphic file (type jpg)
+
+<use StressVsDepression.jpg>
+<StressVsLonliness.JPG, id=1091, 475.02469pt x 417.81094pt>
+File: StressVsLonliness.JPG Graphic file (type jpg)
+
+<use StressVsLonliness.JPG>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[266]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[267 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/StressVsDepression
+.jpg> <C:/Documents and Settings/Sreekar/Desktop/Dissertation/StressVsLonliness
+.JPG>] <WageByAge.jpg, id=1098, 562.1pt x 421.575pt>
+File: WageByAge.jpg Graphic file (type jpg)
+ <use WageByAge.jpg>
+<WageByEdu.jpg, id=1099, 562.1pt x 421.575pt>
+File: WageByEdu.jpg Graphic file (type jpg)
+ <use WageByEdu.jpg>
+<FamilyACS2.jpg, id=1100, 773.89125pt x 533.995pt>
+File: FamilyACS2.jpg Graphic file (type jpg)
+ <use FamilyACS2.jpg>
+<FamilyACS1.jpg, id=1101, 562.1pt x 421.575pt>
+File: FamilyACS1.jpg Graphic file (type jpg)
+ <use FamilyACS1.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[268]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[269 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/WageByAge.jpg> <C:
+/Documents and Settings/Sreekar/Desktop/Dissertation/WageByEdu.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[270 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/FamilyACS2.jpg> <C
+:/Documents and Settings/Sreekar/Desktop/Dissertation/FamilyACS1.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[271]
+Overfull \hbox (8.8328pt too wide) in paragraph at lines 4857--4858
+[]\OT1/ptm/m/n/10.95 Morgan and New-ton, in their dis-cus-sions on the is-sue o
+f \OT1/ptm/m/it/10.95 Pro-tect-ing Pub-lic Anonymity\OT1/ptm/m/n/10.95 ,
+ []
+
+Missing character: There is no ’ in font ptmri7t!
+Missing character: There is no “ in font ptmri7t!
+Missing character: There is no ” in font ptmri7t!
+Missing character: There is no “ in font ptmri7t!
+Missing character: There is no ” in font ptmri7t!
+Missing character: There is no ’ in font ptmri7t!
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[272]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[273] <ErasableBio.jpg, id=1121, 938.75719pt x 403.5075pt>
+File: ErasableBio.jpg Graphic file (type jpg)
+
+<use ErasableBio.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[274]
+("C:\Documents and Settings\Sreekar\Desktop\Dissertation\Sreekar Dissertation V
+ersion 0.bbl"
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[275 <C:/Documents and Settings/Sreekar/Desktop/Dissertation/ErasableBio.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[276]
+bibitemlist
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[277
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[278]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[279]
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[280]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[281]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[282]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[283]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no „ in font ptmr7t!
+Missing character: There is no ¢ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ´ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[284]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[285]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[286]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[287]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[288]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[289]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[290]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[291]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[292]
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[293]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[294]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[295]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[296]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[297]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ÿ in font ptmr7t!
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[298]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[299]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[300]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[301]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[302]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[303]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[304]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[305]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[306]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[307])
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[308]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[309
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4919--4922
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4919--4922
+
+ []
+
+
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[310
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[311
+
+
+] <Lagrange.jpg, id=1242, 628.59843pt x 438.8897pt>
+File: Lagrange.jpg Graphic file (type jpg)
+ <use Lagrange.jpg>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[312
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/Lagrange.jpg>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[313]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[314]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[315]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[316]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[317]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[318
+
+] <ACS.pdf, id=1275, page=1, 614.295pt x 794.97pt>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 1>
+File: ACS.pdf Graphic file (type pdf)
+
+<use ACS.pdf, page 1>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 1>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 1>
+File: ACS.pdf Graphic file (type pdf)
+
+<use ACS.pdf, page 1> [319
+
+ <C:/Documents and Settings/Sreekar/Desktop/Dissertation/ACS.pdf>] <ACS.pdf, id
+=1289, page=2, 614.295pt x 794.97pt>
+File: ACS.pdf Graphic file (type pdf)
+
+<use ACS.pdf, page 2>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 2>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 2> [320 <C:/Documents and Settings/Sreekar/Desktop/Disserta
+tion/ACS.pdf>]
+<ACS.pdf, id=1300, page=5, 614.295pt x 794.97pt>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 5>
+File: ACS.pdf Graphic file (type pdf)
+
+<use ACS.pdf, page 5>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 5> [321 <C:/Documents and Settings/Sreekar/Desktop/Disserta
+tion/ACS.pdf>]
+<ACS.pdf, id=1311, page=6, 614.295pt x 794.97pt>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 6>
+File: ACS.pdf Graphic file (type pdf)
+
+<use ACS.pdf, page 6>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 6> [322 <C:/Documents and Settings/Sreekar/Desktop/Disserta
+tion/ACS.pdf>]
+<ACS.pdf, id=1322, page=7, 614.295pt x 794.97pt>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 7>
+File: ACS.pdf Graphic file (type pdf)
+
+<use ACS.pdf, page 7>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 7> [323 <C:/Documents and Settings/Sreekar/Desktop/Disserta
+tion/ACS.pdf>]
+<ACS.pdf, id=1333, page=8, 614.295pt x 794.97pt>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 8>
+File: ACS.pdf Graphic file (type pdf)
+
+<use ACS.pdf, page 8>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 8> [324 <C:/Documents and Settings/Sreekar/Desktop/Disserta
+tion/ACS.pdf>]
+<ACS.pdf, id=1344, page=9, 614.295pt x 794.97pt>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 9>
+File: ACS.pdf Graphic file (type pdf)
+
+<use ACS.pdf, page 9>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 9> [325 <C:/Documents and Settings/Sreekar/Desktop/Disserta
+tion/ACS.pdf>]
+<ACS.pdf, id=1356, page=10, 614.295pt x 794.97pt>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 10>
+File: ACS.pdf Graphic file (type pdf)
+
+<use ACS.pdf, page 10>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 10> [326 <C:/Documents and Settings/Sreekar/Desktop/Dissert
+ation/ACS.pdf>]
+<ACS.pdf, id=1367, page=11, 614.295pt x 794.97pt>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 11>
+File: ACS.pdf Graphic file (type pdf)
+
+<use ACS.pdf, page 11>
+File: ACS.pdf Graphic file (type pdf)
+ <use ACS.pdf, page 11> [327 <C:/Documents and Settings/Sreekar/Desktop/Dissert
+ation/ACS.pdf>]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[328
+
+]
+\tf@toc=\write4
+\tf@lot=\write5
+\tf@lof=\write6
+
+("C:\Documents and Settings\Sreekar\Desktop\Dissertation\Sreekar Dissertation V
+ersion 0.aux")
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 8405 strings out of 495285
+ 119880 string characters out of 3180282
+ 260903 words of memory out of 3000000
+ 11303 multiletter control sequences out of 15000+200000
+ 59795 words of font info for 136 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 42i,18n,44p,3512b,443s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.8/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
+ 2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.8/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/a
+msfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/s
+ymbols/msam10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/hoekwater/rsfs/rsfs1
+0.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/urw/symbol/usyr.pfb><C:/Program 
+Files/MiKTeX 2.8/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.8/f
+onts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/urw/ti
+mes/utmbi8a.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/urw/times/utmr8a.pfb><
+C:/Program Files/MiKTeX 2.8/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "Sreekar Dissertation Version 0.pdf" (352 pages, 19400825 byt
+es).
+PDF statistics:
+ 1435 PDF objects out of 1440 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 936 words of extra memory for PDF output out of 10000 (max. 10000000)
+
