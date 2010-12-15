@@ -1,7 +1,7 @@
 Major
-	Add Experiments section to Chapter 5 -TEBN
-	Extend Chapter 5 Related Work on Facial Expression Recognition
-	Write Acknowledgements
+	1. Add Experiments section to Chapter 5 -TEBN, Page 104
+	2. Extend Chapter 5 Related Work on Facial Expression Recognition, page 91
+	3. Write Acknowledgements
 	
 Minor
 	Prune References - there may be doubles
@@ -15,4 +15,4 @@ Minor
 Addendum (if and when time permits)
 	Improve Tables in Chapter 1 on the non-verbal components tables - Add conclusions from paper into the table.
 	Add a section at the end of Haptic Glove Chapter - Proposed future plan of using a back display
-	Add section on technology policy with wearable cameras.
+	
