@@ -4,15 +4,15 @@ Major
 	3. Write Acknowledgements
 	
 Minor
-	Prune References - there may be doubles
-	Check for [REF] in the document
-	Check for [?] in the document
-	Check for XXX in the document
-	Write Organization of the Book - End of Chapter 1, Page 17
-	Organization of the following chapter - End of Chapter 3, Page 51
+	1.Prune References - there may be doubles
+	2.Check for [REF] in the document
+	3.Check for [?] in the document
+	4.Check for XXX in the document
+	5.Write Organization of the Book - End of Chapter 1, Page 17
+	6.Organization of the following chapter - End of Chapter 3, Page 51
 	
 	
 Addendum (if and when time permits)
-	Improve Tables in Chapter 1 on the non-verbal components tables - Add conclusions from paper into the table.
-	Add a section at the end of Haptic Glove Chapter - Proposed future plan of using a back display
+	1.Improve Tables in Chapter 1 on the non-verbal components tables - Add conclusions from paper into the table.
+	2.Add a section at the end of Haptic Glove Chapter - Proposed future plan of using a back display
 	
