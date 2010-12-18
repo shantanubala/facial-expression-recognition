@@ -497,6 +497,17 @@ T.~Sy, S.~Côté, and R.~Saavedra, ``The contagious leader: impact of the
 C.~S.[1] and W.~A., ``Leadership of resuscitation teams: {'Lighthouse}
   leadership','' {\em Resuscitation}, vol.~42, pp.~27--45, Sept. 1999.
 
+\bibitem{krishna_enriching_2010}
+S.~Krishna, S.~Panchanathan, and B.~Patel, ``Enriching interpersonal human
+  interactions towards effective personal and professional communications,''
+  (Vancouver, British Columbia, Canada), Dec. 2010.
+
+\bibitem{krishna_studying_2010}
+S.~Krishna and B.~Patel, ``Studying individual’s and group’s
+  {Scoio-Emotional} artifacts in medical teams towards improved patient safety:
+  A {TeamSTEPPS} approach,'' Tech. Rep. {TR-10-009}, Arizona State University,
+  Tempe {AZ,} {USA}, July 2010.
+
 \bibitem{seethala_approaches_2010}
 R.~R. Seethala, E.~C. Esposito, and B.~S. Abella, ``Approaches to improving
   cardiac arrest resuscitation performance,'' {\em Current Opinion in Critical
@@ -980,6 +991,13 @@ A.~Vezhnevets and V.~Vezhnevets, ``Modest {AdaBoost} - teaching {AdaBoost} to
 ``{DRM103} designer reference manual,'' Tech. Rep. {DRM103} Rev. 1, Freescale
   Semiconductor, Aug. 2008.
 
+\bibitem{Sreekar2005}
+S.~Krishna, G.~Little, J.~Black, and S.~Panchanathan, ``A wearable face
+  recognition system for individuals with visual impairments,'' in {\em Assets
+  '05: Proceedings of the 7th international ACM SIGACCESS conference on
+  Computers and accessibility}, (New York, NY, USA), pp.~106--113, ACM Press,
+  2005.
+
 \bibitem{yuan_induction_1995}
 Y.~Yuan and M.~J. Shaw, ``Induction of fuzzy decision trees,'' {\em Fuzzy Sets
   Syst.}, vol.~69, no.~2, pp.~125--139, 1995.
@@ -1004,6 +1022,36 @@ R.~Raina, A.~Battle, H.~Lee, B.~Packer, and A.~Y. Ng, ``Self-taught learning:
   transfer learning from unlabeled data,'' in {\em Proceedings of the 24th
   international conference on Machine learning}, (Corvalis, Oregon),
   pp.~759--766, {ACM}, 2007.
+
+\bibitem{5523955}
+S.~Wang, Z.~Liu, S.~Lv, Y.~Lv, G.~Wu, P.~Peng, F.~Chen, and X.~Wang, ``A
+  natural visible and infrared facial expression database for expression
+  recognition and emotion inference,'' {\em Multimedia, IEEE Transactions on},
+  vol.~12, no.~7, pp.~682 --691, 2010.
+
+\bibitem{jiang_facial_2005}
+G.~Jiang, X.~Song, F.~Zheng, P.~Wang, and A.~Omer, ``Facial expression
+  recognition using thermal image,'' {\em Conference Proceedings: ... Annual
+  International Conference of the {IEEE} Engineering in Medicine and Biology
+  Society. {IEEE} Engineering in Medicine and Biology Society. Conference},
+  vol.~1, pp.~631--633, 2005.
+\newblock {PMID:} 17282261.
+
+\bibitem{Gibert:2009:EHC:1738826.1738914}
+G.~Gibert, M.~Pruzinec, T.~Schultz, and C.~Stevens, ``Enhancement of human
+  computer interaction with facial electromyographic sensors,'' in {\em
+  Proceedings of the 21st Annual Conference of the Australian Computer-Human
+  Interaction Special Interest Group: Design: Open 24/7}, OZCHI '09, (New York,
+  NY, USA), pp.~421--424, ACM, 2009.
+
+\bibitem{citeulike:4519941}
+P.~Ekman, ``{An argument for basic emotions},'' {\em Cognition \& Emotion},
+  vol.~6, no.~3, pp.~169--200, 1992.
+
+\bibitem{zeng_survey_2009}
+Z.~Zeng, M.~Pantic, G.~I. Roisman, and T.~S. Huang, ``A survey of affect
+  recognition methods: Audio, visual, and spontaneous expressions,'' {\em
+  {IEEE} Trans. Pattern Anal. Mach. Intell.}, vol.~31, no.~1, pp.~39--58, 2009.
 
 \bibitem{ashraf_painful_2009}
 A.~B. Ashraf, S.~Lucey, J.~F. Cohn, T.~Chen, Z.~Ambadar, K.~M. Prkachin, and
@@ -1136,6 +1184,24 @@ Z.~Zeng, Y.~Fu, G.~Roisman, Z.~Wen, Y.~Hu, and T.~Huang, ``Spontaneous
   emotional facial expression detection,'' {\em Journal of Multimedia}, vol.~1,
   no.~5, pp.~1--8, 2006.
 
+\bibitem{krishna_embodied_2010}
+S.~Krishna, T.~{McDaniel}, and S.~Panchanathan, ``Embodied social interaction
+  assistant,'' tech. rep., Arizona State University, Tempe, {USA}, Jan. 2010.
+
+\bibitem{lifeng_shang_temporal_2008}
+L.~Shang and K.~Chan, ``Temporal {Exemplar-Based} bayesian networks for facial
+  expression recognition,'' in {\em Machine Learning and Applications, 2008.
+  {ICMLA} '08. Seventh International Conference on}, pp.~16--22, 2008.
+
+\bibitem{paget_texture_1997}
+R.~Paget, I.~D. Longstaff, and B.~Lovell, ``Texture classification using
+  nonparametric markov random fields,'' vol.~1, pp.~67--70, 1997.
+
+\bibitem{tian_recognizing_2001}
+Y.~Tian, T.~Kanade, and J.~Cohn, ``Recognizing action units for facial
+  expression analysis,'' {\em Pattern Analysis and Machine Intelligence, {IEEE}
+  Transactions on}, vol.~23, no.~2, pp.~97--115, 2001.
+
 \bibitem{sohlberg_introduction_1989}
 M.~M. Sohlberg and C.~A. Mateer, {\em Introduction to Cognitive Rehabilitation:
   Theory and Practice}.
@@ -1216,6 +1282,12 @@ A.~Chang, S.~{O'Modhrain}, R.~Jacob, E.~Gunther, and H.~Ishii, ``{ComTouch:}
 A.~Rovers and H.~van Essen, ``{HIM:} a framework for haptic instant
   messaging,'' in {\em {CHI} '04 extended abstracts on Human factors in
   computing systems}, (Vienna, Austria), pp.~1313--1316, {ACM}, 2004.
+
+\bibitem{mueller_hug_2005}
+F.~F. Mueller, F.~Vetere, M.~R. Gibbs, J.~Kjeldskov, S.~Pedell, and S.~Howard,
+  ``Hug over a distance,'' in {\em {CHI} '05 extended abstracts on Human
+  factors in computing systems}, (Portland, {OR,} {USA}), pp.~1673--1676,
+  {ACM}, 2005.
 
 \bibitem{dobson_creating_2001}
 K.~Dobson, danah boyd, W.~Ju, J.~Donath, and H.~Ishii, ``Creating visceral
@@ -1464,6 +1536,10 @@ E.~T. Hall, {\em The Hidden Dimension}.
 P.~Viola and M.~J. Jones, ``Robust {Real-Time} face detection,'' {\em Int. J.
   Comput. Vision}, vol.~57, no.~2, pp.~137--154, 2004.
 
+\bibitem{hjelmas_face_2001}
+E.~Hjelmås and B.~K. Low, ``Face detection: A survey,'' {\em Computer Vision
+  and Image Understanding}, vol.~83, pp.~236--274, Sept. 2001.
+
 \bibitem{a_hadid_hybrid_2006}
 A.~Hadid and M.~Pietikainen, ``A hybrid approach to face detection under
   unconstrained environments,'' {\em 18th International Conference on Pattern
@@ -1517,10 +1593,6 @@ P.~Perez, ``Markov random fields and images,'' {\em {CWI} Quaterly}, vol.~11,
 M.~Vezjak and M.~Stephancic, ``An anthropological model for automatic
   recognition of the male human face,'' {\em Annals of Human Biology}, vol.~21,
   pp.~363--380, 1994.
-
-\bibitem{paget_texture_1997}
-R.~Paget, I.~D. Longstaff, and B.~Lovell, ``Texture classification using
-  nonparametric markov random fields,'' vol.~1, pp.~67--70, 1997.
 
 \bibitem{leibe_combined_2004}
 B.~Leibe, A.~Leonardis, and B.~Schiele, ``Combined object categorization and

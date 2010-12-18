@@ -245,11 +245,11 @@
 \contentsline {subsubsection}{\numberline {11.1.4.2}Comparison of Personal Lives}{268}
 \contentsline {section}{\numberline {11.2}Wearable Cameras: Ethics \& Privacy}{271}
 \contentsline {chapter}{REFERENCES}{277}
-\contentsline {chapter}{APPENDIX}{308}
-\contentsline {appendix}{\chapternumberline {A}\uppercase {Algorithm for Estimating Rank Average of Groups}}{309}
-\contentsline {subsection}{\numberline {A.0.1}Procedure}{310}
-\contentsline {appendix}{\chapternumberline {B}\uppercase {Convex Optimization using Newton's Method - Entropy Maximization under Linear Constraints}}{311}
-\contentsline {section}{\numberline {B.1}Entropy Maximization under Linear Constraints Problem:}{312}
-\contentsline {section}{\numberline {B.2}Newton's method}{315}
-\contentsline {subsection}{\numberline {B.2.1}Newton's Method for Estimating Weights $w_{ij}$}{316}
-\contentsline {appendix}{\chapternumberline {C}\uppercase {American Community Survey Form - Sample Pages from 2008 Survey Form}}{318}
+\contentsline {chapter}{APPENDIX}{309}
+\contentsline {appendix}{\chapternumberline {A}\uppercase {Algorithm for Estimating Rank Average of Groups}}{310}
+\contentsline {subsection}{\numberline {A.0.1}Procedure}{311}
+\contentsline {appendix}{\chapternumberline {B}\uppercase {Convex Optimization using Newton's Method - Entropy Maximization under Linear Constraints}}{312}
+\contentsline {section}{\numberline {B.1}Entropy Maximization under Linear Constraints Problem:}{313}
+\contentsline {section}{\numberline {B.2}Newton's method}{316}
+\contentsline {subsection}{\numberline {B.2.1}Newton's Method for Estimating Weights $w_{ij}$}{317}
+\contentsline {appendix}{\chapternumberline {C}\uppercase {American Community Survey Form - Sample Pages from 2008 Survey Form}}{319}
