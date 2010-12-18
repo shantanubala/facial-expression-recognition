@@ -270,7 +270,7 @@ The complex nature of non-verbal cueing is influenced by various factors relatin
 \item The physical characteristics of the communicators
 \item The behaviors of the communicators
 \end{enumerate}
-Below, these three items are discussed in detail providing a highlevel discussion on the nature of their influence on the non-verbal communication between individuals.
+Below, these three items are discussed in detail providing a high level discussion on the nature of their influence on the non-verbal communication between individuals.
 
 \subsection{The Communication Environment} \label{SubSec:1.3.1}
 The communication environment or surroundings where the interactions are taking place make a huge difference on how humans respond or react \cite{hargie_social_1994} \cite{walsh_person-environment_2000}. For example, lengthy periods of extreme heat \cite{kenrick_ambient_1986} are known to increase discomfort, irritability, reduced work output and unfavorable evaluations of others. Along with the interaction partners, the environment either reinforces or depreciates the emotional experience of an individual. For example, wide open spaces and natural environments are known to be conducive for psychological stability \cite{krupat_people_1985}. Though the environmental factors are just perceptual, they impose a lot of control on how humans react towards them. Some of the important environmental factors that affect interpersonal communication and non-verbal cueing are shown in the Table \ref{Tab:Tabel1}. The table lists these environmental factors and identifies important references from behavioral psychology that have studied the influence of these factors on the non-verbal communication.
@@ -490,7 +490,7 @@ Personal challenges during virtual team meetings\\
 \end{center}
 \end{table}
 
-As seen from the discussions above, remote social interactions rely on the social presence and situational awareness of the interacting participants and enriching any of the social cues (sight, hearing or touch) through remote means could greatly improve communication dynamics. As will be discussed in Chapter XXX, various attempts have been made at communicating complex interpersonal interaction signals across physical separation. In the following section, we discuss an interesting social interpersonal communication issue that arises within professional environments, specifically critical care medical teams, and show how social situational awareness is of at most importance.
+As seen from the discussions above, remote social interactions rely on the social presence and situational awareness of the interacting participants and enriching any of the social cues (sight, hearing or touch) through remote means could greatly improve communication dynamics. As will be discussed in Chapter \ref{Chap:6}, various attempts have been made at communicating complex interpersonal interaction signals across physical separation. In the following section, we discuss an interesting social interpersonal communication issue that arises within professional environments, specifically critical care medical teams, and show how social situational awareness is of at most importance.
 
 
 \section{Social Signal Attrition in Medical Teams}
@@ -533,7 +533,7 @@ Theories of leadership have proposed evidence-based models for explaining qualit
 While Figure \ref{Fig:Leadership} shows the behavioral choice of the leader to be a vital component of self regulation and team regulation, very little work has been focused on studying the effect of leader's socio-emotional state (assessed through their social situational awareness) on team dynamics. Recently Sy et. al. \cite{sy_contagious_2005} have demonstrated how important it is for the leader to control and regulate his/her affect cues within dynamical formed teams. The mood of the leader percolates through the team and can have net positive or negative effect on the team outlook and performance. The dynamic nature of team formation is further complicated in medical teams as the responsibility shifts very quickly from one specialist to another as they operate on the patient \cite{cooper_s_leadership_1999}.
 
 \subsection{Emerging science of medical team social assessment}
-In light of the issues related to group interactions and leadership, Krishna et. al. [REF] [REF] have suggested studying three important challenges of medical teams through critical care simulation as discussed below. They propose studying interdisciplinary medical residents while they undergo simulations of critical care scenarios. Teams before and after TeamSTEPPS training will be assessed for their leadership, mutual support, communication and situation monitoring. Below, the simulation facility and the proposed research directions are discussed in detail highlighting the importance of social situational awareness among the medical team members.
+In light of the issues related to group interactions and leadership, Krishna et. al. \cite{krishna_enriching_2010} \cite{krishna_studying_2010} have suggested studying three important challenges of medical teams through critical care simulation as discussed below. They propose studying interdisciplinary medical residents while they undergo simulations of critical care scenarios. Teams before and after TeamSTEPPS training will be assessed for their leadership, mutual support, communication and situation monitoring. Below, the simulation facility and the proposed research directions are discussed in detail highlighting the importance of social situational awareness among the medical team members.
 
 \subsubsection{The Mayo Clinic Multidisciplinary Simulation Center:}
 Mayo Clinic has invested in the development of state-of-the-art Multidisciplinary Simulation Center providing many advantages in learning team performance and hospital emergency code training. The center was designed to reflect the complexity of the live clinical environment.  The physical, electronic, microcultural and macrocultural environments have been replicated in order to create a practice field for clinical situations.  The physical environment was replicated including artifacts such as the bed, sink, cabinets, flooring, doors and lights. The electronic environment replicated with monitors, intravenous pumps, electronic medical record, pharmaceutical dispensing system, decision support software and computers.  Promoting interprofessional team training facilitated replication of the microcultural environment and imbedding the simulation center within the hospital facilitated the macroculture environment. The patient clinical situations were replicated by combinations of high fidelity simulators, virtual reality simulators, standardized patient actors, and low fidelity simulators.   Experts developed standardized simulation scenarios, curriculum and debriefing specific to learner or team performance level.
@@ -596,7 +596,7 @@ The overarching problem of disability induced social signal deprivation was desc
 \item  Inability to learn social skills due to the lack of visual feedback
 \item  Lack of reinforcement visual feedback on one's mannerisms
 \end{itemize}
-In this chapter, we investigate research work in the related areas of a) computer vision based non-verbal cue sensing, b) social signal processing, c) human-computer inerfaces, d) multimedia technology for computer human interactions  and e) assistive technology design and development, towards making insightful observations that can enable us to develop the evidence-based models for social signal enrichment. Further, we also describe our efforts to understand the problems faced by people who are visually impaired while engaging in social interaction with their sighted counterparts through a survey which forms the basis for developing the mediation assistive technology.
+In this chapter, we investigate research work in the related areas of a) computer vision based non-verbal cue sensing, b) social signal processing, c) human-computer interfaces, d) multimedia technology for computer human interactions  and e) assistive technology design and development, towards making insightful observations that can enable us to develop the evidence-based models for social signal enrichment. Further, we also describe our efforts to understand the problems faced by people who are visually impaired while engaging in social interaction with their sighted counterparts through a survey which forms the basis for developing the mediation assistive technology.
 
 \section{Automatic Detection of Non-verbal Cues and Observations} \label{Sec:3.1}
 Affective Computing research has employed algorithmic framework to quantitatively study both verbal and non-verbal cues displayed by the humans during social communication.  Signal streams from various sensors, including visual sensors (e.g. cameras), audio sensors (e.g. microphones) and various physiological sensors (such as EEG, EMG, and galvanic skin resistance sensors) have been used to evaluate human emotional states.  A good review of research work in Affective Computing can be found in \cite{zhihong_zeng_survey_2009}.  This research has enabled a better understanding of human physiological signals, with respect to emotional states, and the results have been used to facilitate human-computer interaction (HCI). In theory, a system that can detect non-verbal social cues could also be used as an assistive device to provide social feedback to people with disabilities.  The emphasis here would not be so much on interpreting these cues as on presenting social cue information to the user, and allowing the user to interpret them.  However, very little research has been done towards finding intuitive methods for presenting social cue information to humans.  \cite{ur_rehman_manifold_2007} developed a haptic chair for presenting facial expression information.  It was equipped with vibrotactile actuators on the back of the chair that represented some specific facial feature. Experiments conducted by the researchers showed that people were able to distinguish between six basic emotions.  However, this solution had the obvious limitation that the user needed to be sitting in the chair to use the system.
@@ -667,7 +667,7 @@ While the above section reviewed some of the finer details of developing an assi
 
 
 \section{Requirements Analysis for a Social Assistive Technology: Evidence Aggregation}
-As a part of the evidence-based model for developing the social interaction assistant, after addressing important design principles for assitive technologies (See Section \ref{Sec:3.1}), we focused on collecting important evidences from the user community about their need for social interaction enrichment. These evidences would not only address the functionality question of the assistive technology, but would address the important human factor issues of perceived quality of life improvement. In order to identify these unmet needs of the visually impaired community, two focus groups consisting primarily of people who are blind, as well as disability specialists and parents of students with visual impairment and blindness where conducted \footnote{ In  order  to  understand  the  assistive  technology  requirements  of  people  who  are  blind, we conducted two focus group studies (one in Tempe, Arizona USA - $9$ participants, and another in Tucson, Arizona USA - $11$ participants) which included:
+As a part of the evidence-based model for developing the social interaction assistant, after addressing important design principles for assistive technologies (See Section \ref{Sec:3.1}), we focused on collecting important evidences from the user community about their need for social interaction enrichment. These evidences would not only address the functionality question of the assistive technology, but would address the important human factor issues of perceived quality of life improvement. In order to identify these unmet needs of the visually impaired community, two focus groups consisting primarily of people who are blind, as well as disability specialists and parents of students with visual impairment and blindness where conducted \footnote{ In  order  to  understand  the  assistive  technology  requirements  of  people  who  are  blind, we conducted two focus group studies (one in Tempe, Arizona USA - $9$ participants, and another in Tucson, Arizona USA - $11$ participants) which included:
 \begin{enumerate}[1.]
 \item Students and adult professionals who are blind,
 \item Parents of individuals who are blind
@@ -712,7 +712,7 @@ Identity & \cite{matta_behavioural_2006} \cite{gallagher_clothing_2008} \cite{ha
 \multicolumn{10}{|c|}{Behavior of the Communicator}\\
 \hline
 \hline
-Description of facial features	& & & &	\cite{kanaujia_emblem_2006} \cite{kawade_vision-based_2002} & & & & & \\			
+Description of facial features	& & & &	\cite{kanaujia_emblem_2006} \cite{kawade_vision-based_2002} & & & & & \\			 
 \hline
 Body Mannerisms & & & \cite{gunes_affect_2005} \cite{kulic_combining_2008} \cite{oliver_bayesian_2000} & & \cite{xuelong_li_gait_2008} & & \cite{hwang_automatic_2006} \cite{sangho_park_segmentation_2002} \cite{mitra_gesture_2007} \cite{nunamaker_hmm-based_2005} & & \\	
 \hline
@@ -922,7 +922,7 @@ In order to keep the motion detector discrete, we have chosen state-of-the-art t
 \label{JMMFigure2}
 \end{figure}
 
-processing element for the current study was a Windows Mobile Operating System based PDA running on a 400Mhz XScale processor. The software components (described in detail in Section III-B of the proposed solution were placed on the PDA that could be carried by a user without any extra load. The proposed assistive technology is a planned addition on top of the Social Interaction Assistant proposed in \cite{krishna_wearable_2005}.  The software component implementation is generic to be ported to most modern cell phones that possess enough processing power, but is always underutilized for its capacity. The feedback (an audio tone) is currently being provided through a Bluetooth headset that is paired with the processing element. The choice of this feedback device was again based on the idea that Bluetooth headset has everyday acceptance among the masses and is no longer seen as a social distraction. In future, we plan to explore the use of delivery modalities that transcends the typical visual and audio medium. We intend to use haptic cues to inform the participant not only their rocking behavior but more complex self-monitoring routines that could allow the user to withdraw from the rocking behavior effectively.
+processing element for the current study was a Windows Mobile Operating System based PDA running on a 400Mhz XScale processor. The software components (described in detail in Section III-B of the proposed solution were placed on the PDA that could be carried by a user without any extra load. The proposed assistive technology is an addition to the Social Interaction Assistant proposed in \cite{Sreekar2005}.  The software component implementation is generic to be ported to most modern cell phones that possess enough processing power, but is always under utilized for its capacity. The feedback (an audio tone) is currently being provided through a Bluetooth headset that is paired with the processing element. The choice of this feedback device was again based on the idea that Bluetooth headset has everyday acceptance among the masses and is no longer seen as a social distraction. In future, we plan to explore the use of delivery modalities that transcends the typical visual and audio medium. We intend to use haptic cues to inform the participant not only their rocking behavior but more complex self-monitoring routines that could allow the user to withdraw from the rocking behavior effectively.
 
 \begin{figure}[htbp!]
 \includegraphics[width=5.5in]{AccelerometerData.jpg}
@@ -1282,11 +1282,11 @@ This chapter focuses on the sensing of facial expressions using the proposed dya
 \end{figure}
 
 \section{Facial Expression Recognition - State of the art}
-Computer based facial expression recognition is mostly centered around the process of identifying the various facial mannerisms and gestures of individuals through the use of mostly electrooptical cameras. While recent developments relate to their recognition using infrared [REF], thermal[REF] and face electromyogram (EMG) [REF], in this chapter, we restrict to the discussions of EO camera based facial expression recognition as the primary sensor on the dyadic interaction assistant is restricted to the use of an auto-focus Complementary Metal Oxide Semiconductor (CMOS) camera.
+Computer based facial expression recognition is mostly centered around the process of identifying the various facial mannerisms and gestures of individuals through the use of mostly electrooptical cameras. While recent developments relate to their recognition using infrared \cite{5523955}, thermal \cite{jiang_facial_2005} and face electromyogram (EMG) \cite{Gibert:2009:EHC:1738826.1738914}, in this chapter, we restrict to the discussions of EO camera based facial expression recognition as the primary sensor on the dyadic interaction assistant is restricted to the use of an auto-focus Complementary Metal Oxide Semiconductor (CMOS) camera.
 
-Most facial expression recognition algorithms treat the underlying problem as a classification problem and group spatio-temporal facial actions into predetermined bins of specific facial gestures or mannerisms. Popular classifications include the Ekman [REF] grouping of 6 basic facial expression of emotion, including Happy, Sad, Surprise, Fear, Anger and Disgust. These classes are distinguished from the otherwise Neutral expression of the individual's face.
+Most facial expression recognition algorithms treat the underlying problem as a classification problem and group spatio-temporal facial actions into predetermined bins of specific facial gestures or mannerisms. Popular classifications include the Ekman \cite{citeulike:4519941} grouping of 6 basic facial expression of emotion, including Happy, Sad, Surprise, Fear, Anger and Disgust. These classes are distinguished from the otherwise Neutral expression of the individual's face.
 
-Table \ref{Tab:FaceExpRecog} below shows a compilation of the state-of-the-art in facial expression recognition algorithms. Note that the table is an extension of the 2009 work that was published by Zaho et. al. [REF].
+Table \ref{Tab:FaceExpRecog} below shows a compilation of the state-of-the-art in facial expression recognition algorithms. Note that the table is an extension of the 2009 work that was published by Zaho et. al. \cite{zeng_survey_2009}.
 
 \begin{landscape}
 \begin{table}[htbp!]
@@ -1373,7 +1373,7 @@ Type: 	Data Type: Video (V) / Image(I);
 \section{Design Considerations for Dyadic Interaction Assistant} \label{DesignConsiderations}
 As seen from the Table \ref{Tab:FaceExpRecog}, facial expression recognition algorithm is a mature area with various solutions being suggested towards myriad applications ranging from biometrics to human computer interfaces. In contrast, the requirements in the proposed application is focused towards mediating human-human communication and thus imposes important constraints like,
 \begin{itemize}
-\item \emph{Real-time interpretation of the facial expressions and gestures:} People who are blind, or disabled in general, prefer not to rely on technologies that do not respond to their needs immediately and reliably. Survey of early adoption of assistive technologies show that the technology need not accomplish a large range of tasks, but the tasks being performed should be executed reliably and in useful time [REF]. Range of facial expressions range from a few hundredths of a second to couple of seconds at max [REF]. It is essential that the facial expression recognition algorithms be able to respond within this time frame to enable seamless interactions with sighted counterparts.
+\item \emph{Real-time interpretation of the facial expressions and gestures:} People who are blind, or disabled in general, prefer not to rely on technologies that do not respond to their needs immediately and reliably. Survey of early adoption of assistive technologies show that the technology need not accomplish a large range of tasks, but the tasks being performed should be executed reliably and in useful time \cite{krishna_embodied_2010}. Range of facial expressions range from a few hundredths of a second to couple of seconds at max (\cite{knapp_nonverbal_1996}, Page 322). It is essential that the facial expression recognition algorithms be able to respond within this time frame to enable seamless interactions with sighted counterparts.
 \item \emph{Ability for the user to choose varying levels of facial information of their interaction partner:} In our interactions with the user community, it has become evident that each user has his/her own requirement of the details of the facial information that they receive from their interaction counterparts. For example, in a professional setting, individuals preferred to receive information that was delicate and down to detail, while in a personal setting, they preferred that the device does not overwhelm the user with facial interaction information.
 \item \emph{Ability to switch between subject-dependent and subject-independent facial expression recognition:} Social interactions vary between personal interactions with friends and family to professional meetings with strangers that the user may meet only once. An important aspect of social interaction is the ability to relate to an individual's personal mannerisms and gestures. This is especially true in personal interactions and behavioral psychology studies shows the inherent need for individuals to recognize and reenact their interaction partner's gestures (popularly termed as the \emph{Chameleon Effect}). From the sensing perspective, thus it is important that the algorithm be able to adapt to generic facial expression recognition, while also be able to adapt to subtle changes in a single subject's facial movements. That is, the algorithm requires the benefit of switching between subject-dependent and subject-independent facial expression and gesture recognition.
 \end{itemize}
@@ -1401,7 +1401,7 @@ Graphically, the above equation can be represented as shown in Figure \ref{DAFig
 \label{DAFigure3}
 \end{figure}
 
-Typically, the various conditional probabilities associated with the graph are determined through statistical analysis of observations. Most often, the analysis results in inductive models that generalize the training observations to all test cases. In contrast, the Exemplar-based Bayesian Network determines the conditional probabilities transductively on a case-by-case basis of the test set. Thus, the network is dynamic, allowing the conditional densities to transform based on the input test condition. Also, the network accounts for the temporal transmission of decision probabilities from time instance $t$ to $t+1$. This transmission is also modeled into the network through a Markovian process. The details of the implementation follows, as described in [REF].
+Typically, the various conditional probabilities associated with the graph are determined through statistical analysis of observations. Most often, the analysis results in inductive models that generalize the training observations to all test cases. In contrast, the Exemplar-based Bayesian Network determines the conditional probabilities transductively on a case-by-case basis of the test set. Thus, the network is dynamic, allowing the conditional densities to transform based on the input test condition. Also, the network accounts for the temporal transmission of decision probabilities from time instance $t$ to $t+1$. This transmission is also modeled into the network through a Markovian process. The details of the implementation follows, as described in \cite{lifeng_shang_temporal_2008}.
 
 
 \newenvironment{Equations}
@@ -1440,7 +1440,7 @@ P\left(I(t)/\left(Y_i, H(t)\right)\right) = \frac{P\left(I(t)/L_i(t)\right) P\le
 \end{figure}
 
 \subsection{The Observation Layer}
-As described earlier, we use the results from the FaceAPI software as the inputs into the facial expression recognition algorithm. As shown in Figure \ref{DAFigure5}, 36 points returned by the software are used as the input observation vector,$X(t)$ into the TEBN. The length of this observation vector, $N$, is 2x36 = 72, corresponding to $(x,y)$ coordinates of the 36 facial fiducial. Structurally, the 72 data points are arranged as a linear vector $X(t)$ that represents the structural configuration of the facial features at time instant $t$. As time progresses, the vector $X$ evolves into an expression or gesture. $X(t)$ extracted at each frame is used for choosing $K$ examples from each of the $N$ expression classes, 6 in the example described in in Figure \ref{DAFigure4}.
+As described earlier, we use the results from the FaceAPI software as the inputs into the facial expression recognition algorithm. As shown in Figure \ref{DAFigure5}, 36 points returned by the software are used as the input observation vector,$X(t)$ into the TEBN. The length of this observation vector, $N$, is 2x36 = 72, corresponding to $(x,y)$ coordinates of the 36 facial fiducial. Structurally, the 72 data points are arranged as a linear vector $X(t)$ that represents the structural configuration of the facial features at time instant $t$. As time progresses, the vector $X$ evolves into an expression or gesture. $X(t)$ extracted at each frame is used for choosing $K$ examples from each of the $N$ expression classes, 6 in the example described in Figure \ref{DAFigure4}.
 
 \begin{figure}[htbp!]
 \centering
@@ -1491,7 +1491,7 @@ P\left(X(t)/L_{ij}(t)\right) \propto P\left(L_{ij}(t)/X(t)\right)
 \end{equation}
 
 \noindent \emph{Determining $w_{it}(t)$ given test point $X(t)$ and examples $L_{ij}(t)$:}
- In [REF], the problem of determining $w_{ij}(t)$ is posed as a entropy maximization problem,
+ In \cite{lifeng_shang_temporal_2008}, the problem of determining $w_{ij}(t)$ is posed as a entropy maximization problem,
 
  \begin{eqnarray}
  \mathrm{Maximize} &  \left( -\sum\limits_{i=1}^{N} \sum\limits_{j=1}^{k} w_{ij}(t) \ln\left( w_{ij}(t) \right)   \right) \label{MainOpt}\\
@@ -1520,7 +1520,7 @@ P\left(X(t)/L_{ij}(t)\right) \propto P\left(L_{ij}(t)/X(t)\right)
  \phi_h(z) = \frac{1}{(2 \pi)^{D/2}} \exp{- \frac{1}{2} z^T z}
  \end{equation}
 
- \noindent where, $h$ represents the window width and an optimal value for this can be found (See [REF] for more information) as,
+ \noindent where, $h$ represents the window width and an optimal value for this can be found (See \cite{paget_texture_1997} for more information) as,
 
  \begin{equation}
  h_{opt} = \sigma \left\{ \frac{4}{n(2D+1)} \right\}^{\frac{1}{D+4}}
@@ -1575,7 +1575,7 @@ P\left(X(t)/L_{ij}(t)\right) \propto P\left(L_{ij}(t)/X(t)\right)
 
 \section{Experiments}
 \subsection{Data}
-All experiments were carried out on the Cohen-Kanade Facial Expression Database [REF] version 1. Version 1 (the original or initial release (Kanade, Cohn, \& Tian, 2000)) includes 486 sequences from 97 posers. Each sequence begins with a neutral expression and proceeds to a peak expression. The peak expression for each sequence is fully FACS (Ekman, Friesen, \& Hager, 2002; Ekman \& Friesen, 1979) coded and given an emotion label.  The emotion label refers to what expression was requested rather than what may actually have been performed. In order to validate the emotion that was displayed, the final expression images of the 486 sequences were displayed to unbiased participants through a web portal. Each emotion image was displayed to the user and requested to label them as belonging to one of 7 classes, \emph{Happy}, \emph{Sad}, \emph{Surprise}, \emph{Fear}, \emph{Disgust}, \emph{Surprise} and \emph{Neutral}. During the screening process, it was noticed that some of the subjects did not display expressions as requested (either displayed neutral expression through the sequence or displayed exaggerated facial mannerism unlikely of requested emotion). Hence all the participants who labeled the expression images were required to label on a scale of 1 to 5, the genuineness of the expression displayed, 1 being least correlation to genuine expression and 5 being most genuine. Based on the user responses, we identified 182 sequences where subjects displayed emotions that were named as being genuine up to a scale level of 4 or 5. These sequences were then used for testing the TEBN.
+All experiments were carried out on the Cohen-Kanade Facial Expression Database \cite{tian_recognizing_2001} version 1. Version 1 (the original or initial release (Kanade, Cohn, \& Tian, 2000)) includes 486 sequences from 97 posers. Each sequence begins with a neutral expression and proceeds to a peak expression. The peak expression for each sequence is fully FACS (Ekman, Friesen, \& Hager, 2002; Ekman \& Friesen, 1979) coded and given an emotion label.  The emotion label refers to what expression was requested rather than what may actually have been performed. In order to validate the emotion that was displayed, the final expression images of the 486 sequences were displayed to unbiased participants through a web portal. Each emotion image was displayed to the user and requested to label them as belonging to one of 7 classes, \emph{Happy}, \emph{Sad}, \emph{Surprise}, \emph{Fear}, \emph{Disgust}, \emph{Surprise} and \emph{Neutral}. During the screening process, it was noticed that some of the subjects did not display expressions as requested (either displayed neutral expression through the sequence or displayed exaggerated facial mannerism unlikely of requested emotion). Hence all the participants who labeled the expression images were required to label on a scale of 1 to 5, the genuineness of the expression displayed, 1 being least correlation to genuine expression and 5 being most genuine. Based on the user responses, we identified 182 sequences where subjects displayed emotions that were named as being genuine up to a scale level of 4 or 5. These sequences were then used for testing the TEBN.
 
 \subsection{Results}
 Major Item 1: TO BE ADDED
@@ -1583,7 +1583,7 @@ Major Item 1: TO BE ADDED
 
 In this chapter, we discussed the use of a Temporal Exemplar-based Bayesian Network to determine the facial expressions of the interaction partner. Given that the dyadic interaction assistant is able to extract these facial expression cues, it is thus required to deliver this information back to the users who are blind. This is a challenge in itself as the very high bandwidth information delivered by a human face could easily overload the user. As explained before, the next chapter investigates the use of the human perception of touch to develop novel haptic interfaces for delivering highly dynamic facial expressions.
 
-\chapter{DELIVERING DYADIC INTERACTION CUES THROUGH VIBROTACTILE STIMULATIONS}
+\chapter{DELIVERING DYADIC INTERACTION CUES THROUGH VIBROTACTILE STIMULATIONS}\label{Chap:6}
 Over the past few decades, the environments in which humans live and operate have become increasingly information rich. Audio and visual modalities have been occupied by more than one source at the same time. Increasing audio-visual stimulations in the human's surroundings have increased the need for divided attention, which competes with the need for selective and sustained attention to complete a task at hand \cite{sohlberg_introduction_1989}. While audio and video have evolved as a medium for immersing humans in rich sensory experience, touch \cite{grunwald_human_2008}, taste \cite{maynes-aminzade_edible_2005} and smell \cite{chen_olfactory_2006} have only recently being considered for sensory augmentation and substitutions - note the subtlety between augmentation and substitution. When augmenting the already utilized sensory channels, the newer medium is not in demand to reproduce all of the information, but only enrich the already delivered experience. On the other hand, substitutions have to deliver information that was once being provided by a certain sensory channel on a newer medium, while maintaining similar or lesser cognitive load.
 
 Vision is the primary sense organ for most mammals and for a few primates, including humans, trichromatic vision is so highly evolved \cite{dominy_ecological_2001} that a major portion of the neuronal pathway in the brain is dedicated to sensing, perceiving and cognizing visual stimuli. This allows the human vision to process high intensities of data that stimulates the eyes - Koch et. al. estimated that human eyes, with 106 ganglion cells, could transmit up to 10 Mbits/s \cite{koch_how_2006} to the brain. Hence substituting vision with any other sensory channel is a challenging task that requires appropriate design taking into account the high intensity of data generated by visual stimuli.
@@ -1641,14 +1641,14 @@ Crossing paths initiated conversations. & \multicolumn{4}{|c|}{\multirow{2}{*}{}
 \hline
 Com Touch \newline \cite{chang_comtouch:_2002} & Vibration Pressure &	Hands &	Touch Emotions & Bidirectional operation. \newline
 24 subject tested. Remote participant squeezes one end and a recipient at the other end feels vibrations. & Subjects came up with their own cueing. \newline
-83\% of participants used atleast one gesture. 67\% developed their own gestures. & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2.5in]{comTouch.jpg}}}
+83\% of participants used at least one gesture. 67\% developed their own gestures. & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2.5in]{comTouch.jpg}}}
 \\
 \hline
 
 Haptic Instant Messenger \newline \cite{rovers_him:_2004} & Audio Vibrations & Hands & Emotions &	Based on user selections at a remote location, haptic and audio codes are transmitted to the receiver. &	No user testing. \vspace*{1.4in} & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2.5in]{HapInstMess.jpg}}} \\
 \hline
 
-Hug over Distance	\newline 	\cite{Hug over a distance} & Pressure Proprioception	 & Upper Body &	Touch Hug & At one end the user rubs tummy of a stuffed toy and based on the pressure applied, air bags are filled at the remote end to simulate hug. & Air compressor at the receivers end makes a lot of noise. Six couple focus group found the concept weird. \vspace*{.75in} & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=1in]{Hug.jpg}\includegraphics[width=2in]{Hug2.png} }} \\
+Hug over Distance	\newline 	\cite{mueller_hug_2005} & Pressure Proprioception	 & Upper Body &	Touch Hug & At one end the user rubs tummy of a stuffed toy and based on the pressure applied, air bags are filled at the remote end to simulate hug. & Air compressor at the receivers end makes a lot of noise. Six couple focus group found the concept weird. \vspace*{.75in} & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=1in]{Hug.jpg}\includegraphics[width=2in]{Hug2.png} }} \\
 
 
 \hline
@@ -1781,13 +1781,13 @@ Vibrotactile cues for navigating surgeons hand during surgery. &	4	&
 \cite{brell_fusion_2008} &
 Field of view in front of individual who is blind is captured with a camera and translated to vibrotactile cues corresponding to a depth map. &	No data &	 No specific information provided. \newline \newline \includegraphics[width=0.9in]{HapticGloveRef228_1.jpg} \newline &
  	- Magnitude of vibration is directly proportional to distance to obstacle. \newline
-- Frequency of vibration is inversely proportional to the confidence in depth measurement. &	The image from the camera is used to determine a depth map of obstacles in front of the user and is translated into vibrotactile cues. &	Two obstacle courses were set within the labotatory environment and the participants were required to navigate the course.
+- Frequency of vibration is inversely proportional to the confidence in depth measurement. &	The image from the camera is used to determine a depth map of obstacles in front of the user and is translated into vibrotactile cues. &	Two obstacle courses were set within the laboratory environment and the participants were required to navigate the course.
 Course 1: \newline \includegraphics[width=0.9in]{HapticGloveRef228_2} \newline
 Course 2: \newline \includegraphics[width=0.9in]{HapticGloveRef228_3} \newline & - 9 participants, 3 blind and 6 with low vision.
 -  Course 1:
-Travelled the minimal hitting path 65\% with their existing navigation aid and increased to 75\% with the glove. \newline
+Traveled the minimal hitting path 65\% with their existing navigation aid and increased to 75\% with the glove. \newline
 - Course 2:
-Travelled the minimal hitting path 65\% with their existing navigation aid and decreased to 57\% with the glove. \\
+Traveled the minimal hitting path 65\% with their existing navigation aid and decreased to 57\% with the glove. \\
 \hline
 
 \end{tabularx}
@@ -2118,7 +2118,7 @@ is certainly within the limitations of current face recognition
 algorithms.
 
 \subsection{Employing face recognition to facilitate social interactions}
-However, the applcation of face recognition within the proposed social situational awareness context
+However, the application of face recognition within the proposed social situational awareness context
 is moderately challenging, but still potentially within the realm of
 possibility. This problem is simplified considerably by the fact that, on a
 day-to-day basis most people encounter a limited number of people
@@ -3284,12 +3284,12 @@ been inspired by the human visual system and is based on knowledge
 that has been developed about the process by which humans recognize
 faces.  We believe that more needs to be learnt about human face
 recognition, and that as more is learnt, the knowledge can be put to
-use to develop more robust face recognition algorithms. Later in Chapter XXX, we described the interface to deliver the face recognition results to the user's who are blind.
+use to develop more robust face recognition algorithms.
 
 In the following three chapters, we discuss the problem of sensing and conveying Proxemics (interpersonal spaces), which is an important component of social interactions and social situational awareness. These chapters, together, provide sensing and delivering of the proxemics information.
 
 
-\chapter{ENRICHING GROUP INTERACTIONS: SENSING PRROXEMICS AND THE SOCIAL SPACE}
+\chapter{ENRICHING GROUP INTERACTIONS: SENSING PROXEMICS AND THE SOCIAL SPACE}
 An important aspect of social interactions is the relative spatial location of the interacting partners. Definition of what a culture is correlates very closely to the accepted norms of interpersonal distance and the behavioral attributes displayed by the interacting partners. In behavioral psychology, influences of interpersonal distances on social interactions between people have been studied for over four decades. The term proxemics, coined by Edward T. Hall, describes influence of interpersonal distances in animal and man \cite{hall_hidden_1990}. The following list describes the American proxemic distances; note that such distances vary with culture and environment. A part of learning that visually able individuals go through is to understand what these norms are very quickly by observing interactions between other individuals who are familiar with the culture. People who are visually impaired might find the lack of access to this important information inconvenient. An important aspect of the technologies proposed in the next three chapters is to provide information to the users a means of accessing the social scene.
 
 \begin{enumerate}[1.]
@@ -3318,7 +3318,7 @@ face detection algorithm is the Viola-Jones \cite{viola_robust_2004}
 face detection algorithm whose popularity is boosted of by its
 availability in the open source computer vision library, OpenCV.
 Other popular face detection algorithms are identified in
-\cite{hjelmýs_face_2001} and \cite{ming-hsuan_yang_detecting_2002}.
+\cite{hjelmas_face_2001} and \cite{ming-hsuan_yang_detecting_2002}.
 
 Most face detection algorithms learn faces by modeling the intensity
 distributions in upright face images. These algorithms tend to
@@ -3400,7 +3400,7 @@ identifying the integral components of a face image such as eyes,
 nose, etc. Though these schemes could be robust, the associated
 computational load is high. Interested readers could find more
 related references in \cite{ming-hsuan_yang_detecting_2002} and
-\cite{hjelmýs_face_2001}. The framework proposed in this paper uses
+\cite{hjelmas_face_2001}. The framework proposed in this paper uses
 statistically learnt knowledge about human faces to overcome
 computational complexity thereby augmenting face validation to
 existing face detection algorithms seamlessly.
@@ -3412,7 +3412,7 @@ framework essentially has two statistically learnt models, Module
 $1$ and Module $2$, that are cascaded to form the face detection
 validation filter. The output from a face detector is sent to Module
 $1$, which distinguishes the skin pixels in the face region from the
-background pixels, thereby constucting a skin region mask. This skin
+background pixels, thereby constructing a skin region mask. This skin
 region mask then becomes the input to Module $2$, which is
 essentially an aggregate of random field models learnt from manually
 labeled ({\emph true}) face detection outputs. The results of each
@@ -4812,7 +4812,7 @@ Recent studies by Segrin et al. \cite{segrin_poor_2000} have shown that poor soc
 
 \begin{figure}[htbp!]
 \includegraphics[width=2.5in]{StressVsDepression.jpg}
-\includegraphics[width=2.5in]{StressVsLonliness.JPG}
+\includegraphics[width=2.65in]{StressVsLonliness.JPG}
 \caption{Depression and Loneliness of students plotted against stress levels in high, medium and low social skilled undergraduate students. (Please see text for the scales used for the measurement.)}
 \label{SocialDisabilityFigure1}
 \end{figure}
@@ -4833,7 +4833,7 @@ Similar results were found in \cite{riggio_assessment_1986} where the authors co
 \label{SocialDisabilityFig2}
 \end{figure}
 
-The Americans with Disabilities Act was signed into law in 1990 by President George H. W. Bush and from then on, pretty much the same verbiage has followed each successive president's agenda on disability employment. As a nation, we have been successful in moving this segment of population into the work force, but still there is a large gap in their professional success. On a wage comparison scale (data extracted from the 2008 American Community Survey (ACS) questionnaires\footnote{The ACS is a long format survey conducted on a yearly basis with the American public. The survey is carried out in a format similar to the American decennial census survey. Current survey standard seeks ~ 10\% of the population (3 million individuals) and are requested to respond to a long format survey that asks questions on the the living standards, salary, family structure, housing quality etc. A long format of the survey can be found in the Appendix \ref{AppendixC}. The statistics used for the analysis here has 27990 individuals who were visually impaired alone with no other associated disabilities, 155726 individuals with only physical disability and no other disabilities, and 2591521 with no disabilities whatsoever.}), the US visually impaired population make on an average 32\% less than general population of the same age. The US physically challenged population makes 42\% less. See Figure \ref{SocialDisabilityFig2}. When one includes education level in these statistics, the results are even more disappointing. People with visual disability, with post graduate education, make 47\% less than the average population with post graduate education and people with physical disability with post graduate degrees make 72\% less than the general population with similar degrees.
+The Americans with Disabilities Act was signed into law in 1990 by President George H. W. Bush and from then on, pretty much the same verbiage has followed each successive president's agenda on disability employment. As a nation, we have been successful in moving this segment of population into the work force, but still there is a large gap in their professional success. On a wage comparison scale (data extracted from the 2008 American Community Survey (ACS) questionnaires\footnote{The ACS is a long format survey conducted on a yearly basis with the American public. The survey is carried out in a format similar to the American decennial census survey. Current survey standard seeks ~ 10\% of the population (3 million individuals) and are requested to respond to a long format survey that asks questions on the living standards, salary, family structure, housing quality etc. A long format of the survey can be found in the Appendix \ref{AppendixC}. The statistics used for the analysis here has 27990 individuals who were visually impaired alone with no other associated disabilities, 155726 individuals with only physical disability and no other disabilities, and 2591521 with no disabilities whatsoever.}), the US visually impaired population make on an average 32\% less than general population of the same age. The US physically challenged population makes 42\% less. See Figure \ref{SocialDisabilityFig2}. When one includes education level in these statistics, the results are even more disappointing. People with visual disability, with post graduate education, make 47\% less than the average population with post graduate education and people with physical disability with post graduate degrees make 72\% less than the general population with similar degrees.
 
 
 \subsubsection{Comparison of Personal Lives}
@@ -4847,7 +4847,7 @@ The Americans with Disabilities Act was signed into law in 1990 by President Geo
 \label{SocialDisabilityFig3}
 \end{figure}
 
-Similar to the wage comparison, we also focused on the personal lives of individuals with disability and compared it with the personal lives of individuals without any disability. The goal was to compare the companionship among the various populations and decipher any correlations that may exist between disability and the number of times people got into and out of civil unions. Hedgpeth explains that disability could come in the way of social personal interactions and many times disabilities could impose unforeseen pressure on the marriage. Figure \ref{SocialDisabilityFig3}(a) shows a comparison of the number of times individuals were married, as compared between visually disabled, physically disabled and the non-disabled population. On an average the number of marriages is higher among the disabled population and specifically higher among the physically disabled. Similar results are seen while comparing the companionship status of individuals who are disabled. There is a higher chance of widowing, divorce and separation among the disabled popoulations when compared with the non-disabled population.
+Similar to the wage comparison, we also focused on the personal lives of individuals with disability and compared it with the personal lives of individuals without any disability. The goal was to compare the companionship among the various populations and decipher any correlations that may exist between disability and the number of times people got into and out of civil unions. Hedgpeth explains that disability could come in the way of social personal interactions and many times disabilities could impose unforeseen pressure on the marriage. Figure \ref{SocialDisabilityFig3}(a) shows a comparison of the number of times individuals were married, as compared between visually disabled, physically disabled and the non-disabled population. On an average the number of marriages is higher among the disabled population and specifically higher among the physically disabled. Similar results are seen while comparing the companionship status of individuals who are disabled. There is a higher chance of widowing, divorce and separation among the disabled populations when compared with the non-disabled population.
 
 Hedgpeth emphasizes the point that people skills are the most important tool for professional success. Unfortunately, social disconnect is a repercussion of disabilities. It is important to train the disabled population to circumvent their social disconnect, while we train the rest of the population to understand and acknowledge this social barrier. To this end, some of the concepts introduced as part of the social interaction assistant proposes to address them by providing access to the social cues that are otherwise inaccessible to the individuals who are disabled. While the discussions in this book are restricted to sensory disability, specifically vision disability, and discuss all the social problems associated with it, the same could be said of the problems faced by people with other sensory disability (like hearing loss). We reserve our discussions only to sensory disabilities as the problem of determining appropriate adaptations for overcoming cognitive disabilities require research that is beyond the scope of this document.
 
@@ -4898,6 +4898,7 @@ In conclusion, while social interaction assistant is well placed to make a treme
 \begin{SingleSpace}
 \bibliographystyle{ieeetr}	
 \bibliography{References}
+%\bibliography{PrunedReferences}
 \end{SingleSpace}
 %\clearpage
 
@@ -4950,12 +4951,13 @@ Since no assumptions on the distribution of the response are made, unlike the me
  & g_2(x_i) = \sum\limits_{i=1}^{N} x_i l_i = L \\
  \end{eqnarray*}
 
-\noindent Given the objective and the constraints, Lagrange Multipliers is a popular method for combining the objective and constraints into a single optimization strategy with a set of unknowns. If $X=\{x_i\}$ represents the optimization vector, Lagrange Multipliers rely on the fact that at the optimal solution $X^* = \{x_i^*\}$, the gradients of the objective function and the constraint should be proportional. Figure XXX illustrates a problem of minimizing objective $f(x,y)$ under the constraint of $g(x,y) = c$.
+\noindent Given the objective and the constraints, Lagrange Multipliers is a popular method for combining the objective and constraints into a single optimization strategy with a set of unknowns. If $X=\{x_i\}$ represents the optimization vector, Lagrange Multipliers rely on the fact that at the optimal solution $X^* = \{x_i^*\}$, the gradients of the objective function and the constraint should be proportional. Figure \ref{Fig:AppendixB1} illustrates a problem of minimizing objective $f(x,y)$ under the constraint of $g(x,y) = c$.
 
  \begin{figure}[htbp!]
  \centering
  \includegraphics[width=3in]{Lagrange.jpg}
  \caption{ Find x and y to maximize $f(x,y)$ subject to a constraint $g(x,y) = c$}
+ \label{Fig:AppendixB1}
  \end{figure}
 
 \noindent The Lagrange Function $\Lambda(X,\mathbf{\alpha}, \mathbf{\beta})$ becomes,
@@ -5151,7 +5153,7 @@ u_i & = \exp{\beta^T \Phi(:,i)} \\
 \label{AppendixC}
 \clearpage
 
-\includepdf[pages={1,2,5,6,7,8,9,10,11}, fitpaper=true]{ACS.pdf}
+\includepdf[pages={1,2,5,6,7,8,9,10,11}, fitpaper=true, pagecommand={\thispagestyle{plain}}]{ACS.pdf}
 
 \clearpage
 

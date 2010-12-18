@@ -5,11 +5,13 @@ Major
 	
 Minor
 	1.Prune References - there may be doubles
-	2.Check for [REF] in the document
-	3.Check for [?] in the document
-	4.Check for XXX in the document
+	2.Check for [REF] in the document - Done
+	3.Check for [?] in the document - Done
+	4.Check for XXX in the document - Done
 	5.Write Organization of the Book - End of Chapter 1, Page 17
 	6.Organization of the following chapter - End of Chapter 3, Page 51
+	7.Page numbers for Appendix C.- Done
+	8.Check the captions on all figures.
 	
 	
 Addendum (if and when time permits)

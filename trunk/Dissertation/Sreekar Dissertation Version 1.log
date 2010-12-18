@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.10.18)  15 DEC 2010 10:06
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.10.18)  17 DEC 2010 18:23
 entering extended mode
 **I:/Dissertation/Sreekar*Dissertation*Version*1.tex
 ("I:/Dissertation/Sreekar Dissertation Version 1.tex"
@@ -1238,11 +1238,6 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 <JMMFigure2.JPG, id=293, 922.44624pt x 673.51625pt>
 File: JMMFigure2.JPG Graphic file (type jpg)
  <use JMMFigure2.JPG>
-
-LaTeX Warning: Citation `krishna_wearable_2005' on page 61 undefined on input l
-ine 925.
-
-
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -2205,10 +2200,6 @@ File: HapInstMess.jpg Graphic file (type jpg)
 <use HapInstMess.jpg>
 Overfull \vbox (98.6213pt too high) detected at line 1656
  []
-
-
-LaTeX Warning: Citation `Hug over a distance' on page 108 undefined on input li
-ne 1656.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
@@ -3726,11 +3717,6 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 [169
 
 ]
-
-LaTeX Warning: Citation `hjelmýs_face_2001' on page 170 undefined on input line
- 3321.
-
-
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -3748,11 +3734,6 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [172 <I:/Dissertation/Figure2.jpg>]
-
-LaTeX Warning: Citation `hjelmýs_face_2001' on page 173 undefined on input line
- 3403.
-
-
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4453,15 +4434,22 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [284]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
-Missing character: There is no Â in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [285]
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4508,31 +4496,31 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [295]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[296]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[296]
+[297]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[297]
+[298]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no Ÿ in font ptmr7t!
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[298]
+[299]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[299]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4541,6 +4529,9 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [301]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¥ in font ptmr7t!
+
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4557,14 +4548,17 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [305]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [306]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[307]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -4578,52 +4572,48 @@ Missing character: There is no “ in font ptmr7t!
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[307])
+[308])
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[308]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[309
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 4919--4922
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4919--4922
-
- []
-
-
+[309]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [310
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 4920--4923
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4920--4923
+
+ []
+
+
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [311
 
-
-] <Lagrange.jpg, id=1242, 628.59843pt x 438.8897pt>
-File: Lagrange.jpg Graphic file (type jpg)
- <use Lagrange.jpg>
+]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [312
 
- <I:/Dissertation/Lagrange.jpg>]
+
+] <Lagrange.jpg, id=1245, 628.59843pt x 438.8897pt>
+File: Lagrange.jpg Graphic file (type jpg)
+ <use Lagrange.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[313]
+[313
+
+ <I:/Dissertation/Lagrange.jpg>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4643,9 +4633,13 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[318
+[318]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
-] <ACS.pdf, id=1275, page=1, 614.295pt x 794.97pt>
+
+[319
+
+] <ACS.pdf, id=1279, page=1, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 1>
 File: ACS.pdf Graphic file (type pdf)
@@ -4655,79 +4649,105 @@ File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 1>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 1>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
 File: ACS.pdf Graphic file (type pdf)
 
-<use ACS.pdf, page 1> [319
+<use ACS.pdf, page 1> [320
 
  <I:/Dissertation/ACS.pdf>]
-<ACS.pdf, id=1289, page=2, 614.295pt x 794.97pt>
+<ACS.pdf, id=1292, page=2, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 2>
 File: ACS.pdf Graphic file (type pdf)
 
 <use ACS.pdf, page 2>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
 File: ACS.pdf Graphic file (type pdf)
- <use ACS.pdf, page 2> [320 <I:/Dissertation/ACS.pdf>]
-<ACS.pdf, id=1300, page=5, 614.295pt x 794.97pt>
+
+<use ACS.pdf, page 2> [321 <I:/Dissertation/ACS.pdf>]
+<ACS.pdf, id=1303, page=5, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 5>
 File: ACS.pdf Graphic file (type pdf)
 
 <use ACS.pdf, page 5>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
 File: ACS.pdf Graphic file (type pdf)
- <use ACS.pdf, page 5> [321 <I:/Dissertation/ACS.pdf>]
-<ACS.pdf, id=1311, page=6, 614.295pt x 794.97pt>
+
+<use ACS.pdf, page 5> [322 <I:/Dissertation/ACS.pdf>]
+<ACS.pdf, id=1314, page=6, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 6>
 File: ACS.pdf Graphic file (type pdf)
 
 <use ACS.pdf, page 6>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
 File: ACS.pdf Graphic file (type pdf)
- <use ACS.pdf, page 6> [322 <I:/Dissertation/ACS.pdf>]
-<ACS.pdf, id=1322, page=7, 614.295pt x 794.97pt>
+
+<use ACS.pdf, page 6> [323 <I:/Dissertation/ACS.pdf>]
+<ACS.pdf, id=1325, page=7, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 7>
 File: ACS.pdf Graphic file (type pdf)
 
 <use ACS.pdf, page 7>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
 File: ACS.pdf Graphic file (type pdf)
- <use ACS.pdf, page 7> [323 <I:/Dissertation/ACS.pdf>]
-<ACS.pdf, id=1333, page=8, 614.295pt x 794.97pt>
+
+<use ACS.pdf, page 7> [324 <I:/Dissertation/ACS.pdf>]
+<ACS.pdf, id=1336, page=8, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 8>
 File: ACS.pdf Graphic file (type pdf)
 
 <use ACS.pdf, page 8>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
 File: ACS.pdf Graphic file (type pdf)
- <use ACS.pdf, page 8> [324 <I:/Dissertation/ACS.pdf>]
-<ACS.pdf, id=1344, page=9, 614.295pt x 794.97pt>
+
+<use ACS.pdf, page 8> [325 <I:/Dissertation/ACS.pdf>]
+<ACS.pdf, id=1348, page=9, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 9>
 File: ACS.pdf Graphic file (type pdf)
 
 <use ACS.pdf, page 9>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
 File: ACS.pdf Graphic file (type pdf)
- <use ACS.pdf, page 9> [325 <I:/Dissertation/ACS.pdf>]
-<ACS.pdf, id=1356, page=10, 614.295pt x 794.97pt>
+
+<use ACS.pdf, page 9> [326 <I:/Dissertation/ACS.pdf>]
+<ACS.pdf, id=1359, page=10, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 10>
 File: ACS.pdf Graphic file (type pdf)
 
 <use ACS.pdf, page 10>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
 File: ACS.pdf Graphic file (type pdf)
- <use ACS.pdf, page 10> [326 <I:/Dissertation/ACS.pdf>]
-<ACS.pdf, id=1367, page=11, 614.295pt x 794.97pt>
+
+<use ACS.pdf, page 10> [327 <I:/Dissertation/ACS.pdf>]
+<ACS.pdf, id=1370, page=11, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 11>
 File: ACS.pdf Graphic file (type pdf)
 
 <use ACS.pdf, page 11>
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
 File: ACS.pdf Graphic file (type pdf)
- <use ACS.pdf, page 11> [327 <I:/Dissertation/ACS.pdf>]
+
+<use ACS.pdf, page 11> [328 <I:/Dissertation/ACS.pdf>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[328
+[329
 
 ]
 \tf@toc=\write4
@@ -4742,10 +4762,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8405 strings out of 495285
- 119217 string characters out of 3180312
- 260903 words of memory out of 3000000
- 11303 multiletter control sequences out of 15000+200000
+ 8417 strings out of 495285
+ 119447 string characters out of 3180312
+ 261476 words of memory out of 3000000
+ 11315 multiletter control sequences out of 15000+200000
  59795 words of font info for 136 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  42i,18n,44p,3473b,443s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -4761,10 +4781,10 @@ Files/MiKTeX 2.8/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.8/f
 onts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/urw/ti
 mes/utmbi8a.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/urw/times/utmr8a.pfb><
 C:/Program Files/MiKTeX 2.8/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Sreekar Dissertation Version 1.pdf" (352 pages, 19400409 byt
+Output written on "Sreekar Dissertation Version 1.pdf" (353 pages, 19403911 byt
 es).
 PDF statistics:
- 1435 PDF objects out of 1440 (max. 8388607)
+ 1438 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  936 words of extra memory for PDF output out of 10000 (max. 10000000)
 
