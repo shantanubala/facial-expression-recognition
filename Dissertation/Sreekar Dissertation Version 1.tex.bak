@@ -712,7 +712,7 @@ Identity & \cite{matta_behavioural_2006} \cite{gallagher_clothing_2008} \cite{ha
 \multicolumn{10}{|c|}{Behavior of the Communicator}\\
 \hline
 \hline
-Description of facial features	& & & &	\cite{kanaujia_emblem_2006} \cite{kawade_vision-based_2002} & & & & & \\			 
+Description of facial features	& & & &	\cite{kanaujia_emblem_2006} \cite{kawade_vision-based_2002} & & & & & \\			
 \hline
 Body Mannerisms & & & \cite{gunes_affect_2005} \cite{kulic_combining_2008} \cite{oliver_bayesian_2000} & & \cite{xuelong_li_gait_2008} & & \cite{hwang_automatic_2006} \cite{sangho_park_segmentation_2002} \cite{mitra_gesture_2007} \cite{nunamaker_hmm-based_2005} & & \\	
 \hline
@@ -4897,8 +4897,8 @@ In conclusion, while social interaction assistant is well placed to make a treme
 %\chapter*{REFERENCES\hfill} \addcontentsline{toc}{chapter}{REFERENCES}
 \begin{SingleSpace}
 \bibliographystyle{ieeetr}	
+%\bibliography{References}
 \bibliography{References}
-%\bibliography{PrunedReferences}
 \end{SingleSpace}
 %\clearpage
 
