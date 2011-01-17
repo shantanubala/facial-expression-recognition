@@ -122,7 +122,7 @@ In the concluding remarks, this book engages the readers into a science and tech
 \asudedication
 
 \asuacknowledgements
-I would like to express my deepest gratitude to my committee chair, Dr. Sethuraman Panchanathan, for being an excellent mentor, and a guiding light towards my research.
+I would like to express my deepest gratitude to my committee chair, Dr. Sethuraman Panchanathan, for being an excellent mentor, guide and role model towards developing not only my intellectual skills, but also the larger skill set of how to achieve success in life and career. I sincerely thank him for showing at most patience in allowing me to search for my passion and continue along those lines
 
 I would also like to thank Dr. John Black for his invaluable advice and suggestions, both during my research and during the writing of this dissertation. John has made my research experience at Arizona State University a pleasurable one.
 
@@ -132,7 +132,7 @@ I thank Dr. Gang Qian, Dr. Baoxin Li and Dr. Michelle Shiota for serving on my d
 
 I would like to thank all my colleagues and fellow researchers, at the Center for Cognitive Ubiquitous Computing for helping me, and for providing valuable advice.
 
-CHANGE: MORE TO BE ADDED HERE .....
+
 
 \begin{KeepFromToc}
 \tableofcontents
@@ -386,7 +386,12 @@ The face, together with the head, is the primary channel for non-verbal communic
 The understanding of the human facial expression space was immensely increased by the work of Ekman, Frisen \cite{ekman_facial_1978} and Izard \cite{izard_maximally_1983} in the late 1970s. They independently measured precise facial movement patterns and correlated these individual movements with facial expressions on the human face. While Izard developed these patterns on infants, the Facial Action Coding System (FACS) developed by Ekman and Frisen has become the \emph{defacto} standard for measuring facial expressions and emotions in individuals. FACS allow researchers to encode facial movements into accurate contraction and relaxation of facial muscles. Based on these facial actions, Ekman and Frisen discovered the global occurrence of six basic judged emotions, namely Happiness, Sadness, Anger, Disgust, Fear and Surprise. The emotions have been found to present beyond cultural diversities and age levels, which has further motivated technologists to base human machine interaction basics on these emotion primitives.
 
 \emph{Facial Action Coding System (FACS):}
-FACS is a systematic description of all possible facial movements in terms of muscular contractions and relaxations. Action Units (AU), which forms the basis of FACS, encode facial feature movement patterns into 5 distinct levels of movement (A, B, C, D and E) correlating to the intensity of their movement. These movements are combined into 32 basic units and 14 extended units which together represent movement of facial features (like lips, eye brow, chin etc) during all communicative interactions. Table below shows the different AUs that form the basis of FACS based facial coding with the appropriate number and the associated facial feature movement.
+FACS is a systematic description of all possible facial movements in terms of muscular contractions and relaxations, as displayed by the various facial muscles, shown in Figure \ref{XXX}. Action Units (AU), which forms the basis of FACS, encode facial feature movement patterns into 5 distinct levels of movement (A, B, C, D and E) correlating to the intensity of their movement. These movements are combined into 32 basic units and 14 extended units which together represent movement of facial features (like lips, eye brow, chin etc) during all communicative interactions. Table \ref{Tab:Table3} shows the different AUs that form the basis of FACS based facial coding with the appropriate number and the associated facial feature movement.
+
+\begin{figure}[htbp]
+\includegraphics [width=4.5in]{FacialMuscles.JPG}
+\caption{The fa}
+\end{figure}
 
 \subsubsection{Eye}
 Finally, the human eye, like the human face, play an important role in controlling non-verbal communication behaviors among interacting individuals. This involvement of human eyes is emphasized by the functions that gaze and mutual gaze play in everyday human interpersonal communication \cite{argyle_gaze_1976}. People use gaze to convey subtle information that enables smooth verbal interaction which eventually leads to information exchange \cite{kleinke_gaze_1986}. The function of gaze has been classified into four important functional categories \cite{kendon_functions_1967}. These include
