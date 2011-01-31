@@ -20,7 +20,7 @@
 \contentsline {subsubsection}{\numberline {1.3.3.3}Touch}{13}
 \contentsline {subsubsection}{\numberline {1.3.3.4}Face/Head}{14}
 \contentsline {subsubsection}{\numberline {1.3.3.5}Eye}{16}
-\contentsline {section}{\numberline {1.4}Mediating Social Interactions through Enrichment of Social Situational Awareness}{16}
+\contentsline {section}{\numberline {1.4}Facilitating Social Interactions through the Enrichment of Social Situational Awareness}{16}
 \contentsline {section}{\numberline {1.5}Organization of the Book}{17}
 \contentsline {chapter}{\chapternumberline {2}NEED FOR ENRICHING SOCIAL SITUATIONAL AWARENESS}{18}
 \contentsline {section}{\numberline {2.1}Disability Induced Social Signal Attrition}{18}
