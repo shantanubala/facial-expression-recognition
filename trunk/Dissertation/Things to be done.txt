@@ -17,4 +17,12 @@ Minor
 Addendum (if and when time permits)
 	1.Improve Tables in Chapter 1 on the non-verbal components tables - Add conclusions from paper into the table.
 	2.Add a section at the end of Haptic Glove Chapter - Proposed future plan of using a back display
+
+
+
+John Corrections:
+
+1. Change Percentage numbers in Figure 1.
+2. Find a reference for social touch being important, Section 1112.
+
 	
