@@ -379,15 +379,15 @@ K.~Shinohara and J.~Tenenberg, ``Observing sara: a case study of a blind
   international {ACM} {SIGACCESS} conference on Computers and accessibility},
   (Tempe, Arizona, {USA}), pp.~171--178, {ACM}, 2007.
 
-\bibitem{1397903}
-N.~Kock and J.~Nosek, ``Expanding the boundaries of e-collaboration,'' {\em
-  Professional Communication, IEEE Transactions on}, vol.~48, no.~1, pp.~1 --
-  9, 2005.
-
 \bibitem{Daft:1986:OIR:8430.8433}
 R.~L. Daft and R.~H. Lengel, ``Organizational information requirements, media
   richness and structural design,'' {\em Manage. Sci.}, vol.~32, pp.~554--571,
   May 1986.
+
+\bibitem{1397903}
+N.~Kock and J.~Nosek, ``Expanding the boundaries of e-collaboration,'' {\em
+  Professional Communication, IEEE Transactions on}, vol.~48, no.~1, pp.~1 --
+  9, 2005.
 
 \bibitem{derosa_trust_2004}
 D.~M. {DeRosa}, D.~A. Hantula, N.~Kock, and J.~{D'Arcy}, ``Trust and leadership
@@ -410,6 +410,11 @@ B.~W. Tuckman, ``Developmental sequence in small groups,'' {\em Psychological
 \bibitem{hess_group_2007}
 U.~Hess and P.~Philippot, {\em Group Dynamics and Emotional Expression}.
 \newblock Cambridge University Press, 1~ed., Jan. 2007.
+
+\bibitem{kock_ape_2001}
+N.~Kock, ``The ape that used email: Understanding e-communication behavior
+  through evolution theory,'' {\em Communications of the Association for
+  Information Systems,}, vol.~5, no.~3, pp.~1--29, 2001.
 
 \bibitem{patel_translational_2008}
 V.~L. Patel, J.~Zhang, N.~A. Yoskowitz, R.~Green, and O.~R. Sayan,
@@ -544,11 +549,6 @@ N.~Kock, D.~A. Hantula, S.~C. Hayne, G.~Saad, P.~M. Todd, and R.~T. Watson,
   ``Introduction to darwinian perspectives on electronic communication,'' {\em
   Professional Communication, {IEEE} Transactions on}, vol.~51, no.~2,
   pp.~133--146, 2008.
-
-\bibitem{kock_ape_2001}
-N.~Kock, ``The ape that used email: Understanding e-communication behavior
-  through evolution theory,'' {\em Communications of the Association for
-  Information Systems,}, vol.~5, no.~3, pp.~1--29, 2001.
 
 \bibitem{timmermans_promises_2005}
 S.~Timmermans and A.~Mauck, ``The promises and pitfalls of {Evidence-Based}
