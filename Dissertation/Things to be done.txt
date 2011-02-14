@@ -8,8 +8,8 @@ Minor
 	2.Check for [REF] in the document - Done
 	3.Check for [?] in the document - Done
 	4.Check for XXX in the document - Done
-	5.Write Organization of the Book - End of Chapter 1, Page 17
-	6.Organization of the following chapter - End of Chapter 3, Page 51
+	5.Write Organization of the Book - End of Chapter 1, Page 17 - Done
+	6.Organization of the following chapter - End of Chapter 3, Page 51 - Done
 	7.Page numbers for Appendix C.- Done
 	8.Check the captions on all figures.
 	
