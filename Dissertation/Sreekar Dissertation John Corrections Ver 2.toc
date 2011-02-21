@@ -41,12 +41,12 @@
 \contentsline {section}{\numberline {3.1}Automatic Detection of Non-verbal Cues and Observations}{39}
 \contentsline {subsection}{\numberline {3.1.1}Design principles for social assistive and rehabilitative devices}{42}
 \contentsline {section}{\numberline {3.2}Related Work in Computer Vision Research towards Sensing Factors that Contribute to the Overall Non-verbal Communication Picture}{43}
-\contentsline {section}{\numberline {3.3}Requirements Analysis for a Social Assistive Technology: Evidence Aggregation}{44}
+\contentsline {section}{\numberline {3.3}Requirements Analysis for a Social Assistive Technology: Evidence Aggregation}{45}
 \contentsline {subsection}{\numberline {3.3.1}Results from the Online Survey}{47}
 \contentsline {subsubsection}{\numberline {3.3.1.1}Average Response}{47}
-\contentsline {subsubsection}{\numberline {3.3.1.2}Response on Individual Questions}{48}
-\contentsline {subsubsection}{\numberline {3.3.1.3}Response Ratio}{49}
-\contentsline {subsubsection}{\numberline {3.3.1.4}Rank Average Importance Map for Various Non-verbal Cues}{50}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Response on Individual Questions}{47}
+\contentsline {subsubsection}{\numberline {3.3.1.3}Response Ratio}{48}
+\contentsline {subsubsection}{\numberline {3.3.1.4}Rank Average Importance Map for Various Non-verbal Cues}{49}
 \contentsline {section}{\numberline {3.4}Evidence-based Model for the Proposed Social Interaction Assistant}{51}
 \contentsline {section}{\numberline {3.5}System Architecture for a Social Interaction Assistant: An Evidence-based Assessment of Requirements}{52}
 \contentsline {section}{\numberline {3.6}Organization of the Later Chapters}{53}
