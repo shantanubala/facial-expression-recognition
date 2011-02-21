@@ -644,33 +644,6 @@ S.~Todorovic and M.~C. Nechyba, ``Detection of artificial structures in
   {Natural-Scene} images using dynamic trees,'' pp.~35--39, {IEEE} Computer
   Society, 2004.
 
-\bibitem{benabdelkader_person_2002}
-C.~{BenAbdelkader}, R.~Cutler, and L.~Davis, ``Person identification using
-  automatic height and stride estimation,'' in {\em Pattern Recognition, 2002.
-  Proceedings. 16th International Conference on}, vol.~4, pp.~377--380 vol.4,
-  2002.
-
-\bibitem{balan_detailed_2007}
-A.~Balan, L.~Sigal, M.~Black, J.~Davis, and H.~Haussecker, ``Detailed human
-  shape and pose from images,'' in {\em Computer Vision and Pattern
-  Recognition, 2007. {CVPR} '07. {IEEE} Conference on}, pp.~1--8, 2007.
-
-\bibitem{kanaujia_emblem_2006}
-A.~Kanaujia, Y.~Huang, and D.~Metaxas, ``Emblem detections by tracking facial
-  features,'' in {\em Computer Vision and Pattern Recognition Workshop, 2006.
-  {CVPRW} '06. Conference on}, p.~108, 2006.
-
-\bibitem{sangho_park_segmentation_2002}
-S.~Park and J.~Aggarwal, ``Segmentation and tracking of interacting human body
-  parts under occlusion and shadowing,'' in {\em Motion and Video Computing,
-  2002. Proceedings. Workshop on}, pp.~105--111, 2002.
-
-\bibitem{jingyu_yan_factorization-based_2008}
-J.~Yan and M.~Pollefeys, ``A {Factorization-Based} approach for articulated
-  nonrigid shape, motion and kinematic chain recovery from video,'' {\em
-  Pattern Analysis and Machine Intelligence, {IEEE} Transactions on}, vol.~30,
-  no.~5, pp.~865--877, 2008.
-
 \bibitem{barnard_body_2008}
 M.~Barnard, M.~Matilainen, and J.~Heikkila, ``Body part segmentation of noisy
   human silhouette images,'' pp.~1189--1192, 2008.
@@ -679,11 +652,22 @@ M.~Barnard, M.~Matilainen, and J.~Heikkila, ``Body part segmentation of noisy
 P.~Srinivasan and J.~Shi, ``Bottom-up recognition and parsing of the human
   body,'' pp.~1--8, 2007.
 
+\bibitem{balan_detailed_2007}
+A.~Balan, L.~Sigal, M.~Black, J.~Davis, and H.~Haussecker, ``Detailed human
+  shape and pose from images,'' in {\em Computer Vision and Pattern
+  Recognition, 2007. {CVPR} '07. {IEEE} Conference on}, pp.~1--8, 2007.
+
 \bibitem{xuelong_li_gait_2008}
 X.~Li, S.~Maybank, S.~Yan, D.~Tao, and D.~Xu, ``Gait components and their
   application to gender recognition,'' {\em Systems, Man, and Cybernetics, Part
   C: Applications and Reviews, {IEEE} Transactions on}, vol.~38, no.~2,
   pp.~145--155, 2008.
+
+\bibitem{benabdelkader_person_2002}
+C.~{BenAbdelkader}, R.~Cutler, and L.~Davis, ``Person identification using
+  automatic height and stride estimation,'' in {\em Pattern Recognition, 2002.
+  Proceedings. 16th International Conference on}, vol.~4, pp.~377--380 vol.4,
+  2002.
 
 \bibitem{collins_silhouette-based_2002}
 R.~Collins, R.~Gross, and J.~Shi, ``Silhouette-based human identification from
@@ -718,6 +702,12 @@ T.~Sano and H.~Yamamoto, ``Human body shape imaging for japanese kimono
 J.~Lee, A.~Jain, and R.~Jin, ``Scars, marks and tattoos {(SMT):} soft biometric
   for suspect and victim identification,'' in {\em Biometrics Symposium, 2008.
   {BSYM} '08}, pp.~1--8, 2008.
+
+\bibitem{jingyu_yan_factorization-based_2008}
+J.~Yan and M.~Pollefeys, ``A {Factorization-Based} approach for articulated
+  nonrigid shape, motion and kinematic chain recovery from video,'' {\em
+  Pattern Analysis and Machine Intelligence, {IEEE} Transactions on}, vol.~30,
+  no.~5, pp.~865--877, 2008.
 
 \bibitem{jaewon_sung_combining_2007}
 J.~Sung and D.~Kim, ``Combining local and global motion estimators for robust
@@ -764,6 +754,11 @@ M.~Kawade, ``Vision-based face understanding technologies and applications,''
   in {\em Micromechatronics and Human Science, 2002. {MHS} 2002. Proceedings of
   2002 International Symposium on}, pp.~27--32, 2002.
 
+\bibitem{kanaujia_emblem_2006}
+A.~Kanaujia, Y.~Huang, and D.~Metaxas, ``Emblem detections by tracking facial
+  features,'' in {\em Computer Vision and Pattern Recognition Workshop, 2006.
+  {CVPRW} '06. Conference on}, p.~108, 2006.
+
 \bibitem{gunes_affect_2005}
 H.~Gunes and M.~Piccardi, ``Affect recognition from face and body: early fusion
   vs. late fusion,'' vol.~4, pp.~3443 Vol. 4, 3437, IEEE International
@@ -784,6 +779,11 @@ J.~Hwang, I.~Karliga, and H.~Cheng, ``An automatic three-dimensional human
   behavior analysis system for video surveillance applications,'' p.~4 pp.,
   IEEE International Symposium on Circuits and Systems, 2006. ISCAS 2006.
   Proceedings. 2006, 2006.
+
+\bibitem{sangho_park_segmentation_2002}
+S.~Park and J.~Aggarwal, ``Segmentation and tracking of interacting human body
+  parts under occlusion and shadowing,'' in {\em Motion and Video Computing,
+  2002. Proceedings. Workshop on}, pp.~105--111, 2002.
 
 \bibitem{mitra_gesture_2007}
 S.~Mitra and T.~Acharya, ``Gesture recognition: A survey,'' {\em Systems, Man,

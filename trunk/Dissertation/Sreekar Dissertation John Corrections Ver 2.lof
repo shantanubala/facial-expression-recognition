@@ -9,7 +9,7 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Histogram of Responses grouped by Questions}}{49}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Response Ratio}}{50}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Rank average of the 8 questions}}{51}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Social Interaction Assistant System Architecture.}}{53}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Social Interaction Assistant System Architecture.}}{52}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Training and testing phases of a typical learning framework found in literature.}}{63}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces The proposed hardware for use in the detection of body rocking stereotypic behavior. The accelerometer, in comparison with a US quarter, is shown in the inset. The three axes marked in the image shows the orientation of the accelerometer as it is placed on the head.}}{65}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Data stream for the tri-axial accelerometer. The three streams correspond to the three axes. The figure shows non-rocking events followed by rocking and then followed by non-rocking.}}{66}
