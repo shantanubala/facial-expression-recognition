@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2011.2.5)  20 FEB 2011 16:36
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2011.2.13)  17 APR 2011 21:45
 entering extended mode
 **C:/Users/srkrishn/Documents/Dissertation/Sreekar*Dissertation*John*Correction
 s*Ver*2.tex
@@ -576,19 +576,19 @@ LaTeX Warning: Label `Chap10Figure9' multiply defined.
 LaTeX Warning: Label `Fig:Figure108' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 92.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 93.
  ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -727,7 +727,7 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [14]
-Overfull \hbox (4.42859pt too wide) in paragraph at lines 250--250
+Overfull \hbox (4.42859pt too wide) in paragraph at lines 251--251
  [][] []\OT1/ptm/m/n/10.95 CONVEX OP-TI-MIZA-TION US-ING NEW-TON'S METHOD - EN-
 TROPY MAX- 
  []
@@ -4435,8 +4435,6 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [277]
-("C:\Users\srkrishn\Documents\Dissertation\Sreekar Dissertation John Correction
-s Ver 2.bbl"
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4445,18 +4443,26 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [279]
-bibitemlist
-
+("C:\Users\srkrishn\Documents\Dissertation\Sreekar Dissertation John Correction
+s Ver 2.bbl"
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [280
 
 ]
+bibitemlist
+
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[281]
+[281
+
+]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[282]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
@@ -4465,14 +4471,10 @@ Missing character: There is no © in font ptmr7t!
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[282]
+[283]
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[283]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4485,6 +4487,10 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [286]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[287]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no „ in font ptmr7t!
 Missing character: There is no ¢ in font ptmr7t!
@@ -4492,7 +4498,7 @@ Missing character: There is no ¢ in font ptmr7t!
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[287]
+[288]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ´ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -4509,14 +4515,10 @@ Missing character: There is no ¶ in font ptmr7t!
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[288]
+[289]
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[289]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4533,24 +4535,24 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [293]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[294]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[294]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
 [295]
-Missing character: There is no Â in font ptmr7t!
-Missing character: There is no © in font ptmr7t!
-
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [296]
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4563,42 +4565,42 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [299]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[300]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[300]
+[301]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[301]
+[302]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no Ÿ in font ptmr7t!
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[302]
+[303]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[303]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
 [304]
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¥ in font ptmr7t!
-
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [305]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¥ in font ptmr7t!
+
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4619,6 +4621,10 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [310]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
+
+
+[311]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
@@ -4635,52 +4641,48 @@ Missing character: There is no “ in font ptmr7t!
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[311])
+[312])
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[312]
-Overfull \vbox (12.59999pt too high) has occurred while \output is active []
-
-
-[313
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 4992--4995
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4992--4995
-
- []
-
-
+[313]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [314
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 4995--4998
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4995--4998
+
+ []
+
+
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [315
 
-
-] <Lagrange.jpg, id=1256, 628.59843pt x 438.8897pt>
-File: Lagrange.jpg Graphic file (type jpg)
- <use Lagrange.jpg>
+]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
 [316
 
- <C:/Users/srkrishn/Documents/Dissertation/Lagrange.jpg>]
+
+] <Lagrange.jpg, id=1259, 628.59843pt x 438.8897pt>
+File: Lagrange.jpg Graphic file (type jpg)
+ <use Lagrange.jpg>
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[317]
+[317
+
+ <C:/Users/srkrishn/Documents/Dissertation/Lagrange.jpg>]
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
@@ -4700,9 +4702,13 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[322
+[322]
+Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
-] <ACS.pdf, id=1289, page=1, 614.295pt x 794.97pt>
+
+[323
+
+] <ACS.pdf, id=1292, page=1, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 1>
 File: ACS.pdf Graphic file (type pdf)
@@ -4716,10 +4722,10 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 File: ACS.pdf Graphic file (type pdf)
 
-<use ACS.pdf, page 1> [323
+<use ACS.pdf, page 1> [324
 
  <C:/Users/srkrishn/Documents/Dissertation/ACS.pdf>]
-<ACS.pdf, id=1302, page=2, 614.295pt x 794.97pt>
+<ACS.pdf, id=1305, page=2, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 2>
 File: ACS.pdf Graphic file (type pdf)
@@ -4729,8 +4735,8 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 File: ACS.pdf Graphic file (type pdf)
 
-<use ACS.pdf, page 2> [324 <C:/Users/srkrishn/Documents/Dissertation/ACS.pdf>]
-<ACS.pdf, id=1313, page=5, 614.295pt x 794.97pt>
+<use ACS.pdf, page 2> [325 <C:/Users/srkrishn/Documents/Dissertation/ACS.pdf>]
+<ACS.pdf, id=1317, page=5, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 5>
 File: ACS.pdf Graphic file (type pdf)
@@ -4740,8 +4746,8 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 File: ACS.pdf Graphic file (type pdf)
 
-<use ACS.pdf, page 5> [325 <C:/Users/srkrishn/Documents/Dissertation/ACS.pdf>]
-<ACS.pdf, id=1325, page=6, 614.295pt x 794.97pt>
+<use ACS.pdf, page 5> [326 <C:/Users/srkrishn/Documents/Dissertation/ACS.pdf>]
+<ACS.pdf, id=1328, page=6, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 6>
 File: ACS.pdf Graphic file (type pdf)
@@ -4751,8 +4757,8 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 File: ACS.pdf Graphic file (type pdf)
 
-<use ACS.pdf, page 6> [326 <C:/Users/srkrishn/Documents/Dissertation/ACS.pdf>]
-<ACS.pdf, id=1336, page=7, 614.295pt x 794.97pt>
+<use ACS.pdf, page 6> [327 <C:/Users/srkrishn/Documents/Dissertation/ACS.pdf>]
+<ACS.pdf, id=1339, page=7, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 7>
 File: ACS.pdf Graphic file (type pdf)
@@ -4762,8 +4768,8 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 File: ACS.pdf Graphic file (type pdf)
 
-<use ACS.pdf, page 7> [327 <C:/Users/srkrishn/Documents/Dissertation/ACS.pdf>]
-<ACS.pdf, id=1347, page=8, 614.295pt x 794.97pt>
+<use ACS.pdf, page 7> [328 <C:/Users/srkrishn/Documents/Dissertation/ACS.pdf>]
+<ACS.pdf, id=1350, page=8, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 8>
 File: ACS.pdf Graphic file (type pdf)
@@ -4773,8 +4779,8 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 File: ACS.pdf Graphic file (type pdf)
 
-<use ACS.pdf, page 8> [328 <C:/Users/srkrishn/Documents/Dissertation/ACS.pdf>]
-<ACS.pdf, id=1358, page=9, 614.295pt x 794.97pt>
+<use ACS.pdf, page 8> [329 <C:/Users/srkrishn/Documents/Dissertation/ACS.pdf>]
+<ACS.pdf, id=1361, page=9, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 9>
 File: ACS.pdf Graphic file (type pdf)
@@ -4784,8 +4790,8 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 File: ACS.pdf Graphic file (type pdf)
 
-<use ACS.pdf, page 9> [329 <C:/Users/srkrishn/Documents/Dissertation/ACS.pdf>]
-<ACS.pdf, id=1369, page=10, 614.295pt x 794.97pt>
+<use ACS.pdf, page 9> [330 <C:/Users/srkrishn/Documents/Dissertation/ACS.pdf>]
+<ACS.pdf, id=1372, page=10, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 10>
 File: ACS.pdf Graphic file (type pdf)
@@ -4795,8 +4801,8 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 File: ACS.pdf Graphic file (type pdf)
 
-<use ACS.pdf, page 10> [330 <C:/Users/srkrishn/Documents/Dissertation/ACS.pdf>]
-<ACS.pdf, id=1380, page=11, 614.295pt x 794.97pt>
+<use ACS.pdf, page 10> [331 <C:/Users/srkrishn/Documents/Dissertation/ACS.pdf>]
+<ACS.pdf, id=1384, page=11, 614.295pt x 794.97pt>
 File: ACS.pdf Graphic file (type pdf)
  <use ACS.pdf, page 11>
 File: ACS.pdf Graphic file (type pdf)
@@ -4806,12 +4812,12 @@ Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 File: ACS.pdf Graphic file (type pdf)
 
-<use ACS.pdf, page 11> [331 <C:/Users/srkrishn/Documents/Dissertation/ACS.pdf>]
+<use ACS.pdf, page 11> [332 <C:/Users/srkrishn/Documents/Dissertation/ACS.pdf>]
 
 Overfull \vbox (12.59999pt too high) has occurred while \output is active []
 
 
-[332
+[333
 
 ]
 \tf@toc=\write4
@@ -4829,8 +4835,8 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  8352 strings out of 495285
- 119868 string characters out of 3179870
- 258844 words of memory out of 3000000
+ 119868 string characters out of 3179869
+ 259844 words of memory out of 3000000
  11249 multiletter control sequences out of 15000+200000
  59795 words of font info for 136 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -4848,10 +4854,10 @@ nts/type1/urw/symbol/usyr.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/ur
 w/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/urw/times/utm
 bi8a.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/urw/times/utmr8a.pfb><C
 :/Program Files (x86)/MiKTeX 2.8/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Sreekar Dissertation John Corrections Ver 2.pdf" (356 pages,
- 19470590 bytes).
+Output written on "Sreekar Dissertation John Corrections Ver 2.pdf" (357 pages,
+ 19472147 bytes).
 PDF statistics:
- 1449 PDF objects out of 1728 (max. 8388607)
+ 1452 PDF objects out of 1728 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  941 words of extra memory for PDF output out of 10000 (max. 10000000)
 
