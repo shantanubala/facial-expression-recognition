@@ -78,6 +78,7 @@
 % N.B.: floatpagefraction MUST be less than topfraction !!
 \renewcommand{\dblfloatpagefraction}{0.7}	% require fuller float pages
 
+\renewcommand{\appendixname}{APPENDIX}
 
 %%%%%% Landscape Mode %%%%%%%%%%%%%%%%%%%%%%
 %\usepackage{lscape}
@@ -132,7 +133,6 @@ I would like to convey my sincere thanks to Dr. Michelle Shiota for accepting th
 I thank Dr. Gang Qian and Dr. Baoxin Li for serving on my dissertation committee, while providing guidance in my research.
 
 I would like to thank all my colleagues and fellow researchers, at the Center for Cognitive Ubiquitous Computing for helping me, and for providing valuable advice.
-
 
 
 \begin{KeepFromToc}
@@ -243,7 +243,7 @@ Human communication theories have studied dyadic or bilateral interaction betwee
  \noindent \maltese \hspace*{0.25in} \emph{Enriching SSA in mediated dyadic communication} is best done by extraction and delivery of face, body and voice-based behaviors between interacting individuals.
 
 \subsubsection{SSA in Group Interactions} \label{SubSubSec:GI}
-Group dynamics refer to the interactions between members of a team assembled for a common purpose. Teams of medical professionals operating on a patient, a professional team meeting to accomplish a certain goal, or a congressional meeting to discuss regulations are all examples of groups of individuals with a shared mental model of what needs to be accomplished. Within such groups, communication behaviors play a vital role in determining the dynamics and the outcome of the meeting. Zancanaro et. al. \cite{zancanaro_automatic_2006} and Dong et. al.  \cite{dong_using_2007} presented one model for identifying the role played by each of the participants in a group discussion. They identified two distinct categories of roles for the individuals within the group: (1) the socio-emotion roles, and (2) the task roles. The socio-emotional roles included the protagonist, attacker, supporter and neutral, and the task roles included the orienteer, seeker, follower and giver. These roles were dependent heavily on the emotional states of the individuals participating in the group interaction. Good teams are those where individual team members and their leaders are able to compose and coordinate their affect towards a smooth and conflict free group interaction. Effective leaders are those who can read the emotional state (i.e. affect) of each group member, make decisions about each individual's roles, and steer the group towards effective and successful decisions. Inability to assess the affective cues of team members might have significant consequences ranging from unresolved conflicts and underproductive meetings to the death of a patient.
+Group dynamics refer to the interactions between members of a team assembled for a common purpose. Teams of medical professionals operating on a patient, a professional team meeting to accomplish a certain goal, or a congressional meeting to discuss regulations are all examples of groups of individuals with a shared mental model of what needs to be accomplished. Within such groups, communication behaviors play a vital role in determining the dynamics and the outcome of the meeting. Zancanaro et al. \cite{zancanaro_automatic_2006} and Dong et al.  \cite{dong_using_2007} presented one model for identifying the role played by each of the participants in a group discussion. They identified two distinct categories of roles for the individuals within the group: (1) the socio-emotion roles, and (2) the task roles. The socio-emotional roles included the protagonist, attacker, supporter and neutral, and the task roles included the orienteer, seeker, follower and giver. These roles were dependent heavily on the emotional states of the individuals participating in the group interaction. Good teams are those where individual team members and their leaders are able to compose and coordinate their affect towards a smooth and conflict free group interaction. Effective leaders are those who can read the emotional state (i.e. affect) of each group member, make decisions about each individual's roles, and steer the group towards effective and successful decisions. Inability to assess the affective cues of team members might have significant consequences ranging from unresolved conflicts and underproductive meetings to the death of a patient.
 
  \noindent \maltese \hspace*{0.25in}  \emph{Enriching SSA in mediated group interactions} is best done by extraction and delivery of team's interaction dynamics (as well as the group's mutual and group affect) to other participating members of the team, such as a remotely located team member or a co-located individual who is disabled.
 
@@ -264,7 +264,7 @@ People exposed to everyday social interactions learn social skills from the thre
 
 Psychologists have been studying the nature of learning that happens in individuals who move from Western to Eastern cultures and vice versa. Largely, USA and Japan have been the countries of choice based on their economic equality and cultural contrasts \cite{rogers_edward_2002}. In the West, large body movements and excitement in the voice are considered to be typical, and to a large degree are encouraged as a good social skill. Similar behavior in the East are considered to be inappropriate in professional settings and, to a large extent, indecent. An individual displaying any such inappropriate mannerisms or gestures will receive social feedback from his counterparts in the form of everyone staring at the individual, and reducing their interaction with the individual.  Thus, social awareness is based on a learned set of rules about the environment within which the individual is present and this learning process requires continuous monitoring of the various social channels of stimulation. Deprivation of any one of these channels can adversely affect the ability of an individual to learn social actions and responses that are pertinent to a new social situation. Thus, enriching SSA not only offers the means for individuals to make appropriate social decisions, but also cognitively trains them towards effective social judgments.
 
-Rest of the chapter argues that the social information impovorishment characteristic of some interaction scenarios can result in social separation. Examples of such social scenarios are introduced in Chapter \ref{Chap:2} as motivations for the development of proposed technologies that mediate social interpersonal interactions. An effort is made to identify the social separation created due to physical separation of interaction partners, and to contrast these situations with information impoverishment due to sensory/physical disabilities in co-located interaction partners. The following section highlights some of the important factors that are important to successful non-verbal communication.
+Rest of the chapter argues that the social information impoverishment characteristic of some interaction scenarios can result in social separation. Examples of such social scenarios are introduced in Chapter \ref{Chap:2} as motivations for the development of proposed technologies that mediate social interpersonal interactions. An effort is made to identify the social separation created due to physical separation of interaction partners, and to contrast these situations with information impoverishment due to sensory/physical disabilities in co-located interaction partners. The following section highlights some of the important factors that are important to successful non-verbal communication.
 
 \section{Factors that are important ro successful non-verbal communication}
 The success of non-verbal communication is influenced by various factors, some of which are dependent on the interaction partners and some of which depend on the environment where they are interacting. Psychologists have classified these factors into three categories \cite{knapp_nonverbal_1996}:
@@ -476,7 +476,7 @@ People who are sighted do not necessarily have the training to interact with ind
 \subsubsection{Lack of visual reinforcement feedback on one's mannerisms:}\label{SubSubSec:2.1.1.2}
 When individuals display behaviors in any social setting, they receive feedback through their peer's reactions. These reactions could either reinforce or dissuade those behaviors depending upon whether they are deemed appropriate or not, respectively.  Due to their inability to receive visual feedback, people who are blind or visually impaired do not receive this feedback from their social counterparts. People who are visually impaired at a very young age are at a particular disadvantage in learning appropriate social actions and mannerisms. Development of asocial stereotypic body mannerisms are one such case where positive reinforcement through visual stimulation is necessary to cull certain developmental behaviors (such as body rocking) that would have otherwise weaned off gradually as the child gets into adulthood.
 
- Most people who are blind or visually impaired eventually learn to partially compensate for the lack of visual cues by using other cues, such as audio. It maybe possible that the path towards learning such accommodations could be positively effected through the use of technology that mediates interpersonal interactions. Specifically, children with visual disabilities find it very difficult to learn social skills while growing amongst sighted peers, thus avioding social isolation and psychological problems \cite{jindal-snape_generalization_2004}.
+ Most people who are blind or visually impaired eventually learn to partially compensate for the lack of visual cues by using other cues, such as audio. It maybe possible that the path towards learning such accommodations could be positively effected through the use of technology that mediates interpersonal interactions. Specifically, children with visual disabilities find it very difficult to learn social skills while growing amongst sighted peers, thus avoiding social isolation and psychological problems \cite{jindal-snape_generalization_2004}.
 
  Social disconnect due to visual disability has also been observed at the college level, where students start to learn professional skills, and independent living skills. Any assistive technology that can enrich interpersonal social interactions could prove beneficial to the visually disabled or blind people during this learning process. Technology specialist Shinohara \cite{shinohara_blind_2009} \cite{shinohara_designing_2006}, observed the everyday activities of a college student named Sara who was blind \cite{shinohara_observing_2007}. Shinohara categorized Sara's daily needs into functional categories and identified 5 important aspects of Sara's life where she could benefit from assistance. These include (in order of importance)
  \begin{itemize}
@@ -491,7 +491,7 @@ When individuals display behaviors in any social setting, they receive feedback 
 \section{Social Signal Attrition during Remote Interpersonal Interactions}
 The globalization of economies has required that people communicate across geographical distances efficiently and effectively in real (or near-real) time. This has increased international and inter-cultural interactions where people with different cultures are working together to accomplish common tasks. Intercultural interactions cause socio-emotional stress due to differences in work ethics, communication protocols and the role of hierarchy in management. Such stress is typically managed well through dyadic face-to-face interactions, which is known to reduce cultural stress and communicative misunderstandings \cite{Daft:1986:OIR:8430.8433}. Unfortunately, face-to-face dyadic interactions are not always possible, and people might need to rely on telecommunication technologies to bridge geographical separation.  Existing technology solutions that are closest to simulating face-to-face interactions (such as telepresence environments) are typically limited to more scheduled, highly structured, and formal interactions. Furthermore, all current telecommunication technologies that support virtual collaborations suffer from emotional impoverishment, due to the limited social situational awareness among participating members of the interaction. In this section, we highlight some of the important problems faced by remotely distributed teams when the interpersonal communication is restricted to virtual telecommunications.
 
-Kock et. al. \cite{1397903} expands on various studies in the area of professional communication to elaborate on the various problems faced in enriching remote interactions between geographically isolated individuals. In doing so, they identify several important challenges for \emph{e-collaborations}, including
+Kock et al. \cite{1397903} expands on various studies in the area of professional communication to elaborate on the various problems faced in enriching remote interactions between geographically isolated individuals. In doing so, they identify several important challenges for \emph{e-collaborations}, including
 
 \begin{itemize}
 \item \emph{Theoretical Challenges:} Lack of theoretical understanding of media-based human-human communications.
@@ -502,7 +502,7 @@ Kock et. al. \cite{1397903} expands on various studies in the area of profession
 
 Discussions in Chapter \ref{Chap:3} will discuss the similarities between the above four challenges encountered when mediating remote person-to-person interactions, and the challenges encountered when developing mediating assistive technologies for people who are blind or visually impaired.
 
-Most remote collaboration technologies rely on on media richness to compensate for the lack of social presence. Early behavioral psychology studies supported this approach with Media Richness Theory \cite{Daft:1986:OIR:8430.8433}. To provide media richness despite communication bandwidth limitations, researchers employed avatar-based communication. However, this approach was not well-received and subsequent studies have shown the need for media naturalness in telecommunication, more so than just media richness \cite{derosa_trust_2004}. The naturalness here refers to the sensitivity of the human communicative system to the subtle movements and gestures shown by the face, body and head during social interactions. In the context of naturalness, it is important to cite Robert et. al. \cite{robert_paradox_2005}, who addressed the question of how much naturalness is necessary to involve the participants effectively in the interaction. They addressed notions that \emph{more social presence in media is always better} and through experiments they theorize that, ``\emph{the use of media high in social presence induces increased motivation but decreased ability to process information, while the use of media low in social presence induces decreased motivation but increased information processing ability.}'' Their work in the potential negative consequence of high social presence further increases the need to understand how social interactions across large geographical boundaries can be bridged. In this dissertation, we argue that the social engagement of individuals can be enriched through the use of novel multimodal social situational awareness technologies that prevent overloading of any one sensory channel of the participants and encourages distribution of the social signal delivery across various under utilized human sensory channels.
+Most remote collaboration technologies rely on media richness to compensate for the lack of social presence. Early behavioral psychology studies supported this approach with Media Richness Theory \cite{Daft:1986:OIR:8430.8433}. To provide media richness despite communication bandwidth limitations, researchers employed avatar-based communication. However, this approach was not well-received and subsequent studies have shown the need for media naturalness in telecommunication, more so than just media richness \cite{derosa_trust_2004}. The naturalness here refers to the sensitivity of the human communicative system to the subtle movements and gestures shown by the face, body and head during social interactions. In the context of naturalness, it is important to cite Robert et al. \cite{robert_paradox_2005}, who addressed the question of how much naturalness is necessary to involve the participants effectively in the interaction. They addressed notions that \emph{more social presence in media is always better} and through experiments they theorize that, ``\emph{the use of media high in social presence induces increased motivation but decreased ability to process information, while the use of media low in social presence induces decreased motivation but increased information processing ability.}'' Their work in the potential negative consequence of high social presence further increases the need to understand how social interactions across large geographical boundaries can be bridged. In this dissertation, we argue that the social engagement of individuals can be enriched through the use of novel multimodal social situational awareness technologies that prevent overloading of any one sensory channel of the participants and encourages distribution of the social signal delivery across various under utilized human sensory channels.
 
 An industry survey \cite{solomon_challenges_2010} of $1592$ individuals who collaborated remotely, carried out by RW3 CultureWizard - a company focused on improving international collaborations - reported difficulties that are representative of (1) lack of commitment in remote interactions and (2) inability of virtual teams to correspond and communicate as effectively as face-to-face teams. ``Respondents found virtual teams more challenging than face-to-face teams in managing conflict ($73$\%), making decisions ($69$\%), and expressing opinions ($64$\%). The top five challenges faced during virtual team meetings were insufficient time to build relationships ($90$\%), speed of decision making ($80$\%), different leadership styles ($77$\%), method of decision making ($76$\%), and colleagues who do not participate ($75$\%).'' These results can suggest a need for Social Situational Awareness in group settings. In the classical model for group dynamics, Bruce Tuckman \cite{tuckman_developmental_1965}, defines four stages in the formation of an efficient group. \emph{Forming}, \emph{Storming}, \emph{Norming} and \emph{Performing} describe the typical process that the groups go through before delivering at their best. The stages of Storming and Norming are deeply connected to the individual group member's abilities to communicate, coordinate and empathize with their fellow group members. The socio-emotional interactions between the group members dictate how quickly (or slowly) a group will progress from the Formative first stage to Performing fourth stage \cite{hess_group_2007}.
 
@@ -551,14 +551,14 @@ The importance of studying a group of physicians entering a medical situation as
  \item Situation monitoring (or a shared mental model)
  \end{enumerate}
 
-As seen from Figure \ref{Fig:TeamSTEPPS}, TeamSTEPPS focuses on the individual physician and the team's ability to work together as a system. Leadership, Communication, Situation Monitoring and Mutual Support were all derived from earlier DoD and AHRQ lead studies in medical team management and are based on the underlying principles of: Team Leadership \cite{salas_developing_2004}, Mutual Performance Monitoring \cite{wilson_trauma_2007}, Backup Behavior \cite{guzzo_measuring_1995}, Adaptability \cite{guzzo_defining_1995}, Team/Collective Orientation \cite{driskell_collective_1992}, Shared Mental Model \cite{patel_translational_2008} \cite{guzzo_defining_1995}, Mutual Trust \cite{bandon_time_2001} and Closed loop Communication \cite{guzzo_measuring_1995} (For a detailed analysis of each of these principles, please see King et. al. \cite{king_teamstepps_????}.) Most of these principles are in turn derivatives of the social skill set of the individuals who make up the medical team that is responsible for the patient safety. It has been shown that, in cases of medical errors leading to loss of life, communication breakdown between one or more team members resulted in an avalanche of problems, eventually resulting in death.
+As seen from Figure \ref{Fig:TeamSTEPPS}, TeamSTEPPS focuses on the individual physician and the team's ability to work together as a system. Leadership, Communication, Situation Monitoring and Mutual Support were all derived from earlier DoD and AHRQ lead studies in medical team management and are based on the underlying principles of: Team Leadership \cite{salas_developing_2004}, Mutual Performance Monitoring \cite{wilson_trauma_2007}, Backup Behavior \cite{guzzo_measuring_1995}, Adaptability \cite{guzzo_defining_1995}, Team/Collective Orientation \cite{driskell_collective_1992}, Shared Mental Model \cite{patel_translational_2008} \cite{guzzo_defining_1995}, Mutual Trust \cite{bandon_time_2001} and Closed loop Communication \cite{guzzo_measuring_1995} (For a detailed analysis of each of these principles, please see King et al. \cite{king_teamstepps_????}.) Most of these principles are in turn derivatives of the social skill set of the individuals who make up the medical team that is responsible for the patient safety. It has been shown that, in cases of medical errors leading to loss of life, communication breakdown between one or more team members resulted in an avalanche of problems, eventually resulting in death.
 
 \subsection{Importance factors affecting team performance}
 \subsubsection{Group Dynamics}
 As discussed briefly in Section \ref{SubSubSec:GI} of Chapter \ref{Chap:1} Group Dynamics focuses on studying the various components of group interactions, including inter-agent communication \cite{pentland_automatic_2006}, productivity of a given group \cite{kim_sensor-based_2009}, level of understanding of each other's potentials and limitations, job satisfaction and combined creativity of a team \cite{mann_relationship_2004} to name a few. In recent years, interest in understanding group dynamics in work environments has tremendously increased in interdisciplinary teams involving computer scientists and socio-behavioral psychologists in the area of Computer Supported Collaborative Work (CSCW) \cite{gardin_computer-supported_1994}. In the context of medical teams, group dynamics focuses on the ability of the physicians and specialists to intercommunicate their needs. During emergency situations, group dynamics facilitates the emergence of a Shared Mental Model \cite{chapman_decision_2003}, which enables all the professionals to relate to each other in terms of what needs to be done towards resuscitating the patient.
 
 \subsubsection{Leadership}
-Theories of leadership have proposed evidence-based models for explaining qualities exemplified in successful leaders. From bureaucratic leaders to political leaders, the models used to explain the qualities of leaders vary dramatically. There is no single accepted definition of what a leader should represent, as the problem of identifying a leader is highly contextual in nature. Recently, the functional model of leadership has been developed to describe team leaders as having \emph{self regulation} which translates to learning, performance and adaptability. These models allow the study of dynamic teams that are formed for very short durations (such as medical response teams) and allow monitoring of each individual and their contribution to the team activity \cite{ferris_dynamic_1996}. Kozlowski et. al. have described a dynamic multi-goal model for team leadership as shown in Figure \ref{Fig:Leadership}. Based on this model, they describe effective leaders as those who can not only assess simultaneously their own goals while keeping track of team goals in a dynamically evolving situation.
+Theories of leadership have proposed evidence-based models for explaining qualities exemplified in successful leaders. From bureaucratic leaders to political leaders, the models used to explain the qualities of leaders vary dramatically. There is no single accepted definition of what a leader should represent, as the problem of identifying a leader is highly contextual in nature. Recently, the functional model of leadership has been developed to describe team leaders as having \emph{self regulation} which translates to learning, performance and adaptability. These models allow the study of dynamic teams that are formed for very short durations (such as medical response teams) and allow monitoring of each individual and their contribution to the team activity \cite{ferris_dynamic_1996}. Kozlowski et al. have described a dynamic multi-goal model for team leadership as shown in Figure \ref{Fig:Leadership}. Based on this model, they describe effective leaders as those who can not only assess simultaneously their own goals while keeping track of team goals in a dynamically evolving situation.
 
 \begin{figure}[htbp!]
 \centering
@@ -567,7 +567,7 @@ Theories of leadership have proposed evidence-based models for explaining qualit
 \label{Fig:Leadership}
 \end{figure}
 
-While Figure \ref{Fig:Leadership} shows the behavioral choice of the leader to be a vital component of self regulation and team regulation, very little study has been focused on the effect of leader's socio-emotional state (assessed through their social situational awareness) on team dynamics. Recently Sy et. al. \cite{sy_contagious_2005} have demonstrated how important it is for the leader to control and regulate his/her affect cues within dynamically formed teams. The mood of the leader propagates through the team, and can have net positive or negative effect on the team outlook and performance. The dynamic nature of team formation is further complicated in medical teams as the responsibility shifts very quickly from one specialist to another, as they operate on the patient \cite{cooper_s_leadership_1999}.
+While Figure \ref{Fig:Leadership} shows the behavioral choice of the leader to be a vital component of self regulation and team regulation, very little study has been focused on the effect of leader's socio-emotional state (assessed through their social situational awareness) on team dynamics. Recently Sy et al. \cite{sy_contagious_2005} have demonstrated how important it is for the leader to control and regulate his/her affect cues within dynamically formed teams. The mood of the leader propagates through the team, and can have net positive or negative effect on the team outlook and performance. The dynamic nature of team formation is further complicated in medical teams as the responsibility shifts very quickly from one specialist to another, as they operate on the patient \cite{cooper_s_leadership_1999}.
 
 Behavioral psychologists have been studying the impact of socio-emotional states (especially stress induced socio-emotional states) on the performance of professionals and conclude that the direct artifacts of stress include deprecated decision making, failure in leadership and breakdown of mutual support. Further research shows that enriching the social situational awareness of the professionals will reduce stress and potentially improve team performance. Further, assessing the socio-emotional and communication skills of the professionals within the critical care unit will provide an unfettered advantage towards determining metrics of team performance under stress. To this end, three parameters have been identified as important towards advancing patient safety in critical care environments:
 \begin{enumerate}
@@ -578,7 +578,7 @@ Behavioral psychologists have been studying the impact of socio-emotional states
 
 
 \subsection{The emerging science of medical team social assessment}
-In light of the important issues related to group interactions and leadership, Krishna et. al. \cite{krishna_enriching_2010} \cite{krishna_studying_2010} have suggested a study of three important challenges of medical teams through critical care simulation as discussed below. They propose to study interdisciplinary medical residents as they respond to simulations of critical care scenarios. Teams before and after TeamSTEPPS training will be assessed based on their leadership, mutual support, communication and situation monitoring. Below, the simulation facility and the proposed research directions are discussed in detail, highlighting the importance of social situational awareness among the medical team members.
+In light of the important issues related to group interactions and leadership, Krishna et al. \cite{krishna_enriching_2010} \cite{krishna_studying_2010} have suggested a study of three important challenges of medical teams through critical care simulation as discussed below. They propose to study interdisciplinary medical residents as they respond to simulations of critical care scenarios. Teams before and after TeamSTEPPS training will be assessed based on their leadership, mutual support, communication and situation monitoring. Below, the simulation facility and the proposed research directions are discussed in detail, highlighting the importance of social situational awareness among the medical team members.
 
 \subsubsection{The Mayo Clinic Multidisciplinary Simulation Center:}
 Mayo Clinic has invested in the development of a state-of-the-art Multidisciplinary Simulation Center providing many advantages in learning team performance and hospital emergency code training. The center was designed to reflect the complexity of the live clinical environment.  The physical, electronic, microcultural and macrocultural environments have been replicated in order to create a practice field for clinical situations.  The physical environment includes artifacts such as the bed, sink, cabinets, flooring, doors and lights. The electronic environment replicated with monitors, intravenous pumps, electronic medical records, pharmaceutical dispensing system, decision support software and computers.  The micro cultural environment is provided by the inter professional team, and the macro cultural environment is provided by embedding the simulation center within the hospital. The patient clinical situations are replicated by combinations of high fidelity simulators, virtual reality simulators, standardized patient actors, and low fidelity simulators.   Experts have developed standardized simulation scenarios, curriculum and debriefing specific to learner or team performance levels.
@@ -603,12 +603,12 @@ Within this environment, a high resolution audio and video capture system has be
 
 \noindent\emph{Challenge 2: Automatic evaluation of the social affinity between team members:} Sociograms (social affinity maps) have been used historically to determine the interpersonal match between members of a team or an organization. Sociograms are obtained through the process of sociometry \cite{moreno_sociometry_1983}, which quantitatively measures the relationships of individuals who exist within a social space. As mentioned earlier, in medical teams, the social space happens to be the emergency room where the team assembles with very little or no time to determine who are the members of the team. Sociometry is achieved through a set of evaluations that can assess the social interactions between individuals. The measurements could be done within the environment where the individuals interact (the medical team) or outside (casual interactions). Technologies developed to assess sociometric affinity between professionals could in turn provide quantitative evaluations of the social interactions between individuals. Sociograms developed at a hospital level could offer effective tools for quick team formations. Teams formed out of specialists, technicians and nurses who are closer to one another on the sociogram could offer a team with relatively less emotional stress. Socially closer individuals will also exhibit better communication, thereby increasing team performance.
 
-\noindent \emph{Challenge 3: Leadership evaluation and nomination through long term monitoring of individuals: }Theories of leadership have proposed evidence-based models for explaining qualities exemplified in successful leaders. Recently, the functional model of leadership \cite{kozlowski_dynamic_1996} has been developed to describe team leaders as having self regulation which translates to learning, performance and adaptability. These models allow the study of dynamic teams that are formed in very short durations (like medical response teams) and allow monitoring of each individual and their contribution to the group activity. Kozlowski et. al. \cite{kozlowski_dynamic_1996} also describe a dynamic multi-goal model for team leadership which models effective leaders as those who can not only assess their own goals but also keep track of team goals, while approaching a dynamically evolving situation. Technologies developed towards understanding and modeling human interactions and communications can provide the tools needed to measure leadership qualities through long-term monitoring.
+\noindent \emph{Challenge 3: Leadership evaluation and nomination through long term monitoring of individuals: }Theories of leadership have proposed evidence-based models for explaining qualities exemplified in successful leaders. Recently, the functional model of leadership \cite{kozlowski_dynamic_1996} has been developed to describe team leaders as having self regulation which translates to learning, performance and adaptability. These models allow the study of dynamic teams that are formed in very short durations (like medical response teams) and allow monitoring of each individual and their contribution to the group activity. Kozlowski et al. \cite{kozlowski_dynamic_1996} also describe a dynamic multi-goal model for team leadership which models effective leaders as those who can not only assess their own goals but also keep track of team goals, while approaching a dynamically evolving situation. Technologies developed towards understanding and modeling human interactions and communications can provide the tools needed to measure leadership qualities through long-term monitoring.
 
 In summary, social situational awareness is an important aspect for medical professionals entering into dynamic team settings requiring effective communication between team members. Enriching the awareness of one or more of its members will directly reflect on their performance as a team and hence the patient safety.
 
 \section{The Research Focus of this Dissertation}
-From the above sections, it is evident that enriching social situational awareness is an essential component of enriching interpersonal interactions for both the personal and the professional lives of individuals. Further, as can be seen from the three distinct discussions on the need for social interpersonal communication, there is no single underlying theory of social interactions and social situational awareness that can be immediately leveraged towards developing models of enrichment. Years of research into human-human behavioral dynamics have resulted in theories that are only grounded in coarse human communication experiments. It has proven very difficult to finely define the nuances of human interactions, especially in dynamic contexts. Modeling the complex nature of human interpersonal communications under all contexts of interaction is a grand challenge. Kock et. al. \cite{kock_introduction_2008} offer this opinion through an evolutionary model for human electronic communications where they argue that humans evolve continuously within their cultural contexts and no one theory can describe the inner workings completely. Kock in his seminal discussion ``The Ape that Used Email: Understanding E-communication Behavior through Evolution Theory'' \cite{kock_ape_2001} argues that a) Media Naturalness, b) Innate Schema Similarity and, c) Learned Schema Variety, are the foundations for human communication, where, media naturalness refers to the ability of humans to express subtilities in a natural way through a medium of remote communication, innate schema similarity is the similarity in communication patterns shared by members of a common culture, while learned schema variety refers to the individual differences that makes each person learn as they coexist within a culture. It is this similarity versus variety that makes each person both a member of the culture, yet an individual on their own.
+From the above sections, it is evident that enriching social situational awareness is an essential component of enriching interpersonal interactions for both the personal and the professional lives of individuals. Further, as can be seen from the three distinct discussions on the need for social interpersonal communication, there is no single underlying theory of social interactions and social situational awareness that can be immediately leveraged towards developing models of enrichment. Years of research into human-human behavioral dynamics have resulted in theories that are only grounded in coarse human communication experiments. It has proven very difficult to finely define the nuances of human interactions, especially in dynamic contexts. Modeling the complex nature of human interpersonal communications under all contexts of interaction is a grand challenge. Kock et al. \cite{kock_introduction_2008} offer this opinion through an evolutionary model for human electronic communications where they argue that humans evolve continuously within their cultural contexts and no one theory can describe the inner workings completely. Kock in his seminal discussion ``The Ape that Used Email: Understanding E-communication Behavior through Evolution Theory'' \cite{kock_ape_2001} argues that a) Media Naturalness, b) Innate Schema Similarity and, c) Learned Schema Variety, are the foundations for human communication, where, media naturalness refers to the ability of humans to express subtleties in a natural way through a medium of remote communication, innate schema similarity is the similarity in communication patterns shared by members of a common culture, while learned schema variety refers to the individual differences that makes each person learn as they coexist within a culture. It is this similarity versus variety that makes each person both a member of the culture, yet an individual on their own.
 
 Acknowledging this complexity, the research highlighted in this dissertation assumes an \emph{Evidence-based modeling approach to enriching human-human interpersonal interactions through multimedia mediation}. As the name suggests, Evidence-based modeling is based on observations of typical attributes of the problems at hand, and proposes to address those problems in a specified context, with little or no generalization beyond the boundaries of that context. Evidence-based models are common in medical practices where the outcomes of prescribed health care are not considered to be objectively measured due to individual patient factors, and can never be proven rigorously through scientific process. A popular remark \cite{timmermans_promises_2005} on Evidence-based Medicine (EBM) or Evidence-based Practice (EBP) reads,
 \noindent\begin{center}
@@ -653,9 +653,9 @@ People with disabilities (like blindness or Autism) are not always able to perce
 
 \emph{Observation 2: Assistive technology designed to facilitate social interactions should be implemented in such a way that it does not itself become a social distraction.}
 
-Vinciarelli et. al. \cite{vinciarelli_social_2008} describe the use of technologies for understanding social interactions within groups, specifically targeting professional environments where individuals make decisions as a group. They analyze body mannerisms and prosody to extract nonverbal cues that they use to do group dynamics analysis. They rely on simple sensors in the form of wearable tags \cite{kim_meeting_2008} (which detect face-to-face interaction events) along with prosody analysis to determine turn taking, emotional state of the speaker, and distance to an individual. Pentland describes these signals captured during group interactions as \cite{pentland_honest_2008} honest signals. Some of his recent work \cite{vinciarelli_social_2008-1} in the area of social monitoring attempts to capture these signals and provide feedback to individuals about their social role within a group. The use of social feedback is illustrated elegantly in their work but their approach required all members of the group to carry sensors all through the study. This proved to be a viable and productive approach for studying group dynamics, but is not viable as a strategy for the implementation of an assistive technology, as it is not realistic to assume that everyone who interacts with a person who has a disability will wear sensors.
+Vinciarelli et al. \cite{vinciarelli_social_2008} describe the use of technologies for understanding social interactions within groups, specifically targeting professional environments where individuals make decisions as a group. They analyze body mannerisms and prosody to extract nonverbal cues that they use to do group dynamics analysis. They rely on simple sensors in the form of wearable tags \cite{kim_meeting_2008} (which detect face-to-face interaction events) along with prosody analysis to determine turn taking, emotional state of the speaker, and distance to an individual. Pentland describes these signals captured during group interactions as \cite{pentland_honest_2008} honest signals. Some of his recent work \cite{vinciarelli_social_2008-1} in the area of social monitoring attempts to capture these signals and provide feedback to individuals about their social role within a group. The use of social feedback is illustrated elegantly in their work but their approach required all members of the group to carry sensors all through the study. This proved to be a viable and productive approach for studying group dynamics, but is not viable as a strategy for the implementation of an assistive technology, as it is not realistic to assume that everyone who interacts with a person who has a disability will wear sensors.
 
-\emph{Observation 3: Assistive technology designed to facilitate social interactions should be designed in such a way that it can be worn exculsively by the user, and is able to monitor both sides of the interaction.}
+\emph{Observation 3: Assistive technology designed to facilitate social interactions should be designed in such a way that it can be worn exclusively by the user, and is able to monitor both sides of the interaction.}
 
 In two independent experiments \cite{transon_using_1988} and \cite{felps_modification_1988}, researchers developed a social feedback device that provides intervention when a person with visual impairment starts to rock their body in a stereotypical manner. \cite{transon_using_1988} designed a device that consisted of a metal box with a mercury level switch that is worn on the user's head. A tone generator was activated when the user bent his upper body beyond a certain tilt angle. The authors tested the device on a congenitally blind individual who exhibited extreme body rocking and they conclude that the use of any assistive technology is useful only temporarily while the device is in use. They observe that the body rocking behavior returned to baseline levels as soon as the device was removed. Since the time of this experiment, behavioral psychology studies have explored short term feedback for rehabilitation \cite{jindal-snape_use_2005}, and these studies support the above observation that short-term feedback can even be detrimental to rehabilitation, and subject's case invariably worsens. Further, Jindal-snape emphasizes the need for long-term feedback that should target a slow, yet sustained rehabilitation to overcome stereotypic behaviors. Unfortunately, due to the prohibitively large design of the device developed by these researchers, it was impossible to have the individual wear the device over long durations.
 
@@ -685,12 +685,12 @@ Based on the above observations, a device  developed to facilitate the social in
 
 \endgroup
 
-\noindent The remainder of this chapter looks at incorporating these design principles into a social interaction assistant targeted at enriching social situational awareness for individuals who are blind and visually impaired. The next section reviews relevant research aimed at identifying non-verbal cues with computer vision techniques. 
+\noindent The remainder of this chapter looks at incorporating these design principles into a social interaction assistant targeted at enriching social situational awareness for individuals who are blind and visually impaired. The next section reviews relevant research aimed at identifying non-verbal cues with computer vision techniques.
 
 \section{Related Work in Computer Vision Research towards Sensing Factors that Contribute to the Overall Non-verbal Communication Picture}
 
 
-One of the goals of computer vision research is to develop pattern recognition and machine learning techniques that emulate the abilities of the human visual system. Computer vision research has matured over the past two decades to a point where many of the capabilities of human vision are now being emulated. 
+One of the goals of computer vision research is to develop pattern recognition and machine learning techniques that emulate the abilities of the human visual system. Computer vision research has matured over the past two decades to a point where many of the capabilities of human vision are now being emulated.
 
 \begin{table}[htbp!]
 \label{Table31111}
@@ -720,7 +720,7 @@ Natural vs manmade environment &	\cite{radke_image_2005} & & & \cite{todorovic_d
 \scriptsize
 \begin{tabularx}{8.5in}{|X||X|X|X|X|X|X|X|X|X|}
 \hline
-&Person Recognition &	Clothing Recognition	& Body Part Segmentation &	Facial Feature Segmentation &	Gender Race Recognition &	 Facial Motion Analysis	& Body Motion Analysis &	 Eye Detection &	Eye Tracking \\
+&Person Recognition &	Clothing Recognition	& Body Part Segmentation &	Facial Feature Segmentation &	 Gender Race Recognition &	 Facial Motion Analysis	& Body Motion Analysis &	 Eye Detection &	Eye Tracking \\
 \hline
 \hline
 \multicolumn{10}{|c|}{Physical Characteristics of the Communicator}\\
@@ -736,7 +736,7 @@ Facial Hair & & & &	\cite{jingyu_yan_factorization-based_2008} & & & & & \\
 \hline
 Eye Glasses & & & & \cite{jaewon_sung_combining_2007} & & & & \cite{shan_du_robust_2007} & \\
 \hline
-Clothing & & \cite{gallagher_clothing_2008} \cite{wei_zhang_real-time_2008} & & & & & & & \\						
+Clothing & & \cite{gallagher_clothing_2008} \cite{wei_zhang_real-time_2008} & & & & & & & \\						 
 \hline
 Hair & & & 	\cite{yacoob_detection_2006} \cite{huchuan_lu_gender_2007} & & & & & & \\					
 \hline
@@ -744,7 +744,7 @@ Age & \cite{haibin_ling_study_2007} & & & & & & & & \\
 \hline
 Gender & \cite{benabdelkader_person_2002}& & & & \cite{xuelong_li_gait_2008} & & \cite{xuelong_li_gender_2007}& & \\	
 \hline
-Identity & \cite{matta_behavioural_2006} \cite{gallagher_clothing_2008} \cite{hahnel_color_2004} \cite{saeed_person_2006} \cite{saeed_person_2007} & & & & & \cite{kawade_vision-based_2002} & & & \\		
+Identity & \cite{matta_behavioural_2006} \cite{gallagher_clothing_2008} \cite{hahnel_color_2004} \cite{saeed_person_2006} \cite{saeed_person_2007} & & & & & \cite{kawade_vision-based_2002} & & & \\		 
 \hline
 \hline
 \multicolumn{10}{|c|}{Behavior of the Communicator}\\
@@ -796,8 +796,8 @@ While various other examples were cited by focus group participants, the inabili
 \item Knowing the facial expressions of the person standing in front of you.
 \item Knowing the hand gestures and body motions of the person standing in front of you.
 \item Knowing whether your personal mannerisms do not fit the behavioral norms and expectations of the sighted people with whom you will be interacting.
-\end{enumerate} 
- 
+\end{enumerate}
+
 This list of 8 needs can be reduced to 2 basic categories of needs with regards to social interactions and social situational awareness were identified:
 \begin{enumerate}[1.]
 \item The need for access to the non-verbal cues of others during social interactions
@@ -903,7 +903,7 @@ Following the organization of the dissertation presented in Table \ref{Tab:Table
 \label{Tab:TableRest}
 \begin{tabularx}{5.5in}{|p{1.25in}|X|}
 \hline
-Chapter 4 & Discusses the importance of providing social feedback to individuls who are disabled about their body mannerisms of how they are contributing to the social exchange that they are having with their sighted counterpart.\\
+Chapter 4 & Discusses the importance of providing social feedback to individuals who are disabled about their body mannerisms of how they are contributing to the social exchange that they are having with their sighted counterpart.\\
 \hline
 Chapter 5 & Discusses the importance of facial expressions in social interactions and highlights technologies developed towards enabling access to dyadic interaction cues for users who maybe blind or visually impaired.\\
 \hline
@@ -1358,7 +1358,7 @@ Computer based facial expression recognition is mostly centered around the proce
 
 Most facial expression recognition algorithms treat the underlying problem as a classification problem and group spatio-temporal facial actions into predetermined bins of specific facial gestures or mannerisms. Popular classifications include the Ekman \cite{citeulike:4519941} grouping of 6 basic facial expression of emotion, including Happy, Sad, Surprise, Fear, Anger and Disgust. These classes are distinguished from the otherwise Neutral expression of the individual's face.
 
-Table \ref{Tab:FaceExpRecog} below shows a compilation of the state-of-the-art in facial expression recognition algorithms. Note that the table is an extension of the 2009 work that was published by Zaho et. al. \cite{zeng_survey_2009}.
+Table \ref{Tab:FaceExpRecog} below shows a compilation of the state-of-the-art in facial expression recognition algorithms. Note that the table is an extension of the 2009 work that was published by Zaho et al. \cite{zeng_survey_2009}.
 
 \begin{landscape}
 \begin{table}[htbp!]
@@ -1378,15 +1378,15 @@ Type: 	Data Type: Video (V) / Image(I);
 \cline{6-11}
  & \multicolumn{2}{|c|}{} & \multicolumn{2}{|c|}{} & \textbf{Exp} &	 \textbf{Per} &	 \textbf{Class} & \textbf{Sub} & \textbf{Type} & \textbf{\% Acc} \\
 \hline
-\cite{ashraf_painful_2009} & \multicolumn{2}{|c|}{AAM}	& \multicolumn{2}{|c|}{SVM}       & S & I &	2     &	21 & ? & 81 \\
+\cite{ashraf_painful_2009} & \multicolumn{2}{|c|}{AAM}	& \multicolumn{2}{|c|}{SVM}       & S & I &	2     &	 21 & ? & 81 \\
 \hline
-\cite{m.s._bartlett_prototype_2003} & \multicolumn{2}{|c|}{Gabor} & \multicolumn{2}{|c|}{SVM + HMM} &	S &	I &	3 AUs &	 17 & V & 98 \\
+\cite{m.s._bartlett_prototype_2003} & \multicolumn{2}{|c|}{Gabor} & \multicolumn{2}{|c|}{SVM + HMM} &	S &	 I &	3 AUs &	 17 & V & 98 \\
 \hline
 \cite{yeasin_recognition_2006} \cite{bartlett_fully_2006} & \multicolumn{2}{|c|}{Gabor} & \multicolumn{2}{|c|}{AdaBoot SVM} & S P & I & 17 AUs & 119 + 12 & I & 93 + 90.5 \\
 \hline
 \cite{cohen_facial_2003} & \multicolumn{2}{|c|}{12 motion units} & \multicolumn{2}{|c|}{Tree DBN HMM} & P & D I & 6 & 5 + 53 & V & 66.5 + 73.2 \\
 \hline
-\cite{cohn_automatic_2004} & \multicolumn{2}{|c|}{Shape Models, Gabor} & \multicolumn{2}{|c|}{LDC} &	S &	I &	3 AUs &	 21 & I &	76 \\
+\cite{cohn_automatic_2004} & \multicolumn{2}{|c|}{Shape Models, Gabor} & \multicolumn{2}{|c|}{LDC} &	S &	 I &	3 AUs &	 21 & I &	76 \\
 \hline
 \cite{kaliouby_real-time_2004} & \multicolumn{2}{|c|}{24 facial points} & \multicolumn{2}{|c|}{DBN} & P & D & 6 & 30 & V & 77 \\
 \hline
@@ -1404,35 +1404,35 @@ Type: 	Data Type: Video (V) / Image(I);
 \hline
 \cite{lee_facial_2005} & \multicolumn{2}{|c|}{Intensity of face} &	 \multicolumn{2}{|c|}{Decomposable model} &	P &	I &	 6 &	 8 + 16 &	 V &	 61\\
 \hline
-\cite{littlewort_faces_2007} & \multicolumn{2}{|c|}{Gabor} &	 \multicolumn{2}{|c|}{AdaBoost SVM} &	S &	I &	2 &	26 &	 V &	72\\
+\cite{littlewort_faces_2007} & \multicolumn{2}{|c|}{Gabor} &	 \multicolumn{2}{|c|}{AdaBoost SVM} &	S &	 I &	2 &	26 &	 V &	72\\
 \hline
-\cite{lucey_investigating_2007} & \multicolumn{2}{|c|}{AAM} &	 \multicolumn{2}{|c|}{SVM} &	S P &	I &	AUs	& 100 &	 ? &	 95\\
+\cite{lucey_investigating_2007} & \multicolumn{2}{|c|}{AAM} &	 \multicolumn{2}{|c|}{SVM} &	S P &	I &	 AUs	& 100 &	 ? &	 95\\
 \hline
 \cite{pantic_dynamics_2006} & \multicolumn{2}{|c|}{Facial profile} & \multicolumn{2}{|c|}{Rule-based}	& P &	I &	27 AUs & 19 &	V &	 86.3\\
 \hline
 \cite{pantic_case-based_2004} & \multicolumn{2}{|c|}{Frontal profile facial points} & \multicolumn{2}{|c|}{Rule and case based}	& P &	 I &	 9 &	 8 &	I &	 83\\
 \hline
-\cite{sebe_authentic_2004} & \multicolumn{2}{|c|}{12 motion units} &	 \multicolumn{2}{|c|}{kNN} &	S &	I &	4 &	53 + 28 &	 V &	93 + 95\\
+\cite{sebe_authentic_2004} & \multicolumn{2}{|c|}{12 motion units} &	 \multicolumn{2}{|c|}{kNN} &	S &	 I &	4 &	53 + 28 &	 V &	93 + 95\\
 \hline
-\cite{yan_tong_facial_2007} & \multicolumn{2}{|c|}{Gabor} &	 \multicolumn{2}{|c|}{AdaBoost DBN} &	 P &	I &	14 AUs &	 100 + 10 &	I	 & 93 + 93\\
+\cite{yan_tong_facial_2007} & \multicolumn{2}{|c|}{Gabor} &	 \multicolumn{2}{|c|}{AdaBoost DBN} &	 P &	 I &	14 AUs &	 100 + 10 &	I	 & 93 + 93\\
 \hline
-\cite{valstar_how_2007} & \multicolumn{2}{|c|}{Motion history} &	 \multicolumn{2}{|c|}{SNoW kNN} &	P &	I &	15 AUs &	 19 + 100 &	 V	& 61 + 68\\
+\cite{valstar_how_2007} & \multicolumn{2}{|c|}{Motion history} &	 \multicolumn{2}{|c|}{SNoW kNN} &	P &	 I &	15 AUs &	 19 + 100 &	 V	& 61 + 68\\
 \hline
 \cite{valstar_spontaneous_2006} & \multicolumn{2}{|c|}{8 facial points}	& \multicolumn{2}{|c|}{Gentle Boost SVM} &	S P &	 I &	2 &	27 + 32 + 65 &	 V &	 90\\
 \hline
 \cite{valstar_how_2007} & \multicolumn{2}{|c|}{20 facial points} &	 \multicolumn{2}{|c|}{Gentle SVM} &	S P &	I &	2 &	 52 &	 V &	 94\\
 \hline
-\cite{wang_facial_2003} & \multicolumn{2}{|c|}{Shape fea, Intensity} &	 \multicolumn{2}{|c|}{NN} &	S &	? &	7 &	14 &	 I &	 84\\
+\cite{wang_facial_2003} & \multicolumn{2}{|c|}{Shape fea, Intensity} &	 \multicolumn{2}{|c|}{NN} &	S &	? &	 7 &	14 &	 I &	 84\\
 \hline
 \cite{jun_wang_3d_2006} & \multicolumn{2}{|c|}{3D surface} &	 \multicolumn{2}{|c|}{LDA} &	P &	I	& 6 &	60 &	 I	& 83\\
 \hline
-\cite{zhen_wen_capturing_2003} & \multicolumn{2}{|c|}{Geometric ratio}	& \multicolumn{2}{|c|}{GMM} &	P &	I &	4 &	47 &	 I &	75\\
+\cite{zhen_wen_capturing_2003} & \multicolumn{2}{|c|}{Geometric ratio}	& \multicolumn{2}{|c|}{GMM} &	P &	 I &	4 &	47 &	 I &	75\\
 \hline
 \cite{whitehill_haar_2006} & \multicolumn{2}{|c|}{Harr} &	 \multicolumn{2}{|c|}{AdaBoost} &	P &	I &	11 AUs &	? &	 I &	 92\\
 \hline
 \cite{yeasin_recognition_2006} & \multicolumn{2}{|c|}{Intensity} &	 \multicolumn{2}{|c|}{kNN HMM} &	S P &	&	6 &	 97 + 21 &	 V &	 90.7 + 82\\
 \hline
-\cite{zeng_spontaneous_2006} & \multicolumn{2}{|c|}{Texture with LPP} &	 \multicolumn{2}{|c|}{SVDD} &	S &	D &	2 &	2 &	 I &	 87\\
+\cite{zeng_spontaneous_2006} & \multicolumn{2}{|c|}{Texture with LPP} &	 \multicolumn{2}{|c|}{SVDD} &	S &	 D &	2 &	2 &	 I &	 87\\
 \hline
 %\multicolumn{11}{|c|}{MAJOR ITEM 2: EXTEND THIS TABLE WITH THE LATEST WORK}\\
 %\hline
@@ -1658,9 +1658,9 @@ In this chapter, we discussed the use of a Temporal Exemplar-based Bayesian Netw
 \chapter{DELIVERING DYADIC INTERACTION CUES THROUGH VIBROTACTILE STIMULATIONS}\label{Chap:6}
 Over the past few decades, the environments in which humans live and operate have become increasingly information rich. Audio and visual modalities have been occupied by more than one source at the same time. Increasing audio-visual stimulations in the human's surroundings have increased the need for divided attention, which competes with the need for selective and sustained attention to complete a task at hand \cite{sohlberg_introduction_1989}. While audio and video have evolved as a medium for immersing humans in rich sensory experience, touch \cite{grunwald_human_2008}, taste \cite{maynes-aminzade_edible_2005} and smell \cite{chen_olfactory_2006} have only recently being considered for sensory augmentation and substitutions - note the subtlety between augmentation and substitution. When augmenting the already utilized sensory channels, the newer medium is not in demand to reproduce all of the information, but only enrich the already delivered experience. On the other hand, substitutions have to deliver information that was once being provided by a certain sensory channel on a newer medium, while maintaining similar or lesser cognitive load.
 
-Vision is the primary sense organ for most mammals and for a few primates, including humans, trichromatic vision is so highly evolved \cite{dominy_ecological_2001} that a major portion of the neuronal pathway in the brain is dedicated to sensing, perceiving and cognizing visual stimuli. This allows the human vision to process high intensities of data that stimulates the eyes - Koch et. al. estimated that human eyes, with 106 ganglion cells, could transmit up to 10 Mbits/s \cite{koch_how_2006} to the brain. Hence substituting vision with any other sensory channel is a challenging task that requires appropriate design taking into account the high intensity of data generated by visual stimuli.
+Vision is the primary sense organ for most mammals and for a few primates, including humans, trichromatic vision is so highly evolved \cite{dominy_ecological_2001} that a major portion of the neuronal pathway in the brain is dedicated to sensing, perceiving and cognizing visual stimuli. This allows the human vision to process high intensities of data that stimulates the eyes - Koch et al. estimated that human eyes, with 106 ganglion cells, could transmit up to 10 Mbits/s \cite{koch_how_2006} to the brain. Hence substituting vision with any other sensory channel is a challenging task that requires appropriate design taking into account the high intensity of data generated by visual stimuli.
 
-In this chapter, we present a visuo-haptic sensory substitution device that intends to replace visual channel with somatosensory vibrotactile stimulations for delivering the facial expression data that was derived from the dyadic interaction assistant, as described in the pervious chapter. A prominent visuo-haptic sensory substitution system is the TVSS (Tactile-Visual Sensory Substitution) \cite{bach-y-rita_vision_1969} that substitutes visual data into a 400 point tactile array worn on the back of the user. A similar effort by Rahman et. al. \cite{rehman_vibrotactile_2008} focused on delivering facial emotions of interaction partners using vibrators installed on a chair such that the user's back is in direct contact with the vibrators. Both of these technologies have the obvious disadvantage that the user is restricted to a seated position with immobile augmentations. Recently we have explored the use of vibrotactile technologies on a belt like form factor for delivering direction and distance information \cite{mcdaniel_using_2008}. Unfortunately, the waist (combined with a belt like form factor) did not prove suitable for delivering high intensity data like facial expressions. Table below presents some of the popular haptic technologies developed for communicating high bandwidth interpersonal interaction data. While these provide opportunity to appreciate the possibility of haptic information delivery, the end goal was not clearly defined towards delineating fine facial movements that are deemed important in typical dyadic social interactions.
+In this chapter, we present a visuo-haptic sensory substitution device that intends to replace visual channel with somatosensory vibrotactile stimulations for delivering the facial expression data that was derived from the dyadic interaction assistant, as described in the pervious chapter. A prominent visuo-haptic sensory substitution system is the TVSS (Tactile-Visual Sensory Substitution) \cite{bach-y-rita_vision_1969} that substitutes visual data into a 400 point tactile array worn on the back of the user. A similar effort by Rahman et al. \cite{rehman_vibrotactile_2008} focused on delivering facial emotions of interaction partners using vibrators installed on a chair such that the user's back is in direct contact with the vibrators. Both of these technologies have the obvious disadvantage that the user is restricted to a seated position with immobile augmentations. Recently we have explored the use of vibrotactile technologies on a belt like form factor for delivering direction and distance information \cite{mcdaniel_using_2008}. Unfortunately, the waist (combined with a belt like form factor) did not prove suitable for delivering high intensity data like facial expressions. Table below presents some of the popular haptic technologies developed for communicating high bandwidth interpersonal interaction data. While these provide opportunity to appreciate the possibility of haptic information delivery, the end goal was not clearly defined towards delineating fine facial movements that are deemed important in typical dyadic social interactions.
 First we investigate various haptic interpersonal communication technologies that have been developed over the past several years, following which we discuss the choice of technology and any specific justifications for its use in delivering facial expressions.
 
 \section{Related Work in Haptic Interpersonal Communication Interfaces}
@@ -1678,7 +1678,7 @@ Haptics has recently seen a uphill trend in terms of the number of interfaces th
 \hline
 \hline
 
-inTouch \newline \cite{brave_intouch:_1997} & Vibration Pressure Texture &	Hand &	Social Touch &	-Interpersonal communication through remote touch &	 No Testing & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2in]{inTouch1.jpg}}}
+inTouch \newline \cite{brave_intouch:_1997} & Vibration Pressure Texture &	Hand &	Social Touch &	 -Interpersonal communication through remote touch &	 No Testing & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2in]{inTouch1.jpg}}}
 & \multicolumn{4}{|c|}{\multirow{2}{*}{\includegraphics[width=2in]{TheBed.jpg}}}\\
 \cline{1-6}
 
@@ -1819,14 +1819,14 @@ In order to deliver the high bandwidth visual facial expression data, we resort 
 
 \cite{oron-gilad_vibrotactile_2007} &
 Vibrotactile cueing to improve target acquisition in virtual 2D environment using mouse as input. &	4 &	-2 on the lower part of the palm just above the wrist. \newline
-- 2 on the back of the lower palm  just above the wrist. &	- 100ms vibratory cues to indicate direction of the target and on-target signals.	 \newline - Frequency of the vibration was proportional to the direction and distance from the target location. & - Two vibrators were turned on to indicate arrival on a target.	& - Expt 1 tested vibrators on the front and back of palm. \newline - Expt 2 tested continuous distance cueing with suppressing or increasing frequency as the target is approached. &
+- 2 on the back of the lower palm  just above the wrist. &	- 100ms vibratory cues to indicate direction of the target and on-target signals.	 \newline - Frequency of the vibration was proportional to the direction and distance from the target location. & - Two vibrators were turned on to indicate arrival on a target.	 & - Expt 1 tested vibrators on the front and back of palm. \newline - Expt 2 tested continuous distance cueing with suppressing or increasing frequency as the target is approached. &
 	- The location of the tractors did not have an effect. Front and Back worked the same. \newline
 - Suppressing the frequency as the user approaches the target worked better than enhancing. \\
 \hline
 
 \cite{uchiyama_vibrotactile_2008} &
 Vibrotactile array for delivering distance to an obstacle from a wheelchair driven by a visually impaired person. &	 9 & Array on the front of the palm in a 3x3 matrix.	& - Warning signals \newline - Spatial obstacle location signal. \newline
-- Direction conveyance to the user.	& - Warning signal vibrates all vibrators. \newline - Spatial location of an obstacle is sent in the particular motor with near, medium and far range to obstacle. \newline - Direction cue vibrates the center motor with two pulses and then vibrates motor of the desired direction.	& - No user testing done yet &	- No user testing done yet \\
+- Direction conveyance to the user.	& - Warning signal vibrates all vibrators. \newline - Spatial location of an obstacle is sent in the particular motor with near, medium and far range to obstacle. \newline - Direction cue vibrates the center motor with two pulses and then vibrates motor of the desired direction.	 & - No user testing done yet &	- No user testing done yet \\
 \hline
 \end{tabularx}
 \end{table}
@@ -1883,7 +1883,7 @@ Framework for delivering haptic data along with audio video data from an enterta
 \hline
 
 \cite{murray_psychophysical_2003} &
-Using vibrators to convey slip information in a prehensile glove. &	5 &	 Fingertips of the five fingers. &	Motion sensors (optical motion sensor similar to the one used in an optical mouse) mounted outside the glove on the finger tips measure the slip of an object. The slip information measured as optic flow is conveyed to the vibrator as varying frequency. &	
+Using vibrators to convey slip information in a prehensile glove. &	5 &	 Fingertips of the five fingers. &	 Motion sensors (optical motion sensor similar to the one used in an optical mouse) mounted outside the glove on the finger tips measure the slip of an object. The slip information measured as optic flow is conveyed to the vibrator as varying frequency. &	
 Slip motion is proportional to the frequency of vibration. & 12 subjects. \newline Users placed the glove on a surface that was laterally pulled from under the glove and the reaction time was measured by asking the participants to press a button with their free hand. Experiment was conducted with bare hands, with a prehensile glove without vibrators and with the slip glove. &	
 \underline{Mean reaction time:} \newline
 Bare hand: 0.214s \newline
@@ -2272,7 +2272,7 @@ view-centric description of a human face by relying upon
 feature-by-feature perceptual input, which is then combined into a
 structural model of the face.
 
-Sadar et al ~\cite{Sadr2003} showed that characteristic facial
+Sadar et al. ~\cite{Sadr2003} showed that characteristic facial
 features are important for recognizing famous faces. For example,
 when they erased eye-brows from famous people's faces, face
 recognition by human participants was adversely affected.  Young
@@ -2299,7 +2299,7 @@ recognize faces including their own. Until recently it was assumed
 that prosopagnosia was acquired often as a result of a localized
 stroke. However new evidence suggests that a substantial portion of
 the general population have a congenital form of prosopagnosia
-~\cite{Mccon1976}. Kennerknecht et al ~\cite{Kenner2006} conducted a
+~\cite{Mccon1976}. Kennerknecht et al. ~\cite{Kenner2006} conducted a
 survey of 789 students in 2006 which showed that 17 (2.5\%) suffered
 from congenital prosopagnosia. These students went about their daily
 life without realizing their disorder in face recognition.
@@ -2412,12 +2412,12 @@ widely used by face recognition researchers. Over the last few
 years, the extensive use of Gabor wavelets as generators of feature
 spaces for face recognition, has led to objective studies of the
 strength of Gabor features for this application. For example, Shan
-et al [Shan2004] reviewed the strength of Gabor features for face
+et. al. [Shan2004] reviewed the strength of Gabor features for face
 recognition using an evaluation method that combined both alignment
 precision and recognition accuracy. Their experiments confirmed that
 Gabor features are robust to image variations caused by the
 imprecision of facial feature localization. As indicated by Gökberk
-et al ~\cite{Gokberk2007}, several studies have concentrated on
+et. al. ~\cite{Gokberk2007}, several studies have concentrated on
 examining the importance of the Gabor kernel parameters for face
 analysis. These include: the weighting of Gabor kernel-based
 features using the simplex algorithm for face recognition
@@ -2455,7 +2455,7 @@ automating the process of locating these points, our work identifies
 spatial locations on the face image that are unique to every single
 person, rather than relying on an average geometry.
 
-Closely following the work of Wiskott et. al., Lyons et. al.
+Closely following the work of Wiskott et al., Lyons et al.
 ~\cite{lyons_automatic_1999} proposed a technique that uses Gabor
 Filter coefficients extracted at 1) automatically located
 rectangular grid points or 2) manually selected image feature
@@ -2686,12 +2686,12 @@ generations have evolved.
 \subsubsection{Use of Genetic Algorithms in Face Recognition}
 GAs have been used in face recognition to search for optimal sets of
 features from a pool of potentially useful features that have been
-extracted from the face images. Liu et al ~\cite{Liu2002} used a GA
+extracted from the face images. Liu et al. ~\cite{Liu2002} used a GA
 along with Kernel Principal Component Analysis (KPCA) for face
 recognition. In their approach, KPCA was first used to extract
 facial image features. After feature extraction using the KPCA, GAs
 were employed to select the optimal feature subset for recognition -
-or more precisely the optimal non-linear components. Xu et al
+or more precisely the optimal non-linear components. Xu et al.
 ~\cite{Xu2004} used GAs along with Independent Component Analysis to
 recognize faces. After obtaining all the independent components
 using the Fast ICA algorithm, a genetic algorithm was introduced to
@@ -2707,7 +2707,7 @@ face images. Since GAs are computationally intensive, the search
 space for possible face regions was limited to possible eye regions
 alone.
 
-Karungaru et al ~\cite{Karungaru2004} performed face recognition
+Karungaru et al. ~\cite{Karungaru2004} performed face recognition
 using template matching. Template matching was performed using a
 genetic algorithm to automatically test several positions around the
 target, and to adjust the size of the template as the matching
@@ -2741,7 +2741,7 @@ algorithms were used to select optimal features from a feature space
 composed of geometrical structures, the labeled curvature types of
 each vertex in the individualized 3D model.
 
-Sun et al ~\cite{sun2002} approached the problem of gender
+Sun et al. ~\cite{sun2002} approached the problem of gender
 classification using a genetic algorithm to select features. A
 genetic algorithm was used to select a subset of features from a
 low-dimensional representation, which was obtained by applying PCA
@@ -4963,6 +4963,11 @@ In an emerging society of digital data sources, security has emerged as an impor
 \end{itemize}
 
 In conclusion, while social interaction assistant is well placed to make a tremendous impact on the quality of life for individuals who are blind and visually impaired, there could be possible ethical and privacy issues associated with the wearable camera on the user. (Not to mention the awkwardness a user may have to face if he/she had to wear a t-shirt all the time informing the interaction partner that they are being recorded.) This chapter tried to highlight some of the important privacy issues and proposed solutions that could potentially overcome some of them. As discussed earlier, it is very difficult to determine all the impact that a certain technology will have ont he society before it is introduced into the user space, but it is always possible to hypothesize the potential risks that the designers may expose to the society to. We have attempted such an exercise in the above discussion.
+
+\chapter{Conclusions \& Future Work}
+In this dissertation, an evidence-based methodology towards enhancing social mediation between individuals is presented. Specifically, the social mediation technologies described here attempts to provide people who are blind and visually impaired to receive non-verbal communication cues from their sighted counterparts. Chapter 2 discussed the need for enriching social situational awareness in everyday personal and professional lives of individuals. Chapter 3 highlighted the importance of enriching social situational awareness for individuals who are blind and visually impaired and lays foundation for the bulk of the work presented in this dissertation. Chapter 4, 5, 7 and 8 discussed various technologies that can enable users who are blind and visually impaired to access social signals that are important for having a rewarding social interaction with sighted counterparts. The details of these chapters will become clear once the reader has been introduced to the various social situations that require attention, as detailed in Chapter 3. Chapter 6 and 10 discussed various technologies that can enable any processed social signals to be delivered to people who are blind and visually impaired, without overloading any of the their senses, like hearing or touch. Finally, Chapter 11 highlights the need for researchers to consider the impact of social mediation technologies on the society. While the discussions do not impart strict policies, this chapter initiates a conversation towards adopting important technology policies in the emerging assistive technology domains.
+
+
 
 %\newpage
 \vspace*{1in}

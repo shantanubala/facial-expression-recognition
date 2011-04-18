@@ -198,7 +198,7 @@ T.~Lord and M.~Kasprzak, ``Identification of self through olfaction.,'' {\em
   Perceptual and motor skills}, vol.~69, no.~1, pp.~224, 219, 1989.
 
 \bibitem{russell_human_1976}
-M.~J. {RUSSELL}, ``Human olfactory communication,'' {\em Nature}, vol.~260,
+M.~J. {Russell}, ``Human olfactory communication,'' {\em Nature}, vol.~260,
   pp.~520--522, Apr. 1976.
 
 \bibitem{barber_mustache_2001}
@@ -1601,8 +1601,8 @@ M.~Vezjak and M.~Stephancic, ``An anthropological model for automatic
 
 \bibitem{leibe_combined_2004}
 B.~Leibe, A.~Leonardis, and B.~Schiele, ``Combined object categorization and
-  segmentation with an implicit shape model,'' {\em {IN} {ECCV} {WORKSHOP} {ON}
-  {STATISTICAL} {LEARNING} {IN} {COMPUTER} {VISION}}, pp.~17---32, 2004.
+  segmentation with an implicit shape model,'' {\em In ECCV Workshop on
+  Statistical Learning in Computer Vision}, pp.~17---32, 2004.
 
 \bibitem{porikli_object_2005}
 F.~Porikli and O.~Tuzel, ``Object tracking in {Low-Frame-Rate} video,'' {\em
@@ -1636,8 +1636,8 @@ K.~Nummiaro, E.~{Koller-Meier}, and L.~V. Gool, ``An adaptive color-based
 
 \bibitem{porikli_integral_2005}
 F.~Porikli, ``Integral histogram: A fast way to extract histograms in cartesian
-  spaces,'' {\em {IN} {PROC.} {IEEE} {CONF.} {ON} {COMPUTER} {VISION} {AND}
-  {PATTERN} {RECOGNITION}}, vol.~1, pp.~829---836, 2005.
+  spaces,'' {\em In Proc. IEEE Conf. on Ccomputer Vision and Pattern
+  Recognition}, vol.~1, pp.~829---836, 2005.
 
 \bibitem{zhu_fast_2006}
 Q.~Zhu, Q.~Zhu, S.~Avidan, S.~Avidan, M.~chen Yeh, M.~chen Yeh, K.~ting Cheng,
@@ -1646,9 +1646,8 @@ Q.~Zhu, Q.~Zhu, S.~Avidan, S.~Avidan, M.~chen Yeh, M.~chen Yeh, K.~ting Cheng,
 
 \bibitem{porikli_p.:_2007}
 F.~Porikli, P.~Meer, O.~Tuzel, and O.~Tuzel, ``P.: Human detection via
-  classification on riemannian manifolds,'' {\em {IN} {PROC.} {OF} {THE} {IEEE}
-  {CONF.} {ON} {COMPUTER} {VISION} {AND} {PATTERN} {RECOGNITION}}, pp.~1---8,
-  2007.
+  classification on riemannian manifolds,'' {\em In Proc. IEEE Conf. on
+  Ccomputer Vision and Pattern Recognition}, pp.~1---8, 2007.
 
 \bibitem{fergus_object_2003}
 R.~Fergus, P.~Perona, and A.~Zisserman, ``Object class recognition by
@@ -1658,8 +1657,8 @@ R.~Fergus, P.~Perona, and A.~Zisserman, ``Object class recognition by
 
 \bibitem{yang_fast_2005}
 C.~Yang, R.~Duraiswami, and L.~Davis, ``Fast multiple object tracking via a
-  hierarchical particle filter,'' {\em {IN:} {INTERNATIONAL} {CONFERENCE} {ON}
-  {COMPUTER} {VISION}}, vol.~1, pp.~212---219, 2005.
+  hierarchical particle filter,'' {\em In Proc. of Intl. Conf. on Computer
+  Vision}, vol.~1, pp.~212---219, 2005.
 
 \bibitem{barrow_parametric_2006}
 H.~G. Barrow, J.~M. Tenenbaum, R.~C. Bolles, and H.~C. Wolf, ``Parametric
@@ -1672,13 +1671,13 @@ B.~Leibe, E.~Seemann, and B.~Schiele, ``Pedestrian detection in crowded
 
 \bibitem{arulampalam_tutorial_2002}
 M.~S. Arulampalam, S.~Maskell, and N.~Gordon, ``A tutorial on particle filters
-  for online {nonlinear/non-Gaussian} bayesian tracking,'' {\em {IEEE}
-  {TRANSACTIONS} {ON} {SIGNAL} {PROCESSING}}, vol.~50, pp.~174---188, 2002.
+  for online {nonlinear/non-Gaussian} bayesian tracking,'' {\em IEEE Trans. on
+  Signal Processing}, vol.~50, pp.~174---188, 2002.
 
 \bibitem{isard_condensation_1998}
 M.~Isard and A.~Blake, ``{CONDENSATION} - conditional density propagation for
-  visual tracking,'' {\em {INTERNATIONAL} {JOURNAL} {OF} {COMPUTER} {VISION}},
-  vol.~29, pp.~5---28, 1998.
+  visual tracking,'' {\em Intl. Journal of Computer Vision}, vol.~29,
+  pp.~5---28, 1998.
 
 \bibitem{birchfield_elliptical_1998}
 S.~Birchfield, ``Elliptical head tracking using intensity gradients and color
@@ -1688,7 +1687,7 @@ S.~Birchfield, ``Elliptical head tracking using intensity gradients and color
 \bibitem{okuma_boosted_2004}
 K.~Okuma, A.~Taleghani, N.~D. Freitas, O.~D. Freitas, J.~J. Little, and D.~G.
   Lowe, ``A boosted particle filter: Multitarget detection and tracking,'' {\em
-  {IN} {ECCV}}, vol.~1, pp.~28---39, 2004.
+  In Proc. of European Conf. on Computer Vision}, vol.~1, pp.~28---39, 2004.
 
 \bibitem{crow_summed-area_1984}
 F.~Crow, ``Summed-area tables for texture mapping,'' in {\em {SIGGRAPH} '84:
@@ -1697,9 +1696,9 @@ F.~Crow, ``Summed-area tables for texture mapping,'' in {\em {SIGGRAPH} '84:
 
 \bibitem{manohar_performance_2006}
 V.~Manohar, P.~Soundararajan, D.~Goldgof, R.~Kasturi, and J.~Garofolo,
-  ``Performance evaluation of object detection and tracking in video,'' {\em
-  {IN} {PROCEEDINGS} {OF} {THE} {SEVENTH} {ASIAN} {CONFERENCE} {ON} {COMPUTER}
-  {VISION}}, vol.~2, pp.~151---161, 2006.
+  ``Performance evaluation of object detection and tracking in video,'' {\em In
+  Proc. of Seventh Asian Conf. on Computer Vision}, vol.~2, pp.~151---161,
+  2006.
 
 \bibitem{brewster_tactons:_2004}
 S.~Brewster and L.~Brown, ``Tactons: structured tactile messages for non-visual

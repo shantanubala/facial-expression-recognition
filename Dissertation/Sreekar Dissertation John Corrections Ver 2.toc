@@ -243,12 +243,13 @@
 \contentsline {subsubsection}{\numberline {11.1.4.1}Comparison of Economic Status}{271}
 \contentsline {subsubsection}{\numberline {11.1.4.2}Comparison of Personal Lives}{271}
 \contentsline {section}{\numberline {11.2}Wearable Cameras: Ethics \& Privacy}{274}
-\contentsline {chapter}{REFERENCES}{280}
-\contentsline {chapter}{APPENDIX}{312}
-\contentsline {appendix}{\chapternumberline {A}\uppercase {Algorithm for Estimating Rank Average of Groups}}{313}
-\contentsline {subsection}{\numberline {A.0.1}Procedure}{314}
-\contentsline {appendix}{\chapternumberline {B}\uppercase {Convex Optimization using Newton's Method - Entropy Maximization under Linear Constraints}}{315}
-\contentsline {section}{\numberline {B.1}Entropy Maximization under Linear Constraints Problem:}{316}
-\contentsline {section}{\numberline {B.2}Newton's method}{319}
-\contentsline {subsection}{\numberline {B.2.1}Newton's Method for Estimating Weights $w_{ij}$}{320}
-\contentsline {appendix}{\chapternumberline {C}\uppercase {American Community Survey Form - Sample Pages from 2008 Survey Form}}{322}
+\contentsline {chapter}{\chapternumberline {12}Conclusions \& Future Work}{280}
+\contentsline {chapter}{REFERENCES}{281}
+\contentsline {chapter}{APPENDIX}{313}
+\contentsline {appendix}{\chapternumberline {A}\uppercase {Algorithm for Estimating Rank Average of Groups}}{314}
+\contentsline {subsection}{\numberline {A.0.1}Procedure}{315}
+\contentsline {appendix}{\chapternumberline {B}\uppercase {Convex Optimization using Newton's Method - Entropy Maximization under Linear Constraints}}{316}
+\contentsline {section}{\numberline {B.1}Entropy Maximization under Linear Constraints Problem:}{317}
+\contentsline {section}{\numberline {B.2}Newton's method}{320}
+\contentsline {subsection}{\numberline {B.2.1}Newton's Method for Estimating Weights $w_{ij}$}{321}
+\contentsline {appendix}{\chapternumberline {C}\uppercase {American Community Survey Form - Sample Pages from 2008 Survey Form}}{323}
